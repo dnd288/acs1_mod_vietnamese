@@ -1,0 +1,25 @@
+﻿ID	Name	Desc	DLCContent
+1	Ancient Beasts	The revival of ancient beasts from ancient times has set off a bloody storm in the cultivation world and brought new opportunities. The hidden ancient cultivators have to show their faces to defend their sects and hunt ancient beasts. As a result, the cultivation world has entered a turbulent era.	
+2	Mortals and Immortals	Conflicts in the cultivation realm cause too many losses to all sects. In order to replenish blood, find excellent disciples, and collect resources, all sects also began to re-enter the mortal world and open up their own mortal agents. In the world of mortals, we should act with restraint. The return of disciples from all sects to the world of mortals brings competition, but also more exchanges.	
+3	Secret Volumes	As the cultivation world became active again, inheritances from the ancient times and formations came out in droves. Ye Xuan, a celebrity in the cultivation world, was not willing to be lonely either and restarted the auction at Black Beach. As the chaotic world approaches, unprecedented opportunities come along with it.	
+4	Yaoguai Uprising	The Dragon cliff stone carvings, the holy land of the demon family, reproduce the world and bring many lost demon family cultivation methods. The Yaoguais, which was originally at an absolute disadvantage in the cultivation world, also got the opportunity to rise again. The Daemonia Temple hidden in the Great Desert has also taken the step of returning to the cultivation world.	
+5	Deep in the Bamboo Forest	In the world of immortality seekers, a great event has unfolded: an ancient, out-of-this-world land named the Great Bamboo Forest has been discovered by some especially adventurous cultivators. It's a land full of new resources: gather tasty bamboo shoots for cooking, and cut down bamboo stalks to construct buildings of various styles, or to make fishing rods! And don't forget the cute, mysterious creatures that lurk within: the PANDAS!	
+6	Newcomer bless	Blessing for players new to the game, making it easier for newcomers to get started, lasting 30 days (realistic time)	
+7	Bless of Taixu	Blessed by the Taixu Dao, the difficulty of cultivation is lower, lasting 30 days(realistic time).	
+8	Bless of Taiyi	Blessed by the Taiyi Dao, the difficulty of recruiting geniuses is lower, lasting 30 days(realistic time).	
+9	Bless of Taixuan	Blessed by the Taixuan Dao, the difficulty of mortal transactions is lower, lasting 30 days(realistic time).	
+10	Bless of Taishi	Blessed by the Taishi Dao, you can reverse the outcome sometimes, lasting 30 days(realistic time).	
+11	Newcomer bless	Blessing for players new to the game, making it easier for newcomers to get started, permanently.	
+12	Bless of Taixu	Blessed by the Taixu Dao, the difficulty of cultivation is lower, permanently.	
+13	Bless of Taiyi	Blessed by the Taiyi Dao, the difficulty of recruiting geniuses is lower, permanently.	
+14	Bless of Taixuan	Blessed by the Taixuan Dao, the difficulty of mortal transactions is lower, permanently.	
+15	Bless of Taishi	Blessed by the Taishi Dao, you can reverse the outcome sometimes, permanently.	
+16	Immortal Tales of Wudang	On the East Sea, a lofty, hazy mountain of immortals suddenly appeared in the mortal world. Cultivators explored the place and found that it's a long-lost, boundless realm of immortals, and hidden within is a seclusive Taoist sect! The Taoist teachings of the sect are directly passed down from the Perfected Warrior. Its disciples have all mastered the essence of Tao and excel at expelling demons. The realm is known as the Wudang Mountains!	
+18	Newcomer's Casket	Gain all Immortal Methods:Blesses x1, Sky Bless x1, Reviver x1, Traders x1, Reforge x3, Chooser x3, Molder x3	
+19	Blesses Casket	Gain Blesses ×3:\nSummon the Immortal's Bless weather.	
+20	Sky Bless Casket	Gain Sky Bless ×3:\nDispel most weathers.	
+21	Reviver Casket	Gain Reviver ×3:\nRevive a character.	
+22	Traders Casket	Gain Traders ×3:\nDrive a merchant to come.	
+23	Reforge Casket	Gain Reforge ×9:\nIf you are not satisfied with the artifact forge result, you can reforge it.	
+24	Chooser Casket	Gain Chooser ×9:\nIf you are not satisfied with some event results, you can re-choose.	
+25	Molder Casket	Gain Molder ×9:\nIf you are not satisfied with remold results, you can re-choose.	

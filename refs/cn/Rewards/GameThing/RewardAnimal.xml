@@ -1,0 +1,36 @@
+<RewardDef>
+	<List>
+		<Def Name="Box1">
+			<Box>
+				<Race>Wolf</Race>
+				<DisplayName>精美的狼笼</DisplayName>
+				<Tip>里面装了一只开智期的狼，已获得三点灵智碎片。</Tip>
+				<fivebase>10,10,10,10,10</fivebase>
+				<MemoryStay>100</MemoryStay>
+				<Finals>
+					<li>
+						<Frags>
+							<li Type="Emotion" Level="3" />
+							<li Type="Scene" Level="3" Levelp="0" />
+							<li Type="Target" Level="3" Levelp="0" />
+						</Frags>
+					</li>
+					<li>
+						<Frags>
+							<li Type="Emotion" Level="3" />
+							<li Type="Scene" Level="3" Levelp="0" />
+							<li Type="Target" Level="3" Levelp="0" />
+						</Frags>
+					</li>
+					<li>
+						<Frags>
+							<li Type="Emotion" Level="3" />
+							<li Type="Scene" Level="3" Levelp="0" />
+							<li Type="Target" Level="3" Levelp="0" />
+						</Frags>
+					</li>
+				</Finals>
+			</Box>
+		</Def>
+	</List>
+</RewardDef>

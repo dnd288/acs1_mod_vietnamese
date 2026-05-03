@@ -1,0 +1,1134 @@
+<Defs>
+    <List>
+
+
+        <Def Name="Mutation_Effect_Yin_DiscipleCompleteCommandRandom" Parent="Mutation_Effect_YinBase"> 
+            <Desc>弟子忽略工作安排，随机完成指令。</Desc>
+            <Level>3</Level>
+            <Weight>-1,200,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>DiscipleCompleteCommandRandom</Kind>
+                </li>
+            </Effects>
+        </Def>
+
+        <Def Name="Mutation_Effect_Yin_SoulPetCanNotControl" Parent="Mutation_Effect_YinBase"> 
+            <Desc>灵宠为所欲为，不再服从训练。</Desc>
+            <Level>3</Level>
+            <Weight>-1,200,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>SoulPetCanNotControl</Kind>
+                </li>
+            </Effects>
+        </Def>
+
+        <Def Name="Mutation_Effect_Yin_CantConfineTongling" Parent="Mutation_Effect_YinBase"> 
+            <Desc>无法禁足通灵物。</Desc>
+            <Level>3</Level>
+            <Weight>-1,200,-1</Weight>
+            <DlcInfo>YaoZuJueQi</DlcInfo>
+            <Effects>
+                <li>
+                    <Kind>CantConfineTongling</Kind>
+                </li>
+            </Effects>
+        </Def>
+
+        <Def Name="Mutation_Effect_Yin_CantInviteNpc" Parent="Mutation_Effect_YinBase"> 
+            <Desc>无法主动邀请他人来门派做客。</Desc>
+            <Level>3</Level>
+            <Weight>-1,200,-1</Weight>
+            <DlcInfo>HongChenZhongSheng</DlcInfo>
+            <Effects>
+                <li>
+                    <Kind>CantInviteNpc</Kind>
+                </li>
+            </Effects>
+        </Def>
+
+        <Def Name="Mutation_Effect_Yin_Modifier_1" Parent="Mutation_Effect_YinBase"> 
+            <Desc>略微降低门派弟子灵气恢复速度。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_LingAbsorbSpeed_1</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_2" Parent="Mutation_Effect_YinBase"> 
+            <Desc>降低门派弟子灵气恢复速度。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_LingAbsorbSpeed_2</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_3" Parent="Mutation_Effect_YinBase"> 
+            <Desc>大幅降低门派弟子灵气恢复速度。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_LingAbsorbSpeed_3</sParam1>
+                </li>
+            </Effects>
+        </Def>
+
+        <Def Name="Mutation_Effect_Yin_Modifier_4" Parent="Mutation_Effect_YinBase"> 
+            <Desc>降低门派弟子修炼速度。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_DeepPracticeSpeedSpecialCoefficient_1</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_5" Parent="Mutation_Effect_YinBase"> 
+            <Desc>大幅降低门派弟子修炼速度。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_DeepPracticeSpeedSpecialCoefficient_2</sParam1>
+                </li>
+            </Effects>
+        </Def>
+
+        <Def Name="Mutation_Effect_Yin_Modifier_6" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子变得更容易饥饿。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_NutritionConsumeConstant_1</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_7" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子变得更容易疲劳。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_FatigueConsumeConstant_1</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_8" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子变得更容易口渴。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_WaterConsumeConstant_1</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_9" Parent="Mutation_Effect_YinBase"> 
+            <Desc>略微降低门派弟子护体真气强度。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_NpcFight_ShieldConversionRate_1</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_10" Parent="Mutation_Effect_YinBase"> 
+            <Desc>降低门派弟子的护体真气强度。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_NpcFight_ShieldConversionRate_2</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_11" Parent="Mutation_Effect_YinBase"> 
+            <Desc>略微降低门派弟子突破瓶颈的概率。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_PracticeRateAddPFromDan_1</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_12" Parent="Mutation_Effect_YinBase"> 
+            <Desc>降低门派弟子突破瓶颈的概率。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_PracticeRateAddPFromDan_2</sParam1>
+                </li>
+            </Effects>
+        </Def>
+
+        <Def Name="Mutation_Effect_Yin_Modifier_13" Parent="Mutation_Effect_YinBase"> 
+            <Desc>略微增加门派弟子道行加值。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_AbilityLvAddV_1</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_14" Parent="Mutation_Effect_YinBase"> 
+            <Desc>增加门派弟子道行加值。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_AbilityLvAddV_2</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_15" Parent="Mutation_Effect_YinBase"> 
+            <Desc>大幅增加门派弟子道行加值。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_AbilityLvAddV_3</sParam1>
+                </li>
+            </Effects>
+        </Def>
+
+        <Def Name="Mutation_Effect_Yin_Modifier_16" Parent="Mutation_Effect_YinBase"> 
+            <Desc>略微减少门派弟子寿元上限。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_MaxAge_1</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_17" Parent="Mutation_Effect_YinBase"> 
+            <Desc>减少门派弟子寿元上限。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_MaxAge_2</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_18" Parent="Mutation_Effect_YinBase"> 
+            <Desc>大幅减少门派弟子寿元上限。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_MaxAge_3</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_19" Parent="Mutation_Effect_YinBase"> 
+            <Desc>略微降低门派弟子移动速度。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_MoveSpeed_1</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_20" Parent="Mutation_Effect_YinBase"> 
+            <Desc>降低门派弟子移动速度。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_MoveSpeed_2</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_21" Parent="Mutation_Effect_YinBase"> 
+            <Desc>大幅降低门派弟子移动速度。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_MoveSpeed_3</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_22" Parent="Mutation_Effect_YinBase"> 
+            <Desc>降低门派弟子筑基速度。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BasepracticeSpeed_1</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_23" Parent="Mutation_Effect_YinBase"> 
+            <Desc>大幅降低门派弟子筑基速度。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BasepracticeSpeed_2</sParam1>
+                </li>
+            </Effects>
+        </Def>
+
+        <Def Name="Mutation_Effect_Yin_Modifier_24" Parent="Mutation_Effect_YinBase"> 
+            <Desc>降低门派弟子学习速度。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_IntelligenceSkillEXPConstant_1</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_25" Parent="Mutation_Effect_YinBase"> 
+            <Desc>大幅降低门派弟子学习速度。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_IntelligenceSkillEXPConstant_2</sParam1>
+                </li>
+            </Effects>
+        </Def>
+
+        <Def Name="Mutation_Effect_Yin_Modifier_26" Parent="Mutation_Effect_YinBase"> 
+            <Desc>略微降低门派弟子全局工作速度。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_GlobalEfficiency_1</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_27" Parent="Mutation_Effect_YinBase"> 
+            <Desc>降低门派弟子全局工作速度。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_GlobalEfficiency_2</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_28" Parent="Mutation_Effect_YinBase"> 
+            <Desc>大幅降低门派弟子全局工作速度。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_GlobalEfficiency_3</sParam1>
+                </li>
+            </Effects>
+        </Def>
+         <Def Name="Mutation_Effect_Yin_Modifier_29" Parent="Mutation_Effect_YinBase"> 
+            <Desc>略微降低门派弟子心境基础值。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_MindStateBaseValue_1</sParam1>
+                </li>
+            </Effects>
+        </Def>       
+        <Def Name="Mutation_Effect_Yin_Modifier_30" Parent="Mutation_Effect_YinBase"> 
+            <Desc>降低门派弟子心境基础值。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_MindStateBaseValue_2</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_31" Parent="Mutation_Effect_YinBase"> 
+            <Desc>大幅降低门派弟子心境基础值。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_MindStateBaseValue_3</sParam1>
+                </li>
+            </Effects>
+        </Def>
+
+        <Def Name="Mutation_Effect_Yin_Modifier_32" Parent="Mutation_Effect_YinBase"> 
+            <Desc>降低门派弟子金属性伤害减免。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_ShieldResistance_2</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_33" Parent="Mutation_Effect_YinBase"> 
+            <Desc>降低门派弟子木属性伤害减免。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_ShieldResistance_3</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_34" Parent="Mutation_Effect_YinBase"> 
+            <Desc>降低门派弟子水属性伤害减免。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_ShieldResistance_4</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_35" Parent="Mutation_Effect_YinBase"> 
+            <Desc>降低门派弟子火属性伤害减免。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_ShieldResistance_5</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_36" Parent="Mutation_Effect_YinBase"> 
+            <Desc>降低门派弟子土属性伤害减免。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_ShieldResistance_6</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_37" Parent="Mutation_Effect_YinBase"> 
+            <Desc>降低门派弟子全属性伤害减免。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_ShieldResistance_1</sParam1>
+                </li>
+            </Effects>
+        </Def>
+
+        <Def Name="Mutation_Effect_Yin_Modifier_38" Parent="Mutation_Effect_YinBase"> 
+            <Desc>降低门派弟子阵法负荷能力。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <DlcInfo>MiFaXuanZhang</DlcInfo>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_ZhenEnginePower_1</sParam1>
+                </li>
+            </Effects>
+        </Def>
+
+        <Def Name="Mutation_Effect_Yin_Modifier_40" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子战斗技能等级－1。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_1</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_41" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子战斗技能等级－2。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_2</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_42" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子战斗技能等级－3。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_3</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_43" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子处世技能等级－1。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_4</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_44" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子处世技能等级－2。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_5</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_45" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子处世技能等级－3。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_6</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_46" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子雅艺技能等级－1。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_7</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_47" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子雅艺技能等级－2。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_8</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_48" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子雅艺技能等级－3。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_9</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_49" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子气感技能等级－1。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_10</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_50" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子气感技能等级－2。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_11</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_51" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子气感技能等级－3。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_12</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_52" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子巧匠/炼器技能等级－1。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_13</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_53" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子巧匠/炼器技能等级－2。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_14</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_54" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子巧匠/炼器技能等级－3。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_15</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_55" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子岐黄/炼丹技能等级－1。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_16</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_56" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子岐黄/炼丹技能等级－2。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_17</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_57" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子岐黄/炼丹技能等级－3。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_18</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_58" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子御器技能等级－1。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_19</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_59" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子御器技能等级－2。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_20</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_60" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子御器技能等级－3。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_21</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_61" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子术法技能等级－1。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_22</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_62" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子术法技能等级－2。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_23</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_63" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子术法技能等级－3。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_24</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_64" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子护体技能等级－1。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_25</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_65" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子护体技能等级－2。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_26</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_66" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子护体技能等级－3。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_27</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_67" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子阵法技能等级－1。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <DlcInfo>MiFaXuanZhang</DlcInfo>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_28</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_68" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子阵法技能等级－2。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <DlcInfo>MiFaXuanZhang</DlcInfo>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_29</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_69" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子阵法技能等级－3。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <DlcInfo>MiFaXuanZhang</DlcInfo>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_30</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_70" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子金石技能等级－1。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_31</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_71" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子金石技能等级－2。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_32</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_72" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子金石技能等级－3。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_33</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_73" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子农耕技能等级－1。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_34</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_74" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子农耕技能等级－2。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_35</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_75" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子农耕技能等级－3。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_36</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_76" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子版筑技能等级－1。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_37</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_77" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子版筑技能等级－2。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_38</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_78" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子版筑技能等级－3。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_39</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_79" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子烹饪技能等级－1。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_40</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_80" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子烹饪技能等级－2。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_41</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_81" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子烹饪技能等级－3。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_Skills_42</sParam1>
+                </li>
+            </Effects>
+        </Def>
+
+        <Def Name="Mutation_Effect_Yin_Modifier_88" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子魅力降低1成。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BaseFive_1</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_89" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子魅力降低3成。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BaseFive_2</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_90" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子魅力降低5成。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BaseFive_3</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_91" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子悟性降低1成。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BaseFive_4</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_92" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子悟性降低3成。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BaseFive_5</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_93" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子悟性降低5成。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BaseFive_6</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_94" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子机缘降低1成。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BaseFive_7</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_95" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子机缘降低3成。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BaseFive_8</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_96" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子机缘降低5成。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BaseFive_9</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_97" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子神识降低1成。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BaseFive_10</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_98" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子神识降低3成。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BaseFive_11</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_99" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子神识降低5成。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BaseFive_12</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_100" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子根骨降低1成。</Desc>
+            <Level>1</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BaseFive_13</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_101" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子根骨降低3成。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BaseFive_14</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_102" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子根骨降低5成。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BaseFive_15</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_39" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子五维降低1成。</Desc>
+            <Level>2</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BaseFive_16</sParam1>
+                </li>
+            </Effects>
+        </Def>
+        <Def Name="Mutation_Effect_Yin_Modifier_103" Parent="Mutation_Effect_YinBase"> 
+            <Desc>门派弟子五维降低3成。</Desc>
+            <Level>3</Level>
+            <Weight>-1,100,-1</Weight>
+            <Effects>
+                <li>
+                    <Kind>ModifierChange</Kind>
+                    <sParam1>Modifier_Mutation_Yin_BaseFive_17</sParam1>
+                </li>
+            </Effects>
+        </Def>
+
+    </List>
+</Defs>

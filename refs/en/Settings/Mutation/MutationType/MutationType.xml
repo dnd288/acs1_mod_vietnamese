@@ -1,0 +1,16 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Mutation_Type_HengDing">
+			<DisplayName>Constant</DisplayName>
+			<Desc>Select an chaos effect</Desc>
+		</Text>
+		<Text Name="Mutation_Type_DongDang">
+			<DisplayName>Turbulent</DisplayName>
+			<Desc>Select one option from both Conditions and Effects to combine into a complete anomaly effect</Desc>
+		</Text>
+		<Text Name="Mutation_Type_YinYang">
+			<DisplayName>Yin Yang</DisplayName>
+			<Desc>Select one Yin effect and one Yang effect to form a complete chaos</Desc>
+		</Text>
+	</List>
+</Texts>

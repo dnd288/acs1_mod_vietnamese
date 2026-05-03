@@ -1,0 +1,2582 @@
+<TeachingDefs>
+  <List>
+	<TeachingDef Name="Fight">
+      <Type>进阶篇</Type>
+      <DisplayName>基础战斗</DisplayName>
+      <Desc>通过本章教学，了解基础战斗方式，以及一些战斗中常用的操作。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>JJ-01A</Load>
+	  <Texpath>TeachFile\TP\JJ-01.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>战斗基本操作介绍</DisplayName>
+			<Tasks>
+			   <li>击败和击倒模式</li>
+			   <li>自动防御模式</li>
+			   <li>脱离战斗</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>多人战斗</DisplayName>
+			<Tasks>
+			   <li>如何选择多人进攻</li>
+			   <li>移动攻击</li>
+			   <li>战斗人员替换</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ClickItem">
+            <TaskDesc>点击选择一名内门弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>19092</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="HoverUi">
+            <TaskDesc>下方状态栏右侧的是攻击。</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>atk</Name>
+			   <Time>3</Time>
+			</UiData>
+			<LockTipsUiData>
+			  <Tips>1</Tips>
+			</LockTipsUiData>
+          </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="HoverUi">
+            <TaskDesc>下方状态栏右侧的是快速脱战。</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>atkleave</Name>
+			   <Time>3</Time>
+			</UiData>
+			<LockTipsUiData>
+			  <Tips>1</Tips>
+			</LockTipsUiData>
+          </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>以上是战斗中常用的几种操作模式，当然还有其他的操作模式，玩家可在游戏时，自行尝试和探索。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>使用编队功能选中所有弟子</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>teambnt</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>使用编队功能选中所有弟子</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n183</ParentObject>
+			   <Name>0</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择一名弟子</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <ParentObject>n25</ParentObject>
+			   <Name>0</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择一名弟子</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <ParentObject>n25</ParentObject>
+			   <Name>1</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择一名弟子</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <ParentObject>n25</ParentObject>
+			   <Name>2</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>UnLockShowThingInfo</Special>
+			<UiData>
+				<Ex>true</Ex>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <Name>n27</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>UnLockShowThingInfo</Special>
+			<UiData>
+				<Ex>false</Ex>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>通过攻击按钮，进入攻击状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>atk</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickItem">
+            <TaskDesc>发布攻击指令到 妖兽</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>30523</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确认攻击</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>通过移动按钮，进入移动状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>moveto</Name>
+			</UiData>
+          </li>
+		 <li Type="ClickMapKey">
+            <TaskDesc>点击移动到示意位置</TaskDesc>
+			<VideoData>
+			   <Videopath>JJ-01</Videopath>
+			</VideoData>
+			<MapKeyData>
+			  <Keys>
+			    <li>5858</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			  <MapKey>5858</MapKey>
+			</MapKeyData>
+			<LookKey>5858</LookKey>
+         </li>
+		  <li Type="WaitTime">
+            <TaskDesc>等待移动</TaskDesc>
+		    <WaitTime>3.5</WaitTime>
+			<LookThing>19092</LookThing>
+         </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可通过一边移动一边攻击的方式，进行拉扯作战，在某些时候，甚至可以扭转战局。</Desc>
+			   <Items>
+			     <li>30523</li>
+			   </Items>
+			   <Width>60</Width>
+			   <Height>60</Height>
+			</TipsData>
+			<VideoData>
+			   <Videopath>JJ-01</Videopath>
+			</VideoData>
+			<LookKey>6381</LookKey>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickItem">
+            <TaskDesc>点击战斗群中的 受伤弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>19092</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击脱离战斗</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>atkleave</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>通过移动按钮，进入移动状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>moveto</Name>
+			</UiData>
+          </li>
+		 <li Type="ClickMapKey">
+            <TaskDesc>移动到 门派中较为安全的位置</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>8654</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			  <MapKey>8654</MapKey>
+			</MapKeyData>
+			<LookKey>8654</LookKey>
+         </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>在战斗过程中，玩家可以将受伤弟子通过脱战方式脱离战斗，并撤退到安全的地方，以保障己方有生力量。</Desc>
+			   <Items>
+			     <li>19092</li>
+			   </Items>
+			   <Width>30</Width>
+			   <Height>30</Height>
+			</TipsData>
+			<LookKey>6471</LookKey>
+         </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		  <li Type="ClickItem">
+            <TaskDesc>点击非战斗群中的一名内门弟子 </TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>19131</li>
+			   </Items>
+			</ItemData>
+			<LookKey>8371</LookKey>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>通过攻击按钮，进入攻击状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>atk</Name>
+			</UiData>
+          </li>
+		 <li Type="ClickMapKey">
+            <TaskDesc>发布攻击指令到 妖兽</TaskDesc>
+			<MapKeyData>
+			   <Items>
+			      <li>30523</li>
+			   </Items>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>6381</LookKey>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确认攻击</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>在战斗过程中，玩家可替换编队中的弟子，达到持续作战的目的，当然玩家也可以制定多个编队，轮流战斗或补给。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>teambnt</Name>
+			</TipsData>
+			<!-- <LookKey>8642</LookKey> -->
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>在战斗中，玩家可以根据当前战局，使用各种不同的操作，使战局更倾向于对己方有利，从而保护门派不被灭门。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	   </Tasks>
+    </TeachingDef>
+
+    <TeachingDef Name="ZhenFa">
+      <Type>进阶篇</Type>
+      <DisplayName>阵法之道</DisplayName>
+      <Desc>通过本章教学，了解如何自行编辑阵法，并配置阵法成员进行结阵。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>JJ-02</Load>
+	  <DLC>HongChenZhongSheng</DLC>
+	  <Texpath>TeachFile\TP\JJ-02.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>阵法编辑</DisplayName>
+			<Tasks>
+			   <li>新建阵法</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>阵法配置</DisplayName>
+			<Tasks>
+			   <li>查看阵法评估与配置人员</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>阵法运行</DisplayName>
+			<Tasks>
+			   <li>进行结阵</li>
+			   <li>结阵面板简介</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ClickUi">
+			<TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+          </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当玩家通过游戏中的其他方式获得阵法、阵眼或者阵枢时，可以通过此处进入阵法界面。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Zhen</Name>
+			</TipsData>
+         </li>		  
+		  <li Type="ClickUi">
+            <TaskDesc>点击阵法</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Zhen</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>SetCmdState</Special>
+		    <SpecialStr>0</SpecialStr>
+		 </li>			  		 
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>这里将记录玩家所拥有的所有阵图，并通过点击查看或者修改阵法配置。</Desc>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <Name>n28</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击 新建阵图</TaskDesc>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <ParentObject>n28</ParentObject>
+			   <Name>0</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>ClickUI</Special>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <ParentObject>n28</ParentObject>
+			   <Name>0</Name>
+			</UiData>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择一个 阵眼框</TaskDesc>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <ParentObject>zhenmap</ParentObject>
+			   <Name>zhenmain</Name>
+			   <Width>45</Width>
+			   <Height>45</Height>
+			   <Fx>342</Fx>
+			   <Fy>209.25</Fy>
+			</UiData>
+	     </li>
+		  <li Type="Special">
+		    <Special>ClickUI</Special>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <ParentObject>nodelevelfilter</ParentObject>
+			   <Name>0</Name>
+			</UiData>
+		  </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择阵枢 玄罡藏锋</TaskDesc>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <ParentObject>n55</ParentObject>
+			   <Name>ZhenMainNode_Lv1_3_1</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击配置确认选择</TaskDesc>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <Name>n213</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家在编辑阵法时，需要先配置一个阵枢，阵枢能链接其他的阵眼，阵枢只能存在一个。</Desc>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <ParentObject>zhenmap</ParentObject>
+			   <Name>zhenmain</Name>
+			   <Width>45</Width>
+			   <Height>45</Height>
+			   <Fx>342</Fx>
+			   <Fy>209.25</Fy>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择一个 阵眼框</TaskDesc>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <ParentObject>zhenmap</ParentObject>
+			   <Name>zhenmain</Name>
+			   <Width>45</Width>
+			   <Height>45</Height>
+			   <Fx>342</Fx>
+			   <Fy>140</Fy>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择阵眼 剑</TaskDesc>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <ParentObject>n55</ParentObject>
+			   <Name>ZhenNode_Lv1_1_1</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击配置确认选择</TaskDesc>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <Name>n213</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家在编辑阵法时，可通过配置阵眼，来链接对应的阵法玄机，正确链接阵眼玄机时，相连的部分会显示绿色；如现在的阵眼玄机 “剑” 则为正确激活。</Desc>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <ParentObject>zhenmap</ParentObject>
+			   <Name>zhenmain</Name>
+			   <Width>45</Width>
+			   <Height>45</Height>
+			   <Fx>342</Fx>
+			   <Fy>140</Fy>
+			</TipsData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当玩家编辑的阵图存在有未被正确链接的阵眼时，则会显示为残缺阵图，而残缺阵图无法开启结阵。</Desc>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <Name>n71</Name>
+			</TipsData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当玩家编辑的阵图达到了阵法真意的激活条件时，则会获得额外的属性，不同的阵枢，拥有不同的阵法真意。</Desc>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <Name>shapedetailinfo</Name>
+			</TipsData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当玩家编辑好阵法后，需要通过点击保存，来保存新建的阵法。</Desc>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <Name>n24</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击返回</TaskDesc>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <Name>back2list</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击确认</TaskDesc>
+			<UiData>
+			   <ParentWindow>MessageSelect</ParentWindow>
+			   <Name>n31</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>当玩家编辑并保存好一个完整的阵法后，便可以为该阵法配置合适的人员，做为结阵前的准备。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击 配置教学</TaskDesc>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <ParentObject>n28</ParentObject>
+			   <Name>2</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击 编辑</TaskDesc>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <Name>n263</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右侧布局配置按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <Name>shapetoscheme</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择第一个 教学</TaskDesc>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <Name>scheme1</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可以给每个阵枢和阵眼分配内门弟子，而阵法中，从阵眼到阵枢的路径中，每经过一次相生，阵法玄机的效果将会被扩大，反之亦然。</Desc>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <ParentObject>zhenmap</ParentObject>
+			   <Name>zhenmain</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击阵枢</TaskDesc>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <ParentObject>zhenmap</ParentObject>
+			   <Name>zhenmain</Name>
+			   <Width>45</Width>
+			   <Height>45</Height>
+			   <Fx>342</Fx>
+			   <Fy>209.25</Fy>
+			</UiData>
+	     </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击设置阵眼按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <Name>selectFakeNpc0</Name>
+			</UiData>
+          </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击选择一名弟子</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <ParentObject>n25</ParentObject>
+			   <Name>0</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <Name>n27</Name>
+			</UiData>
+          </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>阵法拥有九种不同的相关属性，玩家可通过查看左侧的阵法评估进行查看。</Desc>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <Name>n200</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右侧保存按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <Name>save2</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭配置界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <Name>n186</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭阵图界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>CreateZhen</ParentWindow>
+			   <Name>n186</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>玩家在完成阵法编辑并配置好相关人员后，便可以通过结阵来激活该阵法。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		  <li Type="ClickItem">
+            <TaskDesc>点击选择弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>8780</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>只有位于阵枢的弟子才有结阵能力，当位于其他阵眼的弟子都处于同一场景中，并且状态健康，便可以按照配置好的阵法结阵。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>jiezhen</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击结阵</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>jiezhen</Name>
+			</UiData>
+          </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>在结阵前，玩家可以通过查看阵法详情，再次确定结阵后的实际效果和属性加成。</Desc>
+			   <ParentWindow>AccidentZhen</ParentWindow>
+			   <Name>n0</Name>
+			   <HideTipArrow>1</HideTipArrow>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击结阵</TaskDesc>
+			<UiData>
+			   <ParentWindow>AccidentZhen</ParentWindow>
+			   <Name>makezhen</Name>
+			</UiData>
+          </li>
+		  <li Type="WaitTime">
+	     	<TaskDesc>等待结阵完成</TaskDesc>
+		    <WaitTime>1</WaitTime>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>这里会显示当前阵法的所有阵法技能，每种技能有各自不同的作用。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>zhenskillbnts-OutSide</Name>
+			   <Fx>-127</Fx>
+			   <Fy>-68</Fy>
+			   <Width>129</Width>
+			   <HideTipArrow>1</HideTipArrow>
+			</TipsData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>这里会显示当前阵枢弟子的法术技能。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>magicbnts</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击勾选焦点</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>setfocus</Name>
+			   <Width>45</Width>
+			   <Fx>-5</Fx>
+			</UiData>
+          </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可通过勾选焦点，可随时关注到阵法的运行状态，有助于在战斗过程中及时调整阵法。</Desc>
+			   <ParentWindow>ZhenFouseWindow</ParentWindow>
+			   <Name>frame</Name>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>玩家可通过自行排列组合，配置更合适更强大的阵法，甚至驾驭上古阵法等等；而不同的阵法也有不同的效果，需要玩家自行探索和发掘；因此教学中对其他阵法的编辑，也不再一一举例说明。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	   </Tasks>
+    </TeachingDef>
+
+	<TeachingDef Name="DragonHole">
+      <Type>进阶篇</Type>
+      <DisplayName>神秘洞穴应对</DisplayName>
+      <Desc>通过本章教学，了解神秘洞穴带来的影响，并使用风水镇物镇压神秘洞穴。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>JJ-03</Load>
+	  <DLC>ShangGuJuShou</DLC>
+	  <Texpath>TeachFile\TP\JJ-03.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>龙洞介绍</DisplayName>
+			<Tasks>
+			   <li>神秘洞穴简介</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>镇压神秘洞穴</DisplayName>
+			<Tasks>
+			   <li>摆放风水镇物</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		 <li Type="Special">
+		    <Special>EventTrigger</Special>
+			<SpecialStr>10041</SpecialStr>
+		 </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击知道了</TaskDesc>
+			<UiData>
+			   <ParentWindow>StorySelect</ParentWindow>
+			   <ParentObject>selection</ParentObject>
+			   <Name>1</Name>
+			</UiData>
+         </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当玩家门派达到一定游戏天数后，会出现一个特殊的秘闻，此时会在玩家门派地图上的随机地点生成一个神秘洞穴，而神秘洞穴中正沉睡着一条蛟龙；玩家可以用各种手段，对其进行处理；其中最常见的手段之一，是使用风水镇物让房间大吉的方式来镇压神秘洞穴。</Desc>
+			   <Items>
+			     <li>35676</li>
+			   </Items>
+			   <Width>150</Width>
+			   <Height>150</Height>
+			</TipsData>
+			<LookKey>10836</LookKey>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>神秘洞穴的处理方式有多种，但是对于游戏中后期时依旧没把握的玩家们，可以选择用风水镇压的方式来应对，而其他处理方式还需玩家对游戏有更深的理解，因此不在此赘述。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		  <li Type="HoverKey">
+            <TaskDesc>被鉴定过的风水镇物，会有相关详细的介绍，玩家需要根据其介绍描述，摆放到合适的地方，才能正确的激活风水镇物，风水镇物激活后，会直接使房间大吉。</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>12609</li>
+			  </Keys>
+			  <Width>60</Width>
+			  <Height>60</Height>
+			  <Time>3</Time>
+			</MapKeyData>
+			<LookKey>12609</LookKey>
+         </li>
+		   <li Type="ClickItem">
+            <TaskDesc>点击选择 风水镇物 灵晶</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>9495</li>
+			   </Items>
+			</ItemData>
+         </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击放置</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>放置</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickMapKey">
+            <TaskDesc>点击选择置物台</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>11212</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			  <MapKey>11212</MapKey>
+			</MapKeyData>
+			<LookKey>11084</LookKey>
+         </li>
+		  <li Type="ClickArea">
+            <TaskDesc>点击房间中的区域，选中房间</TaskDesc>
+			<AreaData>
+			   <Width>250</Width>
+			   <Height>250</Height>
+			</AreaData>
+			<LookKey>10576</LookKey>
+          </li>
+		  <li Type="HoverUi">
+            <TaskDesc>在摆放风水镇物的过程中，玩家可通过此处观察房间的风水变化。</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>roomfengshui</Name>
+			   <Time>3</Time>
+			</UiData>
+			<LockTipsUiData>
+			  <Tips>1</Tips>
+			</LockTipsUiData>
+          </li>
+		<li Type="WaitCMD">
+            <TaskDesc>等待放置结束</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>9229</li>
+			   </Items>
+			   <CMD>BagCarryItem</CMD>
+			</ItemData>
+        </li>
+		  <li Type="HoverUi">
+            <TaskDesc>当风水镇物所处环境符合描述时，则显示契合，能使房间大吉，而大吉房间能镇压神秘洞穴。</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>roomfengshui</Name>
+			   <Time>3</Time>
+			</UiData>
+			<LockTipsUiData>
+			  <Tips>1</Tips>
+			</LockTipsUiData>
+          </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>当玩家成功镇压神秘的洞穴时，便可以有效的镇压沉睡在洞穴中的蛟龙，而玩家可以利用这段时间，尽快提升弟子的能力，从而早日消灭它。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	   </Tasks>
+    </TeachingDef>
+
+	<TeachingDef Name="DragonFight">
+      <Type>进阶篇</Type>
+      <DisplayName>Boss战斗</DisplayName>
+      <Desc>通过本章教学，了解如何查看上古之兽的基本信息，并利用这些信息与上古之兽展开战斗。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>JJ-04</Load>
+	  <DLC>ShangGuJuShou</DLC>
+	  <Texpath>TeachFile\TP\JJ-04.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>了解上古之兽</DisplayName>
+			<Tasks>
+			   <li>了解上古之兽</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>蛟龙的战斗部位介绍</DisplayName>
+			<Tasks>
+			   <li>查看蛟龙的各部位面板</li>
+			   <li>查看弟子的法宝属性</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ClickUi">
+			<TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击异闻</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Story</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>SetCmdState</Special>
+		    <SpecialStr>0</SpecialStr>
+		 </li>			  		 
+		  <li Type="ClickUi">
+            <TaskDesc>点击古兽</TaskDesc>
+			<UiData>
+			   <ParentWindow>JiangHuWindow</ParentWindow>
+			   <ParentObject>Head</ParentObject>
+			   <Name>boss</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击蛟龙</TaskDesc>
+			<UiData>
+			   <ParentWindow>JiangHuWindow</ParentWindow>
+			   <ParentObject>n100-iconlist</ParentObject>
+			   <Name>Boss_Long</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家通过游戏中的途径解锁古兽异闻之后，可以通过这里查看古兽的相关技能资料。</Desc>
+			   <ParentWindow>JiangHuWindow</ParentWindow>
+			   <ParentObject>n100</ParentObject>
+			   <Name>contextlist</Name>
+			</TipsData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>从这里可以看到，蛟龙为水属性，土属性的攻击才能对其造成更多伤害。</Desc>
+			   <ParentWindow>JiangHuWindow</ParentWindow>
+			   <ParentObject>n100-contextlist</ParentObject>
+			   <Name>1</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭异闻窗口</TaskDesc>
+			<UiData>
+			   <ParentWindow>JiangHuWindow</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>其他类型的上古之兽，玩家可以通过游戏中的其他途径获取，因此不再赘述。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		   <li Type="ClickItem">
+            <TaskDesc>点击蛟龙</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>30513</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击固定按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>BossFouseWindow</ParentWindow>
+			   <Name>n127</Name>
+			   <Width>60</Width>
+			   <Fx>-5</Fx>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可通过勾选固定按钮，来随时获得蛟龙各部位的灵气状况，从而制定相应的作战部署。</Desc>
+			   <ParentWindow>BossFouseWindow</ParentWindow>
+			   <Name>bloodlist</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击取消固定</TaskDesc>
+			<UiData>
+			   <ParentWindow>BossFouseWindow</ParentWindow>
+			   <Name>n127</Name>
+			   <Width>60</Width>
+			   <Fx>-5</Fx>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭古兽信息</TaskDesc>
+			<UiData>
+			   <ParentWindow>BossFouseWindow</ParentWindow>
+			   <Name>close</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		   <li Type="ClickItem">
+            <TaskDesc>点击选择一名内门弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>19099</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击打开角色面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-NpcInfoBnts</ParentObject>
+			   <Name>Info</Name>
+			   <Width>78</Width>
+			   <Height>78</Height>
+			   <Fx>-78</Fx>
+			</UiData>
+	     </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击装备选项卡</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>NpcInfoBnts</ParentObject>
+			   <Name>Equpt</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>根据前面的资料，我们可以佩戴土属性的法宝来攻击蛟龙。</Desc>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>equpt</ParentObject>
+			   <Name>AtkFabao2</Name>
+			</TipsData>
+          </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击关闭道具装备面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+	     </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击人物面板右侧的攻击按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>atk</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可通过攻击选择需要集火的部位，从而快速破坏蛟龙的某个部位。</Desc>
+			   <Items>
+			      <li>30513</li>
+			   </Items>
+			   <Width>150</Width>
+			   <Height>150</Height>
+			</TipsData>
+	  	  </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>因为每个玩家的操作和思路都不相同，因此本章教学不对战斗的细节进行详细指导，玩家可以在游戏过程中进行体验；古兽再被击败后，会留下不同的徽记碎片，玩家可以通过采掘徽记碎片，来获得战利品；古兽被破坏的身体部位越多，所获得的战利品也会增加。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	   </Tasks>
+    </TeachingDef>
+
+	<TeachingDef Name="GetFood">
+      <Type>进阶篇</Type>
+      <DisplayName>应急食物获取</DisplayName>
+      <Desc>通过本章教学，了解游戏中如何在极其艰苦的环境下，快速获取食物。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>JJ-05</Load>
+	  <Texpath>TeachFile\TP\JJ-05.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>食物告急提示</DisplayName>
+			<Tasks>
+			   <li>查看提示</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>应急处理</DisplayName>
+			<Tasks>
+			   <li>使用循环历练获取食物</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击消息按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n253</Name>
+			</UiData>
+          </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当玩家食物储备不足时，会弹出消息提示。</Desc>
+			   <ParentWindow>NormalMessageBox</ParentWindow>
+			   <ParentObject>n219</ParentObject>
+			   <Name>2</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭消息管理器</TaskDesc>
+			<UiData>
+			   <ParentWindow>NormalMessageBox</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>当食物储备不足时，可能会导致玩家门派的门下弟子因此而逐渐饿晕，此时需要玩家对此紧急情况做出相应的对策，比如去天下历练获取食物。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		  <li Type="ClickUi">
+			<TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击打开天下界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>World</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>LockList</Special>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>map</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>SetMapLock</Special>
+			<UiData>
+				<Ex>true</Ex>
+				<Name>Place_BirthPlace11</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击南屏村</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>map-Places</ParentObject>
+			   <Name>Place_BirthPlace11</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>SetMapLock</Special>
+			<UiData>
+				<Ex>false</Ex>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>南屏村是距离玩家门派最近的食材产出地点。</Desc>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>lilianpos</ParentObject>
+			   <Name>n79</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击历练</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>lilianpos</ParentObject>
+			   <Name>goexp</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择一名弟子</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <ParentObject>n25</ParentObject>
+			   <Name>0</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确认选择</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <Name>n49</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择一名弟子</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <ParentObject>n25</ParentObject>
+			   <Name>1</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确认选择</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <Name>n49</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <Name>n27</Name>
+			</UiData>
+          </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>可以通过滑动条来进行自动历练次数的调整。</Desc>
+			   <ParentWindow>MessageSelect</ParentWindow>
+			   <Name>n45</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击好的</TaskDesc>
+			<UiData>
+			   <ParentWindow>MessageSelect</ParentWindow>
+			   <Name>n27</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>玩家可让多名内门弟子同时外出历练，并利用循环历练多次的方式，在一段时间内既降低了门派内弟子对食物的需求，也增加了通过历练来获得食物的产出量；随后只需等待历练弟子带回食物即可。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	   </Tasks>
+    </TeachingDef>
+
+	<TeachingDef Name="CombatWeather">
+      <Type>进阶篇</Type>
+      <DisplayName>极端气温应对</DisplayName>
+      <Desc>通过本章教学，了解游戏中的某些极端天气，并掌握应对之法。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>JJ-07</Load>
+	  <Texpath>TeachFile\TP\JJ-07.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>极端天气影响</DisplayName>
+			<Tasks>
+			   <li>查看天气</li>
+			   <li>查看温度</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>应对方式</DisplayName>
+			<Tasks>
+			   <li>装备太阳符</li>
+			   <li>查看热源</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		 <li Type="ShowTips">
+		    <Dir>4</Dir>
+			<TipsData>
+			   <Desc>当玩家门派出现极端天气时，玩家可通过查看上方的天气图标来了解极端天气的持续时间，玩家在这段时间内需要及时调整应对之法。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>weathers</Name>
+			   <Width>38</Width>
+			   <HideTipArrow>1</HideTipArrow>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ShowTips">
+		    <Dir>4</Dir>
+			<TipsData>
+			   <Desc>极端天气来临时，会改变当下的气温环境。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n90</Name>
+			</TipsData>
+
+         </li>
+		   <li Type="ClickItem">
+            <TaskDesc>点击选择一名弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>8783</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击打开人物面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-NpcInfoBnts</ParentObject>
+			   <Name>Info</Name>
+			   <Width>78</Width>
+			   <Height>78</Height>
+			   <Fx>-78</Fx>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>门下弟子的温度属性，决定了弟子们能否在极端的气温环境下，是否会因此受影响。</Desc>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>NpcInfo</ParentObject>
+			   <Name>n137</Name>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>当玩家门派内的弟子因为极端天气而出现不适时，可能会因此而受伤，当受伤过重则会导致弟子死亡。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击装备道具按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>装备道具</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>NpcInterruptJob</Special>
+			<ItemData>
+			   <Items>
+			      <li>8783</li>
+			   </Items>
+			</ItemData>
+		 </li>
+		  <li Type="ClickMapKey">
+            <TaskDesc>点击选择装备 太阳符</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>12497</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>12497</LookKey>
+          </li>
+	     <li Type="ClickUi">
+            <TaskDesc>点击添加数量</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n170</Name>
+			   <Fx>-22.5</Fx>
+			   <Fy>-22.5</Fy>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确认选择</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		 <li Type="WaitCMD">
+            <TaskDesc>等待装备完毕</TaskDesc>
+			<ItemData>
+			   <Items>
+			     <li>8783</li>
+			   </Items>
+			   <CMD>EquipItem</CMD>
+			</ItemData>
+			<LookThing>8783</LookThing>
+          </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>弟子可以通过装备符咒等方式，提升温度属性，在极端天气下，这往往是最直接的方法。</Desc>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>NpcInfo</ParentObject>
+			   <Name>n137</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击关闭基础属性面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickArea">
+            <TaskDesc>点击房间中的区域，选中房间</TaskDesc>
+			<AreaData>
+			   <Width>250</Width>
+			   <Height>250</Height>
+			</AreaData>
+			<LookKey>10576</LookKey>
+          </li>
+	    <li Type="ShowTips">
+			<TipsData>
+			   <Desc>游戏中有多种提升局部温度的建筑或者物品，玩家可以通过合理运用，也能用来应对极端天气。</Desc>
+			   <Items>
+			     <li>30757</li>
+			     <li>9243</li>
+			     <li>9226</li>
+			     <li>9227</li>
+			     <li>9245</li>
+			     <li>9228</li>
+			     <li>9225</li>
+			   </Items>
+			   <Width>3000</Width>
+			   <Height>3000</Height>
+			   <NeedArrow>1</NeedArrow>
+			   <MapKey>10576</MapKey>
+			   <IsLook>2</IsLook>
+			</TipsData>
+			<LookKey>10576</LookKey>
+	  	</li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>游戏中不止有一种极端天气，其他的极端天气，需要玩家合理的运用游戏中的道具或条件，才能更好的应对。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	   </Tasks>
+    </TeachingDef>
+
+	<TeachingDef Name="Prestige">
+      <Type>进阶篇</Type>
+      <DisplayName>声望管理与控制</DisplayName>
+      <Desc>通过本章教学，了解匿踪符的作用，并运用它来降低声望。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>JJ-08</Load>
+	  <Texpath>TeachFile\TP\JJ-08.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>匿踪符的运用</DisplayName>
+			<Tasks>
+			   <li>查看门派声望</li>
+			   <li>查看隐匿符</li>
+			   <li>装备隐匿符</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ClickUi">
+			<TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左侧门派按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>School</Name>
+			</UiData>
+          </li>
+		  <li Type="HoverUi">
+            <TaskDesc>在游戏中，声望越高，入侵敌人将会越强，因此玩家需要运用游戏中的道具，从而降低声望获得。</TaskDesc>
+			<UiData>
+			   <ParentWindow>WindowSchool</ParentWindow>
+			   <Name>n98</Name>
+			   <Time>3</Time>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击关闭门派界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>WindowSchool</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="HoverKey">
+            <TaskDesc>玩家可通过画符获得匿踪符，当内门弟子携带并激活匿踪符前往天下历练时，可以有效的降低声望值的获取。</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>12753</li>
+			  </Keys>
+			  <Width>60</Width>
+			  <Height>60</Height>
+			  <Time>3</Time>
+			  <MapKey>12753</MapKey>
+			</MapKeyData>
+			<LookKey>12625</LookKey>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		   <li Type="ClickItem">
+            <TaskDesc>点击选择一名弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>19092</li>
+			   </Items>
+			</ItemData>
+         </li>
+		    <li Type="ClickUi">
+            <TaskDesc>点击装备道具按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>装备道具</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>NpcInterruptJob</Special>
+			<ItemData>
+			   <Items>
+			      <li>19092</li>
+			   </Items>
+			</ItemData>
+		 </li>
+		  <li Type="ClickMapKey">
+            <TaskDesc>点击选择装备 匿踪符</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>12753</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>12753</LookKey>
+          </li>
+	     <li Type="ClickUi">
+            <TaskDesc>点击添加数量</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n170</Name>
+			   <Fx>-22.5</Fx>
+			   <Fy>-22.5</Fy>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确认选择</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		 <li Type="WaitCMD">
+            <TaskDesc>等待装备完毕</TaskDesc>
+			<ItemData>
+			   <Items>
+			     <li>19092</li>
+			   </Items>
+			   <CMD>EquipItem</CMD>
+			</ItemData>
+			<LookThing>19092</LookThing>
+          </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>由于声望的高低会对玩家的门派产生一定的影响，因此玩家可以运用匿踪符的符咒效果，来降低获取到的声望值，从而达到管理声望的目的。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	   </Tasks>
+    </TeachingDef>
+
+	<TeachingDef Name="ShortcutKey">
+      <Type>进阶篇</Type>
+      <DisplayName>常用快捷键</DisplayName>
+      <Desc>通过本章教学，了解游戏中的常用快捷键，以及自定义快捷键的设置方式。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>1</Disable>
+	  <Load>JJ-09</Load>
+	  <Texpath>TeachFile\TP\JJ-09.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>自定义快捷键设置</DisplayName>
+			<Tasks>
+			   <li>查看快捷键面板</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>使用快捷键</DisplayName>
+			<Tasks>
+			   <li>使用互动快捷键</li>
+			   <li>使用快捷键进行编队</li>
+			   <li>使用快捷键进行移动和攻击</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="Special">
+		    <Special>OpenInputWnd</Special>
+		  </li>
+		  <li Type="ShowTips">
+			<TipsData>
+               <Desc>玩家可在游戏中点击系统，点击自定义快捷键，来查看快捷键面板；也可以通过这里修改和重置快捷键。</Desc>
+			   <ParentWindow>InputWindow</ParentWindow>
+			   <Name>n19</Name>
+			   <IsLook>2</IsLook>
+			</TipsData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击关闭快捷键界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>InputWindow</ParentWindow>
+			   <Name>CloseBtn</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>玩家可根据自己的按键习惯，修改对应的快捷键，并使用它。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		   <li Type="ClickItem">
+            <TaskDesc>点击选择一名弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>19092</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="ClickCodeKey">
+            <TaskDesc>使用食用的快捷键 F1</TaskDesc>
+			<InputData>
+			   <InputName>F1</InputName>
+			   <InputState>down</InputState>
+			</InputData>
+          </li>
+		 <li Type="ClickMapKey">
+            <TaskDesc>点击选择</TaskDesc>
+			<MapKeyData>
+			   <Items>
+			      <li>20472</li>
+			   </Items>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>13002</LookKey>
+         </li>
+		  <li Type="ClickCodeKey">
+            <TaskDesc>使用装备道具的快捷键 F2</TaskDesc>
+			<InputData>
+			   <InputName>F2</InputName>
+			   <InputState>down</InputState>
+			</InputData>
+          </li>
+		 <li Type="ClickMapKey">
+            <TaskDesc>点击选择</TaskDesc>
+			<MapKeyData>
+			   <Items>
+			      <li>20543</li>
+			   </Items>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>12246</LookKey>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="Draging">
+            <TaskDesc>按住鼠标左键拉取框选房间中的所有弟子</TaskDesc>
+			<VideoData>
+			   <Videopath>JJ-09</Videopath>
+			</VideoData>
+			<DragingData>
+			   <Items>
+			      <li>19214</li>
+			      <li>19131</li>
+			      <li>19124</li>
+			      <li>19092</li>
+			      <li>19223</li>
+			      <li>19189</li>
+			      <li>19197</li>
+			      <li>19116</li>
+			      <li>19157</li>
+			      <li>19141</li>
+			   </Items>
+			   <CMD>Select</CMD>
+			   <Width>450</Width>
+			   <Height>650</Height>
+			</DragingData>
+			<LookKey>8497</LookKey>
+          </li>
+		  <li Type="ClickCodeKey">
+            <TaskDesc>使用 LCtrl+数字键1 编为队伍1</TaskDesc>
+			<InputData>
+			   <InputName>LCtrl1</InputName>
+			   <InputState>down</InputState>
+			</InputData>
+          </li>
+		  <li Type="ClickCodeKey">
+            <TaskDesc>使用鼠标右键取消</TaskDesc>
+			<InputData>
+			   <InputName>Cancel</InputName>
+			   <InputState>up</InputState>
+			</InputData>
+		  </li>
+		  <li Type="ClickCodeKey">
+            <TaskDesc>使用 数字键1 选择队伍1</TaskDesc>
+			<InputData>
+			   <InputName>Num1</InputName>
+			   <InputState>down</InputState>
+			</InputData>
+          </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickCodeKey">
+            <TaskDesc>使用快捷键 {0} 发布进攻指令</TaskDesc>
+			<InputData>
+			   <InputName>Attack</InputName>
+			   <InputState>down</InputState>
+			</InputData>
+          </li>
+		 <li Type="ClickMapKey">
+            <TaskDesc>发布攻击指令到 妖兽</TaskDesc>
+			<MapKeyData>
+			   <Items>
+			      <li>35365</li>
+			   </Items>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>5241</LookKey>
+         </li>
+		 <li Type="ClickCodeKey">
+            <TaskDesc>使用快捷键 {0} 发布移动指令</TaskDesc>
+			<InputData>
+			   <InputName>Moveto</InputName>
+			   <InputState>down</InputState>
+			</InputData>
+          </li>
+		 <li Type="ClickMapKey">
+            <TaskDesc>点击发布移动指令到示意位置</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>8815</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			  <MapKey>8815</MapKey>
+			</MapKeyData>
+			<LookKey>8431</LookKey>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>游戏中还有很多操作可以使用快捷键完成，玩家可根据自己的操作习惯，使用这些快捷键；而其他的快捷键，玩家可通过鼠标悬停到按钮上进行查看，因此不再教学中赘述。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	   </Tasks>
+    </TeachingDef>
+
+	<TeachingDef Name="Batch">
+      <Type>进阶篇</Type>
+      <DisplayName>批量操作</DisplayName>
+      <Desc>通过本章教学，了解游戏中的常用批量操作方式，并掌握使用方法。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>1</Disable>
+	  <Load>JJ-10</Load>
+	  <Texpath>TeachFile\TP\JJ-10.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>常用批量操作</DisplayName>
+			<Tasks>
+			   <li>批量食用丹药</li>
+			   <li>批量禁用和取消禁用</li>
+			   <li>批量重建</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <!-- <li Type="ClickItem"> -->
+            <!-- <TaskDesc>点击选择弟子</TaskDesc> -->
+			<!-- <ItemData> -->
+			   <!-- <Items> -->
+			      <!-- <li>19092</li> -->
+			   <!-- </Items> -->
+			<!-- </ItemData> -->
+         <!-- </li> -->
+		   <!-- <li Type="HoverUi"> -->
+            <!-- <TaskDesc>玩家依次选择多个物品,使用批量食用功能。</TaskDesc> -->
+			<!-- <UiData> -->
+			   <!-- <ParentWindow>GameMain</ParentWindow> -->
+			   <!-- <ParentObject>thinginfo-cmdbnts</ParentObject> -->
+			   <!-- <Name>食用</Name> -->
+			   <!-- <Time>3</Time> -->
+			<!-- </UiData> -->
+          <!-- </li> -->
+		  <!-- <li Type="ClickUi"> -->
+            <!-- <TaskDesc>点击食用按钮</TaskDesc> -->
+			<!-- <UiData> -->
+			   <!-- <ParentWindow>GameMain</ParentWindow> -->
+			   <!-- <ParentObject>thinginfo-cmdbnts</ParentObject> -->
+			   <!-- <Name>食用</Name> -->
+			<!-- </UiData> -->
+          <!-- </li> -->
+		  <!-- <li Type="ClickMapKey"> -->
+            <!-- <TaskDesc>依次选择需要食用的物品</TaskDesc> -->
+			<!-- <MapKeyData> -->
+			  <!-- <Keys> -->
+			    <!-- <li>13384</li> -->
+			  <!-- </Keys> -->
+			  <!-- <Width>30</Width> -->
+			  <!-- <Height>30</Height> -->
+			<!-- </MapKeyData> -->
+			<!-- <LookKey>13384</LookKey> -->
+          <!-- </li>		   -->
+	     <!-- <li Type="ClickUi"> -->
+            <!-- <TaskDesc>点击添加数量</TaskDesc> -->
+			<!-- <UiData> -->
+			   <!-- <ParentWindow>GameMain</ParentWindow> -->
+			   <!-- <Name>n170</Name> -->
+			   <!-- <Fx>-22.5</Fx> -->
+			   <!-- <Fy>-22.5</Fy>				    -->
+			<!-- </UiData> -->
+         <!-- </li>		   -->
+		  <!-- <li Type="ClickMapKey"> -->
+            <!-- <TaskDesc>依次选择需要食用的物品</TaskDesc> -->
+			<!-- <MapKeyData> -->
+			  <!-- <Keys> -->
+			    <!-- <li>13256</li> -->
+			  <!-- </Keys> -->
+			  <!-- <Width>30</Width> -->
+			  <!-- <Height>30</Height> -->
+			<!-- </MapKeyData> -->
+			<!-- <LookKey>13256</LookKey> -->
+          <!-- </li> -->
+	     <!-- <li Type="ClickUi"> -->
+            <!-- <TaskDesc>点击添加数量</TaskDesc> -->
+			<!-- <UiData> -->
+			   <!-- <ParentWindow>GameMain</ParentWindow> -->
+			   <!-- <Name>n170</Name> -->
+			   <!-- <Fx>-22.5</Fx> -->
+			   <!-- <Fy>-22.5</Fy>				    -->
+			<!-- </UiData> -->
+         <!-- </li>		 -->
+		  <!-- <li Type="ClickMapKey"> -->
+            <!-- <TaskDesc>依次选择需要食用的物品</TaskDesc> -->
+			<!-- <MapKeyData> -->
+			  <!-- <Keys> -->
+			    <!-- <li>13128</li> -->
+			  <!-- </Keys> -->
+			  <!-- <Width>30</Width> -->
+			  <!-- <Height>30</Height> -->
+			<!-- </MapKeyData> -->
+			<!-- <LookKey>13128</LookKey> -->
+          <!-- </li>		 -->
+	     <!-- <li Type="ClickUi"> -->
+            <!-- <TaskDesc>点击添加数量</TaskDesc> -->
+			<!-- <UiData> -->
+			   <!-- <ParentWindow>GameMain</ParentWindow> -->
+			   <!-- <Name>n170</Name> -->
+			   <!-- <Fx>-22.5</Fx> -->
+			   <!-- <Fy>-22.5</Fy>				    -->
+			<!-- </UiData> -->
+         <!-- </li>			   -->
+	     <!-- <li Type="ClickUi"> -->
+            <!-- <TaskDesc>点击确定按钮</TaskDesc> -->
+			<!-- <UiData> -->
+			   <!-- <ParentWindow>GameMain</ParentWindow> -->
+			   <!-- <Name>n157</Name> -->
+			   <!-- <Fx>-41.5</Fx> -->
+			   <!-- <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>				    -->
+			<!-- </UiData> -->
+         <!-- </li>	 -->
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		 <li Type="Special">
+		    <Special>ClearSelect</Special>
+		 </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家通过使用批量禁用功能，可以批量禁用一些暂时不需要使用的物品。</Desc>
+			   <Width>40</Width>
+			   <Height>40</Height>
+			   <MaskKey>12491</MaskKey>
+			</TipsData>
+			<LookKey>12491</LookKey>
+	  	</li>
+	      <li Type="Special">
+		    <Special>SetCmdState</Special>
+			<SpecialStr>1</SpecialStr>
+		  </li>
+	      <li Type="ClickUi">
+            <TaskDesc>点击下托盘的禁用按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>cmds</ParentObject>
+			   <Name>ItemBan</Name>
+			</UiData>
+          </li>
+		  <li Type="Draging">
+            <TaskDesc>在目标区域拖拽，发布批量禁用</TaskDesc>
+			<VideoData>
+			   <Videopath>JJ-10-2</Videopath>
+			</VideoData>
+			<DragingData>
+			   <Items>
+			      <li>8947</li>
+			      <li>9509</li>
+			      <li>8946</li>
+			      <li>20545</li>
+			      <li>20547</li>
+			      <li>8781</li>
+			      <li>8782</li>
+			      <li>20544</li>
+			      <li>20546</li>
+			      <li>8779</li>
+			      <li>19111</li>
+			      <li>26435</li>
+			      <li>20548</li>
+			      <li>40405</li>
+			   </Items>
+			   <CMD>WaitSelect</CMD>
+			   <Width>280</Width>
+			   <Height>280</Height>
+			</DragingData>
+			<LookKey>12491</LookKey>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家通过使用批量取消功能，可以批量取消一些被禁用的物品。</Desc>
+			   <Width>40</Width>
+			   <Height>40</Height>
+			   <MaskKey>12491</MaskKey>
+			</TipsData>
+			<LookKey>12491</LookKey>
+	  	</li>
+	      <li Type="Special">
+		    <Special>SetCmdState</Special>
+			<SpecialStr>1</SpecialStr>
+		  </li>
+	      <li Type="ClickUi">
+            <TaskDesc>点击下托盘的取消按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>cmds</ParentObject>
+			   <Name>CancelCMD</Name>
+			</UiData>
+          </li>
+		  <li Type="Draging">
+            <TaskDesc>在目标区域拖拽，发布批量取消</TaskDesc>
+			<VideoData>
+			   <Videopath>JJ-10-2</Videopath>
+			</VideoData>
+			<DragingData>
+			   <Items>
+			      <li>8947</li>
+			      <li>9509</li>
+			      <li>8946</li>
+			      <li>20545</li>
+			      <li>20547</li>
+			      <li>8781</li>
+			      <li>8782</li>
+			      <li>20544</li>
+			      <li>20546</li>
+			      <li>8779</li>
+			      <li>19111</li>
+			      <li>26435</li>
+			      <li>20548</li>
+			      <li>40405</li>
+			   </Items>
+			   <CMD>WaitSelect</CMD>
+			   <Width>280</Width>
+			   <Height>280</Height>
+			</DragingData>
+			<LookKey>12491</LookKey>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可以通过使用批量重建功能，重建损毁的建筑。</Desc>
+			   <Width>310</Width>
+			   <Height>310</Height>
+			   <MaskKey>13111</MaskKey>
+			</TipsData>
+			<LookKey>13111</LookKey>
+	  	</li>
+	      <li Type="Special">
+		    <Special>SetCmdState</Special>
+			<SpecialStr>1</SpecialStr>
+		  </li>
+	      <li Type="ClickUi">
+            <TaskDesc>点击下托盘的重建按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>cmds</ParentObject>
+			   <Name>ReBuilding</Name>
+			</UiData>
+          </li>
+		  <li Type="Draging">
+            <TaskDesc>在目标区域拖拽，发布批量重建</TaskDesc>
+			<VideoData>
+			   <Videopath>JJ-10-3</Videopath>
+			</VideoData>
+			<DragingData>
+			   <Items>
+			      <li>40547</li>
+			      <li>40530</li>
+			      <li>40553</li>
+			      <li>40555</li>
+			      <li>40554</li>
+			      <li>40558</li>
+			      <li>40565</li>
+			      <li>40567</li>
+			      <li>40568</li>
+			      <li>40569</li>
+			      <li>40570</li>
+			      <li>40572</li>
+			      <li>40571</li>
+			      <li>40573</li>
+			      <li>40549</li>
+			      <li>40544</li>
+			      <li>40542</li>
+			      <li>40537</li>
+			      <li>40541</li>
+			      <li>40539</li>
+			      <li>40533</li>
+			   </Items>
+			   <CMD>WaitSelect</CMD>
+			   <Width>310</Width>
+			   <Height>310</Height>
+			   <Ctrl>1</Ctrl>
+			</DragingData>
+			<LookKey>13111</LookKey>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家通过使用批量重建功能后，设为筑工的外门弟子，将会自动前往建造损毁的建筑。</Desc>
+			   <Width>310</Width>
+			   <Height>310</Height>
+			   <MaskKey>13111</MaskKey>
+			</TipsData>
+			<LookKey>13111</LookKey>
+	  	</li>
+	      <li Type="Special">
+		    <Special>SetCmdState</Special>
+			<SpecialStr>1</SpecialStr>
+		  </li>
+	      <li Type="ClickUi">
+            <TaskDesc>点击下托盘的拆除按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>cmds</ParentObject>
+			   <Name>Dismantle</Name>
+			</UiData>
+          </li>
+		  <li Type="Draging">
+            <TaskDesc>在目标区域拖拽，发布批量拆除</TaskDesc>
+			<VideoData>
+			   <Videopath>JJ-10-3</Videopath>
+			</VideoData>
+			<DragingData>
+			   <Items>
+			      <li>40547</li>
+			      <li>40530</li>
+			      <li>40553</li>
+			      <li>40555</li>
+			      <li>40554</li>
+			      <li>40558</li>
+			      <li>40565</li>
+			      <li>40567</li>
+			      <li>40568</li>
+			      <li>40569</li>
+			      <li>40570</li>
+			      <li>40572</li>
+			      <li>40571</li>
+			      <li>40573</li>
+			      <li>40549</li>
+			      <li>40544</li>
+			      <li>40542</li>
+			      <li>40537</li>
+			      <li>40541</li>
+			      <li>40539</li>
+			      <li>40533</li>
+			   </Items>
+			   <CMD>WaitSelect</CMD>
+			   <Width>310</Width>
+			   <Height>310</Height>
+			   <Ctrl>1</Ctrl>
+			</DragingData>
+			<LookKey>13111</LookKey>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家通过使用批量拆除功能，批量拆除建筑。</Desc>
+			   <Width>310</Width>
+			   <Height>310</Height>
+			   <MaskKey>13111</MaskKey>
+			</TipsData>
+			<LookKey>13111</LookKey>
+	  	</li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>游戏中还有其他不同形式的批量使用功能，玩家可以在游戏中逐渐了解和体验。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	   </Tasks>
+    </TeachingDef>
+
+	<TeachingDef Name="AreaExpand">
+      <Type>进阶篇</Type>
+      <DisplayName>区域扩张</DisplayName>
+      <Desc>通过本章教学，了解如何快速扩张建筑中的各类区域，并通过区域扩张快速继承区域属性。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>JJ-11</Load>
+	  <Texpath>TeachFile\TP\JJ-11.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>区域扩张</DisplayName>
+			<Tasks>
+			   <li>扩张仓库</li>
+			   <li>扩张农田</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+	    <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当玩家仓库容量被堆满时，可以通过扩张仓库区域来增加容量。</Desc>
+			   <Width>200</Width>
+			   <Height>200</Height>
+			   <MaskKey>10956</MaskKey>
+			</TipsData>
+			<LookKey>10576</LookKey>
+	  	</li>
+		  <li Type="ClickUi">
+			<TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+          </li>				
+		  <li Type="ClickUi">
+            <TaskDesc>点击建筑按钮,打开建筑界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Building</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>SetCmdState</Special>
+		    <SpecialStr>0</SpecialStr>
+		 </li>			  		  
+		<li Type="ClickUi">
+            <TaskDesc>点击区域分页</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-ListType</ParentObject>
+			   <Name>区域</Name>
+			</UiData>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击仓库，进入仓库规划状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-AreaStorage</ParentObject>
+			   <Name>AreaStorage</Name>
+			</UiData>
+        </li>
+		<li Type="DrawArea">
+            <TaskDesc>拖拽扩大仓库</TaskDesc>
+			<VideoData>
+			   <Videopath>JJ-11</Videopath>
+			</VideoData>
+			<AreaData>
+			   <Name>AreaStorage</Name>
+			   <Width>300</Width>
+			   <Height>200</Height>
+			   <BeginKeys>
+			      <li>11210</li>
+			      <li>11211</li>
+			      <li>11212</li>
+			      <li>11213</li>
+			      <li>11214</li>
+			      <li>11082</li>
+			      <li>11083</li>
+			      <li>11084</li>
+			      <li>11085</li>
+			      <li>11086</li>
+			      <li>10954</li>
+			      <li>10955</li>
+			      <li>10956</li>
+			      <li>10957</li>
+			      <li>10958</li>
+			      <li>10826</li>
+			      <li>10827</li>
+			      <li>10828</li>
+			      <li>10829</li>
+			      <li>10830</li>
+			      <li>10698</li>
+			      <li>10699</li>
+			      <li>10700</li>
+			      <li>10701</li>
+			      <li>10702</li>
+			   </BeginKeys>
+			   <Keys>
+			      <li>11215</li>
+			      <li>11216</li>
+			      <li>11087</li>
+			      <li>11088</li>
+			      <li>10959</li>
+			      <li>10960</li>
+			      <li>10831</li>
+			      <li>10832</li>
+			      <li>10703</li>
+			      <li>10704</li>
+			   </Keys>
+			</AreaData>
+			<LookKey>10957</LookKey>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>退出建造模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n150</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭建造面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n232</Name>
+			</UiData>
+        </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		<li Type="ClickArea">
+            <TaskDesc>选中仓库</TaskDesc>
+			<AreaData>
+			   <Name>AreaStorage</Name>
+			   <Width>280</Width>
+			   <Height>200</Height>
+			</AreaData>
+			<LookKey>10957</LookKey>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>打开仓库面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>仓库筛选</Name>
+			</UiData>
+         </li>
+		<li Type="ShowTips">
+			<TipsData>
+			   <Desc>通过原有仓库区域扩张变大的仓库，也会保持原有仓库的筛选条件。</Desc>
+			   <ParentWindow>StorageArea</ParentWindow>
+			   <Name>frame</Name>
+			   <IsLook>2</IsLook>
+			</TipsData>
+          </li>
+		<li Type="ClickUi">
+            <TaskDesc>关闭仓库面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>StorageArea</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+	    <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当玩家农田区域无法满足门内需求时，可以通过扩张农田区域来增加农田种植区域面积。</Desc>
+			   <Width>200</Width>
+			   <Height>200</Height>
+			   <MaskKey>10188</MaskKey>
+			</TipsData>
+			<LookKey>10576</LookKey>
+	  	</li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+                  </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击菜单中的建筑按钮，打开建筑页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Building</Name>
+			</UiData>
+          </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击区域分页</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-ListType</ParentObject>
+			   <Name>区域</Name>
+			</UiData>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击农田，进入农田规划状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-AreaPlant</ParentObject>
+			   <Name>AreaPlant</Name>
+			</UiData>
+        </li>
+		<li Type="DrawArea">
+            <TaskDesc>通过拖拽进行拖拽扩大农田</TaskDesc>
+			<VideoData>
+			   <Videopath>JJ-12</Videopath>
+			</VideoData>
+			<AreaData>
+			   <Name>AreaPlant</Name>
+			   <Width>300</Width>
+			   <Height>200</Height>
+			   <BeginKeys>
+			      <li>10442</li>
+			      <li>10443</li>
+			      <li>10444</li>
+			      <li>10445</li>
+			      <li>10446</li>
+			      <li>10314</li>
+			      <li>10315</li>
+			      <li>10316</li>
+			      <li>10317</li>
+			      <li>10318</li>
+			      <li>10186</li>
+			      <li>10187</li>
+			      <li>10188</li>
+			      <li>10189</li>
+			      <li>10190</li>
+			      <li>10058</li>
+			      <li>10059</li>
+			      <li>10060</li>
+			      <li>10061</li>
+			      <li>10062</li>
+			      <li>9930</li>
+			      <li>9931</li>
+			      <li>9932</li>
+			      <li>9933</li>
+			      <li>9934</li>
+			   </BeginKeys>
+			   <Keys>
+			      <li>10447</li>
+			      <li>10448</li>
+			      <li>10319</li>
+			      <li>10320</li>
+			      <li>10191</li>
+			      <li>10192</li>
+			      <li>10063</li>
+			      <li>10064</li>
+			      <li>9935</li>
+			      <li>9936</li>
+			   </Keys>
+			</AreaData>
+			<LookKey>10189</LookKey>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>退出建造模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n150</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭建造面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n232</Name>
+			</UiData>
+        </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		<li Type="ClickArea">
+            <TaskDesc>选中农田</TaskDesc>
+			<AreaData>
+			   <Name>AreaPlant</Name>
+			   <Width>280</Width>
+			   <Height>200</Height>
+			</AreaData>
+			<LookKey>10189</LookKey>
+        </li>
+		<li Type="ShowTips">
+			<TipsData>
+			   <Desc>通过原有农田区域扩张变大的农田，也会保持原有农田的种植物选择。</Desc>
+			    <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>种植物</Name>
+			</TipsData>
+          </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>游戏中还有其他类似的区域，都可以通过用这种方式进行扩张，因此不再教学中赘述。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	   </Tasks>
+    </TeachingDef>
+  </List>
+</TeachingDefs>

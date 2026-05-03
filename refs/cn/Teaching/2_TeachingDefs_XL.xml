@@ -1,0 +1,1759 @@
+<TeachingDefs>
+   <List>
+   <TeachingDef Name="ZhuJi">
+      <Type>修炼篇</Type>
+      <DisplayName>筑基</DisplayName>
+      <Desc>通过本章教学，掌握外门弟子进行筑基的方法以及意义。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>XL-01</Load>
+	  <Texpath>TeachFile\TP\XL-01.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>了解筑基的意义</DisplayName>
+			<Tasks>
+			   <li>查看筑基面板</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>通过练功筑基</DisplayName>
+			<Tasks>
+			   <li>激活勤学苦练</li>
+			   <li>安排练功计划</li>
+			   <li>设置练功点</li>
+			   <li>等待弟子练功</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>其他筑基值的获取方式</DisplayName>
+			<Tasks>
+			   <li>查看熊胆</li>
+			   <li>快速查看筑基值</li>
+			   <li>食用熊胆</li>
+			   <li>快速查看筑基值</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <CleanItems>
+	     <li>875</li>
+	  </CleanItems>
+	  <Tasks>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击任意角色</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>754</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击打开人物面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-NpcInfoBnts</ParentObject>
+			   <Name>Info</Name>
+			   <Width>78</Width>
+			   <Height>78</Height>
+			   <Fx>-78</Fx>
+			</UiData>
+	     </li>
+		 <li Type="ClickUi">
+		    <TaskDesc>点击打开功法修行面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>NpcInfoBnts</ParentObject>
+			   <Name>Parctice</Name>
+			</UiData>
+        </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>如图所示，在当天未进行练功的外门弟子，会因此下降1000点的筑基值，就算是已经完成筑基的弟子也不例外。</Desc>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <Name>Practice</Name>
+			</TipsData>
+        </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>游戏中只有当外门弟子的筑基值达到25000点时，才算完成筑基，这是进入内门的前提。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		   <li Type="ClickUi">
+            <TaskDesc>点击激活勤学苦练</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>Practice</ParentObject>
+			   <Name>n262</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击关闭修行面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+        </li>		
+		<li Type="ClickUi">
+		<TaskDesc>点击打开工作安排面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Works</Name>
+			</UiData>
+         </li>
+		 <li Type="Special">
+		    <Special>HideTaskGuide</Special>
+		 </li>		 
+		 <li Type="ClickUi">
+            <TaskDesc>点击外门时间规划【8工作】</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcWork</ParentWindow>
+			   <ParentObject>n24-n25</ParentObject>
+			   <Name>8</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击设置成练功</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectPop</ParentWindow>
+			   <ParentObject>n27</ParentObject>
+			   <Name>4</Name>
+			</UiData>
+         </li>
+		 <li Type="Special">
+		    <Special>HideTaskGuide</Special>
+		 </li>		 
+		 <li Type="ClickUi">
+            <TaskDesc>点击外门时间规划【9工作】</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcWork</ParentWindow>
+			   <ParentObject>n24-n25</ParentObject>
+			   <Name>9</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击设置成练功</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectPop</ParentWindow>
+			   <ParentObject>n27</ParentObject>
+			   <Name>4</Name>
+			</UiData>
+         </li>
+		 <li Type="Special">
+		    <Special>HideTaskGuide</Special>
+		 </li>		 
+		 <li Type="ClickUi">
+            <TaskDesc>关闭该页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcWork</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击菜单中的建筑按钮，打开建筑页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Building</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击门派分页，进入门派建筑分类</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-ListType</ParentObject>
+			   <Name>门派</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击练功点</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-BasePracticePlace</ParentObject>
+			   <Name>BasePracticePlace</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickMapKey">
+            <TaskDesc>将练功点摆放在系统提示的指定位置</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>591</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>591</LookKey>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确认建造</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>退出建造模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n150</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭建造面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n232</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角游戏速度调整按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151</ParentObject>
+			   <Name>speedBtn</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>选择二级加速运行游戏</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151-speedBtnList</ParentObject>
+			   <Name>2</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>Speed2A</Special>
+          </li>
+		 <li Type="WaitTime">
+	     	<TaskDesc>等待外门弟子进入练功点，并开始练功</TaskDesc>
+		    <WaitTime>3</WaitTime>
+			<LookThing>754</LookThing>
+        </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>游戏中玩家可以通过适当的安排或调整练功时间，以保障外门弟子每天都能自行练功；激活了勤学苦练的外门弟子，会在每天的工作之余自行练功；而某些拥有特殊词条的弟子，获取筑基值的速度会更快。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击选取熊胆</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>1754</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击下方物品面板的详细信息</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n280</Name>
+			</UiData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>可以查看物品详细信息</Desc>
+			   <ParentWindow>TipPopPanel</ParentWindow>
+			   <Name>n0</Name>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击任意角色</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>游戏中玩家可以随时通过查看下方状态栏，从而快速获取外门弟子的筑基信息，并及时调整该弟子的练功策略。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>zhuji</Name>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击下方角色面板的食用按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>食用</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击选择熊胆</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>1754</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>增加食用数量</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n170</Name>
+			   <Fx>-22.5</Fx>
+			   <Fy>-22.5</Fy>
+			</UiData>
+          </li>
+		<li Type="ClickUi">
+            <TaskDesc>确认食用</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>NpcInterruptJob</Special>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="WaitCMD">
+	     	<TaskDesc>等待食用完毕</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			   <CMD>EatItem</CMD>
+			</ItemData>
+			<LookThing>730</LookThing>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>该弟子通过食用熊胆快速获得了大量的筑基值。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>zhuji</Name>
+			</TipsData>
+        </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>游戏中也可以通过服用其他灵丹、药材等物品，来快速获得大量筑基值；亦或是其他提升筑基获取速度的方法，这些都需要玩家更深入的探索和了解。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	  </Tasks>
+    </TeachingDef>
+	
+	<TeachingDef Name="GongSelect">
+      <Type>修炼篇</Type>
+      <DisplayName>功法选择与修炼模式</DisplayName>
+      <Desc>通过本章教学，了解如何选择合适的功法与功法匹配度的意义，以及弟子如何拜师和几种常用的修行模式。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>XL-02</Load>
+	  <Texpath>TeachFile\TP\XL-02.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>匹配度与功法选择</DisplayName>
+			<Tasks>
+			   <li>查看田纨的功法匹配度</li>
+			   <li>查看钟离舒的功法匹配度</li>
+			   <li>选择功法并进入内门</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>拜师的意义</DisplayName>
+			<Tasks>
+			   <li>选择拜师</li>
+			   <li>查看师傅</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ClickUi">
+            <TaskDesc>打开消息界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n253</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左侧筑基成功的消息</TaskDesc>
+			<UiData>
+			   <ParentWindow>NormalMessageBox</ParentWindow>
+			   <ParentObject>n219</ParentObject>
+			   <Name>1</Name>
+			</UiData>
+         </li>
+		 <li Type="Special">
+		    <Special>None</Special>
+			<LookThing>754</LookThing>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭消息界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>NormalMessageBox</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击弟子下方状态栏的晋升内门按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>晋升内门</Name>
+			</UiData>
+         </li>
+		 <li Type="WaitTime">
+		    <WaitTime>0.2</WaitTime>
+         </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>该弟子与当前功法的匹配系数过低，我们可以再看看其他弟子的匹配度如何。</Desc>
+			   <ParentWindow>SelectGong</ParentWindow>
+			   <Name>n40</Name>
+			</TipsData>
+        </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击关闭选择功法界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectGong</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击选择另一名外门弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击弟子下方状态栏的晋升内门按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>晋升内门</Name>
+			</UiData>
+         </li>
+		 <li Type="WaitTime">
+		    <WaitTime>0.2</WaitTime>
+         </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可通过对比功法匹配图，来了解当前弟子是否适合修行此门功法，弟子的五维越高，功法匹配度也会越符合，因此不同的弟子可能适合的功法并不相同。</Desc>
+			   <ParentWindow>SelectGong</ParentWindow>
+			   <Name>n4</Name>
+			</TipsData>
+        </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择功法</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectGong</ParentWindow>
+			   <Name>n39</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击是的</TaskDesc>
+			<UiData>
+			   <ParentWindow>MessageSelect</ParentWindow>
+			   <Name>n30</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角游戏速度调整按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151</ParentObject>
+			   <Name>speedBtn</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>选择二级加速运行游戏</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151-speedBtnList</ParentObject>
+			   <Name>Max</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>Speed2</Special>
+          </li>
+		 <li Type="WaitTime">
+		    <TaskDesc>等待弟子晋升</TaskDesc>
+		    <WaitTime>8</WaitTime>
+         </li>
+
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>功法的选择一旦确定，便不能再取消，因此功法匹配度会对该弟子之后的修行造成很大的影响。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击人物状态栏中的拜师按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>拜师</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择一名金丹期的内门弟子</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <ParentObject>n25</ParentObject>
+			   <Name>1</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确定</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <Name>n27</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>NpcInterruptJob</Special>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="WaitCMD">
+	     	<TaskDesc>等待拜师完毕</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>2556</li>
+			   </Items>
+			   <CMD>ReceiveApprentice</CMD>
+			</ItemData>
+			<LookThing>730</LookThing>
+         </li>
+		 <li Type="WaitTime">
+		    <WaitTime>0.4</WaitTime>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击选择金丹期的内门弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>2556</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>师傅可以为弟子传授自己所学的秘籍，师傅传授秘籍时，消耗的参悟更少。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>传授</Name>
+			</TipsData>
+        </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>当一名弟子新晋升成为内门弟子后，可以选择一名金丹期或金丹期以上的内门弟子，拜其为师傅；当弟子的功法与师傅的功法相同时，则能提升修炼速度。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+	  </Tasks>
+    </TeachingDef>
+	
+	<TeachingDef Name="GetJingYuan">
+      <Type>修炼篇</Type>
+      <DisplayName>精元</DisplayName>
+      <Desc>通过本章教学，了解如何获取精元，精元的自动管理。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>XL-03</Load>
+	  <Texpath>TeachFile\TP\XL-03.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>精元的获取方式</DisplayName>
+			<Tasks>
+			   <li>查看精元</li>
+			   <li>食用精元丹</li>
+			   <li>再次查看精元</li>
+			   <li>继续修行</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>精元辅助管理</DisplayName>
+			<Tasks>
+			   <li>查看食物自理</li>
+			   <li>查看丹药优先</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击选择一名内门弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击切换状态面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n279</Name>
+			</UiData>
+         </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可以通过人物状态中的精元条来查看精元值。内门弟子的修行需要持续消耗精元，当精元为0时，则无法进行正常修行，此时需要通过食用丹药或者食物来补充精元。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>5</Name>
+			</TipsData>
+        </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击选择精元丹</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>5477</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击下方物品面板的详细信息</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n280</Name>
+			</UiData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>可以查看物品详细信息</Desc>
+			   <ParentWindow>TipPopPanel</ParentWindow>
+			   <Name>n0</Name>
+			</TipsData>
+         </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击选择刚刚的内门弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击人物状态栏中的食用按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>食用</Name>
+			</UiData>
+         </li>
+		
+		 <li Type="ClickItem">
+            <TaskDesc>点击选择精元丹</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>5477</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>增加食用数量</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n170</Name>
+			   <Fx>-22.5</Fx>
+			   <Fy>-22.5</Fy>
+			</UiData>
+          </li>
+		<li Type="ClickUi">
+            <TaskDesc>确认食用</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角游戏速度调整按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151</ParentObject>
+			   <Name>speedBtn</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>选择三级加速运行游戏</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151-speedBtnList</ParentObject>
+			   <Name>Max</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>Speed2</Special>
+          </li>
+		  <li Type="Special">
+		    <Special>NpcInterruptJob</Special>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="WaitCMD">
+	     	<TaskDesc>等待角色食用完毕</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			   <CMD>EatItem</CMD>
+			</ItemData>
+			<LookThing>730</LookThing>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="WaitTime">
+	     	<TaskDesc>等待精元转化</TaskDesc>
+		    <WaitTime>9</WaitTime>
+			<LookThing>730</LookThing>
+         </li>
+		 <li Type="Special">
+		    <Special>NpcJingYuanAdd</Special>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			</ItemData>
+			<LookThing>730</LookThing>
+		 </li>
+	   <li Type="ShowTips">
+			<TipsData>
+			   <Desc>查看下方人物状态中的精元条。此时，该弟子已经通过丹药，恢复了一些精元。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>5</Name>
+			</TipsData>
+        </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击切换状态面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n279</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击人物状态栏中的修行模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-n47</ParentObject>
+			   <Name>1</Name>
+			</UiData>
+        </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>内门弟子也可以通过消耗食物，从而转化成精元，或者通过提高食物消耗速度、获取精元速度等等属性，进一步提高转化精元的效果。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		    <li Type="ClickUi">
+            <TaskDesc>点击打开人物面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-NpcInfoBnts</ParentObject>
+			   <Name>Info</Name>
+			   <Width>78</Width>
+			   <Height>78</Height>
+			   <Fx>-78</Fx>
+			</UiData>
+	     </li>
+		 <li Type="ClickUi">
+		    <TaskDesc>点击打开功法修行面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>NpcInfoBnts</ParentObject>
+			   <Name>Parctice</Name>
+			</UiData>
+        </li>
+		<li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可通过点击此处，设置食物自理后，该弟子便会主动食用食物来获取精元，以便管理。</Desc>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>Practice</ParentObject>
+			   <Name>n261</Name>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可通过点击此处，设置丹药自理后，该弟子便会优先选择食用丹药来获取精元，以便管理。</Desc>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>Practice</ParentObject>
+			   <Name>n263</Name>
+			</TipsData>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>游戏中能增加精元或者获取精元效率的物品有很多，如各种天材地宝、丹药、符篆等等，需要玩家更加深入的探索和了解。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	  </Tasks>
+    </TeachingDef>
+   
+    <TeachingDef Name="FuQi">
+      <Type>修炼篇</Type>
+      <DisplayName>服气与辟谷</DisplayName>
+      <Desc>通过本章教学，掌握服气与辟谷的意义，以及这两者之间的区别。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>XL-04</Load>
+	  <Texpath>TeachFile\TP\XL-04.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>什么是辟谷</DisplayName>
+			<Tasks>
+			   <li>查看辟谷丹</li>
+			   <li>查看食物需求</li>
+			   <li>使用辟谷丹</li>
+			   <li>再次查看食物需求</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>什么是饮气</DisplayName>
+			<Tasks>
+			   <li>查看饮气丹</li>
+			   <li>查看饮气条</li>
+			   <li>使用饮气丹</li>
+			   <li>再次查看饮气条</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		<li Type="Special">
+		    <Special>NextChapter</Special>
+		</li> 
+		<li Type="ClickItem">
+            <TaskDesc>点击选择辟谷丹</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>6002</li>
+			   </Items>
+			</ItemData>
+			<LookKey>853</LookKey>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击下方物品面板的详细信息</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n280</Name>
+			</UiData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>可以查看物品详细信息</Desc>
+			   <ParentWindow>TipPopPanel</ParentWindow>
+			   <Name>n0</Name>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击选择一个内门弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击切换状态面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n279</Name>
+			</UiData>
+         </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可以查看下方状态栏中的食物需求条。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-npcjineng</ParentObject>
+			   <Name>1</Name>
+			</TipsData>
+        </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击人物状态栏中的食用按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>食用</Name>
+			</UiData>
+         </li> 
+		 <li Type="ClickItem">
+            <TaskDesc>点击选择辟谷丹</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>6002</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>增加食用数量</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n170</Name>
+			   <Fx>-22.5</Fx>
+			   <Fy>-22.5</Fy>
+			</UiData>
+          </li>
+		<li Type="ClickUi">
+            <TaskDesc>确认食用</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角游戏速度调整按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151</ParentObject>
+			   <Name>speedBtn</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>选择三级加速运行游戏</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151-speedBtnList</ParentObject>
+			   <Name>Max</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>Speed2</Special>
+          </li>
+		  <li Type="Special">
+		    <Special>NpcInterruptJob</Special>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="WaitCMD">
+	     	<TaskDesc>等待角色食用完毕</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			   <CMD>EatItem</CMD>
+			</ItemData>
+			<LookThing>730</LookThing>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可以查看下方状态栏中的食物需求条。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-npcjineng</ParentObject>
+			   <Name>1</Name>
+			</TipsData>
+        </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>游戏中辟谷的意义在于，通过降低弟子的饥饿和饮水消耗从而降低弟子对食物与饮水的需求，减少对食物与水资源的摄入，但内门弟子降低食物与饮水需求则会减低从食物中转化成精元的量。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		<li Type="ClickItem">
+            <TaskDesc>点击选择饮气丹</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>6001</li>
+			   </Items>
+			</ItemData>
+			<LookKey>693</LookKey>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击下方物品面板的详细信息</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n280</Name>
+			</UiData>
+         </li>	 
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>可以查看物品详细信息</Desc>
+			   <ParentWindow>TipPopPanel</ParentWindow>
+			   <Name>n0</Name>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击选择一个内门弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>754</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击切换状态面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n279</Name>
+			</UiData>
+         </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可以查看下方状态栏中的食物需求条。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-npcjineng</ParentObject>
+			   <Name>1</Name>
+			</TipsData>
+        </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击人物状态栏中的食用按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>食用</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击选择饮气丹</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>6001</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>增加食用数量</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n170</Name>
+			   <Fx>-22.5</Fx>
+			   <Fy>-22.5</Fy>
+			</UiData>
+          </li>
+		<li Type="ClickUi">
+            <TaskDesc>确认食用</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>NpcInterruptJob</Special>
+			<ItemData>
+			   <Items>
+			      <li>754</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="WaitCMD">
+	     	<TaskDesc>等待角色食用完毕</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>754</li>
+			   </Items>
+			   <CMD>EatItem</CMD>
+			</ItemData>
+			<LookThing>754</LookThing>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可以查看下方状态栏中的食物需求条。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-npcjineng</ParentObject>
+			   <Name>1</Name>
+			</TipsData>
+        </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>饮气的意义在于，通过从环境中获取能量，维持饥饿和饮水度的能力，饮气效率越高，转化能力越强；并且当内门弟子对食物和饮水的消耗增加时，通过食物转化成精元的量也随之增加。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	  </Tasks>
+    </TeachingDef>
+   
+    <TeachingDef Name="DProduction">
+      <Type>修炼篇</Type>
+      <DisplayName>内门生产</DisplayName>
+      <Desc>通过本章教学，学会如何炼制法宝、丹药、以及绘制符咒。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>XL-05</Load>
+	  <Texpath>TeachFile\TP\XL-05.png</Texpath>
+	  <Chapters>
+		 <Chapter>
+		    <DisplayName>如何炼丹</DisplayName>
+			<Tasks>
+			   <li>获得了更多建筑</li>
+			   <li>炼制精元丹</li>
+			   <li>使用循环炼丹</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>如何炼宝</DisplayName>
+			<Tasks>
+			   <li>炼制法宝</li>
+			   <li>对比高阶材料</li>
+			   <li>对比低阶材料</li>
+			   <li>确认炼宝</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>如何画符</DisplayName>
+			<Tasks>
+			   <li>绘制轻身符</li>
+			   <li>符纸品质与符咒的关系</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>如何熔炼</DisplayName>
+			<Tasks>
+			   <li>查看物品灵气</li>
+			   <li>熔炼物品</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当弟子进入内门后，会拥有全新的互动玩法，而这些互动玩法，首先需要建造这些独特的建筑，才能激活互动玩法。</Desc>
+			   <Items>
+			     <li>5486</li>
+			     <li>5477</li>
+			     <li>5487</li>
+			   </Items>
+			   <Width>3000</Width>
+			   <Height>3000</Height>
+			   <NeedArrow>1</NeedArrow>
+			   <MaskKey>590</MaskKey>
+			   <IsLook>2</IsLook>
+			</TipsData>
+			<LookKey>431</LookKey>
+	  	</li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击选择一个内门弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			</ItemData>
+         </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击人物状态栏中的炼丹按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>炼丹</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击选择精元丹</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectCommom</ParentWindow>
+			   <ParentObject>n25</ParentObject>
+			   <Name>3</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectCommom</ParentWindow>
+			   <Name>n27</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickMapKey">
+            <TaskDesc>点击选择炼丹炉</TaskDesc>
+			<MapKeyData>
+			  <Items>
+			      <li>5486</li>
+			  </Items>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>586</LookKey>
+          </li>
+		<li Type="ClickUi">
+            <TaskDesc>确认选择</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickMapKey">
+            <TaskDesc>点击选择炼丹炉</TaskDesc>
+			<MapKeyData>
+			  <Items>
+			      <li>5486</li>
+			  </Items>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>586</LookKey>
+          </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击下方炼丹炉界面中的精元丹</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-Producelist-Item_Dan_JingYuan</ParentObject>
+			   <Name>n27</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击循环十次</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n266</Name>
+			</UiData>
+		</li>
+           <li Type="ClickUi">
+            <TaskDesc>点击右下角游戏速度调整按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151</ParentObject>
+			   <Name>speedBtn</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>选择三级加速运行游戏</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151-speedBtnList</ParentObject>
+			   <Name>Max</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>Speed2</Special>
+          </li>
+		 <li Type="WaitTime">
+	     	<TaskDesc>等待炼制精元丹完成</TaskDesc>
+		    <WaitTime>9</WaitTime>
+			<LookThing>5486</LookThing>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击下方炼丹炉界面中的精元丹</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-Producelist-Item_Dan_JingYuan</ParentObject>
+			   <Name>n27</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击下方炼丹炉界面中精元丹的取消按钮，取消生产</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n263</Name>
+			</UiData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>炼制丹药不止需要丹药的基本材料，如果想要炼制更高级的丹药则需要提升炼丹等级，或者学习其他的丹方；玩家也可以通过炼丹炉的循环设置，进行批量炼丹；或者通过取消循环设置来结束这一操作。</Desc>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		  <li Type="ClickItem">
+            <TaskDesc>点击选择一个内门弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			</ItemData>
+         </li>
+		<li Type="ClickUi">
+			<TaskDesc>点击人物状态栏中的炼宝按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>炼宝</Name>
+			</UiData>
+         </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击法宝炼制</TaskDesc>
+			<UiData>
+			   <ParentWindow>MakeFabaoWindow</ParentWindow>
+			   <Name>normal</Name>
+			</UiData>
+         </li>
+		  <li Type="Special">
+		    <Special>NpcFabaoSuccess</Special>
+			<ItemData>
+			   <Items>
+			     <li>730</li>
+			   </Items>
+			</ItemData>
+          </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickMapKey">
+            <TaskDesc>玩家可选择天柱石剑查看上方的炼宝需求和成功率</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			      <li>759</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>759</LookKey>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>查看上方的炼宝需求和成功率。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>HeadMsg</Name>
+			</TipsData>
+        </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickMapKey">
+            <TaskDesc>玩家可选择灰石刀查看上方的炼宝需求和成功率</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			      <li>790</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>790</LookKey>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>查看上方的炼宝需求和成功率。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>HeadMsg</Name>
+			</TipsData>
+        </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+        <li Type="ClickUi">
+            <TaskDesc>确认选择</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		  <li Type="WaitTime">
+	     	<TaskDesc>等待法宝炼制完毕</TaskDesc>
+		    <WaitTime>18</WaitTime>
+			<LookThing>730</LookThing>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>游戏中可以将任意普通材料炼制成法宝，但是需要消耗一部分灵气，物品的品阶越高，消耗的灵气越多；并且心境越高，炼制法宝的成功率也越高，当然炼宝等级越高，成功率也会提高。</Desc>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击人物状态栏中的画符按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>画符</Name>
+			</UiData>
+         </li>
+		   <li Type="ClickMapKey">
+            <TaskDesc>点击选择符纸</TaskDesc>
+			<MapKeyData>
+			  <Items>
+			      <li>5525</li>
+			  </Items>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确认选择</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击轻身符</TaskDesc>
+			<UiData>
+			   <ParentWindow>FuPatinter</ParentWindow>
+			   <ParentObject>n76</ParentObject>
+			   <Name>1</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击确认</TaskDesc>
+			<UiData>
+			   <ParentWindow>FuPatinter</ParentWindow>
+			   <Name>n80</Name>
+			</UiData>
+         </li>
+		 <li Type="WaitDrawFu">
+		    <TaskDesc>请玩家依照图中所示，尝试绘制一张符咒，并在完成后点击确定按钮。</TaskDesc>
+			<VideoData>
+			   <Videopath>XL-05</Videopath>
+			</VideoData>
+	     </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击是的</TaskDesc>
+			<UiData>
+			   <ParentWindow>MessageSelect</ParentWindow>
+			   <Name>n30</Name>
+			   <Height>120</Height>
+			   <Width>40</Width>
+			   <Fy>-120</Fy>
+			   <Fx>-5</Fx>
+			</UiData>
+         </li>
+		  <li Type="Special">
+		    <Special>NpcInterruptJob</Special>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="WaitCMD">
+	     	<TaskDesc>等待画符完成</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			   <CMD>PaintCharm</CMD>
+			</ItemData>
+			<LookThing>730</LookThing>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickItem">
+            <TaskDesc>点击选择画符桌</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>5487</li>
+			   </Items>
+			</ItemData>
+         </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击生产按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>生产</Name>
+			</UiData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>如生产界面中所示，符纸有不同的几种规格，画符时使用不同的符纸，绘制出来的符咒加成效果也各不一样，通常来说，品阶越高的符纸绘制出来的符咒加成效果越强。</Desc>
+			   <ParentWindow>BuildingProduce</ParentWindow>
+			   <Name>SelectList</Name>
+			</TipsData>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>关闭生产界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>BuildingProduce</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>玩家所绘制的符咒品质就是成品符咒的品质，这也是影响符咒效果的重要属性之一。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击选择垃圾</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>7381</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击下方物品面板的详细信息</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n280</Name>
+			</UiData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可查看垃圾已经吸收并存储的灵气值。</Desc>
+			   <ParentWindow>TipPopPanel</ParentWindow>
+			   <Name>n0</Name>
+			</TipsData>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭物品面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n150</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		 <li Type="Special">
+		    <Special>SetCmdState</Special>
+		    <SpecialStr>1</SpecialStr>
+		 </li>				 
+		  <li Type="ClickUi">
+            <TaskDesc>点击屏幕下方的熔炼按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>cmds</ParentObject>
+			   <Name>Melting</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickMapKey">
+            <TaskDesc>点击选择垃圾</TaskDesc>
+			<MapKeyData>
+			  <Items>
+			      <li>7381</li>
+			  </Items>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>退出当前模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n150</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		  <li Type="Special">
+		    <Special>NpcInterruptJob</Special>
+			<ItemData>
+			   <Items>
+			      <li>730</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="WaitCMD">
+            <TaskDesc>等待熔炼完成</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>7381</li>
+			   </Items>
+			   <CMD>Melting</CMD>
+			</ItemData>
+			<LookThing>730</LookThing>
+         </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>通过刚刚对垃圾的熔炼操作，玩家获得了一些灵石。</Desc>
+			   <Width>60</Width>
+			   <Height>60</Height>
+			   <MaskKey>855</MaskKey>
+			</TipsData>
+			<LookKey>855</LookKey>
+	  	</li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>游戏中，各种物品都会慢慢的吸取自然界中的天地灵气，内门弟子既能通过熔炼功能获得灵石，也能用来消除一些不需要的物资。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	  </Tasks>
+    </TeachingDef>
+
+   </List>
+</TeachingDefs>

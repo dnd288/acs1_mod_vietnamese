@@ -1,0 +1,448 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="MutationCondition_Debug">
+			<DisplayName>Sense of Loss</DisplayName>
+			<Desc>Meaning unknown…………</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_1">
+			<DisplayName>Eat Any Item</DisplayName>
+			<Desc>A single disciple consumes 49 random items</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_2">
+			<Desc>A single disciple consumes 124 random items</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_3">
+			<Desc>A Single Disciple Consumes 99 Items of 7th tier or Higher</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_4">
+			<DisplayName>Consume Items with Specific Tags</DisplayName>
+			<Desc>A single disciple consumes 36 random foods</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_5">
+			<Desc>A Single disciple consumes any food 81 times</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_6">
+			<Desc>A single disciple consumes 10 different food</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_7">
+			<Desc>A single disciple consumes 3 different earth attribute food</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_8">
+			<Desc>A single disciple consumes 5 different earth attribute food</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_9">
+			<Desc>A single disciple consumes 8 different earth attribute food</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_10">
+			<DisplayName>Consume Metal Attribute Items</DisplayName>
+			<Desc>A single disciple consumes 3 metal attribute items</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_11">
+			<Desc>A single disciple consumes metal attribute items 7 times</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_12">
+			<Desc>A single disciple consumes 5 different Metal attribute items</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_13">
+			<DisplayName>Consume Wood Attribute Items</DisplayName>
+			<Desc>A single disciple consumes 21 wood attribute items</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_14">
+			<Desc>A single disciple consumes 55 wood attribute items</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_15">
+			<Desc>A single disciple consumes 7 different Wood attribute drugs</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_16">
+			<DisplayName>Consume water attribute items</DisplayName>
+			<Desc>A disciple consumes 5 or more 2nd-tier (or higher) Water attribute items</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_17">
+			<Desc>A disciple consumes 16 Water attribute items of 3rd tier or higher</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_18">
+			<Desc>A single disciple consumes 7 different Water attribute Drugs</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_19">
+			<DisplayName>Consume Fire Attribute Items</DisplayName>
+			<Desc>A single disciple consumes fire attribute items 5 times</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_20">
+			<Desc>A single disciple consumes 16 items of the Fire element</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_21">
+			<Desc>A single disciple consumes 7 different Fire attribute items</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_22">
+			<DisplayName>Consume Earth Attribute Items</DisplayName>
+			<Desc>A disciple consumes 10 Earth attribute items of 2nd tier or higher</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_23">
+			<Desc>A disciple consumes 30 or more 3rd-tier (or higher) Earth attribute items</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_24">
+			<Desc>A single disciple consumes 7 different Earth attribute drugs</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_25">
+			<DisplayName>Consume none attribute items</DisplayName>
+			<Desc>A single disciple consumes 30 non-attribute items</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_26">
+			<Desc>A single disciple consumes 99 none ttribute items</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Eat_27">
+			<Desc>A single disciple consumes 4 different Undefined attribute items</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_1">
+			<DisplayName>Globally Eat any item</DisplayName>
+			<Desc>Sect disciples collectively consume 500 any Items</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_2">
+			<Desc>Sect disciples collectively consume 1000 any Items</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_3">
+			<Desc>Sect disciples collectively consume 100 unique Items</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_4">
+			<DisplayName>Globally Eat any food</DisplayName>
+			<Desc>Sect disciples collectively consume 400 any foods</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_5">
+			<DisplayName>Globally Eat any food</DisplayName>
+			<Desc>Sect disciples collectively consume 800 any foods</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_6">
+			<Desc>A single disciple consumes 12 different food</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_7">
+			<DisplayName>Globally Eat gold attribute items</DisplayName>
+			<Desc>Sect disciples collectively consume 30 Metal attribute items,</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_8">
+			<Desc>Sect disciples collectively consume 80 Metal attribute items</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_9">
+			<Desc>Sect disciples collectively consume 10 different Metal attribute items</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_10">
+			<DisplayName>Globally consume Wood attribute drugs</DisplayName>
+			<Desc>Sect disciples collectively consume 30 Wood attribute medicines,</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_11">
+			<Desc>Sect disciples collectively consume 80 Wood attribute medicines</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_12">
+			<Desc>Sect disciples collectively consume 10 different Wood attribute drugs</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_13">
+			<DisplayName>Globally consume Water attribute drugs</DisplayName>
+			<Desc>Sect disciples collectively consume 30 Water attribute Pills</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_14">
+			<Desc>Sect disciples collectively consume 80 Water attribute Pills</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_15">
+			<Desc>Sect disciples collectively consume 10 different Water attribute drugs</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_16">
+			<DisplayName>Globally consume Fire attribute items</DisplayName>
+			<Desc>Sect disciples collectively consume 30 Fire attribute Items</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_17">
+			<Desc>Sect disciples collectively consume 80 Fire attribute items</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_18">
+			<Desc>Sect disciples collectively consume 10 different Fire attribute items</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_19">
+			<DisplayName>Globally consume Earth attribute drugs</DisplayName>
+			<Desc>Sect disciples collectively consume 30 Earth attribute Medicines</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_20">
+			<Desc>Sect disciples collectively consume 80 Earth attribute medicines</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_21">
+			<Desc>Sect disciples collectively consume 10 different Earth attribute items</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_22">
+			<DisplayName>Globally consume none attribute items</DisplayName>
+			<Desc>Sect disciples collectively consume 300 none element Items</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_23">
+			<Desc>Sect disciples collectively consume 800 Undefined Items</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Eat_24">
+			<Desc>Sect disciples collectively consume 7 different items with none element</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_BrokenNeck_1">
+			<DisplayName>Breakthrough</DisplayName>
+			<Desc>A single disciple completes Foundation Training</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_BrokenNeck_2">
+			<Desc>A single disciple forms a Golden Core</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_BrokenNeck_3">
+			<Desc>A single disciple breakthroughs to the Primordial Spirit stage</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_BrokenNeck_1">
+			<DisplayName>Global Breakthrough</DisplayName>
+			<Desc>Sect disciples collectively building foundations 3 times</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_BrokenNeck_2">
+			<Desc>Sect disciples cumulatively breakthough to Golden Core for 3 times</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_BrokenNeck_3">
+			<Desc>Sect disciples cumulatively reach the Primordial Spirit State 3 times</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_JustTalkJH_1">
+			<DisplayName>Talk</DisplayName>
+			<Desc>The sect completes conversations with 10 different beings.</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_JustTalkJH_2">
+			<Desc>The Sect completes conversations with 20 different beings</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_JustTalkJH_3">
+			<Desc>The sect completes conversations with 30 different beings</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_UnlockJHHeart_1">
+			<DisplayName>Talk</DisplayName>
+			<Desc>The sect has cumulatively conversed with 3 unique beings, breaking their mental defenses</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_UnlockJHHeart_2">
+			<Desc>The sect collectively converses with 8 different beings and breaks their mental defenses</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_UnlockJHHeart_3">
+			<Desc>The sect collectively converses with 24 different beings and breaks their mental defenses</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_InviteJH_1">
+			<DisplayName>Invite</DisplayName>
+			<Desc>The sect has cumulatively invited 3 mortals to visit the sect</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_InviteJH_2">
+			<Desc>The sect has invited 12 ordinary people to visit</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_InviteJH_3">
+			<Desc>The sect has invited 3 or more Core Shaping stage cultivators to visit</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_InviteJH_4">
+			<Desc>The sect has invited 10 or more Gold Core stage cultivators to visit</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_InviteJH_5">
+			<Desc>The Sect Has Invited 1 Qi Shaping or Higher Cultivator to Visit</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_SendGiftToJH_1">
+			<DisplayName>Gift</DisplayName>
+			<Desc>The Sect gifts any item to 3 different cultivators</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_SendGiftToJH_2">
+			<Desc>The Sect has gifted any item to 12 different cultivators</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_SendGiftToJH_3">
+			<Desc>The sect has given gifts to 36 unique cultivators</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_DaZuo_1">
+			<DisplayName>A single Disciple Cumulative Meditation</DisplayName>
+			<Desc>A single disciple accumulates 3 days of meditation</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_DaZuo_2">
+			<Desc>A single disciple accumulates 12 days of meditation</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_DaZuo_3">
+			<Desc>A single disciple accumulates 36 days of meditation</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_DaZuo_4">
+			<DisplayName>Count of a single disciple's full-time meditation</DisplayName>
+			<Desc>A single disciple meditates continuously for 12 hours</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_DaZuo_5">
+			<Desc>A single disciple meditates continuously for 30 hours</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_DaZuo_6">
+			<Desc>A single disciple continuously meditates for 30 days</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_DaZuo_1">
+			<DisplayName>Sect Cumulative Meditation</DisplayName>
+			<Desc>The sect accumulates 30 days of meditation</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_DaZuo_2">
+			<Desc>The sect accumulates 120 days of meditation</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_DaZuo_3">
+			<Desc>The sect accumulates 360 days of meditation</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Sleep_1">
+			<DisplayName>Personal Sleep</DisplayName>
+			<Desc>A single disciple completes 5 full sleeps on a bed</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Sleep_2">
+			<Desc>A single disciple completes 20 full sleeps in bed</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Sleep_4">
+			<Desc>A single disciple accumulates 12 hours of sleep on the ground</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Sleep_5">
+			<Desc>A single disciple accumulates 36 hours of sleep on the ground</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Sleep_6">
+			<Desc>A single disciple accumulates 180 hours of sleep on the ground</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Sleep_1">
+			<DisplayName>Sect Cumulative Sleep</DisplayName>
+			<Desc>Once the sect accumulates 120 hours of sleep</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Sleep_2">
+			<Desc>Once the sect accumulates 360 hours of sleep</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Love_1">
+			<DisplayName>Love</DisplayName>
+			<Desc>A disciple is confessed to once</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Love_2">
+			<DisplayName>Love</DisplayName>
+			<Desc>A single disciple is confessed to 3 times</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Love_3">
+			<DisplayName>Love</DisplayName>
+			<Desc>A single disciple confesses once</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Love_4">
+			<DisplayName>Love</DisplayName>
+			<Desc>A single disciple confesses three times</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Love_5">
+			<DisplayName>Love</DisplayName>
+			<Desc>A single disciple confesses once and succeeds</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Love_6">
+			<DisplayName>Love</DisplayName>
+			<Desc>A single disciple receives a confession and accepts</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Damage_1">
+			<DisplayName>Injured</DisplayName>
+			<Desc>A single disciple suffers any minor injury 5 times</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Damage_2">
+			<Desc>A single disciple sustains 10 minor injuries</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Damage_3">
+			<Desc>A single disciple suffers a minor Bone injury once</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Damage_4">
+			<Desc>A single disciple suffers minor Bone injuries 3 times</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Damage_5">
+			<Desc>A single disciple suffers a severe Bone injury once</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_SchoolScoreUp_1">
+			<DisplayName>Sect Reputation</DisplayName>
+			<Desc>The sect's reputation points exceed 5000</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_SchoolScoreUp_2">
+			<Desc>The sect's reputation points exceed 20000</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_SchoolScoreUp_3">
+			<Desc>The sect's reputation points exceed 180000</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_SchoolScoreUp_4">
+			<Desc>The sect's reputation gains 500 points in a single instance</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_SchoolScoreUp_5">
+			<Desc>The sect's reputation reaches 2000 points in a single instance</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_SchoolScoreUp_6">
+			<Desc>The sect's reputation gains reach 10000 points in a single instance</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Kill_1">
+			<DisplayName>Kill</DisplayName>
+			<Desc>A single disciple kills 10 random targets</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Kill_2">
+			<Desc>A single disciple kills 30 random targets</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Kill_3">
+			<Desc>A single disciple kills 3 Core Shaping or higher cultivators</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Kill_4">
+			<Desc>A single disciple kills 5 Golden Core or higher cultivators</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Kill_5">
+			<Desc>A disciple kills 15 Primordial Spirit stage or higher targets.</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Kill_6">
+			<DisplayName>Kill</DisplayName>
+			<Desc>A single disciple kills 3 monsters</Desc>
+		</Text>
+		<Text Name="MutationCondition_One_Kill_7">
+			<DisplayName>Kill</DisplayName>
+			<Desc>A single disciple kills 5 or more beasts at the Golden Core stage</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Kill_1">
+			<Desc>The sect cumulatively kills 100 random targets</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Kill_2">
+			<Desc>The sect accumulates 300 kills of any targets</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Kill_3">
+			<Desc>The sect kills 18 Core Shaping or higher cultivators</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Kill_4">
+			<Desc>The sect kills 30 Golden Core or higher cultivators</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Kill_5">
+			<Desc>The sect collectively kills 81 targets of Primordial Spirit stage or higher</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Kill_6">
+			<Desc>The Sect cumulatively kills 18 monsters</Desc>
+		</Text>
+		<Text Name="MutationCondition_All_Kill_7">
+			<Desc>The Sect kills 30 monsters at or above the Golden Core stage</Desc>
+		</Text>
+		<Text Name="MutationCondition_Constant_All_Kill_1">
+			<DisplayName>Kill</DisplayName>
+			<Desc>Kill 7 rabbits, next time doubled</Desc>
+		</Text>
+		<Text Name="MutationCondition_Constant_All_Kill_2">
+			<DisplayName>Kill</DisplayName>
+			<Desc>Kill 5 wolves, next time doubled</Desc>
+		</Text>
+		<Text Name="MutationCondition_Constant_All_Kill_3">
+			<DisplayName>Kill</DisplayName>
+			<Desc>Kill 3 bears, next time doubled</Desc>
+		</Text>
+		<Text Name="MutationCondition_Constant_All_Kill_4">
+			<DisplayName>Kill</DisplayName>
+			<Desc>Kill 7 turtles, next time doubled</Desc>
+		</Text>
+		<Text Name="MutationCondition_Constant_All_Kill_5">
+			<DisplayName>Kill</DisplayName>
+			<Desc>Kill 5 tigers, next time doubled</Desc>
+		</Text>
+		<Text Name="MutationCondition_Constant_All_Kill_6">
+			<DisplayName>Kill</DisplayName>
+			<Desc>Kill 5 cows, next time doubled</Desc>
+		</Text>
+		<Text Name="MutationCondition_Constant_All_Kill_7">
+			<DisplayName>Kill</DisplayName>
+			<Desc>Kill 7 chickens, next time doubled</Desc>
+		</Text>
+		<Text Name="MutationCondition_Constant_All_Kill_8">
+			<DisplayName>Kill</DisplayName>
+			<Desc>Kill 5 snakes, next time doubled</Desc>
+		</Text>
+		<Text Name="MutationCondition_Constant_All_Sacrific_1">
+			<DisplayName>Beast Sacrifice</DisplayName>
+			<Desc>Sacrificing to demons provokes Daemonia Temple's rage.</Desc>
+		</Text>
+		<Text Name="MutationCondition_Constant_All_SchoolLevelUp_1">
+			<DisplayName>Sect Reputation</DisplayName>
+			<Desc>Sect's reputation level increases by one level</Desc>
+		</Text>
+		<Text Name="MutationCondition_Constant_All_BrokenNeck_1">
+			<DisplayName>Global Breakthrough</DisplayName>
+			<Desc>One sect disciple ascends</Desc>
+		</Text>
+		<Text Name="MutationCondition_Constant_One_Kill_1">
+			<Desc>A single disciple kills a Golden Core or higher stage cultivator</Desc>
+		</Text>
+	</List>
+</Texts>

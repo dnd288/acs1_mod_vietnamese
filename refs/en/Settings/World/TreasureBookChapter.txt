@@ -1,0 +1,11 @@
+ID	Desc
+
+1	New Cultivator
+2	Work Assign
+3	Sect build
+4	Elements and Fengshui
+5	Cultivation Path
+6	Ancient Beasts
+7	Immortals and Mortals
+8	Yaoguai Uprise
+9	Secret Manuals

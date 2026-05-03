@@ -1,0 +1,19 @@
+<Defs>
+	<List>
+	<!-- 如果Mod需要调整UI上的显示，新增一个 Name 为 "_Override" 的配置即可 -->
+	<!-- If the Mod needs to adjust the display on the UI, just add a new config Name “_Override” -->
+		<Def Name="_Default">
+			<Basic>
+				<li>Mutation_TaiShi</li>
+				<li>Mutation_TaiZhong</li>
+				<li>Mutation_TaiXu</li>
+				<li>Mutation_TaiZhen</li>
+			</Basic>
+			<Advance>
+				<li>Mutation_TaiXuan</li>
+				<li>Mutation_TaiYi</li>
+				<li>Mutation_TaiJi</li>
+			</Advance>
+		</Def>
+	</List>
+</Defs>

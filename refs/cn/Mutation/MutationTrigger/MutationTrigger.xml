@@ -1,0 +1,188 @@
+
+
+<!--
+
+		/// <summary>
+    ///天道类型 1.太始 2.太终 3.太真 4.太虚 5.太玄 6太易 7.太极
+    /// </summary>
+    public enum g_emMutationTriggerType
+    {
+        None = 0,
+        TaiShi,
+        TaiZhong,
+        TaiZhen,
+        TaiXu,
+        TaiXuan ,
+        TaiYi,
+        TaiJi,
+    }
+
+ -->
+
+
+<Defs>
+	<List>
+		<!--天道基础信息配置 -->
+		<Def Name="Mutation_TaiShi">
+			<DisplayName>太始</DisplayName> 	           			<!--天道名字 -->
+			<Type>TaiShi</Type> 						 		<!-- 天道类型 1.太始 2.太终 3.太真 4.太虚 5.太玄 6太易 7.太极-->
+			<Desc>新游戏开局连续获得3次恒定天道异动。</Desc>
+			<Icon>res\Sprs\tiandao_taishi.png</Icon>
+			<Trigger>
+				<StartGame>
+					<Extent>
+						<Desc>新的故事开启，太始天道发生异动……</Desc>
+						<TypeDef>Mutation_Extent_Deep</TypeDef>
+						<Count>3</Count>
+					</Extent>
+				</StartGame>
+			</Trigger>
+		</Def>
+		
+		<Def Name="Mutation_TaiZhong">
+			<DisplayName>太终</DisplayName>
+			<Type>TaiZhong</Type>
+			<Desc>每隔10/50/100天，触发1次动荡/阴阳/恒定的天道异动。</Desc>
+			<Icon>res\Sprs\tiandao_taizhong.png</Icon>
+			<Trigger>
+				<Time>
+					<Days>
+						<li PerDay="10">
+							<Extent>
+								<Desc>随着时间流逝，世间发生了些许变化……</Desc>
+								<TypeDef>Mutation_Extent_Shallow</TypeDef>
+								<Count>1</Count>
+							</Extent>
+						</li>
+						<li PerDay="50">
+							<Extent>
+								<Desc>随着时间流逝，这个世界发生了改变……</Desc>
+								<TypeDef>Mutation_Extent_Middle</TypeDef>
+								<Count>1</Count>
+							</Extent>
+						</li>
+						<li PerDay="100">
+							<Extent>
+								<Desc>随着时间流逝，这个世界发生了剧变……</Desc>
+								<TypeDef>Mutation_Extent_Deep</TypeDef>
+								<Count>1</Count>
+							</Extent>
+						</li>
+					</Days>
+				</Time>
+			</Trigger>
+
+		</Def>
+
+		<Def Name="Mutation_TaiZhen">
+			<DisplayName>太真</DisplayName>
+			<Type>TaiZhen</Type>
+			<Desc>门派声望每提升1级，触发1次阴阳天道异动；每6次触发恒定天道异动。</Desc>
+			<Icon>res\Sprs\tiandao_taizhen.png</Icon>
+			<TriggerInfo> 							  <!--触发时机与效果信息 -->
+				<Desc>门派等级提升，触发了太真天道</Desc> 
+			</TriggerInfo>
+			<Trigger>
+				<School>
+					<Score>
+						<li PerLevel="1">
+							<Extent>
+								<Desc>[SCHOOL]名望提升，触动了太真天道……</Desc>
+								<TypeDef>Mutation_Extent_Middle</TypeDef>
+								<Count>1</Count>
+							</Extent>
+						</li>
+						<li PerLevel="6">
+							<Extent>
+								<Desc>[SCHOOL]名望显著提升，举世闻名，竟触动了太真天道……</Desc>
+								<TypeDef>Mutation_Extent_Deep</TypeDef>
+								<Count>1</Count>
+							</Extent>
+						</li>
+					</Score>
+				</School>
+			</Trigger>
+		</Def>
+
+		<Def Name="Mutation_TaiXu">
+			<DisplayName>太虚</DisplayName>
+			<Type>TaiXu</Type>
+			<Desc>每次门派弟子突破境界，有几率触发1次天道异动。</Desc>
+			<Icon>res\Sprs\tiandao_taixu.png</Icon>
+			<Trigger>
+				<StageLevelChange>
+					<LevelChangeInfos>
+						<li>
+							<StageLevel>Qi</StageLevel>
+							<Rate>0.05</Rate>
+							<Extent>
+								<Desc>[NPC]初踏仙途，触动了太虚天道……</Desc>
+								<Weight>Mutation_Extent_Shallow,70;Mutation_Extent_Middle,25;Mutation_Extent_Deep,5</Weight>
+								<Count>1</Count>
+							</Extent>
+						</li>
+						<li>
+							<StageLevel>Dan2</StageLevel>
+							<Rate>0.1</Rate>
+							<Extent>
+								<Desc>[NPC]修为精进，触动了太虚天道……</Desc>
+								<Weight>Mutation_Extent_Shallow,60;Mutation_Extent_Middle,30;Mutation_Extent_Deep,10</Weight>
+								<Count>1</Count>
+							</Extent>
+						</li>
+						<li>
+							<StageLevel>God</StageLevel>
+							<Rate>0.2</Rate>
+							<Extent>
+								<Desc>[NPC]初窥大道，引发太虚天道发生异动……</Desc>
+								<Weight>Mutation_Extent_Shallow,45;Mutation_Extent_Middle,35;Mutation_Extent_Deep,20</Weight>
+								<Count>1</Count>
+							</Extent>
+						</li>
+						<li>
+							<StageLevel>God2</StageLevel>
+							<Rate>1</Rate>
+							<Extent>
+								<Desc>[NPC]得道飞升，引发太虚天道发生异动……</Desc>
+								<Weight>Mutation_Extent_Shallow,35;Mutation_Extent_Middle,35;Mutation_Extent_Deep,30</Weight>
+								<Count>1</Count>
+							</Extent>
+						</li>
+					</LevelChangeInfos>
+					<Limit>Deep,5;Middle,10</Limit>
+				</StageLevelChange>
+			</Trigger>
+		</Def>
+
+
+		<Def Name="Mutation_TaiXuan">
+			<DisplayName>太玄</DisplayName>
+			<Type>TaiXuan</Type>
+			<Desc>无法手动选择动荡天道异动和阴阳天道异动的效果。</Desc>
+			<Icon>res\Sprs\tiandao_taixuan.png</Icon>
+			<Trigger>
+				<NoSelect>1</NoSelect>
+			</Trigger>
+		</Def>
+
+		<Def Name="Mutation_TaiYi">
+			<DisplayName>太易</DisplayName>
+			<Type>TaiYi</Type>
+			<Desc>动荡天道异动的效果生效后，有概率重置一个效果</Desc>
+			<Icon>res\Sprs\tiandao_taiyi.png</Icon>
+			<Trigger>
+				<RerandomEffect>0.4,0.3,0.2</RerandomEffect>
+			</Trigger>
+		</Def>
+
+		<Def Name="Mutation_TaiJi">
+			<DisplayName>太极</DisplayName>
+			<Type>TaiJi</Type>
+			<Desc>获得动荡天道异动和阴阳天道异动时，扩大异动效果的随机范围。</Desc>
+			<Icon>res\Sprs\tiandao_taiji.png</Icon>
+			<Trigger>
+				<ExpandRandomRange>1</ExpandRandomRange>
+			</Trigger>
+		</Def>
+	</List>
+</Defs>

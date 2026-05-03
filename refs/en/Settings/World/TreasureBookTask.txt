@@ -1,0 +1,92 @@
+ID	Desc	HelpTitle
+
+1	Build a bonfire.	Make fire
+2	Chop a tree	Chop. trees
+3	Build a well.	Gather Water
+4	Make a dry meat	Cook meal.
+5	Build a material work place.	Material work place
+6	Make 5 timbers from the material work place.	Make Timbers
+7	Assign an storage area.	Build a storage
+8	Open and check the storage filter.	Config a storage
+9	Open and check the mood panel of a character.	Check the mood
+10	Build a room with a bed inside, then assign the bed to a disciple.	Assign bedrooms
+11	Build a work place.	Work place
+12	Make a farming tools from a work place.	Make farming tools
+13	Assign a field and plant wheats.	Plant wheats
+14	Make a bow from the handcraft station.	Make a bow
+15	Give the hunter a bow.	Equip a bow
+16	Go for a hunt.	Hunt!
+17	Make a pickaxe from the handcraft statio.n	Make a pickaxe
+18	Give the miner a pickaxe.	Equip a pickaxe
+19	Post a mine command to collect mine.	Collect mine
+20	Open the work panel and set one's priority to Peon.	Assign peons
+21	Make a disciple to eat a forming pill.	Eat a forming pill
+22	Make a disciple to promote.	Promote to inner
+23	Build and assign a room for an inner disciple.	Assign inner rooms
+24	Rebuild your sect.	Rebuild your sect
+25	Send a disciple to an adventure.	First time Adventure
+26	Assign a trade area.	Trade area
+27	Trade with the itinerant merchant.	Trade
+28	Assign a herb garden and plant spirit leaves.	Plant spirit leaves
+29	Build a crafting table.	Crafting table
+30	Build an alchemy furnace.	Alchemy furnace
+31	Build an observatory.	Build an observatory
+32	Tap the Taichi on the up-right corner and Check the Five element diagram.	Element diagram
+33	Build a bed with metal element materials.	Metal element bed
+34	According to the rule that earth begets metal, build an oil lamp with earth materials beside the metal element bed.	Element beget
+35	Build earth element decorations around the metal bed continously to make the bed very auspicious.	Auspicious Bed
+36	Select a room and check its fengshui.	Room fengshui
+37	Build a very auspicious room.	Auspicious room
+38	Check the element of an inner's law and make a bed with materials that beget the element.	Rooms match laws
+39	Click the Taichi icon to enter the fengshui mode.	Fengshui mode
+40	Make all fengshui buildings in the sect at least auspicious.	Very auspicious
+41	Chop spirit trees to collect spirit woods.	Chop spirit trees
+42	Build a cushion and assign it to an inner disciple.	Assign a cushion
+43	Build a display beside the cushion and put a spirit wood on it.	Gather Qi
+44	Open the inspiration panel and learn any manual	First time. Inspiration
+45	Set a disciple's aim to mind.	Set Aim to Mind
+46	Set a disciple's aim to practice after his mental state reaches 75.	Set Aim to practice
+47	Try to breakthrough after an inner reached a bottleneck.	Breakthrough
+48	Try to make an artifact from the crafting table.	Make an artifact
+49	Make a pill from the alchemy furnace.	Make a pill
+50	Draw a talisman as you like.	Draw a talisman
+51	Identify a Fengshui relic	Fengshui relic
+52	Put a fengshui relic in a room to make it take effect.	Relic take effect
+53	Assign a pesture area.	Pesture area
+54	Tame an animal.	Tame an animal
+55	Plant a spirit root.	Plant a spirit root
+56	Make a spirit root to grow.	Spirit root grow
+57	Nurture a spirit root.	Nurture a spirit root
+58	Sympathy with a spirit root.	Sympathy
+59	Visit an ancient sage and ask about ancient beasts.	Ancient sages
+60	Use very auspicious room to suppress the Mysterious cavern.	Mysterious cavern
+61	Enter a wild scene.	Wild scenes
+62	Build an agency.	Build an agency
+63	Assign 10 outers to an agency.	Assign outers
+64	Select a policy for an agency and solve an policy event.	Select policy
+65	Build an agency once.	Build an agency
+66	Visit an agency and collect faith once.	Collect faith
+67	Chat with any character and get a message.	Get a message
+68	Give one of its favors to a sect leader.	Hit the Spot
+69	Gain the access of a sect.	Gain access
+70	Promote a disciple with a Divine Law.	Divine Cultivation
+71	But Chant of Animal from Mt. Hundred Insects and make a Enlightening pill.	Enlightening pill
+72	Get an awakened animal.	Awakened animal
+73	Put an awakened animal in a cozy place.	Make a cozy place
+74	Make an awakened animal to gain thought shards.	Gain thought shards
+75	Make an awakened animal to gain a thought.	Gain thoughts
+76	Make an awakened animal to gain an intellegence shard.	Intellegence shard
+77	Make an awakened animal to awaken intelligence.	Awaken Intelligence
+78	Gain an Sentient spirit.	Sentient spirit
+79	Change a sentient spirit's five element by devouring.	Five elements
+80	Promote a disciple with a Physical Law.	Physical Cultivation
+81	Promote a disciple with the Talisman Law.	Talisman Cultivation
+82	Get a formation manual from the 7th senior brother's remains in the Mt. Coppertomb.	Familiar remains
+83	Design a formation in the formation menu.	Design a formation
+84	Successfully form a formation.	Form a formation
+85	Equip a mantle.	Equip a mantle
+86	Seal a contract by a miracle.	Seal a contract
+87	Get an auction invitation from the itinerant merchant.	Auction invitation
+88	Join the auction.	Join the auction
+89	Get sub spirits.	Get sub spirits
+90	Complete an attachment.	Attachment

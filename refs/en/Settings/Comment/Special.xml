@@ -1,0 +1,24 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="SpecialZhen">
+			<Notes>Comment Panel of Formation</Notes>
+			<Title>Formation</Title>
+			<Desc>Combine the strength of people into one. Such is the ultimate truth about the way of formations.</Desc>
+		</Text>
+		<Text Name="SpecialElixirGas">
+			<Notes>Comment about Alchemy Qi</Notes>
+			<Title>Alchemy Qi</Title>
+			<Desc>The Alchemy Qi in the Sect</Desc>
+		</Text>
+		<Text Name="SpecialSacrific">
+			<Notes>Comment about Demon Sacrifice</Notes>
+			<Title>Demon Sacrifice</Title>
+			<Desc>Demon Sacrifice Panel</Desc>
+		</Text>
+		<Text Name="SpecialMutation">
+			<Notes>Panel for Comments on Heavenly Chaos</Notes>
+			<Title>Heavenly Chaos</Title>
+			<Desc>The Heavenly Dao in this realm has entered its final stage, further destabilizing the already chaotic heavenly laws</Desc>
+		</Text>
+	</List>
+</Texts>

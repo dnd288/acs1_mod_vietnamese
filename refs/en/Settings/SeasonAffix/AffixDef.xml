@@ -1,0 +1,32 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="affix_1">
+			<Display>Beast convertion</Display>
+			<Desc>[color=#B0FA6B][size=18]   · High Chance of Animals Turning into Beasts Upon Death[/color][/size]</Desc>
+		</Text>
+		<Text Name="affix_2">
+			<Display>Alchemy Qi Fullness</Display>
+			<Desc>[color=#B0FA6B][size=18]   · Successful Alchemy Boosts Scene's Five Elements Qi Based on Tier &amp; Elements[/color][/size]</Desc>
+		</Text>
+		<Text Name="affix_5">
+			<Display>Beast Sacrifice</Display>
+			<Desc>[color=#B0FA6B][size=18]   · Activate Beast Sacrifice\n   · Utilize Beast Sacrifice in the Ancestral Shrine.[/color][/size]</Desc>
+		</Text>
+		<Text Name="affix_3">
+			<Display>Abundant Resources</Display>
+			<Desc>[size=18]   ·Boosted Drops from Beasts &amp; Animals\n   ·Merchants Double Their Goods[/size]</Desc>
+		</Text>
+		<Text Name="affix_4">
+			<Display>Spirit Pet</Display>
+			<Desc>[size=18]   · Start with Pet Hua Juan\n   · Enhanced Nutrition from Feeding Pets[/size]</Desc>
+		</Text>
+		<Text Name="challenge_affix_1">
+			<Display>Frenzied Beast</Display>
+			<Desc>   ·Increased Difficulty for Beast Invasion</Desc>
+		</Text>
+		<Text Name="challenge_affix_2">
+			<Display>Chaotic Weather</Display>
+			<Desc>   · Enhanced Negative Weather Effects\n   · Elevated Tribulation Difficulty</Desc>
+		</Text>
+	</List>
+</Texts>

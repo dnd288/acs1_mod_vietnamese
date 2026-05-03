@@ -1,0 +1,96 @@
+<Defs><List>
+	<Def Name="affix_1">
+		<Display>化妖天灾</Display>
+		<Desc>[color=#B0FA6B][size=18]   · 动物死亡时有大概率变为妖兽[/color][/size]</Desc>
+		<Effects>
+			<li>
+				<Type>AnimalToMonster</Type><!--动物死亡时变为妖兽的基础概率-->
+				<Value>0.25</Value>
+			</li>
+			<li>
+				<Type>AnimalToMonsterAdditionIntervalDay</Type><!--动物死亡时变为妖兽的额外概率间隔-->
+				<Value>10</Value>
+			</li>
+			<li>
+				<Type>AnimalToMonsterAdditionParam</Type><!--动物死亡时变为妖兽的额外概率加值-->
+				<Value>0.07</Value>
+			</li>
+		</Effects>
+	</Def>
+	<Def Name="affix_2">
+		<Display>丹气四溢</Display>
+		<Desc>[color=#B0FA6B][size=18]   · 炼丹成功时，根据炼丹的品阶和五行，增加场景中的五行丹气[/color][/size]</Desc>
+		<Effects>
+			<li>
+				<Type>ElixirGas</Type>
+				<Value>1</Value>
+			</li>
+		</Effects>		
+	</Def>
+	<Def Name="affix_5">
+		<Display>祭妖</Display>
+		<Desc>[color=#B0FA6B][size=18]   · 开启祭妖功能\n   · 在祖师殿可以使用祭妖台功能[/color][/size]</Desc>
+		<Effects>
+			<li>
+				<Type>Sacrific</Type>
+				<Value>1</Value>
+			</li>
+		</Effects>
+	</Def>	
+	<Def Name="affix_3">
+		<Display>物资丰富</Display>
+		<Desc>[size=18]   · 增加妖兽与动物的掉落\n   · 商人携带货物翻倍[/size]</Desc>
+		<Effects>
+			<li>
+				<Type>AnimalDropAdd</Type>
+				<Value>0.2</Value>
+			</li>
+			<li>
+				<Type>MonsterDropAdd</Type>
+				<Value>0.2</Value>
+			</li>
+			<li>
+				<Type>TraderGoodsAdd</Type>
+				<Value>1</Value>
+			</li>
+		</Effects>
+	</Def>
+	<Def Name="affix_4">
+		<Display>灵宠为伴</Display>
+		<Desc>[size=18]   · 初始获得灵宠花卷\n   · 喂食灵宠获得更多食物营养[/size]</Desc>
+		<Effects>
+			<li>
+				<Type>CallLsDog</Type>
+				<Value>1</Value>
+			</li>
+			<li>
+				<Type>LsEatAdd</Type>
+				<Value>0.5</Value>
+			</li>
+		</Effects>
+	</Def>
+	<Def Name="challenge_affix_1">
+		<Display>疯狂妖兽</Display>
+		<Desc>   · 妖兽入侵的难度更高</Desc>
+		<Effects>
+			<li>
+				<Type>MonsterInvadeAdd</Type>
+				<Value>0.5</Value>
+			</li>
+		</Effects>
+	</Def>
+	<Def Name="challenge_affix_2">
+		<Display>混乱天象</Display>
+		<Desc>   · 天气负面效果提高\n   · 天劫难度变大</Desc>
+		<Effects>
+			<li>
+				<Type>WeatherNegativeEffectAdd</Type>
+				<Value>1</Value>
+			</li>
+			<li>
+				<Type>JieDifficultyAdd</Type>
+				<Value>0.5</Value>
+			</li>
+		</Effects>
+	</Def>
+</List></Defs>

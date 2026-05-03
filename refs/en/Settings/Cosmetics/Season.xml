@@ -1,0 +1,172 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="TheGate">
+			<CosmeticsDatas.0.Display>Sect Stele</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Sect Stele image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Elite Stele</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The majestic and ornate sect stone stele image, an honor exclusive to the elite strategy group.</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="LsDog">
+			<CosmeticsDatas.0.Display>Classic Huajuan</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Ordinary Huajuan Image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Demonization</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The daemonized Huajuan image in the Yaoguais' Era</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Building_JiaShan2">
+			<CosmeticsDatas.0.Display>Rock Garden (Hill)</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Rock Garden (Hill) image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Scenery - Twin Dragons</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The majestic and ornate rockery image, an honor exclusive to the elite strategy group.</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Building_Tower">
+			<CosmeticsDatas.0.Display>Subduer Pagoda</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Subduer Pagoda image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Peace and prosperity</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The image of the dragon bell suppressing evil spirits signifies peace and prosperity.</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Building_BigTripod">
+			<CosmeticsDatas.0.Display>Cauldron</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Large Cauldron image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Spirit Gourd</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The natural image of the Spirit Gourd symbolizes the pre-order milestone</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Building_ColdHole">
+			<CosmeticsDatas.0.Display>Frozen Furnace</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Frozen Furnace image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Crouching Dragon</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The image of an ancient and simple alchemy furnace with restrained divine light, a symbol of milestone reservation.</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Building_StoneMan">
+			<CosmeticsDatas.0.Display>Stone Giant</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Stone Giant image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Divine General Statue</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The image of a majestic armored general statue, a symbol of milestone reservation.</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Building_BigSwordPillar">
+			<CosmeticsDatas.0.Display>Sword Shield</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Sword Shield image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Dragon Slayer</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The image of an ancient giant sword with multiple seals.</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="IncenseTripod">
+			<CosmeticsDatas.0.Display>Incense Cauldron</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Incense Cauldron image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Violet Gold Furnace</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The image of the Purple Gold Furnace, renowned as a treasure of the Daoist sect.</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Building_BingFengDiaoSu">
+			<CosmeticsDatas.0.Display>Ice Phoenix</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Ice Phoenix Sculpture image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Phoenix King</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The magnificent and noble Phoenix King sculpture image.</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Building_QingTongLong">
+			<CosmeticsDatas.0.Display>Bronze Dragon</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Bronze Dragon image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Kirin</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>Tall and noble Kirin image.</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Item_HorseFromJY_Boar">
+			<CosmeticsDatas.0.Display>Classic Spirit Contract: Boar</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Spirit Contact Image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Monster</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The special Spirit Contract image in the Yaoguais' Era</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Building_XiaoDanLu1">
+			<CosmeticsDatas.0.Display>Small Furnace</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Small Furnace image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Crouching Dragon</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The image of an ancient and simple alchemy furnace with restrained divine light, a symbol of milestone reservation.</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Build_TheBigGate">
+			<CosmeticsDatas.0.Display>Sect Gate</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Sect Gate image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Floating Dragon Workshop</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The antique-style mountain gate decoration represents the sincerest apology.</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="WuDangXuanWuDeng">
+			<CosmeticsDatas.0.Display>Black Tortoise Lantern</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Black Tortoise Lantern image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Samantabhadra Lamp</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The symbol of vows, the Six-Tusked White Elephant demonstrates its power.</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Item_Other_PuppetTest">
+			<CosmeticsDatas.0.Display>Puppet</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Vessel image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Mysterious Puppet</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The Substitute image from Yaoguais' Era, thank you to every player who supports 'Amazing Cultivation Simulator'!</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Bed">
+			<CosmeticsDatas.0.Display>Bed</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Bed Image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Gathered Mist</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The Single Bed image from Yaoguais' Era, thank you to every player who supports 'Amazing Cultivation Simulator'!</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="DoubleBed">
+			<CosmeticsDatas.0.Display>Double Bed</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Double Bed image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Banish Evil</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The Double Bed image from Yaoguais' Era, thank you to every player who supports 'Amazing Cultivation Simulator'!</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="WaterTank">
+			<CosmeticsDatas.0.Display>Water Vat</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Water Vat image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Eight Scenery</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The Water Vat image from Yaoguais' Era, thank you to every player who supports 'Amazing Cultivation Simulator'!</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Candlestick">
+			<CosmeticsDatas.0.Display>Oil Lamp</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Oil Lamp Image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Perching Bird</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The Oil Lamp image from Yaoguais' Era, thank you to every player who supports 'Amazing Cultivation Simulator'!</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Building_MagicCushion">
+			<CosmeticsDatas.0.Display>Qi Cushion</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Qi Cushion Image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Demon Pattern</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The Qi Cushion image from Yaoguais' Era, thank you to every player who supports 'Amazing Cultivation Simulator'!</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="DanStove">
+			<CosmeticsDatas.0.Display>Alchemy Furnace</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Furnace Image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Demon Flame</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The Alchemy Furnace image from Yaoguais' Era, thank you to every player who supports 'Amazing Cultivation Simulator'!</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Cushion">
+			<CosmeticsDatas.0.Display>Cushion</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Cushion Image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Whirling Scale</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The Cushion image from Yaoguais' Era, thank you to every player who supports 'Amazing Cultivation Simulator'!</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Building_BigCenser">
+			<CosmeticsDatas.0.Display>Censer</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Censer Image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Hill Fall</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The Censer image from Yaoguais' Era, thank you to every player who supports 'Amazing Cultivation Simulator'!</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="StreetLight">
+			<CosmeticsDatas.0.Display>Lamp Post</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Lamp Post image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Drink Light</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The Lamp Post image from Yaoguais' Era, thank you to every player who supports 'Amazing Cultivation Simulator'!</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="SmallTable">
+			<CosmeticsDatas.0.Display>Table</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Table Image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Jade Table</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The Table image from Yaoguais' Era, thank you to every player who supports 'Amazing Cultivation Simulator'!</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Table">
+			<CosmeticsDatas.0.Display>Square Table</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Small Table image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Spirit Cloud</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The Small Square Table image from Yaoguais' Era, thank you to every player who supports 'Amazing Cultivation Simulator'!</CosmeticsDatas.1.Desc>
+		</Text>
+		<Text Name="Building_ItemShelf">
+			<CosmeticsDatas.0.Display>Display</CosmeticsDatas.0.Display>
+			<CosmeticsDatas.0.Desc>Classic Display image</CosmeticsDatas.0.Desc>
+			<CosmeticsDatas.1.Display>Dian Jiang</CosmeticsDatas.1.Display>
+			<CosmeticsDatas.1.Desc>The Display image from Yaoguais' Era, thank you to every player who supports 'Amazing Cultivation Simulator'!</CosmeticsDatas.1.Desc>
+		</Text>
+	</List>
+</Texts>

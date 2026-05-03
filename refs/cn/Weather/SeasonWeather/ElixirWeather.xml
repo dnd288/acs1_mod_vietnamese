@@ -1,0 +1,254 @@
+<Weathers><List>
+	<Weather Name="Weather_Elixir_Base">
+		<DisplayName>丹气四溢</DisplayName>
+		<StoryDesc>丹气弥漫在空气中，灵气变得更活跃了</StoryDesc>
+		<Icon>res/Sprs/ui/icon_danqi01</Icon>
+		<Kind>Type110</Kind>
+		<CantDispel>1</CantDispel>
+		<ClassName></ClassName>
+		<Modifier>Modifier_Weather_Season_DanQi</Modifier>
+		<DurationMin>100000</DurationMin>
+		<DurationMax>100000</DurationMax>		
+	
+		<Thunder>0</Thunder>
+		<ShowKind>None</ShowKind>
+		<ShowWeight>0</ShowWeight>
+		<Season>
+			<li>Spring</li>
+			<li>Summer</li>
+			<li>Autumn</li>
+			<li>Winter</li>
+		</Season>	
+	</Weather>
+
+	<Weather Name="Elixir_Wu" Parent="Weather_Elixir_Base">
+		<DisplayName>混元之气</DisplayName>
+		<StoryDesc>丹气弥漫在空气中，灵气变得更活跃了</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_Wu</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_Jin" Parent="Weather_Elixir_Base">
+		<DisplayName>金盈之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_Jin</Modifier>
+
+		<MapEffect>			
+			<li Name="JinBroken" Value="0.1"/>
+			<li Name="JinAddP" Value="6"/>
+		</MapEffect>
+	</Weather>
+
+	<Weather Name="Elixir_Mu" Parent="Weather_Elixir_Base">
+		<DisplayName>木盈之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_Mu</Modifier>
+
+		<MapEffect>
+			<li Name="MuBroken" Value="0.1"/>
+			<li Name="MuAddP" Value="6"/>
+		</MapEffect>
+	</Weather>
+
+	<Weather Name="Elixir_Shui" Parent="Weather_Elixir_Base">
+		<DisplayName>水盈之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_Shui</Modifier>
+
+		<MapEffect>
+			<li Name="ShuiBroken" Value="0.1"/>
+			<li Name="ShuiAddP" Value="6"/>
+		</MapEffect>
+	</Weather>	
+
+	<Weather Name="Elixir_Huo" Parent="Weather_Elixir_Base">
+		<DisplayName>火盈之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_Huo</Modifier>
+
+		<MapEffect>
+			<li Name="HuoBroken" Value="0.1"/>
+			<li Name="HuoAddP" Value="6"/>
+		</MapEffect>
+	</Weather>
+
+	<Weather Name="Elixir_Tu" Parent="Weather_Elixir_Base">
+		<DisplayName>土盈之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_Tu</Modifier>
+
+		<MapEffect>
+			<li Name="TuBroken" Value="0.1"/>
+			<li Name="TuAddP" Value="6"/>
+		</MapEffect>
+	</Weather>
+
+	<Weather Name="Elixir_JinMu" Parent="Weather_Elixir_Base">
+		<DisplayName>竭伐之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_JinMu</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_JinShui" Parent="Weather_Elixir_Base">
+		<DisplayName>腾涌之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_JinShui</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_JinHuo" Parent="Weather_Elixir_Base">
+		<DisplayName>融销之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_JinHuo</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_JinTu" Parent="Weather_Elixir_Base">
+		<DisplayName>蕴结之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_JinTu</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_MuShui" Parent="Weather_Elixir_Base">
+		<DisplayName>繁育之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_MuShui</Modifier>
+		<MapEffect>
+			<li Name="FertilityAddP" Value="0.5"/>			
+		</MapEffect>		
+	</Weather>	
+
+	<Weather Name="Elixir_MuHuo" Parent="Weather_Elixir_Base">
+		<DisplayName>尽灼之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_MuHuo</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_MuTu" Parent="Weather_Elixir_Base">
+		<DisplayName>固缚之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_MuTu</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_ShuiHuo" Parent="Weather_Elixir_Base">
+		<DisplayName>渐熄之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_ShuiHuo</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_ShuiTu" Parent="Weather_Elixir_Base">
+		<DisplayName>盈蓄之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_ShuiTu</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_HuoTu" Parent="Weather_Elixir_Base">
+		<DisplayName>尘烬之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_HuoTu</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_JinMuShui" Parent="Weather_Elixir_Base">
+		<DisplayName>甲木之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_JinMuShui</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_JinMuHuo" Parent="Weather_Elixir_Base">
+		<DisplayName>乙木之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_JinMuHuo</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_JinMuTu" Parent="Weather_Elixir_Base">
+		<DisplayName>己土之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_JinMuTu</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_JinShuiHuo" Parent="Weather_Elixir_Base">
+		<DisplayName>辛金之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_JinShuiHuo</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_JinShuiTu" Parent="Weather_Elixir_Base">
+		<DisplayName>壬水之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_JinShuiTu</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_JinHuoTu" Parent="Weather_Elixir_Base">
+		<DisplayName>庚金之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_JinHuoTu</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_MuShuiHuo" Parent="Weather_Elixir_Base">
+		<DisplayName>丙火之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_MuShuiHuo</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_MuShuiTu" Parent="Weather_Elixir_Base">
+		<DisplayName>癸水之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_MuShuiTu</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_MuHuoTu" Parent="Weather_Elixir_Base">
+		<DisplayName>戊土之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_MuHuoTu</Modifier>
+	</Weather>
+
+	<Weather Name="Elixir_ShuiHuoTu" Parent="Weather_Elixir_Base">
+		<DisplayName>丁火之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_ShuiHuoTu</Modifier>
+		
+	</Weather>
+
+	<Weather Name="Elixir_NoJin" Parent="Weather_Elixir_Base">
+		<DisplayName>金绝之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_NoJin</Modifier>
+		<MapEffect>			
+			<li Name="NpcFight_ShieldResistanceToJin" Value="-0.6"/>
+		</MapEffect>			
+	</Weather>
+
+	<Weather Name="Elixir_NoMu" Parent="Weather_Elixir_Base">
+		<DisplayName>木绝之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_NoMu</Modifier>
+		<MapEffect>			
+			<li Name="NpcFight_ShieldResistanceToMu" Value="-0.6"/>
+		</MapEffect>			
+	</Weather>
+
+	<Weather Name="Elixir_NoShui" Parent="Weather_Elixir_Base">
+		<DisplayName>水绝之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_NoShui</Modifier>
+		<MapEffect>			
+			<li Name="NpcFight_ShieldResistanceToShui" Value="-0.6"/>
+		</MapEffect>			
+	</Weather>
+
+	<Weather Name="Elixir_NoHuo" Parent="Weather_Elixir_Base">
+		<DisplayName>火绝之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_NoHuo</Modifier>
+		<MapEffect>			
+			<li Name="NpcFight_ShieldResistanceToHuo" Value="-0.6"/>
+		</MapEffect>			
+	</Weather>
+
+	<Weather Name="Elixir_NoTu" Parent="Weather_Elixir_Base">
+		<DisplayName>土绝之气</DisplayName>
+		<StoryDesc>浓郁的丹气弥漫在空气中</StoryDesc>
+		<Modifier>Modifier_Weather_Elixir_NoTu</Modifier>
+		<MapEffect>			
+			<li Name="NpcFight_ShieldResistanceToTu" Value="-0.6"/>
+		</MapEffect>		
+	</Weather>
+
+</List></Weathers>

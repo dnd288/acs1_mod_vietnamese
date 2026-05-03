@@ -1,0 +1,8 @@
+AttenuationSpeed	0.05
+ElixirGasThreshold	50
+ElixirGasAddition2Ling_Max	500
+ElixirGasAddition2LingParam	1
+BornAttenuationSpeedAddition	-0.02
+ContraryAttenuationSpeedAddition	0.02
+ElixirGasPerPill	1
+ElixirGasPerRate	0.1

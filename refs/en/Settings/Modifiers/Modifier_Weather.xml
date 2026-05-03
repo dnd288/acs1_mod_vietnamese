@@ -1,0 +1,234 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Weather_SunnyDay">
+			<DisplayName>Clear</DisplayName>
+		</Text>
+		<Text Name="Weather_Overcast">
+			<DisplayName>Cloudy</DisplayName>
+		</Text>
+		<Text Name="Weather_LightRain">
+			<DisplayName>Light Rain</DisplayName>
+		</Text>
+		<Text Name="Weather_HeavyRain">
+			<DisplayName>Heavy Rain</DisplayName>
+		</Text>
+		<Text Name="Weather_LightSnow">
+			<DisplayName>Light Snow</DisplayName>
+		</Text>
+		<Text Name="Weather_HeavySnow">
+			<DisplayName>Heavy Snow</DisplayName>
+		</Text>
+		<Text Name="Weather_DenseFog">
+			<DisplayName>Thick Fog</DisplayName>
+		</Text>
+		<Text Name="Weather_SpringAir">
+			<DisplayName>Spring Air</DisplayName>
+		</Text>
+		<Text Name="Weather_Melancholy">
+			<DisplayName>Gloomy Mood</DisplayName>
+		</Text>
+		<Text Name="Weather_HarvestAir">
+			<DisplayName>Harvest Air</DisplayName>
+		</Text>
+		<Text Name="Weather_Impetuous">
+			<DisplayName>Irritation</DisplayName>
+		</Text>
+		<Text Name="Weather_Hail">
+			<DisplayName>Hail</DisplayName>
+		</Text>
+		<Text Name="Weather_MouldRains">
+			<DisplayName>Rainy Season</DisplayName>
+		</Text>
+		<Text Name="Weather_Drought">
+			<DisplayName>Drought</DisplayName>
+		</Text>
+		<Text Name="Weather_Rainstorm">
+			<DisplayName>Rainstorm</DisplayName>
+		</Text>
+		<Text Name="Weather_Fohn">
+			<DisplayName>Foehn Wind</DisplayName>
+		</Text>
+		<Text Name="Weather_DustStorm">
+			<DisplayName>Dust Storm</DisplayName>
+		</Text>
+		<Text Name="Weather_LingRarefiedWave">
+			<DisplayName>Qi Drought</DisplayName>
+		</Text>
+		<Text Name="Weather_LingUpWave">
+			<DisplayName>Burst of Qi</DisplayName>
+		</Text>
+		<Text Name="Weather_HeatWave">
+			<DisplayName>Heat Wave</DisplayName>
+		</Text>
+		<Text Name="Weather_ColdWave">
+			<DisplayName>Extreme Cold</DisplayName>
+		</Text>
+		<Text Name="Weather_HeatWaveInWinter">
+			<DisplayName>Heat Wave</DisplayName>
+		</Text>
+		<Text Name="Weather_ColdWaveInSummer">
+			<DisplayName>Extreme Cold</DisplayName>
+		</Text>
+		<Text Name="Weather_PermanentNight">
+			<DisplayName>Polar Night</DisplayName>
+		</Text>
+		<Text Name="Weather_Miasma">
+			<DisplayName>Noxious Air</DisplayName>
+		</Text>
+		<Text Name="Weather_LightningStorm">
+			<DisplayName>Thunderstorm</DisplayName>
+		</Text>
+		<Text Name="Weather_LuShu_SunnyDay">
+			<DisplayName>Clear</DisplayName>
+		</Text>
+		<Text Name="Weather_Fei_HeavyRain">
+			<DisplayName>Heavy Rain</DisplayName>
+		</Text>
+		<Text Name="Weather_SpringFestival">
+			<DisplayName>Spring Festival</DisplayName>
+		</Text>
+		<Text Name="Weather_ZuShiBiHu">
+			<DisplayName>Grandmaster's Aegis</DisplayName>
+		</Text>
+		<Text Name="Modifier_Weather_Magic_ZhenShuiJieJie">
+			<DisplayName>Qi Aquasphere</DisplayName>
+			<Desc>Greatly increase your Qi and Natural Resilience recovery speed while within the Qi Aquasphere.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Magic_BeiDouJianJie">
+			<DisplayName>Grand Chariot Bladezone</DisplayName>
+			<Desc>Greatly increase your Artifact Power while within the Grand Chariot Bladezone.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Magic_ZhenHuoJieJie">
+			<DisplayName>Qi Ignosphere</DisplayName>
+			<Desc>Greatly increase your Spell Power while within the Qi Ignosphere.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Season_DanQi">
+			<DisplayName>Alchemy Qi Overflowing</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_Wu">
+			<DisplayName>Alchemy Qi Overflowing (Primordial Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, cultivation level decreases, learning speed increases.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_Jin">
+			<DisplayName>Alchemy Qi Overflowing (Metallic Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_Mu">
+			<DisplayName>Alchemy Qi Overflowing (Wood Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_Shui">
+			<DisplayName>Alchemy Qi Overflowing (Water Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_Huo">
+			<DisplayName>Alchemy Qi Overflowing (Fire Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_Tu">
+			<DisplayName>Alchemy Qi Overflowing (Earth Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_JinMu">
+			<DisplayName>Alchemy Qi Overflowing (Exhausting Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, woodcutting and harvesting speed increase.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_JinShui">
+			<DisplayName>Alchemy Qi Overflowing (Surging Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, handicraft and sewing speed increase.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_JinHuo">
+			<DisplayName>Alchemy Qi Overflowing (Melting Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, mining speed increases.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_JinTu">
+			<DisplayName>Alchemy Qi Overflowing (Accumulating Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, mining yield increases.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_MuShui">
+			<DisplayName>Alchemy Qi Overflowing (Breeding Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, harvest yield increases.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_MuHuo">
+			<DisplayName>Alchemy Qi Overflowing (Full Blaze Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, forging and cooking speed increase.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_MuTu">
+			<DisplayName>Alchemy Qi Overflowing (Stabilizing Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, construction speed increases.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_ShuiHuo">
+			<DisplayName>Alchemy Qi Overflowing (Waning Flame Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, disaster relief speed and success rate increase.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_ShuiTu">
+			<DisplayName>Alchemy Qi Overflowing (Overflowing Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, expected healing effects and natural recovery increase.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_HuoTu">
+			<DisplayName>Alchemy Qi Overflowing (Ashen Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, demolition and stone processing speed increase.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_JinMuShui">
+			<DisplayName>Alchemy Qi Overflowing (Jia Wood Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, wood attribute technique compatibility increases.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_JinMuHuo">
+			<DisplayName>Alchemy Qi Overflowing (Yi Wood Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, alchemy yield increases.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_JinMuTu">
+			<DisplayName>Alchemy Qi Overflowing (Ji Earth Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, foundation building speed, cultivation speed, and mental state value increase.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_JinShuiHuo">
+			<DisplayName>Alchemy Qi Overflowing (Xin Metal Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, artifact refinement success rate increases.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_JinShuiTu">
+			<DisplayName>Alchemy Qi Overflowing (Ren Water Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, water attribute technique compatibility increases.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_JinHuoTu">
+			<DisplayName>Alchemy Qi Overflowing (Kui Metal Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, metal attribute technique compatibility increases.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_MuShuiHuo">
+			<DisplayName>Alchemy Qi Overflowing (Bing Fire Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, fire attribute technique compatibility increases.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_MuShuiTu">
+			<DisplayName>Alchemy Qi Overflowing (Gui Water Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, pill refining speed increases.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_MuHuoTu">
+			<DisplayName>Alchemy Qi Overflowing (Wu Earth Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, earth attribute technique compatibility increases.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_ShuiHuoTu">
+			<DisplayName>Alchemy Qi Overflowing (Ding Fire Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi, magical treasure refinement speed increases.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_NoJin">
+			<DisplayName>Alchemy Qi Overflowing (Metal Sever Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_NoMu">
+			<DisplayName>Alchemy Qi Overflowing (Wood Sever Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_NoShui">
+			<DisplayName>Alchemy Qi Overflowing (Water Sever Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_NoHuo">
+			<DisplayName>Alchemy Qi Overflowing (Fire Sever Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi.</Desc>
+		</Text>
+		<Text Name="Modifier_Weather_Elixir_NoTu">
+			<DisplayName>Alchemy Qi Overflowing (Earth Sever Qi)</DisplayName>
+			<Desc>Surrounded by a rich Alchemy Qi.</Desc>
+		</Text>
+	</List>
+</Texts>

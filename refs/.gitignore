@@ -1,0 +1,5 @@
+# Ignore large binary and documentation files
+*.rar
+*.png
+*.xlsx
+*.docx

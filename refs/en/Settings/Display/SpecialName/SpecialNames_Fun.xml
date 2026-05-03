@@ -1,0 +1,55 @@
+<SpecialNames>
+  <List>
+	<SpecialItem Name="Item_FunPainting">
+		<None>
+			<li Name="A Palace Concert" Desc="" />
+			<li Name="Travelers Among Mountains and Streams" Desc="" />
+			<li Name="Early Spring" Desc="" />
+			<li Name="Blue Magpie and Thorny Shrubs" Desc="" />
+			<li Name="Magpies and Hare" Desc="" />
+			<li Name="Wind in Pines Among a Myriad Valleys" Desc="" />
+			<li Name="Twin Pines" Desc="" />
+		</None>	
+	</SpecialItem>
+	
+	<SpecialItem Name="Item_FunMusic">
+		<None>
+			<li Name="High Mountains and Flowing Water" Desc="" />
+			<li Name="Guangling Melody" Desc="" />
+			<li Name="Dialogue Between a Fisherman and a Woodcutter" Desc="" />
+			<li Name="Eighteen Songs of a Nomad Flute" Desc="" />
+			<li Name="White Snow in a Sunny Spring" Desc="" />
+			<li Name="Wild Geese Descending on the Sandbank" Desc="" />
+			<li Name="Music at Sunset" Desc="" />
+			<li Name="Ambush from All Sides" Desc="" />
+			<li Name="Autumn Moon over the Han Palace" Desc="" />
+			<li Name="Three Varieties of Plum Blossom" Desc="" />
+		</None>	
+	</SpecialItem>
+	
+	<SpecialItem Name="Item_FunChess">
+		<None>
+			<li Name="Heart and Blood" Desc="" />
+			<li Name="Road to Sichuan" Desc="" />
+			<li Name="God's Trophy" Desc="" />
+			<li Name="Silver Lining" Desc="" />
+			<li Name="Autumn Moon over the Quiet Lake" Desc="" />
+			<li Name="Fly to the Moon" Desc="" />
+			<li Name="Stars in the Cloud" Desc="" />
+			<li Name="Skyscraping Pagoda" Desc="" />
+			<li Name="Emerging Dragon" Desc="" />
+			<li Name="Demon Catcher" Desc="" />
+			<li Name="Illustration of Everlasting Longevity" Desc="" />
+			<li Name="Kifu of Immortality" Desc="" />
+			<li Name="Kifu of Golden Glow" Desc="" />
+			<li Name="Kifu of God's Blessing" Desc="" />
+			<li Name="Kifu of Supreme Clarity" Desc="" />
+			<li Name="Kifu of Heavenly Clarity" Desc="" />
+			<li Name="Kifu of Heavenward" Desc="" />
+			<li Name="Kifu of Oasis" Desc="" />
+			<li Name="Kifu of Authenticity" Desc="" />
+			<li Name="Kifu of Immortal Encounter" Desc="" />
+		</None>	
+	</SpecialItem>
+</List>
+</SpecialNames>

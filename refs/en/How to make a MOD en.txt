@@ -1,0 +1,204 @@
+
+Attension：
+1. Xml files can be added freely. The program will go through all the directories, including sub directories.
+2. Def with same names will be overwritten according to loading order.
+3. Please solve same ID problems of txt file which use number as ID on your own. One line will be overwritten by later lines with the same ID.
+4. Files including Chinese characters need to be convert to UTF-8 encoded.
+5. If MOD do not match, files would not be loaded.
+6.MOD entrance file (Info.json) brief:
+	"Name":"Example",		 			name of the MOD, do not change this after defined 
+	"DisplayName":"演示MOD"  				display name of the MOD, will be shown on steam page 
+	"Desc":"",  					MOD introduction
+	"GameVersion":0.94,		 			Lowest game version the MOD supports 
+	"Version":1,			 		MOD version
+	"Author":"GSQ",				 	Author
+7. Please use MOD manager in the game to upload to steam workshop.
+8. Now it is supported to use luac to encrypt lua scripts. Please use luac.exe in the MOD directory to compile, the system will load files end with luac.
+9. If you want to update your MOD, please keep the .json file of your MOD. After you finishing edit your MOD, paste your old json file into your MOD folder. 
+-----------------------------------------	
+         How to start a new MOD
+-----------------------------------------
+1. Create a new folder in the Mods folder
+2. Create and complete Info.json
+3. Start your Mod tour referring to the example
+
+-----------------------------------------
+	Instruction files
+------------------------------------------
+Update.txt 			------------------------------MOD function update logs
+地图事件系统LUA说明(MapStory Lua) 	------------------------------Map events lua interface
+多语言相关(Language pack)		------------------------------How to make a language pack
+脚本API文档(Script API)		------------------------------Script API website link
+快捷键列表(Hot Key)			------------------------------Hotkeys
+自定义UI相关(UI DIY)			------------------------------DIY UI template and configuration
+3D模型导入教学			------------------------------3D mod import tutorial and tools	
+-------------------------------------
+	Script related
+------------------------------------
+Console can be opened by press CTRL+F. In the console, developers can check logs and debug Lua scripts.
+System will load all lua files in script folder in the mod automatically
+All modules can be visit by using CS.XiaWorld. For details please read API
+Easy-Using interfaces will be added
+Simple save and load game is supported by scripts
+Please have a look at Example to learn how to add an entrance for mods
+Hotkeys can be registed by OnSetHotKey in the mod. OnHotkey will return a switched state of hotkeys
+API：http://gsqgames.gitee.io/api
+
+--------------------------------------------
+	Directories/files supported
+--------------------------------------------
+-----Asset Directory---
+Resources\	Please manage the folder by yourself
+Now it is supported to load all 2D assets in the game
+For more details please see the test building and test item in the Example MOD
+
+-----Setting Directories---
+Settings\ThingDef\		   	Things data
+Settings\Modifiers\			Modifiers data
+Settings\Property\			Property data
+
+Settings\Npc\Reincarnate\  	Reincarnaters
+Settings\Npc\Backstories\  	Character backgrounds. They will change properties of random reincarnaters
+Settings\Npc\Features\  	Character features. They will change properties of random reincarnaters
+Settings\Npc\Experience\  	Character experiences
+Settings\Npc\Moods\  		Character Moods
+Settings\Npc\Damages\ 		Damages
+Settings\Npc\Body\			Body parts of characters
+Settings\Npc\Favour\		Npc favourates
+Settings\Npc\Race\			Race of character
+Settings\Npc\Relation\		Relation of character
+Settings\Npc\SpDrop\		loot define
+
+Settings\Fun\				character entertainments
+
+Settings\Practice\DanFormula\ 						Drug formula
+Settings\Practice\Gong\								Law
+Settings\Practice\Magic\							Miracles Miracles are settled rather than name and basic parameters
+Settings\Practice\Spell\  							Talismans
+Settings\Practice\Tree\								Inspiration Tree
+Settings\Practice\FabaoFormula\						Treasure craft
+Settings\Practice\FabaoHelian\						Artifact Sub spirit
+Settings\Practice\RandomGong\						Random rules of Random Laws
+Settings\Practice\BodyPractice\Attitude\			Attitude of physical cultivators
+Settings\Practice\BodyPractice\LabelCache\			Random cache of physical cultivator labels
+Settings\Practice\BodyPractice\QuenchingLabel\		physical cultivator labels
+Settings\Practice\BodyPractice\QuenchingMethod\		Remold methods of physical cultivators
+Settings\Practice\BodyPractice\SuperPart\			Secret part of physical cultivators
+Settings\Practice\GodPractice\City\					Buildings of Shendao Cultivators
+Settings\Practice\GodPractice\Guard\				Guards
+Settings\Practice\GodPractice\Wish\					Wishes
+
+Settings\Esoterica\			Manuals
+Settings\Weather\				Weather
+Settings\MapStories\				events
+Settings\Secrets\					secrets
+Settings\Biomes\			Biome of the map. Cannot add, can only overwrite
+Settings\BiomesReplaceR\	Replace tiles of the map.
+Settings\Tang\				Branches
+Settings\PlantGroups\		Plant group settings
+Settings\AreaTypeDef\		area defines
+Settings\Fight\FightSkillTemplate\	skill template
+Settings\Fight\Driver\
+
+Settings\World\Places\ 				map datas. New places needs to be unlocked for old saves
+Settings\World\Events\ 				event data
+Settings\World\Schools\ 			sects data
+Settings\World\FSItemSpecial\		Fengshui Relic defines
+Settings\World\ItemPhysicalLable\	Physical lables of items
+
+Settings\Display\ClothesColor\ clothes color. ID is ClothesColorID of materials
+Settings\Display\SpecialName\  special name rules for items
+
+Settings\Display\ArtItem\ Random art items names
+
+Settings\Display\EsotericaName\			Manual names
+Settings\Display\FabaoName\				Artifact names
+Settings\Display\NpcTitle\				Random character titles
+Settings\Display\RaceSpecialMod\		Yaoguai modes
+Settings\Display\RandomGong\			Random names for random Laws
+Settings\Display\NpcName\ 				Prefix of random npc names
+
+Settings\UI\MainList\ Main UI list(If your MODs have modified this please move them to the mods folder)
+Settings\UI\Help\ Help
+
+Settings\UI\HumanoidEvolution\Race\				Shape shift yaoguai settings
+Settings\UI\HumanoidEvolution\Rule\				Shape shift rules
+Settings\UI\HumanoidEvolution\ThinkFragment\	Thought shard for Shape shift rules
+
+Settings\Ui\MainList\		mainlist
+Settings\Ui\NpcUIEvent\		messages on the left
+
+Settings\Jianghu\Hobby\				Obsessions
+Settings\Jianghu\Npc\				Speical npcs in jianghu
+Settings\Jianghu\Talk\				Jianghu talks
+
+Settings\LingShou					Pet settings, for details please check Settings\Lingshou\灵宠Mod使用指南.txt
+Settings\LingShou\Action\			Pet actions
+Settings\LingShou\ActionType\		pet action types
+Settings\LingShou\CD\				pet action cds
+Settings\LingShou\CValue\			pet action diy parameters
+Settings\LingShou\Event\			pet decision tree events
+Settings\LingShou\Extra\			Pet properties to porperties
+Settings\LingShou\Flag2Action\		Boolean of the first time of pet action 
+Settings\LingShou\FoodNutrition\	Pet food nutrition
+Settings\LingShou\FoodType\			pet food type
+Settings\LingShou\Fun\				pet entertainments
+Settings\LingShou\Job2Action\		pet job to action define
+Settings\LingShou\Jobp\				pet job tp fat/strong/talk define
+Settings\LingShou\Justice\			pet justice define
+Settings\LingShou\LsRace\			pet race define
+Settings\LingShou\RebornBuild\		pet statues
+Settings\LingShou\State\			Pet tree states
+Settings\LingShou\Talk\				Pet talks
+Settings\LingShou\Tree\				Pet decision tree
+			
+Settings\MsgShow\				Rule config
+
+Settings\NpcBiography\		Epilogue
+
+Settings\Outspread\Build\			Agency Buildings
+Settings\Outspread\BuildSkill\		Agency Building skills
+Settings\Outspread\BuildType\		Agency Building types
+Settings\Outspread\Disaster\		Agency disasters
+Settings\Outspread\DisasterTrigger\	Agency disasters rates
+Settings\Outspread\GoOutspread\		Agency on the way events
+Settings\Outspread\Landform\		Agency landforms
+Settings\Outspread\Point\			Agency building points
+Settings\Outspread\Policy\			Agency policy
+Settings\Outspread\PolicyStory\		Agency policy stories
+Settings\Outspread\Product\			Agency policy products
+Settings\Outspread\Region\			Agency points
+
+Settings\RPG\Dialogues\		Adventure mode dialogues
+Settings\RPG\Event\			Adventure mode event settings, can be edited in the editor
+Settings\RPG\Info\			Entrance of adventure mode
+Settings\RPG\Maps\			Adventure mode maps
+Settings\RPG\Operation\		Adventure mode operations
+Settings\RPG\RPGInput\		Adventure mode hotkeys
+Settings\RPG\Things\		Adventure mode things
+
+Settings\Trade\Auction\			auction rules
+Settings\Trade\GoodPool\		trade pools, sects,auction and merchants
+Settings\Trade\Rule\			Sect task rules
+Settings\Trade\SchoolTask\		sect task
+Settings\Trade\SchoolTrade\		Sect trade
+Settings\Trade\Talk\			sect trade talks
+Settings\Trade\TradeCount\		Amount and respawn rules of goods
+Settings\Trade\TradePrice\		Trade price of tags
+Settings\Trade\WalkTrader\		merchants
+
+Settings\World\Immortal\					Immortal difficulties
+Settings\World\Immortal\Achievement\		Immortal achievemtns
+Settings\World\Immortal\Constraint\			Immortal rules
+Settings\World\Immortal\ImmortalLevel\		Immortal titles
+
+Settings\Zhen\Node\					Formations
+Settings\Zhen\NodeLevelInfo\		阵枢/阵眼等级对应的表现定义
+Settings\Zhen\NodeTypeInfo\			阵法真意描述定义
+Settings\Zhen\Props\				阵法属性定义
+Settings\Zhen\Propvalue\			阵法属性计算逻辑定义
+Settings\Zhen\Rule\					阵法特殊匹配规则
+Settings\Zhen\Slot\					阵法玄机定义
+Settings\Zhen\SlotSuit\				阵法真意定义
+Settings\Zhen\Suit\					上古阵法效果定义
+

@@ -1,0 +1,43 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Mutation_TaiShi">
+			<DisplayName>Taishi</DisplayName>
+			<Desc>Begin a new game with 3 constant Heavenly Chaos events.</Desc>
+			<Trigger.StartGame.Extent.Desc>A new tale unfolds, the Taishi Heavenly Dao stirs...</Trigger.StartGame.Extent.Desc>
+		</Text>
+		<Text Name="Mutation_TaiZhong">
+			<DisplayName>Taizhong</DisplayName>
+			<Desc>Every 10/50/100 days, trigger 1 Turbulence/Yin Yang/Constant Heavenly Chaos.</Desc>
+			<Trigger.Time.Days.0.Extent.Desc>As time passes, some changes have occurred in the world..</Trigger.Time.Days.0.Extent.Desc>
+			<Trigger.Time.Days.1.Extent.Desc>As time passes, this world has undergone changes..</Trigger.Time.Days.1.Extent.Desc>
+			<Trigger.Time.Days.2.Extent.Desc>As time passes, this world undergoes drastic changes...</Trigger.Time.Days.2.Extent.Desc>
+		</Text>
+		<Text Name="Mutation_TaiZhen">
+			<DisplayName>Taizhen</DisplayName>
+			<Desc>Each 1-level increase in sect reputation triggers 1 Yin Yang heavenly chaos; every 6 triggers result in a Constant heavenly chaos.</Desc>
+			<TriggerInfo.Desc>Sect level increased, triggering the Taizhen Heavenly Dao</TriggerInfo.Desc>
+			<Trigger.School.Score.0.Extent.Desc>[SCHOOL]'s reputation has risen, triggering the Taizhen Heavenly Dao...</Trigger.School.Score.0.Extent.Desc>
+			<Trigger.School.Score.1.Extent.Desc>[SCHOOL]'s reputation significantly boosts, becoming world-renowned, and unexpectedly activating the Taizhen, one of the Heavenly Dao.</Trigger.School.Score.1.Extent.Desc>
+		</Text>
+		<Text Name="Mutation_TaiXu">
+			<DisplayName>Taixu</DisplayName>
+			<Desc>Each sect disciple's breakthrough has a chance to trigger Heavenly chaos once</Desc>
+			<Trigger.StageLevelChange.LevelChangeInfos.0.Extent.Desc>[NPC] has just embarked on the path of immortality, triggering the Taixy Heavenly Dao...</Trigger.StageLevelChange.LevelChangeInfos.0.Extent.Desc>
+			<Trigger.StageLevelChange.LevelChangeInfos.1.Extent.Desc>[NPC]'s cultivation has advanced, triggering the Taixu Heavenly Dao...</Trigger.StageLevelChange.LevelChangeInfos.1.Extent.Desc>
+			<Trigger.StageLevelChange.LevelChangeInfos.2.Extent.Desc>[NPC] has caught a glimpse of the great path, causing an unusual movement in the Taixu Heavenly Dao...</Trigger.StageLevelChange.LevelChangeInfos.2.Extent.Desc>
+			<Trigger.StageLevelChange.LevelChangeInfos.3.Extent.Desc>[NPC] achieves enlightenment and ascends, triggering a chaos in the Taixu Heavenly Dao...</Trigger.StageLevelChange.LevelChangeInfos.3.Extent.Desc>
+		</Text>
+		<Text Name="Mutation_TaiXuan">
+			<DisplayName>Taixuan</DisplayName>
+			<Desc>Cannot manually select effects of Turbulent or Yin Yang Heavenly Chaos</Desc>
+		</Text>
+		<Text Name="Mutation_TaiYi">
+			<DisplayName>Taiyi</DisplayName>
+			<Desc>After the turbulent Heavenly Chaos takes effect, there's a chance to reset one effect</Desc>
+		</Text>
+		<Text Name="Mutation_TaiJi">
+			<DisplayName>Taiji</DisplayName>
+			<Desc>When obtaining Turbulent or Yin Yang Heaven Chaos, expand the random range of the chaos effects.</Desc>
+		</Text>
+	</List>
+</Texts>

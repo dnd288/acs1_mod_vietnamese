@@ -1,0 +1,163 @@
+<Defs><List>
+<Def Name="kind_1">
+		<Kind>God_Count</Kind>
+		<Desc>飞升：{0:F0}人</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_2">
+		<Kind>Explore_Count</Kind>
+		<Desc>历练：{0:F0}次</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_3">
+		<Kind>Dan_Count</Kind>
+		<Desc>炼丹：{0:F0}次</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_4">
+		<Kind>Refining_Count</Kind>
+		<Desc>炼宝：{0:F0}次</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_5">
+		<Kind>Fu_Count</Kind>
+		<Desc>画符：{0:F0}次</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_6">
+		<Kind>Kill_Count</Kind>
+		<Desc>击杀生物：{0:F0}个</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_7">
+		<Kind>KillDisciple_Count</Kind>
+		<Desc>击杀修行者：{0:F0}个</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_8">
+		<Kind>Food_Count</Kind>
+		<Desc>制作食物：{0:F0}种</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_9">
+		<Kind>ArtItem_Count</Kind>
+		<Desc>稀有艺术品：{0:F0}个</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_10">
+		<Kind>Persuade_Count</Kind>
+		<Desc>说服成功：{0:F0}次</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_11">
+		<Kind>Esoterica_Count</Kind>
+		<Desc>习得秘籍：{0:F0}本</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_12">
+		<Kind>Die_Count</Kind>
+		<Desc>弟子死亡：{0:F0}个</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_13">
+		<Kind>DiscipleDie_Count</Kind>
+		<Desc>内门弟子死亡：{0:F0}个</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_14">
+		<Kind>RobBody_Count</Kind>
+		<Desc>夺舍：{0:F0}次</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_15">
+		<Kind>ClosedDoor_Count</Kind>
+		<Desc>入定：{0:F0}秒</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_16">
+		<Kind>SeachSoul_Count</Kind>
+		<Desc>搜魂大法：{0:F0}次</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_17">
+		<Kind>RobAge_Count</Kind>
+		<Desc>夺取寿命：{0:F0}秒</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_18">
+		<Kind>RefiningSoul_Count</Kind>
+		<Desc>炼魂：{0:F0}次</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_19">
+		<Kind>Ghost_Count</Kind>
+		<Desc>摄神御鬼：{0:F0}次</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_20">
+		<Kind>RefiningBody_Count</Kind>
+		<Desc>炼化尸体：{0:F0}</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_21">
+		<Kind>Sacrifice_Count</Kind>
+		<Desc>献祭：{0:F0}次</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_22">
+		<Kind>Parasitic_Count</Kind>
+		<Desc>魂体寄生：{0:F0}次</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+	<Def Name="kind_23">
+		<Kind>SchoolFabao_Count</Kind>
+		<Desc>获取镇派法宝：{0:F0}个</Desc>
+		<Interval>1</Interval>
+		<Point>1</Point>
+		<Max>100</Max>
+	</Def>
+</List></Defs>

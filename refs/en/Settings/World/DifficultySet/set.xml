@@ -1,0 +1,26 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Lv0">
+			<DisplayName>Beginner</DisplayName>
+			<Desc>Beginner:
+In this difficulty you can cultivate just like a windy walk.
+Mortal things will not interrupt your journey, meanwhile work
+and cultivation speed are highly improved.
+No enemy envasion, no extreme weather, easy to play.</Desc>
+		</Text>
+		<Text Name="Lv1">
+			<DisplayName>Normal</DisplayName>
+			<Desc>Normal:
+Classic mormal difficulty, and it is suitable for players who already have some knowledge of this game.
+All events will happen normally. Work and cultivation are at normal speed.</Desc>
+		</Text>
+		<Text Name="Lv2">
+			<DisplayName>Sage</DisplayName>
+			<Desc>Sage:
+This difficulty is hard, and is for players who are very familiar with this game.
+You can challenge yourself in the Immortal mode, which contains full game experience.
+The immortal mode test players of their extreme skills, and only suits real immortals.
+Some achievements can only be accomplished in the Immortal mode.</Desc>
+		</Text>
+	</List>
+</Texts>

@@ -1,0 +1,1623 @@
+<Defs><List>
+	<Def Name="Blood">
+		<Display>献上妖灵液</Display>
+		<Desc>将妖灵液祭入池中祈求道具</Desc>
+		<Icon>ui://0xrxw6g7n3hgljryzr</Icon>
+		<NeedItem>Item_MonsterBlood</NeedItem><!--指定献祭道具-->
+		<Count>5</Count><!--需要的数量-->
+		<Pools>
+			<li>
+				<GameThingID>1001</GameThingID>
+				<MinCount>200</MinCount>
+				<MaxCount>200</MaxCount>
+				<Weights>500</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1001</GameThingID>
+				<MinCount>400</MinCount>
+				<MaxCount>400</MaxCount>
+				<Weights>400</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1001</GameThingID>
+				<MinCount>600</MinCount>
+				<MaxCount>600</MaxCount>
+				<Weights>300</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1001</GameThingID>
+				<MinCount>800</MinCount>
+				<MaxCount>800</MaxCount>
+				<Weights>200</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1001</GameThingID>
+				<MinCount>1000</MinCount>
+				<MaxCount>1000</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1003</GameThingID>
+				<MinCount>10</MinCount>
+				<MaxCount>10</MaxCount>
+				<Weights>300</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1003</GameThingID>
+				<MinCount>15</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>200</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1003</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1005</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1010</GameThingID>
+				<MinCount>10</MinCount>
+				<MaxCount>10</MaxCount>
+				<Weights>300</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1010</GameThingID>
+				<MinCount>15</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>200</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1010</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1011</GameThingID>
+				<MinCount>30</MinCount>
+				<MaxCount>30</MaxCount>
+				<Weights>300</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1011</GameThingID>
+				<MinCount>40</MinCount>
+				<MaxCount>40</MaxCount>
+				<Weights>200</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1011</GameThingID>
+				<MinCount>50</MinCount>
+				<MaxCount>50</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1012</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1012</GameThingID>
+				<MinCount>2</MinCount>
+				<MaxCount>2</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1013</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1014</GameThingID>
+				<MinCount>5</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>200</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1014</GameThingID>
+				<MinCount>10</MinCount>
+				<MaxCount>10</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1014</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1017</GameThingID>
+				<MinCount>100</MinCount>
+				<MaxCount>100</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1017</GameThingID>
+				<MinCount>200</MinCount>
+				<MaxCount>200</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1018</GameThingID>
+				<MinCount>100</MinCount>
+				<MaxCount>100</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1018</GameThingID>
+				<MinCount>200</MinCount>
+				<MaxCount>200</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1019</GameThingID>
+				<MinCount>150</MinCount>
+				<MaxCount>150</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1020</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1052</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1053</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1100</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>150</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1101</GameThingID>
+				<MinCount>10</MinCount>
+				<MaxCount>10</MaxCount>
+				<Weights>300</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1101</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>200</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1101</GameThingID>
+				<MinCount>30</MinCount>
+				<MaxCount>30</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1107</GameThingID>
+				<MinCount>10</MinCount>
+				<MaxCount>10</MaxCount>
+				<Weights>300</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1107</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>200</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1107</GameThingID>
+				<MinCount>30</MinCount>
+				<MaxCount>30</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1112</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1113</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1114</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1115</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1116</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1117</GameThingID>
+				<MinCount>5</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1117</GameThingID>
+				<MinCount>10</MinCount>
+				<MaxCount>10</MaxCount>
+				<Weights>30</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1118</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1118</GameThingID>
+				<MinCount>2</MinCount>
+				<MaxCount>2</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1118</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>10</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1119</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1122</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>150</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1122</GameThingID>
+				<MinCount>35</MinCount>
+				<MaxCount>35</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1122</GameThingID>
+				<MinCount>49</MinCount>
+				<MaxCount>49</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1123</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>150</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1123</GameThingID>
+				<MinCount>35</MinCount>
+				<MaxCount>35</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1123</GameThingID>
+				<MinCount>49</MinCount>
+				<MaxCount>49</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1124</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>30</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1124</GameThingID>
+				<MinCount>2</MinCount>
+				<MaxCount>2</MaxCount>
+				<Weights>20</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1124</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>10</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1126</GameThingID>
+				<MinCount>99</MinCount>
+				<MaxCount>99</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1127</GameThingID>
+				<MinCount>99</MinCount>
+				<MaxCount>99</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1129</GameThingID>
+				<MinCount>99</MinCount>
+				<MaxCount>99</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1130</GameThingID>
+				<MinCount>99</MinCount>
+				<MaxCount>99</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1131</GameThingID>
+				<MinCount>200</MinCount>
+				<MaxCount>200</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1132</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1133</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1134</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1135</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1136</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1137</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1138</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1139</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1139</GameThingID>
+				<MinCount>5</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1140</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1141</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1142</GameThingID>
+				<MinCount>10</MinCount>
+				<MaxCount>10</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1145</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1146</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1147</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1148</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1149</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1150</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1151</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1152</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1153</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1154</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1161</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1171</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1173</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1174</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1175</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1176</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1177</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1180</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1181</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1182</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1183</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1184</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1185</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1186</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1196</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1197</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1198</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1199</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1201</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+
+		</Pools>
+	</Def>
+	<Def Name="Elixir">
+		<Display>献上玄牝珠</Display>
+		<Desc>将玄牝珠祭入池中祈求道具</Desc>
+		<Icon>ui://0xrxw6g7n3hgljryzr</Icon>
+		<NeedItem>Item_SoulPearl</NeedItem><!--指定献祭道具-->
+		<Count>3</Count><!--需要的数量-->
+		<Pools>
+			<li>
+				<GameThingID>1001</GameThingID>
+				<MinCount>1000</MinCount><!--随机最小值 默认1-->
+				<MaxCount>1000</MaxCount><!--随机最大值 默认1-->
+				<Weights>500</Weights><!--权重-->
+			</li>
+
+			<li>
+				<GameThingID>1001</GameThingID>
+				<MinCount>1500</MinCount>
+				<MaxCount>1500</MaxCount>
+				<Weights>400</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1001</GameThingID>
+				<MinCount>2000</MinCount>
+				<MaxCount>2000</MaxCount>
+				<Weights>300</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1001</GameThingID>
+				<MinCount>3000</MinCount>
+				<MaxCount>3000</MaxCount>
+				<Weights>200</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1001</GameThingID>
+				<MinCount>5000</MinCount>
+				<MaxCount>5000</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1005</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1012</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1012</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>40</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1012</GameThingID>
+				<MinCount>5</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>20</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1013</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1013</GameThingID>
+				<MinCount>2</MinCount>
+				<MaxCount>2</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1013</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>30</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1014</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>150</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1014</GameThingID>
+				<MinCount>35</MinCount>
+				<MaxCount>35</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1014</GameThingID>
+				<MinCount>50</MinCount>
+				<MaxCount>50</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1017</GameThingID>
+				<MinCount>400</MinCount>
+				<MaxCount>400</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1018</GameThingID>
+				<MinCount>400</MinCount>
+				<MaxCount>400</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1019</GameThingID>
+				<MinCount>400</MinCount>
+				<MaxCount>400</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1020</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1020</GameThingID>
+				<MinCount>2</MinCount>
+				<MaxCount>2</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1020</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>30</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1052</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>9</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1053</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>9</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1100</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>120</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1100</GameThingID>
+				<MinCount>49</MinCount>
+				<MaxCount>49</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1101</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>300</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1101</GameThingID>
+				<MinCount>35</MinCount>
+				<MaxCount>35</MaxCount>
+				<Weights>200</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1101</GameThingID>
+				<MinCount>50</MinCount>
+				<MaxCount>50</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1107</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>150</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1107</GameThingID>
+				<MinCount>40</MinCount>
+				<MaxCount>40</MaxCount>
+				<Weights>120</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1107</GameThingID>
+				<MinCount>60</MinCount>
+				<MaxCount>60</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1108</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1112</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1113</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1114</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1115</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1116</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1117</GameThingID>
+				<MinCount>10</MinCount>
+				<MaxCount>10</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1117</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>30</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1118</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1118</GameThingID>
+				<MinCount>5</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>40</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1118</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>9</MaxCount>
+				<Weights>20</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1119</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>9</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1122</GameThingID>
+				<MinCount>49</MinCount>
+				<MaxCount>49</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1122</GameThingID>
+				<MinCount>99</MinCount>
+				<MaxCount>99</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1123</GameThingID>
+				<MinCount>49</MinCount>
+				<MaxCount>49</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1123</GameThingID>
+				<MinCount>99</MinCount>
+				<MaxCount>99</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1132</GameThingID>
+				<MinCount>49</MinCount>
+				<MaxCount>49</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1133</GameThingID>
+				<MinCount>49</MinCount>
+				<MaxCount>49</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1134</GameThingID>
+				<MinCount>49</MinCount>
+				<MaxCount>49</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1135</GameThingID>
+				<MinCount>49</MinCount>
+				<MaxCount>49</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1136</GameThingID>
+				<MinCount>49</MinCount>
+				<MaxCount>49</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1137</GameThingID>
+				<MinCount>49</MinCount>
+				<MaxCount>49</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1138</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1138</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1138</GameThingID>
+				<MinCount>5</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1139</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>9</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1140</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1140</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1140</GameThingID>
+				<MinCount>5</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1141</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1142</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1143</GameThingID>
+				<MinCount>5</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1142</GameThingID>
+				<MinCount>15</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1142</GameThingID>
+				<MinCount>30</MinCount>
+				<MaxCount>30</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1143</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1143</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1144</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1144</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1145</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>150</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1146</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1147</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1148</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1149</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1150</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1151</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1152</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1153</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1154</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1155</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1156</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1157</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1158</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1159</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1160</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1161</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1162</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1163</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1164</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1165</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1166</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1167</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1168</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1169</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1170</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1171</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>80</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1172</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1173</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>6</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1174</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>6</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1175</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>6</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1176</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>6</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1177</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>6</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1178</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1179</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1180</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1181</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1182</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1183</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1184</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1185</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1186</GameThingID>
+				<MinCount>9</MinCount>
+				<MaxCount>15</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1187</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1188</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1189</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>5</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1190</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1191</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1192</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>3</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1193</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1194</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1195</GameThingID>
+				<MinCount>1</MinCount>
+				<MaxCount>1</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1196</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>6</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1197</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>6</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1198</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>6</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1199</GameThingID>
+				<MinCount>3</MinCount>
+				<MaxCount>6</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1200</GameThingID>
+				<MinCount>20</MinCount>
+				<MaxCount>20</MaxCount>
+				<Weights>100</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1201</GameThingID>
+				<MinCount>5</MinCount>
+				<MaxCount>9</MaxCount>
+				<Weights>50</Weights>
+			</li>
+
+			<li>
+				<GameThingID>1202</GameThingID>
+				<MinCount>5</MinCount>
+				<MaxCount>9</MaxCount>
+				<Weights>50</Weights>
+			</li>
+		</Pools>
+	</Def>
+</List></Defs>

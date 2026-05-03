@@ -1,0 +1,79 @@
+<JianghuNpcDefs><List>
+
+	
+<!-- 	<Def Name="NPCBase" School="0">
+		<LastName>张</LastName>
+		<FristName>四</FristName>
+		<Sex>Male</Sex>
+		<GongLevel>God2</GongLevel>
+		<Titles>大佬,细佬,巨佬</Titles>
+		<Feature>Weak</Feature>
+		NoFeature
+		Weak  软弱
+		Naive  天真
+		Greedy  贪婪
+		Tenacity  坚强
+		Apathy   冷漠
+		<LikeItems>
+			<li>Item_WeaponBow</li>
+			<li>Item_IronBlock</li>
+		</LikeItems>
+		<HateItems>
+			<li>Item_CopperBlock</li>
+			<li>Item_Fruit</li>
+		</HateItems>
+		<Carry>
+			<li>
+				<ThingDef>FengShuiItem_Ta1</ThingDef>
+			</li>
+			<li>
+				<ThingDef>Esoterica_ZhenFa_6</ThingDef>
+				<ThingType>1</ThingType>	
+			</li>
+		</Carry>
+		<Esoterica>
+			<Type>None</Type>
+			<Name>Esoterica_ZhenFa_5</Name>
+		</Esoterica>
+		<Hobby>
+			<li>2</li>
+		</Hobby>
+		<Secret>
+			<li>1</li>
+			<li>2</li>
+		</Secret>
+	</Def> -->
+	
+	<Def Name="Npc_WuDang_1" School="13">
+		<LastName>武当</LastName>
+		<FristName>鸭</FristName>
+		<Race>WuDang_WuDiYa</Race>
+		<Sex>Male</Sex>
+		<Feature>Tenacity</Feature>
+		<GongLevel>None</GongLevel>
+		<Fame>3</Fame>
+		<Titles>无敌</Titles>
+		<CNOnly>1</CNOnly>
+		<LikeItems>
+			<li>Item_FunPainting</li>
+			<li>Item_FunPoem</li>
+			<li>Item_FunMusic</li>
+			<li>Item_FunChess</li>
+		</LikeItems>
+		<HateItems>
+			<li>Item_HorribleMeal</li>
+		</HateItems>
+		<Carry>
+			<li>
+				<ThingDef>Item_WuHuangDan</ThingDef>
+				<Count>9</Count>
+			</li>
+			<li>
+				<ThingDef>Item_ChunYangWuJiGong</ThingDef>
+			</li>
+		</Carry>
+		<Hobby>
+			<li>10001</li>
+		</Hobby>
+	</Def>
+</List></JianghuNpcDefs>

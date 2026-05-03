@@ -1,0 +1,520 @@
+Brand	Model	SystemVersion	RAM	Resolution	CPU	CPU Core Count
+华为	ASK-AL00x	9.0	6	1560x720	kirin710	8
+小米	MI 5s Plus	8.0	4	1080x1920	Qualcomm Technologies, Inc MSM8996pro	4
+小米	Redmi Note 4X	6.0	4	1080x1920	MT6797M	10
+华为	ARE-AL00	9.0	4	1080x2244	Qualcomm Technologies, Inc SDM636	8
+三星	SM-C7010	8.0	4	1080x1920	Qualcomm Technologies, Inc MSM8953	8
+华为	JKM-TL00	8.1	4	1080x2340		8
+华为	ART-AL00x	9.0	6	1560x720	kirin710	8
+华为	POT-AL00	9.0	6	1080x2340	kirin710	8
+华为	JER-AN10	10.0	8	1080x2340	Hisilicon Kirin985	8
+魅族	PRO 7-H	7.0	4	1440x2560		10
+中兴	ZTE A2020 Pro	10.0	6	1080x2340	Qualcomm Technologies, Inc SM8150	8
+360	1807-A01	8.1	4	1080x2160	Qualcomm Technologies, Inc SDM660	8
+华为	EVR-AL00	10.0	6	1080x2244	Hisilicon Kirin980	8
+华为	JKM-LX2	9.0	4	1080x2340	kirin710	8
+华为	HRY-AL00a	10.0	4	1080x2340	Hisilicon Kirin710	8
+华为	BND-AL10	7.0	4	1080x2340		8
+华为	LND-AL30	8.0	3	1440x720	msm8953	8
+华为	BLA-AL00	9.0	6	1080x2160	kirin970	8
+OPPO	OPPO A57t	6.0	3	1280x720	Qualcomm Technologies, Inc MSM8940	8
+VIVO	V1731CA	8.1	4	1440x720	Qualcomm Technologies, Inc SDM439	8
+三星	SM-A9200	10.0	6	1080x2220	Qualcomm Technologies, Inc SDM660	8
+VIVO	V1963A	10.0	6	1080x2400	Qualcomm Technologies, Inc LITO	8
+VIVO	V1938CT	9.0	8	1080x2400	PD1938C board based on Samsung Exynos980	8
+华为	STF-AL10	9.0	6	1080x1920	hi3660	8
+魅族	M5 Note	8.0	3	1440x720	1	8
+华为	FRD-DL00	7.0	3	1080x1920	hi3650	8
+华为	PCT-AL10	10.0	6	1080x2310	Hisilicon Kirin980	8
+VIVO	V1916A	10.0	8	1080x2340	Qualcomm Technologies, Inc SM8150	8
+三星	SM-G9350	8.0	4	1440x2560	Qualcomm Technologies, Inc MSM8996	4
+华硕	ASUS_Z012DA	8.0	4	1080x1920	Qualcomm Technologies, Inc MSM8953	8
+华为	COL-AL10	9.0	6	2048x2732 	麒麟970	8
+华为	SEA-AL10	10.0	8	1080x2340	Hisilicon Kirin980	8
+VIVO	NEX vivo	10.0	6	1080x2400	骁龙710	8
+三星	SM-G9600	10.0	4	1440x2960	Qualcomm Technologies, Inc SDM845	8
+华为	PCT-AL10	10.0	6	1080x2310	Hisilicon Kirin980	8
+VIVO	V1981A	10.0	6	1080x2408	Qualcomm Technologies, Inc KONA	8
+华为	VOG-AL00	10.0	8	1080x2340	Hisilicon Kirin980	8
+华为	TAS-AL00	HarmonyOS 2.0	8	1080x2340	Hisilicon Kirin990	8
+华为	LYA-AL00	10.0	6	1440x3120	Hisilicon Kirin980	8
+OPPO	OPPO R11	8.1	4	1080x1920	Qualcomm Technologies, Inc SDM660	8
+华为	HMA-AL00	10.0	6	1080x2244	Hisilicon Kirin980	8
+三星	SM-G9500	9.0	3	1440x2960	Qualcomm Technologies, Inc MSM8998	8
+华为	JNY-AL10	HarmonyOS 2.0	8	1080x2310	Hisilicon Kirin810	8
+三星	SM-G9550	9.0	5	1440x2960	Qualcomm Technologies, Inc MSM8998	8
+小米	Redmi K30 5G	11.0	6	1080x2400		8
+华为	BMH-AN10	HarmonyOS 2.0	8	1080x2400	Hisilicon Kirin985	8
+HTC	HTC 2Q4D200	8.0	6	1440x2880	Qualcomm Technologies, Inc MSM8998	8
+华为	DVC-TN20	10.0	6	1080x2400	MT6873	8
+VIVO	V1824BA	10.0	6	1080x2340	Qualcomm Technologies, Inc SM8150	8
+小米	MI CC9 Pro	10.0	6	1080x2340	Qualcomm Technologies, Inc SM7150	8
+华为	YAL-AL50	10.0	8	1080x2340	Hisilicon Kirin810	8
+OPPO	PDCM00	10.0	8	1080x2400	MT6885Z/CZA	8
+华为	TEL-AN00a	10.0	6	1080x2400	Hisilicon Kirin820	8
+小米	MI 8	9.0	6	1080x2248	Qualcomm Technologies, Inc SDM845	8
+OPPO	PBFT00	8.1	4	1520x720	Qualcomm Technologies, Inc SDM450	8
+VIVO	V1921A	9.0	6	1080x2340	Qualcomm Technologies, Inc SDM712	8
+OPPO	OPPO A79t	7.1	4	1080x2160	MT6763V/CT	8
+小米	Redmi 7	9.0	3	1520x720	Qualcomm Technologies, Inc SDM632	8
+三星	SM-A705FN	9.0	6	1080x2400	高通骁龙675	8
+三星	SM-G9730	10.0	8	1440x3040	Qualcomm Technologies, Inc SM8150	8
+VIVO	V1930A	9.0	3	1544x720	Qualcomm Technologies, Inc SDM439	8
+华为	SNE-AL00	10.0	6	1080x2340	Hisilicon Kirin710	8
+华为	FRD-AL10	8.0	4	1080x1920	hi3650	8
+小米	redmi note 9s	10.0	4	1080x1920	高通 骁龙720G	8
+华为	PIC-AL00	8.0	4	1080x1920	hi6250	8
+华为	PCT-AL10	10.0	6	1080x2310	Hisilicon Kirin980	8
+华为	LON-AL00	9.0	6	1440x2560	hi3660	8
+三星	SM-A3050	10.0	6	1560x720	exynos7904	8
+一加	ONEPLUS A5000	8.0	6	1080x1920	Qualcomm Technologies, Inc MSM8998	8
+华为	SPN-AL00	10.0	6	1080x2340	Hisilicon Kirin810	8
+三星	SM-G9700	10.0	6	1080x2280	Qualcomm Technologies, Inc SM8150	8
+华为	YAL-AL10	10.0	8	1080x2340	Hisilicon Kirin980	8
+华为	OXP-AN00	10.0	8	1080x2400	Hisilicon Kirin990	8
+VIVO	V1911A	9.0	6	1080x2340	Qualcomm Technologies, Inc SDM710	8
+华为	CDY-AN00	10.0	8	1080x2400	麒麟980	8
+三星	SM-G6200	8.1	6	1080x2160	Qualcomm Technologies, Inc SDM660	8
+华为	NTH-AN00	11.0	8	1080x2340	QualcommSnapdragon 778G	8
+真我	RMX2051	10.0	8	1080x2400	Qualcomm Technologies, Inc SDM765G 5G	8
+华为	ALP-AL00	10.0	4	1440x2560	Hisilicon Kirin970	8
+三星	SM-A6060	10.0	6	1080x2340	Qualcomm Technologies, Inc SM6150	8
+华为	LIO-AL00	10.0	8	1176x2400	Hisilicon Kirin990	8
+华为	FIG-AL00	8.0	3	1080x2160		4
+魅族	meizu 17 Pro	10.0	8	1080x2340	骁龙865	8
+谷歌	Pixel 3 XL	9.0	4	1080x2160	骁龙845	8
+小米	redmi 9	10.0	4	1080x2340	联发科 Helio G80	8
+华为	JSN-AL00a	10.0	4	1080x2340	Hisilicon Kirin710	8
+华为	SEA-AL10	10.0	8	1080x2340	Hisilicon Kirin980	8
+VIVO	vivo X9i	7.1	4	1080x1920	Qualcomm Technologies, Inc MSM8953	8
+华为	LND-AL30	8.0	3	1440x720	msm8953	8
+华为	HMA-AL00	10.0	6	1080x2244	Hisilicon Kirin980	8
+华为	HRY-LX1T	10.0	4	1080x2340	Hisilicon Kirin710	8
+华为	MRD-AL00	9.0	3	1560x720	MT6765	8
+华硕	rog_phone3	10.0	12	1080x1920	Qualcomm Snapdragon 865 PLUS SM8250	8
+VIVO	V1913A	9.0	6	1080x2340	MT6768V/CA	8
+三星	SM-M3070	10.0	6	1080x2340	exynos9611	8
+华为	BLA-AL00	10.0	6	1080x2160	Hisilicon Kirin970	8
+OPPO	PACT00	9.0	6	1080x2280	MT6771V/C	8
+华为	RVL-AL09	8.1	6	1080x2220	HiSiLiKirin970	8
+华为	NEM-TL00	6.0	2	1080x1920	hi6250	8
+三星	SM-G9300	8.0	4	1440x2560	Qualcomm Technologies, Inc MSM8996	4
+三星	SM-G610F	7.0	3	1080x1920	samsungexynos7870	8
+华为	FIG-AL00	9.0	3	1080x2160	hi6250	8
+华为	AQM-AL00	10.0	6	1080x2400	Hisilicon Kirin710	8
+OPPO	PCHM30	9.0	8	1600x720	Qualcomm Technologies, Inc SDM665	8
+一加	ONEPLUS A6010	9.0	8	1080x2340	Qualcomm Technologies, Inc SDM845	8
+华为	GLK-AL00	10.0	6	1080x2310	Hisilicon Kirin710	8
+小米	MIX 2	7.1	6	1080x2160	Qualcomm Technologies, Inc MSM8998	8
+VIVO	V1928A	9.0	4	1544x720	Qualcomm Technologies, Inc TRINKET	8
+华为	BLN-AL10	8.0	3	1080x1920	hi6250	8
+真我	RMX1971	10.0	8	1080x2340	Qualcomm Technologies, Inc SDM712	8
+三星	SM-A5070	9.0	6	1080x2340	exynos9611	8
+华为	PRA-AL00	7.0	3	1080x1920	麒麟655	8
+三星	SM-A7070	9.0	8	1080x2400	Qualcomm Technologies, Inc SM6150	8
+华为	NZA-ALOO	10.0	6	1600x720	联发科6765	8
+华为	HUAWEI RIO-TL00	6.0	2	1080x1920	msm8916	8
+小米	MI 9	9.0	8	1080x2340	Qualcomm Technologies, Inc SM8150	8
+谷歌	Pixel 3	9.0	4	1080x2160	骁龙778G	8
+华为	WAS-TL10	8.0	4	1080x1920	hi6250	8
+VIVO	vivo X9Plus	7.1	6	1080x1920	Qualcomm Technologies, Inc MSM8976SG	8
+VIVO	V1932A	10.0	8	1080x2400	Qualcomm Technologies, Inc SDM712	8
+华硕	ASUS_X00QD	9.0	4	1080x2246	Qualcomm Technologies, Inc SDM636	8
+VIVO	V1730EA	8.1	4	1080x2280	Qualcomm Technologies, Inc 626	8
+VIVO	vivo Z3x	9.0	6	1080x2280	Qualcomm Technologies, Inc SDM660	8
+华为	HRY-AL00Ta	10.0	6	1080x2340	Hisilicon Kirin710	8
+OPPO	PCEM00	9.0	6	1080x2340	MT6771V/CT	8
+华为	BLN-AL30	7.0	3	1080x1920	hi6250	8
+华为	JMM-AL00	7.0	3	1280x720	MT6750V/C	8
+华为	VIE-AL10	8.0	4	1080x1920	hi3650	8
+华为	KIW-AL10	6.0	3	1080x1920	Qualcomm MSM 8939 HUAWEI KIW-AL10	8
+OPPO	CPH1819	8.1	4	1080x2280	MT6771V/C	8
+华为	BLN-TL10	8.0	3	1080x1920	hi6250	8
+华为	GLK-AL00	10.0	6	1080x2310	Hisilicon Kirin710	8
+VIVO	V1818A	8.1	3	1520x720	Qualcomm Technologies, Inc SDM439	8
+华为	DUB-AL00	8.1	3	1520x720	Qualcomm Technologies, Inc SDM450	8
+VIVO	V1965A	10.0	8	1080x2340	Qualcomm Technologies, Inc SM6125	8
+VIVO	vivo 1716	8.1	4	1440x720	Qualcomm Technologies, Inc 450	8
+VIVO	vivo Y85	8.1	4	1080x2280	Qualcomm Technologies, Inc 450	8
+黑鲨	SKW-A0	9.0	12	1080x2340	Qualcomm Technologies, Inc SM8150	8
+VIVO	vivo Y75s	8.1	4	1440x720	Qualcomm Technologies, Inc 450	8
+小米	MI MAX	7.0	3	1080x1920	骁龙660	8
+VIVO	V1816A	9.0	6	1080x2340	Qualcomm Technologies, Inc SDM660	8
+OPPO	OPPO R11 Plus	8.1	6	1080x1920	Qualcomm Technologies, Inc SDM660	8
+VIVO	vivo Z1i	9.0	4	1080x2280	Qualcomm Technologies, Inc SDM636	8
+华为	MED-TL00	10.0	4	1600x720	MT6765V/CB	8
+魅族	Meizu M5	6.0	3	1280x720	MT6750	4
+华为	JAT-AL00	9.0	3	1560x720	MT6765	8
+华为	MHA-AL00	8.0	6	1080x1920	hi3660	8
+华为	JKM-AL00	9.0	4	1080x2340	kirin710	8
+华为	HLK-AL10	10.0	8	1080x2340	Hisilicon Kirin810	8
+华为	JNY-AL10	HarmonyOS 2.0	8	1080x2310	Hisilicon Kirin810	8
+努比亚	NX619J	9.0	8	1080x2160	Qualcomm Technologies, Inc SDM845	8
+华为	COR-AL10	9.0	6	1080x2340	kirin970	8
+华为	VCE-AL00	10.0	8	1080x2310	Hisilicon Kirin970	8
+魅族	Note9	9.0	4	1080x2244	Qualcomm Technologies, Inc SM6150	8
+一加	GM1910	10.0	6	1080x2340	Qualcomm Technologies, Inc SM8150	8
+魅族	PRO 7 Plus	7.0	6	1440x2560	mt6799	1
+华为	POT-AL00a	10.0	6	1080x2340	Hisilicon Kirin710	8
+联想	Lenovo L78031	9.0	6	1080x2340	Qualcomm Technologies, Inc SDM710	8
+努比亚	NX629J	9.0	6	1080x2340	Qualcomm Technologies, Inc SM8150	8
+华为	CLT-AL01	9.0	6	1080x2240	kirin970	8
+华为	HUAWEI CAZ-AL10	7.0	4	1080x1920		8
+魅族	16 X	8.1	6	1080x2160		8
+小米	MI CC 9	9.0	6	1080x2340	Qualcomm Technologies, Inc SDM710	8
+华为	LDN-AL00	8.0	4	1440x720	麒麟625	8
+华为	CAM-AL00	6.0	2	1280x720	Qualcomm Technologies, Inc. MSM8952 QRD SKUM	8
+华为	EVA-AL10	8.0	4	1080x1920	hi3650	8
+三星	SM-A505FN	10.0	4	1080x2340	exynos9610	8
+OPPO	PCKM80	10.0	8	1080x2340	MT6779V/CU	8
+华为	BND-AL10	9.0	4	1080x2160	hi6250	8
+小米	Redmi 6A	8.1	2	1440x720	mt6762m	4
+OPPO	PCDM10	10.0	8	1080x2340	MT6779V/CU	8
+三星	SM-A7000	6.0	2	1080x1920	Qualcomm Technologies, Inc MSM8939	8
+华为	MHA-TL00	9.0	4	1080x1920	hi3660	8
+真我	RMX2142	10.0	6	1080x2400	Qualcomm Technologies, Inc SDM765G 5G	8
+VIVO	V1818CA	8.1	4	1520x720	MT6762V/CA	8
+OPPO	PAAM00	9.0	6	1080x2280	Qualcomm Technologies, Inc SDM660	8
+VIVO	V1813BA	9.0	4	1080x2280	Qualcomm Technologies, Inc SDM670	8
+OPPO	PBCM10	10.0	6	1080x2340	Qualcomm Technologies, Inc SDM660	8
+华为	AUM-AL00	8.0	2	1440x720	msm8937	8
+VIVO	V1941A	9.0	6	1080x2340	Qualcomm Technologies, Inc SM6150	8
+华为	BKL-AL20	10.0	6	1080x2160	Hisilicon Kirin970	8
+华为	FLA-AL20	9.0	4	1080x2160	hi6250	8
+一加	 HD1910	11.0	8	1440x3120	骁龙855plus	8
+小米	Redmi 4A	6.0	2	1280x720	Qualcomm Technologies, Inc MSM8917	4
+一加	HD1900	10.0	8	1080x2400	Qualcomm Technologies, Inc SM8150	8
+小米	Redmi Note 7	9.0	6	1080x2340	Qualcomm Technologies, Inc SDM660	8
+MEITU	MP1605	7.1	6	1080x1920		4
+小米	MI 6	9.0	4	1080x1920	Qualcomm Technologies, Inc MSM8998	8
+小米	MI CC 9	10.0	6	1080x2340	Qualcomm Technologies, Inc SDM710	8
+谷歌	Pixel 2	9.0	4	1080x2340	骁龙765G	8
+金立	GIONEE S10BL	7.0	4	1080x1920		10
+奇酷	1801-A01	7.1	6	1080x2160		8
+华为	STF-AL10	7.0	4	1080x1920		8
+华为	VTR-AL00	7.0	4	1080x2340		8
+华为	BKK-AL10	8.1	4	1520x720	Qualcomm Technologies, Inc SDM632	8
+OPPO	PBEM00	10.0	6	1080x2340	Qualcomm Technologies, Inc SDM670	8
+酷派	C106-9	6.0	4	1080x1920	骁龙652	8
+华为	NCE-AL00	6.0	3	1280x720	MT6750	8
+小米	Redmi Pro	6.0	3	1080x1920	MT6797M	10
+小米	Redmi 8	9.0	4	1520x720	Qualcomm Technologies, Inc SDM439	8
+小米	Redmi Note 7 Pro	10.0	6	1080x2340	Qualcomm Technologies, Inc SM6150	8
+三星	SM-G973F	10.0	8	1440x3040	Exynos 9820	8
+360	1505-A02	6.0	4	1080x1920		8
+COOLPAD	C106-7	6.0	3	1080x1920		8
+小米	Redmi Note 4X	6.0	3	1080x1920	-	4
+OPPO	OPPO R11 Plusk	8.1	6	1080x1920	Qualcomm Technologies, Inc SDM660	8
+OPPO	PBAT00	8.1	3	1520x720	Qualcomm Technologies, Inc SDM450	8
+华为	LYA-AL00	10.0	6	1440x3120	Hisilicon Kirin980	8
+华为	SEA-AL10	10.0	8	1080x2340	Hisilicon Kirin980	8
+华为	CDY-AN00	10.0	8	1080x2400	Hisilicon Kirin820	8
+VIVO	V1916A	11.0	8	1080x2340	骁龙855plus	8
+华为	CDY-TN90	10.0	8	1080x2400	Hisilicon Kirin820	8
+华为	OXF-AN00	10.0	8	1080x2400	Hisilicon Kirin990	8
+华为	BMH-AN10	10.0	8	1080x2400	Hisilicon Kirin985	8
+一加	HD1910	10.0	8	1080x2340	Qualcomm Technologies, Inc SM8150	8
+华为	HUAWEI CAZ-TL10	6.0	3	1080x1920	Qualcomm Technologies, Inc MSM8953	8
+小米	Redmi Note 4X	6.0	4	1080x1920		8
+华为	PAR-AL00	9.0	6	1080x2340	kirin970	8
+华为	TEL-AN00a	10.0	6	1080x2400	Hisilicon Kirin820	8
+努比亚	NX627J	9.0	6	1080x2340		8
+华为	EBG-AN00	10.0	8	1080x2340	Hisilicon Kirin990	8
+华为	LIO-AN00	HarmonyOS 2.0	8	 2400x1176	kirin990	8
+VIVO	vivo X21A	9.0	6	1080x2280	Qualcomm Technologies, Inc SDM660	8
+华为	TNY-AL00	10.0	6	1080x2340	Hisilicon Kirin980	8
+华为	 COL-AL10	10.0	6	1080x2340	麒麟970	8
+华为	JSN-AL00a	10.0	4	1080x2340	Hisilicon Kirin710	8
+魅族	meizu 17	10.0	8	1080x2400		8
+小米	MIX 2S	10.0	6	1080x2160	Qualcomm Technologies, Inc SDM845	8
+华为	EVR-AL00	9.0	6	1080x2244	kirin980	8
+HTC	HTC_U-1u	7.0	4	1440x2720	Qualcomm Technologies, Inc MSM8996pro	4
+VIVO	V1824A	10.0	12	1080x2340	Qualcomm Technologies, Inc SM8150	8
+VIVO	V1824BA	11.0	6	1080x2340	骁龙855	8
+华为	MAR-AL00	10.0	4	1080x2312	Hisilicon Kirin710	8
+魅族	16th	8.1	6	1080x2160	Qualcomm Technologies, Inc SDM845	8
+华为	KNT-UL10	8.0	4	1080x1920	hi3650	8
+华为	HLK-AL00	10.0	6	1080x2340	Kirin810	8
+华为	 YAL-AL10	10.0	8	1080x2340	麒麟980	8
+VIVO	V1936A	10.0	6	1080x2340	Qualcomm Technologies, Inc SM8150	8
+华为	ARS-AL00	9.0	4	1080x2244	Qualcomm Technologies, Inc SDM660	8
+华为	YAL-AL00	10.0	8	1080x2340	Hisilicon Kirin980	8
+小米	MI 9	10.0	6	1080x2340	Qualcomm Technologies, Inc SM8150	8
+华为	BAC-AL00	8.0	4	1080x1920	hi6250	8
+VIVO	vivo Y71A	8.1	3	1440x720	Qualcomm Technologies, Inc MSM8917	4
+真我	RMX1901	10.0	6	1080x2340	Qualcomm Technologies, Inc SDM710	8
+华为	SPN-AL00	10.0	6	1080x2340	Hisilicon Kirin810	8
+华为	KNT-AL20	8.0	4	1440x2560	hi3650	8
+VIVO	V1955A	10.0	6	1080x2400		8
+华为	VCE-AL00	10.0	8	1080x2310	Hisilicon Kirin970	8
+华为	OXF-AN10	10.0	8	1080x2340	麒麟990 5G	8
+华为	OXF-AN00	10.0	8	1080x2400	Hisilicon Kirin990	8
+华为	COR-AL00	9.0	4	1080x2340	kirin970	8
+华为	JEF-AN00	10.0	8	1080x2400	Hisilicon Kirin985	8
+一加	GM1900	10.0	8	1080x2340	Qualcomm Technologies, Inc SM8150	8
+华为	VOG-AL00	10.0	8	1080x2340	Hisilicon Kirin980	8
+华为	LIO-AL00	HarmonyOS 2.0	8	1176x2400	Hisilicon Kirin990	8
+华为	BAC-TL00	8.0	4	1080x1920	hi6250	8
+华为	TAS-AL00	10.0	8	1080x2340	Hisilicon Kirin990	8
+小米	Redmi Note 7	9.0	4	1080x2340	Qualcomm Technologies, Inc SDM660	8
+小米	MI 9	9.0	8	1080x2340	Qualcomm Technologies, Inc SM8150	8
+华为	HLK-AL00	10.0	4	1080x2340	Hisilicon Kirin810	8
+华为	EML-AL00	10.0	6	1080x2244	Hisilicon Kirin970	8
+金立	GIONEE M7	7.1	6	1080x2160	mt6758	8
+华为	NTS-AL00	6.0	4	1440x2560	Hisilicon Kirin 950	8
+华为	EDI-AL10	8.0	4	1440x2560	hi3650	8
+VIVO	V1911A	10.0	6	1080x2340	Qualcomm Technologies, Inc SDM710	8
+华为	HUAWEI ALE-CL00	6.0	2	1280x720	Qualcomm MSM 8939 HUAWEI ALE-CL	8
+华为	TNY-AL00	10.0	6	1080x2340	麒麟980	8
+VIVO	V1934A	9.0	6	1080x2340	MT6768V/CA	8
+三星	SM-C9000	8.0	6	1080x1920	Qualcomm Technologies, Inc MSM8976SG	8
+三星	SCV38	8.0	3	1440x2960	Qualcomm Technologies, Inc SDM845	8
+华为	DUK-TL30	9.0	6	1440x2560		8
+三星	SM-A7050	10.0	6	1080x2400	Qualcomm Technologies, Inc SM6150	8
+索尼	SO-04J	9.0	4	2160x3840	Qualcomm Technologies, Inc MSM8998	8
+小米	MI 9 SE	10.0	6	1080x2340	Qualcomm Technologies, Inc SDM712	8
+小米	Redmi 5A	8.1	2	1280x720	Qualcomm Technologies, Inc MSM8917	4
+华为	EML-AL00	9.0	6	1080x2340		8
+华为	KNT-AL10	8.0	4	1080x1920	hi3650	8
+OPPO	PACT00	9.0	6	1080x2280	MT6771V/C	8
+华为	JEF-AN00	10.0	8	1080x2400	Hisilicon Kirin985	8
+索尼	XQ-AS72	11.0	8	110x1200	骁龙865	8
+夏普	908SH	10.0	12	1440x3168	高通骁龙865+	8
+华为	CLT-AL01	10.0	6	1080x2240	Hisilicon Kirin970	8
+小米	Redmi 3X	6.0	2	0x0	Qualcomm Technologies, Inc MSM8937	8
+索尼	XQ-AT52	10.0	8	1096x2560	Qualcomm Technologies, Inc KONA	8
+华为	YAL-L21	10.0	8	1080x2340	海思980	8
+三星	SM-N9500	9.0	5	1440x2960	Qualcomm Technologies, Inc MSM8998	8
+三星	SM-J700H	6.0	1	1280x720	SAMSUNG Exynos7580	8
+XIAOMI	Redmi K20 Pro	10.0	8	1080x2340	Qualcomm	8
+一加	GM1910	10.0	6	1080x2340		8
+华为	STK-AL00	10.0	6	1080x2340	Hisilicon Kirin710	8
+小米	MI 8 UD	10.0	8	1080x2248		8
+OPPO	CPH1979	9.0	8	 2340x1080	高通骁龙625	8
+华为	MHA-AL00	7.0	4	1080x1920	hi3660	8
+华为	VKY-AL00	7.0	6	1440x2560		8
+华为	EVA-AL10	8.0	4	1080x1920	hi3650	8
+三星	SM-G8870	10.0	6	1080x2340	Qualcomm Technologies, Inc SDM710	8
+VIVO	V1831A	9.0	6	1080x2340	MT6771V/CT	8
+OPPO	PAAT00	10.0	6	1080x2280	Qualcomm Technologies, Inc SDM660	8
+华为	DVC-TN20	HarmonyOS 2.0	6	1080x2400	MT6873	8
+VIVO	V1829A	10.0	8	1080x2340	Qualcomm Technologies, Inc SDM710	8
+小米	MI MAX 3	8.1	4	1080x2160	Qualcomm Technologies, Inc SDM636	8
+三星	SM-N770F	10.0	6	1080x2400	Exynos 9810	8
+华为	DUB-LX1	8.1	3	1520x720	Qualcomm Technologies, Inc SDM450	8
+小米	Redmi Note 5A	7.1	3	1280x720	Qualcomm Technologies, Inc MSM8940	8
+华为	BLN-AL40	8.0	4	1080x1920	hi6250	8
+三星	SCV37	9.0	5	 2960x1440	Exynos 8895	8
+VIVO	vivo 1718	7.1	4	1440x720	Qualcomm Technologies, Inc SDM450	8
+VIVO	V1829A	10.0	8	1080x2340	Qualcomm Technologies, Inc SDM710	8
+三星	SM-C7000	8.0	4	1080x1920	Qualcomm Technologies, Inc MSM8953	8
+OPPO	PACM00	10.0	4	1080x2280	MTKMTK6771	8
+小米	MI 5	8.0	3	1080x1920	Qualcomm Technologies, Inc MSM8996	4
+三星	SM-A315G	10.0	4	1080x2400	MT6768	8
+三星	SM-N986U1	12.0	11	1440x3088	Qualcomm Technologies, Inc KONA	8
+锤子	OS105	7.1	4	1080x2340		8
+VIVO	V1986A	10.0	6	1080x2408	MT6889Z/CZA	8
+VIVO	vivo Y79A	7.1	4	1440x720		8
+VIVO	vivo X21A	9.0	6	1080x2280	Qualcomm Technologies, Inc SDM660	8
+VIVO	vivo Z1	9.0	4	1080x2280	Qualcomm Technologies, Inc SDM660	8
+VIVO	vivo X20Plus A	8.1	4	1080x2160	Qualcomm Technologies, Inc SDM660	8
+金立	GIONEE S11	7.1	6	1080x2160	联发科Helio P30	8
+VIVO	V1814A	9.0	6	1080x2340	Qualcomm Technologies, Inc SDM660	8
+VIVO	vivo X9s Plus	7.1	4	1080x1920	Qualcomm Technologies, Inc MSM8976SG	8
+VIVO	vivo Y67L	6.0	4	1280x720	MT6750	8
+OPPO	OPPO R11s Plus	7.1	6	1080x2160		8
+努比亚	NX907J	6.0	3	1280x720	Qualcomm Technologies, Inc MSM8940	8
+三星	SM-N920V	6.0	4	1440x2560	SAMSUNG Exynos7420	8
+VIVO	vivo Z1	9.0	6	1080x2280	Qualcomm Technologies, Inc SDM660	8
+VIVO	V1732A	8.1	3	1520x720	MT6762V/CB	8
+OPPO	OPPO A79k	7.1	4	1080x2160	MT6763V/CT	8
+中兴	ZTE A2017	6.0	4	1440x2560	Qualcomm Technologies, Inc MSM8996	4
+中兴	ZTE A2017	6.0	4	1440x2560	Qualcomm Technologies, Inc MSM8996	4
+小米	Redmi Note 4	6.0	3	1080x1920	MT6797M	10
+小米	Redmi K30 Pro	11.0	8	1080x2400	Qualcomm Technologies, Inc SM8250	8
+华为	JER-AN10	10.0	8	1080x2340	Hisilicon Kirin985	8
+小米	Mi 10 Pro	11.0	8	1080x2340	Qualcomm Technologies, Inc SM8250	8
+华为	VOG-AL00	10.0	8	1080x2340	Hisilicon Kirin980	8
+索尼	XQ-AS72	10.0	8	1080x2520		8
+华为	ELE-AL00	10.0	8	1080x2340	麒麟980	8
+夏普	FS8018	7.1	4	1080x2040	骁龙630	8
+华为	EBG-AN00	10.0	8	1080x2340	Hisilicon Kirin990	8
+小米	MI 11	12	12	1400x3200 	高通骁龙888	8
+华为	HLK-AL00	10.0	6	1080x2340		8
+华为	YAL-AL00	10.0	8	1080x2340	Hisilicon Kirin980	8
+华硕	ZenFone 7 Pro	11.0	8	1080x2400	高通 骁龙865 Plus	8
+华为	SEA-AL00	10.0	8	1080x2340	Hisilicon Kirin810	8
+魅族	16s Pro	9.0	8	1080x2232	Qualcomm Technologies, Inc SDM855Plus	8
+华为	BLN-TL10	7.0	3	1080x1920		8
+华硕	ASUS_I001DA	9.0	8	1080x2340		8
+IQOO	V1936A	9.0	8	1080x2340		8
+一加	ONEPLUS A6010	10.0	8	1080x2340	Qualcomm Technologies, Inc SDM845	8
+一加	ONEPLUS A5010	10.0	6	1080x2160	Qualcomm Technologies, Inc MSM8998	8
+OPPO	CPH1917	9.0	8	1080x2340	高通骁龙865+	8
+华为	COR-AL00	9.0	4	1080x2340	kirin970	8
+HISENSE	Hisense A2T	7.1	4	1080x1920		8
+一加	GM1900	9.0	8	1080x2340	Qualcomm Technologies, Inc SM8150	8
+华为	MAR-LX2J	10.0	4	1080x2312		8
+华为	HUAWEI NXT-AL10	10.0	3	1080x2340		8
+VIVO	V1986A	10.0	6	1080x2408	MT6889Z/CZA	8
+小米	Mi Note 2	7.0	6	1080x1920		8
+魅族	M5s	6.0	2	1280x720		1
+华为	AUM-AL00	8.0	2	1440x720	msm8937	8
+小米	Mi A1	9.0	4	1080x1920	Qualcomm Technologies, Inc MSM8953	8
+华为	JSN-AL00a	10.0	4	1080x2340	Hisilicon Kirin710	8
+VIVO	V1836A	10.0	8	1080x2460	Qualcomm Technologies, Inc SDM710	8
+华为	LLD-AL00	8.0	3	1080x2160		8
+联想	ZUK Z2131	7.0	3	1080x1920		4
+三星	SM-G955F	9.0	4	1440x2960	samsungexynos8895	8
+华为	mate8	8.0	3	1080x720	麒麟625	8
+魅族	M5 Note	8.0	3	1440x720		8
+华为	FRD-DL00	7.0	3	1080x1920		8
+小米	M2003J15SC	10.0	4	1080x2340	MT6769Z	8
+小米	Redmi Note 7	9.0	3	1080x1920	Qualcomm Technologies, Inc SDM660	8
+VIVO	vivo X9	7.1	4	1080x1920	Qualcomm Technologies, Inc MSM8953	8
+三星	SM-G955N	9.0	4	1440x2960	samsungexynos8895	8
+VIVO	V1824A	10.0	8	1080x2340	Qualcomm Technologies, Inc SM8150	8
+华为	HUAWEI CAZ-AL10	9.0	4	 1080x2340 		8
+COOLPAD	C106-8	6.0	4	1080x1920	联发科 MT6750	8
+小米	MI NOTE LTE	6.0	3	1080x1920	Qualcomm MSM8974PRO-AC	4
+华为	HUAWEI MLA-TL00	6.0	3	1080x1920		8
+OPPO	OPPO A73t	7.1	4	1080x2160	MT6763V/CT	8
+魅族	PRO 6 Plus	6.0	4	1440x2560	exynos5	8
+OPPO	PCHM10	9.0	4	1600x720	Qualcomm Technologies, Inc SDM665	8
+华为	HUAWEI NXT-AL10	7.0	4	1080x1920	hi3650	8
+中兴	ZTE A2021	10.0	6	1080x2340	Qualcomm Technologies, Inc LITO	8
+OPPO	PBBM00	9.0	4	1080x2340	MT6771V/C	8
+魅族	16th Plus	8.1	6	1080x2160	Qualcomm Technologies, Inc SDM845	8
+LENOVO	Lenovo L79031	10.0	12	1080x2340		8
+VIVO	vivo X9s	8.1	4	1080x1920	Qualcomm Technologies, Inc MSM8976	8
+OPPO	OPPO A83	7.1	4	1440x720	MT6763V/CT	8
+OPPO	OPPO R11 Pluskt	8.1	6	1080x1920	Qualcomm Technologies, Inc SDM660	8
+小米	Redmi Note 8	9.0	6	1080x2340	Qualcomm Technologies, Inc TRINKET	8
+360	1809-A01	8.1	6	1080x2160	Qualcomm Technologies, Inc SDM710	8
+VIVO	V1901A	9.0	4	1544x720	MT6765V/CB	8
+VIVO	vivo Y85	8.1	4	1080x2280		8
+乐视	LEX720	6.0	4	1080x1920	Qualcomm Technologies, Inc MSM8996pro	4
+华硕	ASUS_I003DD	10.0	16	1080x2340	高通骁龙865+	8
+VIVO	vivo Y67L	6.0	4	1280x720		8
+OPPO	PCLM10	10.0	8	1080x2400	Qualcomm Technologies, Inc SM8150_Plus	8
+黑鲨	DLT-A0	10.0	12	1080x2340	Qualcomm	8
+VIVO	vivo X9Plus L	7.1	6	1080x1920	Qualcomm Technologies, Inc MSM8976SG	8
+乐视	Le X820	6.0	4	1440x2560	骁龙820	8
+小米	MI 8 Lite	10.0	6	1080x2280	Qualcomm Technologies, Inc SDM660	8
+OPPO	PDHM00	11.0	8	1080x2400	Qualcomm Technologies, Inc SM8250	8
+小米	MI MAX 3	9.0	4	1080x2160	Qualcomm Technologies, Inc SDM636	8
+真我	RMX2071	10.0	8	1080x2400	Qualcomm Technologies, Inc SM8250	8
+VIVO	vivo Xplay6	7.1	6	1440x2560	Qualcomm Technologies, Inc MSM8996	4
+小米	M2012K10C	11.0	8	1080x2400	天玑1200	8
+VIVO	vivo Y66i	7.1	3	1280x720	Qualcomm Technologies, Inc MSM8917	4
+小米	Redmi 4X	7.0	2	1280x720	骁龙435	4
+华为	DLI-AL10	7.0	2	1280x720	Qualcomm Technologies, Inc MSM8937	8
+VIVO	vivo Y53L	6.0	2	540x960	Qualcomm Technologies, Inc MSM8917	4
+魅族	Meizu S6	7.0	3	1440x720	samsungexynos7872	6
+OPPO	PBCM30	9.0	6	1080x2340	Qualcomm Technologies, Inc SDM660	8
+华为	HUAWEI CRR-UL00	6.0	3	1080x1920	Hisilicon Kirin 935	8
+华为	DLI-AL10	7.0	2	1280x720	Qualcomm Technologies, Inc MSM8937	8
+华为	HUAWEI MT7-TL00	6.0	2	1080x1920	Hisilicon Kirin 925	8
+小米	MI MAX	7.0	3	1080x1920	Qualcomm Technologies, Inc MSM8956	6
+VIVO	vivo Y67A	6.0	4	1280x720	MT6750	8
+VIVO	V1821A	10.0	10	1080x2340	Qualcomm Technologies, Inc SDM845	8
+VIVO	vivo Y83A	8.1	4	1520x720	MT6762V/CB	8
+华硕	ASUS_I003DD	10.0	12	1080x2340	Qualcomm Technologies, Inc KONA	8
+华为	HUAWEI GRA-CL10	6.0	3	1080x1920	Hisilicon Kirin 935	8
+小米	Redmi K20	10.0	6	1080x2340	Qualcomm Technologies, Inc SM7150	8
+小米	MI 6	9.0	4	1080x1920	Qualcomm Technologies, Inc MSM8998	8
+VIVO	V1913T	9.0	6	1080x2340	MT6768V/CA	8
+VIVO	vivo Y75A	7.1	4	1440x720	MT6763V/B	8
+锤子	DE106	8.1	6	1080x2242	Qualcomm Technologies, Inc SDM845	8
+华为	RNE-AL00	8.0	4	1080x2160	hi6250	8
+小米	MI 6X	9.0	4	1080x2160	Qualcomm Technologies, Inc SDM660	8
+华为	HUAWEI VNS-AL00	6.0	3	1080x1920	Qualcomm Technologies, Inc. MSM8952 QRD SKUM	8
+小米	MI 5s	7.0	3	1080x1920	Qualcomm Technologies, Inc MSM8996pro	4
+小米	MI 4S	7.0	3	1080x1920	Qualcomm Technologies, Inc MSM8992	6
+三星	SM-G5510	7.1	2	1280x720	Qualcomm Technologies, Inc MSM8917	4
+OPPO	OPPO A57	6.0	3	1280x720	Qualcomm Technologies, Inc MSM8940	8
+小米	MI CC 9 Meitu Edition	10.0	8	1080x2340	Qualcomm Technologies, Inc SDM710	8
+小米	Redmi Note 7 Pro	9.0	6	1080x2340	Qualcomm Technologies, Inc SM6150	8
+小米	Redmi Note 8 Pro	9.0	8	1080x2340	MT6785V/CC	8
+小米	MIX 3	10.0	8	1560x720	Qualcomm Technologies, Inc SDM845	8
+小米	MI 8 SE	8.1	6	1080x2244	Qualcomm Technologies, Inc SDM710	8
+小米	MIX 3	10.0	6	1560x720	Qualcomm Technologies, Inc SDM845	8
+小米	Redmi 8A	9.0	4	1520x720	Qualcomm Technologies, Inc SDM439	8
+VIVO	vivo X21UD A	8.1	6	1080x2280	Qualcomm Technologies, Inc SDM660 AIE	8
+VIVO	V1934A	9.0	6	1080x2340	MT6768V/CA	8
+OPPO	PCLM10	11.0	8	1080x2400	Qualcomm Technologies, Inc SM8150_Plus	8
+小米	SHARK KLE-A0	10.0	12	1080x2400	骁龙865	8
+魅族	M3X	6.0	3	1080x1920	MT6757	8
+魅族	M1813	8.1	4	1440x720	MT6762V/CB	8
+小米	MIX 2	9.0	6	1080x2160	Qualcomm Technologies, Inc MSM8998	8
+小米	M2104K10AC	11.0	6	1080x2400	联发科天玑1100	8
+VIVO	vivo Y66	6.0	3	1280x720	Qualcomm Technologies, Inc MSM8937	8
+华为	HUAWEI GRA-UL00	6.0	3	1080x1920	Hisilicon Kirin 930	8
+小米	M2004J7AC	10.0	5	1080x2400	MT6875	8
+黑鲨	SKW-A0	10.0	6	1080x2340	Qualcomm Technologies, Inc SM8150	8
+OPPO	OPPO A83t	7.1	4	1440x720	MT6763V/CT	8
+VIVO	vivo X9	7.1	4	1080x1920	Qualcomm Technologies, Inc MSM8953	8
+OPPO	OPPO R11s	7.1	4	1080x2160	Qualcomm Technologies, Inc SDM660	8
+小米	Redmi Note 5	9.0	4	1080x2160	Qualcomm Technologies, Inc SDM636	8
+VIVO	V1814T	9.0	6	1080x2340		8
+VIVO	V1914A	10.0	8	1080x2340	Qualcomm Technologies, Inc SDM845	8
+摩托罗拉	Moto E (4) Plus	7.1	3	1280x720	MT6737	4
+小米	Redmi 8	9.0	4	1520x720	Qualcomm Technologies, Inc SDM439	8
+VIVO	vivo Y75A	7.1	4	1440x720		8
+OPPO	PDYM20	10.0	4	1080x2400	MT6853V/ZA	8
+VIVO	V1945A	9.0	8	1080x2340	Qualcomm Technologies, Inc TRINKET	8
+小米	M2006C3LC	10.0	4	1600x720	MT6762G	8
+小米	MI CC 9e	9.0	6	1560x720	Qualcomm Technologies, Inc SM6125	8
+VIVO	V2023A	10.0	6	1080x2340	Qualcomm Technologies, Inc ATOLL-AB	8
+小米	MI 8	10.0	6	1080x2248	骁龙845	8
+小米	M2007J1SC	10.0	8	1080x2340	Qualcomm Technologies, Inc SM8250	8
+小米	Mi 10	10.0	8	1080x2400	骁龙865	8
+小米	Redmi Note 8 Pro	9.0	6	1080x2340	MT6785V/CC	8
+小米	Redmi K30 Pro	10.0	6	1080x2400	Qualcomm Technologies, Inc SM8250	8
+锤子	 DT1901A	10.0	12	1080x2340	骁龙855plus	8
+小米	MI 6	9.0	6	1080x1920	Qualcomm	8
+OPPO	PBBT30	8.1	3	1520x720	Qualcomm Technologies, Inc SDM450	8
+OPPO	OPPO A73	7.1	4	1080x2160	MT6763V/CT	8
+VIVO	V1955A	10.0	6	1080x2400	Qualcomm Technologies, Inc KONA	8
+小米	M2002J9E	10.0	6	1080x2400	骁龙765g	8
+小米	Redmi K30 Pro	10.0	6	1080x2400	骁龙865	8
+VIVO	V1923A	10.0	8	1080x2256	Qualcomm	8
+华为	ATH-AL00	6.0	3	1080x1920	msm8916	8
+锤子	OD105	7.1	4	1080x1920	Qualcomm Technologies, Inc MSM8953Pro	8
+VIVO	vivo X9s Plus	8.1	4	1080x1920	Qualcomm Technologies, Inc MSM8976SG	8
+OPPO	OPPO A77t	7.1	3	1080x1920	Qualcomm Technologies, Inc MSM8953	8
+魅族	Meizu 15	9.0	4	1081x1920	660	8
+小米	MIX 2S	10.0	6	1080x2160	Qualcomm Technologies, Inc SDM845	8
+小米	MI 8 UD	10.0	8	1080x2248		8
+小米	M2102J2SC	11.0	8	1080x2340	高通骁龙870	9
+小米	Redmi 6	9.0	3	1440x720	MT6762V/CB	8
+小米	Redmi 7A	9.0	2	1440x720	Qualcomm Technologies, Inc SDM439	8
+OPPO	PCEM00	10.0	6	1080x2340	MT6771V/CT	8
+VIVO	V2049A	11.0	8	1080x2400	高通骁龙888	8
+小米	Mi 10	11.0	8	1080x2340	Qualcomm Technologies, Inc SM8250	8
+VIVO	V1922A	10.0	8	1080x2340	Qualcomm Technologies, Inc SM8150	8
+OPPO	PCAT00	10.0	6	1080x2340	Qualcomm Technologies, Inc SDM710	8
+飞利浦	Philips X598	7.0	4	1080x1920	MT6750T	8
+华为	EVA-AL00	7.0	3	1080x1920	hi3650	8
+一加	LE2110	12.0	8	1080x2400	高通骁龙888	8
+三星	Galaxy note 20 ultra	11.0	12	1440x3088	高通 骁龙865 Plus	8
+真我	RMX1851	10.0	6	1080x2340	Qualcomm Technologies, Inc SDM710	8
+OPPO	PAAT00	9.0	6	1080x2280	Qualcomm Technologies, Inc SDM660	8
+三星	SCV40	10.0	6	1440x2960	Exynos 9810	8
+VIVO	vivo X9s Plus	8.1	4	1080x1920	Qualcomm Technologies, Inc MSM8976SG	8
+360	1505-M03	6.0	4	1080x2340	联发科x20	10
+华为	TRT-AL00	7.0	3	1280x720		8
+VIVO	V1818A	8.1	4	1520x720	Qualcomm Technologies, Inc SDM439	8
+VIVO	V1818CA	8.1	4	1520x720	MT6762V/CA	8
+华为	PAR-TL00	9.0	6	1080x2340	未知	8
+VIVO	vivo Y66	6.0	3	1280x720	Qualcomm Technologies, Inc MSM8937	8
+华为	TRT-TL10A	7.0	4	1280x720	Qualcomm Technologies, Inc MSM8940	8
+一加	IN2010	11.0	8	1080x2400	Qualcomm Technologies, Inc KONA	8
+OPPO	PCAM10	10.0	4	1080x2340	MT6771V/CT	8
+小米	MI PLAY	8.1	4	1080x2280	MT6765	8
+小米	Redmi 7A	9.0	3	1440x720	Qualcomm Technologies, Inc SDM439	8
+华为	SLA-TL10	7.0	3	1280x720	Qualcomm Technologies, Inc MSM8917	4
+华为	YAL-AL00	10.0	8	1080x2340	Hisilicon Kirin980	8
+小米	Redmi K20 Pro Premium Edition	10.0	8	1080x2340	Qualcomm Technologies, Inc SM8150	8
+华为	NEM-AL10	6.0	3	1080x1920	hi6250	8
+VIVO	V1962A	10.0	8	1080x2400	PD1962 board based on Samsung EXYNOS980	8

@@ -1,0 +1,291 @@
+
+
+ <!--   /// <summary>
+        /// 异动效果种类枚举
+        /// </summary>
+        public enum g_emMutationEffectKind
+        {
+            None = 0,
+            /// <summary>
+            /// 动物死亡后有概率变为妖兽  fParam1:变为妖兽的基础概率 nParam1:额外概率间隔  fParam2:额外概率加成
+            /// </summary>
+            AnimalToMonster, 
+
+            /// <summary>
+            /// 炼丹会产生丹气   nParam1:数值
+            /// </summary>
+            ElixirGas,
+
+            /// <summary>
+            /// 开启祭妖大典  nParam1:数值
+            /// </summary>
+            Sacrific,
+
+            /// <summary>
+            /// 古旧石匣概率大幅度提高  fParam1: 概率
+            /// </summary>
+            AncientStoneChest,
+            
+            /// <summary>
+            /// 每次天气到来都伴随灵气爆发      nParam1: 2000                                                                            LingAddtionAddV
+            /// </summary>
+            LinQiSurge,
+            
+            /// <summary>
+            /// 立马恢复伤势               
+            /// </summary>
+            HealthRecoverAtOnce,
+            
+            /// <summary>
+            /// 持续恢复伤势                  sParam1: ThingName（治疗丹药名称） sParam1: 治疗对应的伤害标签  fParam1: 治疗效率增加  fParam2: 治疗持续时间     
+            /// </summary>
+            HealthRecoverDuration,
+            
+            /// <summary>
+            /// 随机1名生灵受伤                sParam1: 受伤部位名称  sParam1: 伤害名称
+            /// </summary>
+            RandomCreatureInjured,  
+            
+            /// <summary>
+            /// 因为某种原因导致死亡            sParam1: 死亡原因
+            /// </summary>
+            WillDieBySomeReason,  
+            
+            /// <summary>
+            /// 随机一名非友方死亡             sParam1: 死亡原因
+            /// </summary>
+            RandomEnemyDies,
+           
+            /// <summary>
+            /// 单次商人周期内，商品越买越贵，物资越卖越便宜  fParam1: 商品价格翻倍倍率 递增  fParam2: 商品价格翻倍倍率 递减  
+            /// </summary>
+            GoodsExpensiveButSuppliesCheaper,
+            
+            /// <summary>
+            /// 五行生克关系颠倒 
+            /// </summary>
+            FiveElementsRelationChange,
+
+            /// <summary>
+            ///食用药物获得更少耐药性        fParam1: 系数                           addP  Fesistance
+            /// </summary>
+            DrugResistance,
+            
+            /// <summary>
+            /// 无法邀请npc至门派做客
+            /// </summary>
+            CantInviteNpc,
+           
+            /// <summary>
+            /// 但是角色寿元会以{0}倍的速度流逝  fParam1: 系数                  addP       AgeCostSpeed
+            /// </summary>
+            PlayerLifeLost,
+
+            /// <summary>
+            /// 地图迷雾消除
+            /// </summary>
+            MapFogRemoval,
+            
+            /// <summary>
+            /// 解锁全部阵法节点
+            /// </summary>
+            UnlockZhenNode,
+
+            /// <summary>
+            /// 性别转换  细节？？
+            /// </summary>
+            SexTransformation,
+
+            /// <summary>
+            /// 清除自身随机1条耐药性   nParam1: 数量  Fesistance
+            /// </summary>
+            RandomDrugToleranceCleared,
+            /// <summary>
+            /// 技能等级+1     sParam1:技能类型  nParam1: addv    上限 ??
+            /// </summary>
+            AllSkillsLevelUp,
+            /// <summary>
+            /// 弟子忽略工作安排，随机完成指令
+            /// </summary>
+            DiscipleCompleteCommandRandom,
+            
+            /// <summary>
+            /// 无法禁足通灵物 
+            /// </summary>
+            CantConfineTongling,
+
+            /// <summary>
+            /// 灵宠为所欲为，不再服从训练
+            /// </summary>
+            SoulPetCanNotControl,
+            /// <summary>
+            /// 风水镇物全部变为 逆镇物  （条件不满足，也提供一个相反效果）   
+            /// </summary>
+            FengShuiChange,
+
+            /// <summary>
+            /// 炼制的新法宝随机获得秘宝词条  参考配配置SpecialAbilityData
+            /// </summary>
+            FaBaoSpecialAbility,
+
+            /// <summary>
+            /// 大幅度提升劝说的成功率   fParam1:  成功率  addv
+            /// </summary>
+            Persuasion,
+            
+            /// <summary>
+            /// 外门弟子对房间的需求变高(跟内门一样)
+            /// </summary>
+            OuterDiscipleRoomDemand,
+
+            /// <summary>
+            /// 所有食物都有概率吃出硬币   sParam1:掉落物品名称   fParam1:掉落概率
+            /// </summary>
+            FoodsDropCoin,
+            
+            /// <summary>
+            /// 解锁法宝格子   fParam1:格子数量(NpcFight_FabaoNum)               
+            /// </summary>
+            UnlockFabaoSlot,
+            
+            /// <summary>
+            /// 随机1株五行灵根 灵性或煞性达到最大值  sParam1:随机的灵根名字 
+            /// </summary>
+            RandomFiveElementsRootMaxed,
+            
+            /// <summary>
+            /// 外门弟子获得飞行能力  sParam1: npc类型 
+            /// </summary> 
+            OuterDiscipleFlyAbility,
+            
+            /// <summary>
+            /// 被满足所有需求的外门弟子工作效率增加     fParam1: 效率  addP
+            /// </summary>
+            OuterDiscipleEfficiencyBoost,
+            
+            /// <summary>
+            /// 引来1头鹿蜀   sParam1: 灵兽名称 nParam1:数量
+            /// </summary>
+            AttractAnimal,
+            
+            /// <summary>
+            /// 角色可以激活更多符咒  nParam1:叠加数量  addv                            
+            /// </summary>
+            SpellActivation,
+            
+            /// <summary>
+            /// 傀儡停止磨损                                                        
+            /// </summary>
+            PuppetDropHPStop,
+            
+            /// <summary>
+            /// 无法手动画符 画符会得到随机结果  
+            /// </summary>
+            CantDrawFuAndRandomFu,
+            
+            /// <summary>
+            /// 淬炼必定成功        fParam1:成功系数
+            /// </summary>
+            RefineMustSuccess,
+            
+            /// <summary>
+            /// 淬炼消耗更多的资源。 nParam1: 消耗数量
+            /// </summary>
+            RefineCostChange,
+            
+            /// <summary>
+            /// 植物生长忽略温度等相关生长条件
+            /// </summary>
+            PlantIgnoreTemp,
+            
+            /// <summary>
+            /// 植物停止生长  植物疯狂生长    fParam1:  GrowAddp
+            /// </summary>
+            PlantGrowth,
+            
+            /// <summary>
+            /// 外门每天最多工作8小时     sParam1:数据类型（plantype  sleep/eat/practice） nParam1: 时间数量
+            /// </summary>
+            OuterWorkHoursLimit,
+            
+            /// <summary>
+            /// npc自动规避危险             TODO
+            /// </summary>
+            NpcAvoidDangerAutomatically, 
+            
+            /// <summary>
+            /// 一种会传染的流感在门派内出现    TODO
+            /// </summary>
+            EpidemicBurstInSchool,
+            
+            /// <summary>
+            /// 弟子外出的时间将变为真实  TODO
+            /// </summary>
+            DiscipleGoOutRealTime,
+            
+            /// <summary>
+            /// 每日会天降补给箱  nParam1: 事件Id      TODO
+            /// </summary>
+            DailyDropSupplyBox,  
+
+        }
+        
+
+        
+        /// <summary>
+        /// 阴阳效果标签
+        /// </summary>
+        public enum g_emYinYangTag
+        {
+            None = 0,
+            Yin,  //阴
+            Yang, //阳
+        }
+        
+-->
+
+
+<Defs>
+    <List>
+        <Def Name="Mutation_Effect_Debug">
+            <DisplayName>失落之意</DisplayName>
+            <Desc>…………无事发生。</Desc>
+            <NotRandom>1</NotRandom>
+            <Effects></Effects>
+        </Def>
+
+        <Def Name="Mutation_Effect_ConstantBase">
+            <DisplayName>恒定效果模板</DisplayName>
+            <NotRandom>1</NotRandom>
+            <Tag>Constant</Tag>              <!-- 效果类型标记 Constant Unstable Yin Yang-->
+            <NotRemove>1</NotRemove>           <!-- 卡牌失效后，施加到门派和npc上的效果是否要移除  大于0 不移除， 默认移除-->
+        </Def>
+
+        <Def Name="Mutation_Effect_UnstableBase">
+            <DisplayName>动荡效果模板</DisplayName>
+            <NotRandom>1</NotRandom>
+            <Level>1</Level>                       <!-- 出现在某个等级的池子中-->
+            <Weight>100,-1,-1</Weight>               <!-- 浅层，中层，深层 各程度对应的权重-->
+            <OneOnly>1</OneOnly>
+            <WorkCount>5</WorkCount>     <!--可激活次数-->
+            <Tag>Unstable</Tag>
+        </Def>
+
+        <Def Name="Mutation_Effect_YinBase">
+            <DisplayName>阴效果模板</DisplayName>
+            <NotRandom>1</NotRandom>
+            <Level>1</Level>
+            <Weight>100,100,100</Weight>
+            <Tag>Yin</Tag>                             
+        </Def>
+
+        <Def Name="Mutation_Effect_YangBase">
+            <DisplayName>阳效果模板</DisplayName>
+            <NotRandom>1</NotRandom>
+            <Level>1</Level>
+            <Weight>100,100,100</Weight>
+            <Tag>Yang</Tag>
+        </Def>
+        
+    </List>
+</Defs>

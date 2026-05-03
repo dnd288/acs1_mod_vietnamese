@@ -1,0 +1,593 @@
+<ModifierDefs><List>
+	<Modifier Name="Weather_SunnyDay" Type="Normal">
+		<DisplayName>晴天</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_Sunny</li>
+		</Moods>
+	</Modifier> 
+	<Modifier Name="Weather_Overcast" Type="Normal">
+		<DisplayName>阴天</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_Overcast</li>
+		</Moods>
+	</Modifier> 
+	<Modifier Name="Weather_LightRain" Type="Normal">
+		<DisplayName>小雨</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_LightRain</li>
+		</Moods>
+	</Modifier> 
+	<Modifier Name="Weather_HeavyRain" Type="Normal">
+		<DisplayName>大雨</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_HeavyRain</li>
+		</Moods>
+	</Modifier>
+	<Modifier Name="Weather_LightSnow" Type="Normal">
+		<DisplayName>小雪</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_LightSnow</li>
+		</Moods>
+	</Modifier> 
+	<Modifier Name="Weather_HeavySnow" Type="Normal">
+		<DisplayName>大雪</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_HeavySnow</li>
+		</Moods>
+	</Modifier> 
+	<Modifier Name="Weather_DenseFog" Type="Normal">
+		<DisplayName>大雾</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_DenseFog</li>
+		</Moods>
+	</Modifier> 
+	
+	<Modifier Name="Weather_SpringAir" Type="Normal">
+		<DisplayName>春天气息</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_SpringAir</li>
+		</Moods>
+	</Modifier> 
+	
+	<Modifier Name="Weather_Melancholy" Type="Normal">
+		<DisplayName>愁绪弥漫</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_Melancholy</li>
+		</Moods>
+	</Modifier> 
+	
+	
+	<Modifier Name="Weather_HarvestAir" Type="Normal">
+		<DisplayName>丰收气息</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_HarvestAir</li>
+		</Moods>
+	</Modifier> 
+	
+	<Modifier Name="Weather_Impetuous" Type="Normal">
+		<DisplayName>浮躁之风</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_Impetuous</li>
+		</Moods>
+	</Modifier>
+	<Modifier Name="Weather_Hail" Type="Normal">
+		<DisplayName>冰雹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_Hail</li>
+		</Moods>
+	</Modifier>
+	<Modifier Name="Weather_MouldRains" Type="Normal">
+		<DisplayName>梅雨</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_MouldRains</li>
+		</Moods>
+	</Modifier>
+	<Modifier Name="Weather_Drought" Type="Normal">
+		<DisplayName>干旱</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_Drought</li>
+		</Moods>
+	</Modifier>
+	<Modifier Name="Weather_Rainstorm" Type="Normal">
+		<DisplayName>暴雨</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_Rainstorm</li>
+		</Moods>
+	</Modifier>
+	<Modifier Name="Weather_Fohn" Type="Normal">
+		<DisplayName>焚风</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_Fohn</li>
+		</Moods>
+	</Modifier>
+	<Modifier Name="Weather_DustStorm" Type="Normal">
+		<DisplayName>尘暴</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_DustStorm</li>
+		</Moods>
+	</Modifier>
+	<Modifier Name="Weather_LingRarefiedWave" Type="Normal">
+		<DisplayName>灵气枯潮</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_LingRarefiedWave</li>
+		</Moods>
+	</Modifier>
+	
+	<Modifier Name="Weather_LingUpWave" Type="Normal">
+		<DisplayName>灵气爆发</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_LingUpWave</li>
+		</Moods>
+	</Modifier>
+	
+	
+	<Modifier Name="Weather_HeatWave" Type="Normal">
+		<DisplayName>热浪</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_HeatWave</li>
+		</Moods>
+	</Modifier>
+	<Modifier Name="Weather_ColdWave" Type="Normal">
+		<DisplayName>寒流</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_ColdWave</li>
+		</Moods>
+	</Modifier>
+	<Modifier Name="Weather_HeatWaveInWinter" Type="Normal">
+		<DisplayName>热浪</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_HeatWaveInWinter</li>
+		</Moods>
+	</Modifier>
+	<Modifier Name="Weather_ColdWaveInSummer" Type="Normal">
+		<DisplayName>寒流</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_ColdWaveInSummer</li>
+		</Moods>
+	</Modifier>
+	<Modifier Name="Weather_PermanentNight" Type="Normal">
+		<DisplayName>永夜</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_PermanentNight</li>
+		</Moods>
+	</Modifier>
+	<Modifier Name="Weather_Miasma" Type="Normal">
+		<DisplayName>瘴气</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_Miasma</li>
+		</Moods>
+	</Modifier>
+	<Modifier Name="Weather_LightningStorm" Type="Normal">
+		<DisplayName>雷暴</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_LightningStorm</li>
+		</Moods>
+	</Modifier>
+	
+	
+	<Modifier Name="Weather_LuShu_SunnyDay" Type="Normal">
+		<DisplayName>晴天</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_LuShu_SunnyDay</li>
+		</Moods>
+	</Modifier> 
+	
+	<Modifier Name="Weather_Fei_HeavyRain" Type="Normal">
+		<DisplayName>大雨</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_HeavyRain</li>
+		</Moods>
+		<Properties>
+			<li Name="EnvironmentDiseaseAddP" AddV="10"/>
+		</Properties>
+	</Modifier>
+	
+	
+	<Modifier Name="Weather_SpringFestival" Type="Normal">
+		<DisplayName>春节</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_SpringFestival</li>
+		</Moods>
+	</Modifier>
+	
+	<Modifier Name="Weather_ZuShiBiHu" Type="Normal">
+		<DisplayName>祖师庇护</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_ZuShiBiHu</li>
+		</Moods>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Weather_Magic_ZhenShuiJieJie" Type="Normal">
+		<DisplayName>九阴真水界</DisplayName>
+		<Desc>在九阴真水界中，自然恢复力，灵气恢复速度大幅提高。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="15"/>
+			<li Name="RecoveryPower" AddP="3"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Weather_Magic_BeiDouJianJie" Type="Normal">
+		<DisplayName>北斗剑界</DisplayName>
+		<Desc>在北斗剑界中，法宝威力大幅提高。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="15"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Weather_Magic_ZhenHuoJieJie" Type="Normal">
+		<DisplayName>九阳神火界</DisplayName>
+		<Desc>在九阳神火界中，术法威力大幅提高。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" BAddP="0.3"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Season_DanQi" Type="Normal">
+		<DisplayName>丹气四溢</DisplayName>
+		<Desc>被浓郁的丹气围绕。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Moods>
+			<li>Weather_DanQi</li>
+		</Moods>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_Wu" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（混元之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，道行降低，学习速度提高。</Desc>
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="-30"/>
+			<li Name="IntelligenceSkillEXPConstant" AddV="3"/>	
+		</Properties>		
+	</Modifier>
+	
+	<Modifier Name="Modifier_Weather_Elixir_Jin" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（金盈之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕。</Desc>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_Mu" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（木盈之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕。</Desc>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_Shui" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（水盈之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕。</Desc>
+	</Modifier>	
+
+	<Modifier Name="Modifier_Weather_Elixir_Huo" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（火盈之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕。</Desc>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_Tu" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（土盈之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕。</Desc>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_JinMu" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（竭伐之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，伐木、收获速度提高。</Desc>
+		<Properties>
+			<li Name="CuttingSpeed" AddP="3"/>
+			<li Name="PlantHarvestSpeed" AddP="2"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_JinShui" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（腾涌之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，手工、缝纫速度提高。</Desc>
+		<Properties>
+			<li Name="HandworkSpeed" AddP="1.5"/>
+			<li Name="TailoringSpeed" AddP="1.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_JinHuo" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（融销之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，采掘速度提高。</Desc>
+		<Properties>
+			<li Name="MiningSpeed" AddP="4"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_JinTu" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（蕴结之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，采掘产量提高。</Desc>
+		<Properties>
+			<li Name="MiningYieldEfficiency" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_MuShui" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（繁育之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，收获产量提高。</Desc>
+		<Properties>
+			<li Name="PlantHarvestYieldEfficiency" AddP="0.5"/>
+		</Properties>
+	</Modifier>	
+
+	<Modifier Name="Modifier_Weather_Elixir_MuHuo" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（尽灼之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，锻造、烹饪速度提高。</Desc>
+		<Properties>
+			<li Name="SmithingSpeed" AddP="0.3"/>
+			<li Name="CookingSpeed" AddP="0.3"/>			
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_MuTu" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（固缚之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，建筑速度提高。</Desc>
+		<Properties>
+			<li Name="ConstructionSpeed" AddP="2"/>		
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_ShuiHuo" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（渐熄之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，救灾速度、成功率提高。</Desc>
+		<Properties>
+			<li Name="DisasterFightingSpeed" AddP="0.3"/>		
+			<li Name="DisasterFightingSuccessChance" AddP="0.3"/>				
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_ShuiTu" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（盈蓄之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，治疗预期效果、自然恢复力提高。</Desc>
+		<Properties>
+			<li Name="TreatmentExpectQuality" AddP="1"/>		
+			<li Name="RecoveryPower" AddP="3"/>				
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_HuoTu" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（尘烬之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，拆除、石料加工速度提高。</Desc>
+		<Properties>
+			<li Name="BuildingRemoveSpeed" AddP="2"/>		
+			<li Name="StoneWorkSpeed" AddP="0.5"/>				
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_JinMuShui" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（甲木之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，木属性功法适配度提高。</Desc>
+		<Properties>
+			<li Name="GongMatch_MuAddV" AddV="0.5"/>					
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_JinMuHuo" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（乙木之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，炼丹产量提高。</Desc>
+		<Properties>
+			<li Name="DanMake_YieldAddP" AddV="0.5"/>					
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_JinMuTu" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（己土之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，筑基速度、修炼速度、心境值提高。</Desc>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>	
+			<li Name="BasepracticeSpeedCoefficient" AddP="0.3"/>						
+			<li Name="MindStateBaseValue" AddV="30"/>					
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_JinShuiHuo" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（辛金之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，神器炼成几率提高。</Desc>
+		<Properties>					
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.8"/>					
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_JinShuiTu" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（壬水之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，水属性功法适配度提高。</Desc>
+		<Properties>					
+			<li Name="GongMatch_ShuiAddV" AddV="0.5"/>					
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_JinHuoTu" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（庚金之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，金属性功法适配度提高。</Desc>
+		<Properties>					
+			<li Name="GongMatch_JinAddV" AddV="0.5"/>					
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_MuShuiHuo" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（丙火之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，火属性功法适配度提高。</Desc>
+		<Properties>					
+			<li Name="GongMatch_HuoAddV" AddV="0.5"/>					
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_MuShuiTu" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（癸水之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，丹药炼制速度提高。</Desc>
+		<Properties>					
+			<li Name="DanMake_Speed" AddV="0.5"/>					
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_MuHuoTu" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（戊土之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，土属性功法适配度提高。</Desc>
+		<Properties>					
+			<li Name="GongMatch_TuAddV" AddV="0.5"/>					
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_ShuiHuoTu" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（丁火之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕，法宝炼制速度提高。</Desc>
+		<Properties>					
+			<li Name="FabaoMake_SpeedAddV" AddV="0.5"/>					
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_NoJin" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（金绝之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕。</Desc>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_NoMu" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（木绝之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕。</Desc>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_NoShui" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（水绝之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕。</Desc>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_NoHuo" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（火绝之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕。</Desc>
+	</Modifier>
+
+	<Modifier Name="Modifier_Weather_Elixir_NoTu" Type="Normal" Parent="Modifier_Weather_Season_DanQi">
+		<DisplayName>丹气四溢（土绝之气）</DisplayName>
+		<Desc>被浓郁的丹气围绕。</Desc>
+	</Modifier>
+	
+
+</List></ModifierDefs>

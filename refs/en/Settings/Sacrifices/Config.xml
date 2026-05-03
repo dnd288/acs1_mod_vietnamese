@@ -1,0 +1,12 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Blood">
+			<Display>Offer Beast Blood</Display>
+			<Desc>Sacrifice the Demon Blood into the pool to pray for items</Desc>
+		</Text>
+		<Text Name="Elixir">
+			<Display>Soul Pearl</Display>
+			<Desc>Offer soul pearls for items.</Desc>
+		</Text>
+	</List>
+</Texts>

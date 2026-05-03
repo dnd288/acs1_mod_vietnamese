@@ -1,0 +1,349 @@
+<JianghuNpcDefs><List>
+
+	
+<!-- 	<Def Name="NPCBase" School="0">
+		<LastName>张</LastName>
+		<FristName>四</FristName>
+		<Sex>Male</Sex>
+		<GongLevel>God2</GongLevel>
+		<Titles>大佬,细佬,巨佬</Titles>
+		<Feature>Weak</Feature>
+		NoFeature
+		Weak  软弱
+		Naive  天真
+		Greedy  贪婪
+		Tenacity  坚强
+		Apathy   冷漠
+		<LikeItems>
+			<li>Item_WeaponBow</li>
+			<li>Item_IronBlock</li>
+		</LikeItems>
+		<HateItems>
+			<li>Item_CopperBlock</li>
+			<li>Item_Fruit</li>
+		</HateItems>
+		<Carry>
+			<li>
+				<ThingDef>FengShuiItem_Ta1</ThingDef>
+			</li>
+			<li>
+				<ThingDef>Esoterica_ZhenFa_6</ThingDef>
+				<ThingType>1</ThingType>	
+			</li>
+		</Carry>
+		<Esoterica>
+			<Type>None</Type>
+			<Name>Esoterica_ZhenFa_5</Name>
+		</Esoterica>
+		<Hobby>
+			<li>2</li>
+		</Hobby>
+		<Secret>
+			<li>1</li>
+			<li>2</li>
+		</Secret>
+	</Def> -->
+	
+	<Def Name="Npc_QiXia_1" School="7">
+		<LastName>甘</LastName>
+		<FristName>鸣</FristName>
+		<Sex>Male</Sex>
+		<Feature>Greedy</Feature>
+		<GongLevel>God</GongLevel>
+		<LikeItems>
+			<li>Item_DragonShit</li>
+			<li>Item_LingCrystal</li>
+			<li>Item_StarEssence</li>
+		</LikeItems>
+		<Secret>
+			<li>1</li>
+		</Secret>
+	</Def>
+	
+	<Def Name="Npc_QiXia_2" School="7">
+		<LastName>月</LastName>
+		<FristName>清愁</FristName>
+		<Sex>Female</Sex>
+		<Feature>Tenacity</Feature>
+		<GongLevel>God</GongLevel>
+		<Secret>
+			<li>2</li>
+		</Secret>
+	</Def>
+	
+	<Def Name="Npc_QiXia_3" School="7">
+		<LastName>林</LastName>
+		<FristName>思源</FristName>
+		<Sex>Male</Sex>
+		<Feature>Naive</Feature>
+		<GongLevel>Dan2</GongLevel>
+		<Secret>
+			<li>3</li>
+		</Secret>
+	</Def>
+	
+	
+	<Def Name="Npc_QiXia_4" School="7">
+		<LastName>宁</LastName>
+		<FristName>宵</FristName>
+		<Sex>Female</Sex>
+		<Feature>Weak</Feature>
+		<GongLevel>God</GongLevel>
+		<Secret>
+			<li>4</li>
+		</Secret>
+	</Def>
+	
+	
+	<Def Name="Npc_BaiMan_1" School="8">
+		<LastName>巴</LastName>
+		<FristName>寒</FristName>
+		<Sex>Male</Sex>
+		<GongLevel>Dan2</GongLevel>
+		<Secret>
+			<li>5</li>
+		</Secret>
+	</Def>
+	
+	<Def Name="Npc_BaiMan_2" School="8">
+		<LastName>漆雕</LastName>
+		<FristName>拙</FristName>
+		<Sex>Male</Sex>
+		<GongLevel>God2</GongLevel>
+		<Secret>
+			<li>6</li>
+		</Secret>
+	</Def>
+	
+	<Def Name="Npc_BaiMan_3" School="8">
+		<LastName>白</LastName>
+		<FristName>芷</FristName>
+		<Sex>Female</Sex>
+		<GongLevel>God2</GongLevel>
+		<Secret>
+			<li>15</li>
+			<li>16</li>
+			<li>17</li>
+			<li>18</li>
+		</Secret>
+	</Def>
+	
+	
+	<Def Name="Npc_QiSha_1" School="10">
+		<LastName>赤</LastName>
+		<FristName>丹秋</FristName>
+		<Sex>Female</Sex>
+		<GongLevel>God2</GongLevel>
+		<Secret>
+			<li>7</li>
+		</Secret>
+	</Def>
+	
+	<Def Name="Npc_QiSha_2" School="10">
+		<LastName>于</LastName>
+		<FristName>墨染</FristName>
+		<Sex>Female</Sex>
+		<GongLevel>God2</GongLevel>
+		<Secret>
+			<li>22</li>
+		</Secret>
+	</Def>
+	
+	<Def Name="Npc_HeHuan_1" School="11">
+		<LastName>清</LastName>
+		<FristName>羽兰</FristName>
+		<Sex>Female</Sex>
+		<GongLevel>God2</GongLevel>
+		<Secret>
+			<li>8</li>
+		</Secret>
+	</Def>
+	<Def Name="Npc_HeHuan_2" School="11">
+		<LastName>殷</LastName>
+		<FristName>莲</FristName>
+		<Sex>Female</Sex>
+		<GongLevel>God2</GongLevel>
+		<Carry>
+			<li>
+				<ThingDef>Item_ShangGuYiWenLu5</ThingDef>
+			</li>
+		</Carry>
+		<Secret>
+			<li>23</li>
+			<li>31</li>
+			<li>34</li>
+			<li>35</li>
+			<li>36</li>
+			<li>43</li>
+		</Secret>
+	</Def>
+	
+	<Def Name="Npc_QiQian_1" School="9">
+		<LastName>钟离</LastName>
+		<FristName>德</FristName>
+		<Sex>Male</Sex>
+		<GongLevel>God2</GongLevel>
+		<Secret>
+			<li>9</li>
+		</Secret>
+	</Def>
+	
+	<Def Name="Npc_QiQian_2" School="9">
+		<LastName>朱</LastName>
+		<FristName>非</FristName>
+		<Sex>Male</Sex>
+		<GongLevel>Dan2</GongLevel>
+		<Secret>
+			<li>24</li>
+		</Secret>
+	</Def>
+	
+	<Def Name="Npc_ZiXiao_1" School="4">
+		<LastName>申屠</LastName>
+		<FristName>息</FristName>
+		<Sex>Male</Sex>
+		<GongLevel>God2</GongLevel>
+		<Secret>
+			<li>10</li>
+		</Secret>
+	</Def>
+	
+	<Def Name="Npc_ZiXiao_2" School="4">
+		<LastName>辛</LastName>
+		<FristName>旗</FristName>
+		<Sex>Male</Sex>
+		<GongLevel>God2</GongLevel>
+		<Secret>
+			<li>19</li>
+			<li>20</li>
+			<li>21</li>
+		</Secret>
+	</Def>
+	<Def Name="Npc_ZiXiao_3" School="4">
+		<LastName>秦</LastName>
+		<FristName>杰</FristName>
+		<Sex>Male</Sex>
+		<GongLevel>Dan1</GongLevel>
+		<Secret>
+			<li>25</li>
+		</Secret>
+	</Def>
+	
+	<Def Name="Npc_ZhengYi_1" School="5">
+		<LastName>李</LastName>
+		<FristName>孙博</FristName>
+		<Sex>Male</Sex>
+		<GongLevel>God2</GongLevel>
+		<Secret>
+			<li>11</li>
+		</Secret>
+	</Def>
+	
+	
+	<Def Name="Npc_ZhengYi_2" School="5">
+		<LastName>叶</LastName>
+		<FristName>白雪</FristName>
+		<Sex>Female</Sex>
+		<GongLevel>God2</GongLevel>
+		<Secret>
+			<li>26</li>
+		</Secret>
+	</Def>
+	
+	<Def Name="Npc_KunLun_1" School="2">
+		<LastName>季</LastName>
+		<FristName>劫</FristName>
+		<Sex>Female</Sex>
+		<GongLevel>God2</GongLevel>
+		<Secret>
+			<li>12</li>
+		</Secret>
+	</Def>
+	
+	
+	<Def Name="Npc_KunLun_2" School="2">
+		<LastName>离</LastName>
+		<FristName>尾燕</FristName>
+		<Sex>Male</Sex>
+		<GongLevel>God</GongLevel>
+		<Secret>
+			<li>27</li>
+		</Secret>
+	</Def>
+	
+	<Def Name="Npc_KunLun_3" School="2">
+		<LastName>古</LastName>
+		<FristName>聪</FristName>
+		<Sex>Male</Sex>
+		<GongLevel>God2</GongLevel>
+		<Secret>
+			<li>29</li>
+		</Secret>
+	</Def>
+	
+	<Def Name="Npc_DanXia_1" School="1">
+		<LastName>苏</LastName>
+		<FristName>冰峦</FristName>
+		<Sex>Female</Sex>
+		<GongLevel>God2</GongLevel>
+		<Secret>
+			<li>13</li>
+		</Secret>
+	</Def>
+	<Def Name="Npc_DanXia_2" School="1">
+		<LastName>谢</LastName>
+		<FristName>思</FristName>
+		<Sex>Male</Sex>
+		<GongLevel>God</GongLevel>
+		<Secret>
+			<li>28</li>
+		</Secret>
+	</Def>
+	
+	<Def Name="Npc_DanXia_3" School="1">
+		<LastName>霍</LastName>
+		<FristName>离</FristName>
+		<Sex>Male</Sex>
+		<GongLevel>God2</GongLevel>
+		<Carry>
+			<li>
+				<ThingDef>Item_ShangGuYiWenLu1</ThingDef>
+			</li>
+			<li>
+				<ThingDef>Item_ShangGuYiWenLu7</ThingDef>
+			</li>
+		</Carry>
+	</Def>
+	
+	<Def Name="Npc_JiTian_1" School="3">
+		<FromDLC>MiFaXuanZhang</FromDLC>
+		<LastName>何</LastName>
+		<FristName>足道</FristName>
+		<Sex>Female</Sex>
+		<Feature>NoFeature</Feature>
+		<GongLevel>God</GongLevel>
+		<LikeItems>
+			<li>Item_SpellPaper</li>
+			<li>Item_SpellPaperLv2</li>
+			<li>Item_SpellPaperLv3</li>
+		</LikeItems>
+		<Carry>
+			<li>
+				<ThingDef>Item_Gong12</ThingDef>
+			</li>
+		</Carry>
+	</Def>
+	
+	
+	<Def Name="Npc_Shu_1" School="6">
+		<LastName>应</LastName>
+		<FristName>扬</FristName>
+		<Sex>Male</Sex>
+		<GongLevel>God</GongLevel>
+		<Carry>
+			<li>
+				<ThingDef>Item_ShangGuYiWenLu15</ThingDef>
+			</li>
+		</Carry>
+	</Def>
+</List></JianghuNpcDefs>

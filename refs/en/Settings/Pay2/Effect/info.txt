@@ -1,0 +1,24 @@
+ID	Desc
+
+1	Blessed by the Taishi Dao. The success rate of spectre/spirit/Tao refinement increase by 10%.
+2	Blessed by the Taiyi Dao. The rate of genius at the Immortal Destiny fair increases.
+3	Blessed by the Taiyi Dao. There will be at least one special people(reincarnators) at the Immortal Destiny fair.
+4	Blessed by the Taiyi Dao. The rate of genius when recruiting at agencies increases.
+5	Blessed by the Taixuan Dao. The scale of social favor increases by 50%.
+6	Blessed by the Taixuan Dao. The scale of sect favor increases by 50%.
+7	Blessed by the Taixuan Dao. The scale of agency influence increases by 50%.
+8	Blessed by the Taixuan Dao. The speed of animal gaining intellegence increases by 50%.
+9	Blessed by the Taixuan Dao. The speed of getting inspirations increases by 50%.
+10	Blessed by the Taixu Dao. The rate physical cultivators get essence increases by 50%.
+11	Blessed by the Taixuan Dao. The scale of Shendao cultivators gaining faith increases by 50%.
+12	Bless for newcomers. Mine and Plant production increase by 50%.
+13	Bless for newcomers. All disciples gain 30 base mood.
+14	Bless for newcomers. All disciples gain 30 mind state.
+15	Bless for newcomers. All disciples gain 1 extra five basic attibute when creating.(Reincarnators not included)
+16	"By using the authority of the Taixuan Dao, drive a world merchant to come."
+17	Bless for newcomers. Summon the Immortal's Bless weather.
+18	Bless for newcomers. Dispel most weathers.
+19	Bless for newcomers. Revive a character.
+20	"Blessed by the Taishi Dao. If you are not satisfied with the artifact forge result, you can reforge it.(You can use it on the result panel after the artifact forging.)"
+21	"By using the authority of the Taishi Dao, if you are not satisfied with some event results, you can re-choose.(You can use it on the event panel after some selectable events.)"
+22	"By using the authority of the Taixuan Dao, if you are not satisfied with remold results, you can re-choose.(You can use it on the remold result panel.)"

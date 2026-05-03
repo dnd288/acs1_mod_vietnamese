@@ -1,0 +1,36 @@
+<CommentUIDefs>
+    <List>
+        <CommentUIDef>
+            <Name>SpecialZhen</Name>
+            <Notes>关于阵法的评论面板</Notes>
+            <Title>阵法</Title>
+            <Desc>汇集众人之力为一体，此乃阵法之道的奥义。</Desc>
+            <Tips></Tips>
+            <SpecialInlet></SpecialInlet>
+        </CommentUIDef>
+		<CommentUIDef>
+            <Name>SpecialElixirGas</Name>
+            <Notes>关于丹气的评论面板</Notes>
+            <Title>丹气</Title>
+            <Desc>门派中的丹气</Desc>
+            <Tips></Tips>
+            <SpecialInlet></SpecialInlet>
+        </CommentUIDef>
+        <CommentUIDef>
+            <Name>SpecialSacrific</Name>
+            <Notes>关于祭妖的评论面板</Notes>
+            <Title>祭妖</Title>
+            <Desc>祭妖面板</Desc>
+            <Tips></Tips>
+            <SpecialInlet></SpecialInlet>
+        </CommentUIDef>
+        <CommentUIDef>
+            <Name>SpecialMutation</Name>
+            <Notes>关于天道异动的评论面板</Notes>
+            <Title>天道异动</Title>
+            <Desc>此界天道演化进入末期，本就不稳的天道法则混乱加剧。</Desc>
+            <Tips></Tips>
+            <SpecialInlet></SpecialInlet>
+        </CommentUIDef>
+    </List>
+</CommentUIDefs>

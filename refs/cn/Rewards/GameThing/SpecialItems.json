@@ -1,0 +1,7 @@
+{
+	"Items":
+	{
+		"1699868083":{"_tn":"XiaWorld.ItemThing","m_sDesc|F":"真武大帝又称荡魔天尊，此剑正是其持以扫除群魔的至宝。剑长二尺七寸，剑身为玉石淬炼而成，又在其中炼入荡魔真法，因此剑身散发浩然之光。一旦御出便会化为丈长的雷霆霹雳，无物不催。","CreateTime|F":46.1333351,"sort|F":26883,"Fabao|P":{"PS":{"1":148.453537,"2":151.425491,"3":584.943,"4":29.8569984,"5":80.0,"7":-0.2870047,"6":3.26776981,"9":4.96229649,"8":1.05146658,"10":0.3827681},"AbilityDatas":[{"Kind":20,"fParam1":2.0,"sParam1":"Human","Desc":"攻击异族（非人族）可以造成3倍伤害。"},{"Kind":21,"fParam1":2.0,"sParam1":"Human","Desc":"人族装备可以造成3倍伤害。"}],"Kind":14,"Oitem":"Item_MiBao_ZhenWuDangMoShenJian","TrailID":12},"FSItemState|P":-1,"def|P":{"N":"FightFaBao","T":2},"Camp|P":1,"ActDisable|P":true,"Priority|P":1,"m_mElementKind|P":2,"StuffCount|P":1,"_dn":"SL_Thing","_hd":{"Rate":12,"Ns":[26883,1,0,2,1,0,3,0,15,10927],"Fs":[100.0,0.0,1.0,0.0,100.0],"Ss":[null,"真武荡魔神剑"]}},
+		"1700825117":{"_tn":"XiaWorld.ItemThing","DaoPower|F":4,"CreateTime|F":305487.0,"NoStackFlag|F":2,"JGBack|F":1,"sort|F":168411,"BeFound|P":true,"FSItemState|P":-1,"def|P":{"N":"Item_EarthEssence","T":2},"BurningPoint|P":1000.0,"Priority|P":1,"m_mElementKind|P":5,"_dn":"SL_Thing","_hd":{"Rate":14,"Ns":[165325,1,0,2,1,0,3,0,0,9297],"Fs":[500.0,3296.44458,0.0,0.0,0.0],"Ss":[null,null]}},
+	}
+}

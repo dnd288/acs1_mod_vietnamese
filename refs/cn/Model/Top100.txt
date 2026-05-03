@@ -1,0 +1,455 @@
+Brand	Model	SystemVersion	RAM	Resolution	CPU	CPU Core Count
+vivo	V1986A	10	6	2408x1080	MT6889Z/CZA	8
+小米	Mi 10	10	8	2340x1080	Qualcomm Technologies, Inc SM8250	8
+华为	JER-AN10	10	8	2340x1080	Hisilicon Kirin985	8
+VIVO	V1955A	10	6	2400x1080	Qualcomm Technologies, Inc KONA	8
+华为	WLZ-AN00	HarmonyOS 2.0	8	2400x1080	Hisilicon Kirin990	8
+VIVO	V1981A	10	6	2408x1080	Qualcomm Technologies, Inc KONA	8
+华为	CDY-AN00	10	8	1080x2400	麒麟980	8
+华为	JNY-AL10	HarmonyOS 2.0	8	2310x1080	Hisilicon Kirin810	8
+小米	MI 6	8.0.0	6	1920x1080	Qualcomm Technologies, Inc MSM8998	8
+小米	MI 9	9	8	2340x1080	Qualcomm Technologies, Inc SM8150	8
+华为	PCT-AL10	10	6	2310x1080	Hisilicon Kirin980	8
+华为	ELE-AL00	10	8	2340x1080	Hisilicon Kirin980	8
+华为	EML-AL00	9	6	2340x1080		8
+华为	YAL-AL00	10	8	2340x1080	Hisilicon Kirin980	8
+华为	HMA-AL00	10	6	2244x1080	Hisilicon Kirin980	8
+一加	IN2010	11	8	2400x1080	Qualcomm Technologies, Inc KONA	8
+华为	JEF-AN00	10	8	2400x1080	Hisilicon Kirin985	8
+小米	Redmi K20 Pro	10	6	2340x1080	Qualcomm Technologies, Inc SM8150	8
+华为	SEA-AL10	10	8	2340x1080	Hisilicon Kirin980	8
+一加	GM1910	10	6	2340x1080	Qualcomm Technologies, Inc SM8150	8
+华为	VOG-AL00	10	8	2340x1080	Hisilicon Kirin980	8
+华为	LIO-AL00	10	8	2400x1176	Hisilicon Kirin990	8
+小米	MIX 2S	10	6	2160x1080	Qualcomm Technologies, Inc SDM845	8
+华为	VCE-AL00	10	8	2310x1080	Hisilicon Kirin970	8
+华为	HLK-AL00	10	6	2340x1080	Hisilicon Kirin810	8
+VIVO	V1962A	10	8	2400x1080	PD1962 board based on Samsung EXYNOS980	8
+华为	LYA-AL00	10	6	3120x1440	Hisilicon Kirin980	8
+小米	Redmi Note 8 Pro	9	8	2340x1080	MT6785V/CC	8
+华为	GLK-AL00	10	6	2310x1080	Hisilicon Kirin710	8
+VIVO	V1914A	10	8	2340x1080	Qualcomm Technologies, Inc SDM845	8
+华为	YAL-AL10	10	8	2340x1080	Hisilicon Kirin980	8
+华为	TAS-AL00	HarmonyOS 2.0	8	2340x1080	Hisilicon Kirin990	8
+VIVO	V1838A	9	8	2340x1080	Qualcomm Technologies, Inc SM6150	8
+华为	SPN-AL00	10	6	2340x1080	Hisilicon Kirin810	8
+华为	STK-AL00	10	6	2340x1080	Hisilicon Kirin710	8
+VIVO	V1936A	10	6	2340x1080	Qualcomm Technologies, Inc SM8150	8
+一加	HD1910	10	8	2340x1080	Qualcomm Technologies, Inc SM8150	8
+VIVO	V1901A	9	4	1544x720	MT6765V/CB	8
+VIVO	V1934A	9	6	2340x1080	MT6768V/CA	8
+小米	Redmi K30 5G	10	6	2400x1080		8
+iQOO	V1936A	9	8	2340x1080		8
+小米	MI 6	9	4	1920x1080	Qualcomm Technologies, Inc MSM8998	8
+VIVO	vivo X21A	9	6	2280x1080	Qualcomm Technologies, Inc SDM660	8
+华为	JSN-AL00a	10	4	2340x1080	Hisilicon Kirin710	8
+VIVO	V1818A	8.1.0	4	1520x720	Qualcomm Technologies, Inc SDM439	8
+VIVO	V1824A	10	8	2340x1080	Qualcomm Technologies, Inc SM8150	8
+VIVO	V1818A	8.1.0	3	1520x720	Qualcomm Technologies, Inc SDM439	8
+VIVO	vivo X21A	9	6	2280x1080	Qualcomm Technologies, Inc SDM660	8
+华为	MHA-AL00	7	4	1920x1080	hi3660	8
+华为	PAR-AL00	8.1.0	6	2340x1080	麒麟970	8
+小米	Redmi Note 7 Pro	9	6	2340x1080	Qualcomm Technologies, Inc SM6150	8
+华为	JSN-AL00a	10	4	2340x1080	Hisilicon Kirin710	8
+OPPO	PBEM00	10	6	2340x1080	Qualcomm Technologies, Inc SDM670	8
+VIVO	V1911A	9	6	2340x1080	Qualcomm Technologies, Inc SDM710	8
+OPPO	PCLM10	10	8	2400x1080	Qualcomm Technologies, Inc SM8150_Plus	8
+华为	ASK-AL00x	9	6	1560x720	kirin710	8
+OPPO	PCHM10	9	4	1600x720	Qualcomm Technologies, Inc SDM665	8
+华为	ART-AL00x	9	6	1560x720	kirin710	8
+华为	TAS-AN00	HarmonyOS 2.0	8	2340x1080	Hisilicon Kirin990	8
+小米	SHARK KLE-A0	10	12	2400x1080	骁龙865	8
+小米	M2004J7AC	10	5	2400x1080	MT6875	8
+华为	TEL-AN00a	10	6	2400x1080	Hisilicon Kirin820	8
+华为	BMH-AN10	HarmonyOS 2.0	8	2400x1080	Hisilicon Kirin985	8
+华为	EBG-AN00	10	8	2340x1080	Hisilicon Kirin990	8
+OPPO	PDYM20	10	4	2400x1080	MT6853V/ZA	8
+小米	Mi 10	11	8	2340x1080	Qualcomm Technologies, Inc SM8250	8
+华为	ELE-AL00	10	8	2340x1080	Hisilicon Kirin980	8
+华为	ELS-AN00	HarmonyOS 2.0	8	2640x1200	Hisilicon Kirin990	8
+华为	LIO-AN00	HarmonyOS 2.0	8	2400x1176	Hisilicon Kirin990	8
+小米	M2006J10C	10	6	2400x1080	MT6889Z/CZA	8
+华为	WLZ-AN00	HarmonyOS 2.0	8	2400x1080	Hisilicon Kirin990	8
+华为	VOG-AL00	10	8	2340x1080	Hisilicon Kirin980	8
+华为	OXF-AN00	10	8	2400x1080	Hisilicon Kirin990	8
+小米	Mi 10 Pro	11	8	2340x1080	Qualcomm Technologies, Inc SM8250	8
+华为	VOG-AL00	10	8	2340x1080	Hisilicon Kirin980	8
+小米	M2007J1SC	10	8	2340x1080	Qualcomm Technologies, Inc SM8250	8
+华为	NOH-AN00	10	8	2772x1344	Hisilicon Kirin9000	8
+华为	PAR-AL00	9	6	2340x1080	kirin970	8
+华为	YAL-AL00	10	8	2340x1080	Hisilicon Kirin980	8
+OPPO	PCLM10	11	8	2400x1080	Qualcomm Technologies, Inc SM8150_Plus	8
+华为	OXF-AN00	10	8	2400x1080	Hisilicon Kirin990	8
+华为	SPN-AL00	10	6	2340x1080	Hisilicon Kirin810	8
+华为	MHA-AL00	8.0.0	6	1920x1080	hi3660	8
+VIVO	V1911A	10	6	2340x1080	Qualcomm Technologies, Inc SDM710	8
+华为	SEA-AL10	10	8	2340x1080	Hisilicon Kirin980	8
+华为	TAS-AN00	10	4	1920x1080	海思麒麟990	8
+小米	MI 9	9	8	2340x1080	Qualcomm Technologies, Inc SM8150	8
+华为	PCT-AL10	10	6	2310x1080	Hisilicon Kirin980	8
+华为	ANA-AN00	10	6	2340x1080	Hisilicon Kirin990	8
+华为	HLK-AL00	10	4	2340x1080	Hisilicon Kirin810	8
+小米	Redmi K30 Pro	10	6	2400x1080	Qualcomm Technologies, Inc SM8250	8
+小米	Redmi K20 Pro	10	6	2340x1080	Qualcomm Technologies, Inc SM8150	8
+华为	JEF-AN00	10	8	2400x1080	Hisilicon Kirin985	8
+华为	YAL-AL00	10	8	2340x1080	Hisilicon Kirin980	8
+VIVO	V1981A	10	6	2408x1080	Qualcomm Technologies, Inc KONA	8
+华为	HMA-AL00	10	6	2244x1080	Hisilicon Kirin980	8
+华为	EML-AL00	10	6	2244x1080	Hisilicon Kirin970	8
+华为	TAS-AL00	10	8	2340x1080	Hisilicon Kirin990	8
+华为	VCE-AL00	10	8	2310x1080	Hisilicon Kirin970	8
+VIVO	V1824A	10	12	2340x1080	Qualcomm Technologies, Inc SM8150	8
+华为	LYA-AL00	10	6	3120x1440	Hisilicon Kirin980	8
+小米	Redmi K30 5G	11	6	2400x1080	Qualcomm Technologies, Inc SM7250	8
+小米	Redmi Note 8 Pro	9	6	2340x1080	MT6785V/CC	8
+华为	CDY-AN00	10	8	2400x1080	Hisilicon Kirin820	8
+小米	MIX 2S	10	6	2160x1080	Qualcomm Technologies, Inc SDM845	8
+小米	MI 6	9	4	1920x1080	Qualcomm Technologies, Inc MSM8998	8
+OPPO	PBEM00	10	6	2340x1080	Qualcomm Technologies, Inc SDM670	8
+VIVO	V1986A	10	6	2408x1080	MT6889Z/CZA	8
+华为	TEL-AN00a	10	6	2400x1080	Hisilicon Kirin820	8
+华为	JEF-AN20	10	8	2400x1080	Hisilicon Kirin985	8
+华为	BMH-AN10	10	8	2400x1080	Hisilicon Kirin985	8
+华为	STK-AL00	10	6	2340x1080	Hisilicon Kirin710	8
+华为	GLK-AL00	10	6	2310x1080	Hisilicon Kirin710	8
+华为	EBG-AN00	10	8	2340x1080	Hisilicon Kirin990	8
+小米	MI 8	10	6	2248x1080	Qualcomm Technologies, Inc SDM845	8
+VIVO	vivo X21A	9	6	2280x1080	Qualcomm Technologies, Inc SDM660	8
+华为	JER-AN10	10	8	2340x1080	Hisilicon Kirin985	8
+华为	JER-AN10	10	8	2340x1080	Hisilicon Kirin985	8
+VIVO	V1936A	10	6	2340x1080	Qualcomm Technologies, Inc SM8150	8
+华为	JSN-AL00a	10	4	2340x1080	Hisilicon Kirin710	8
+一加	IN2020	11	8	3168x1440	Qualcomm Technologies, Inc KONA	8
+华为	MAR-AL00	10	4	2312x1080	Hisilicon Kirin710	8
+OPPO	PCAM10	10	4	2340x1080	MT6771V/CT	8
+华为	LIO-AL00	HarmonyOS 2.0	8	2400x1176	Hisilicon Kirin990	8
+一加	IN2010	11	8	2400x1080	Qualcomm Technologies, Inc KONA	8
+VIVO	V1838A	10	8	2340x1080	Qualcomm Technologies, Inc SM6150	8
+小米	Redmi Note 7 Pro	10	6	2340x1080	Qualcomm Technologies, Inc SM6150	8
+VIVO	V2002A	10	8	2340x1080	PD2002 board based on Samsung EXYNOS880	8
+小米	Redmi K30 Pro	11	8	2400x1080	Qualcomm Technologies, Inc SM8250	8
+华为	JNY-AL10	HarmonyOS 2.0	8	2310x1080	Hisilicon Kirin810	8
+VIVO	V1934A	9	6	2340x1080	MT6768V/CA	8
+小米	Redmi K30 5G	10	8	2400x1080	Qualcomm Technologies, Inc SM7250	8
+华为	PCT-AL10	10	6	2310x1080	Hisilicon Kirin980	8
+小米	MI 9	10	6	2340x1080	Qualcomm Technologies, Inc SM8150	8
+小米	M2011K2C	11	7	3200x1440	Venus based on Qualcomm Technologies, Inc SM8350	8
+华为	SEA-AL10	10	8	2340x1080	Hisilicon Kirin980	8
+小米	M2002J9E	11	6	2400x1080	Qualcomm Technologies, Inc SM7250	8
+一加	KB2000	11	8	2400x1080	Qualcomm Technologies, Inc KONA	8
+小米	Redmi K20 Pro Premium Edition	10	8	2340x1080	Qualcomm Technologies, Inc SM8150	8
+华为	ELE-AL00	10	8	2340x1080	麒麟980	8
+一加	GM1910	10	6	2340x1080		8
+黑鲨	SHARK KLE-A0	10	8	2400x1080	骁龙865	8
+VIVO	V1955A	10	6	2400x1080		8
+华为	HLK-AL00	10	6	2340x1080		8
+小米	Redmi K30 5G	11	6	2400x1080		8
+OPPO	PACM00	10	4	2280x1080	MTKMTK6771	8
+华硕	ASUS_I001DA	9	8	2340x1080		8
+小米	M2007J22C	10	6	2732 x2048		8
+华为	COL-AL10	9	6	2732 x2048	麒麟970	8
+小米	M2012K11AC	11	8	2400x1080	骁龙870	8
+一加	KB2000	11	8	2400x1080	骁龙865	8
+真我	RMX3031	11	6	2400x1080	天玑1200	8
+华为	LIO-AN00	HarmonyOS 2.0	8	 2400x1176	kirin990	8
+vivo	V1981A	11	6	2340x1080	骁龙865	8
+华为	HLK-AL00	10	6	2340x1080	Kirin810	8
+华为	OXF-AN10	10	8	2340x1080	麒麟990 5G	8
+小米	MI 8	10	6	2248x1080	骁龙845	8
+小米	Redmi K30 Pro	10	6	2400x1080	骁龙865	8
+小米	Mi 10	10	8	2400x1080	骁龙865	8
+小米	M2104K10AC	11	6	1080x2400	联发科天玑1100	8
+小米	M2012K10C	11	8	1080x2400	天玑1200	8
+小米	M2102J2SC	11	8	1080x2340	高通骁龙870	9
+VIVO	V2049A	11	8	1080x2400	高通骁龙888	8
+VIVO	V2118A	11	8	1080x2408	高通骁龙870	9
+华为	NTH-AN00	11	8	2340x1080	QualcommSnapdragon 778G	8
+小米	Redmi Note 8 Pro	10	6	2340x1080	联发科G90T	8
+OPPO	PACM00	8.1.0	6	1080x2280	联发科 Helio P60	8
+华为	DBY-W09	HarmonyOS 2.0	6	2560x1600	骁龙865	8
+vivo	V1936A	10	6	1080x2340	高通 骁龙855 Plus	8
+OPPO	PCLM10	11	8	1080x2400	高通 骁龙855 Plus	8
+Xiaomi	MI 9	9	8	1080x2340	Qualcomm	8
+Xiaomi	Redmi K20 Pro	10	8	1080x2340	Qualcomm	8
+小米	MI 6	9	6	1080x1920	Qualcomm	8
+Redmi	Redmi Note 8 Pro	9	6	1080x2340	MT6785V/CC	8
+荣耀	OXF-AN00	10	6	1080x2400	Hisilicon	8
+华为	JEF-AN00	10	8	1080x2400	Hisilicon	8
+华为	SEA-AL10	10	8	1080x2340	Hisilicon	8
+华为	ANA-AN00	10	8	1080x2340	Hisilicon	8
+华为	VOG-AL00	10	8	1080x2340	Hisilicon	8
+一加	GM1910	11	6	1440x3120	Qualcomm	8
+华为	LYA-AL00	10	6	1440x3120	Hisilicon	8
+荣耀	PCT-AL10	10	6	1080x2310	Hisilicon	8
+华为	TAS-AN00	10	8	1080x2340	Hisilicon	8
+华为	HMA-AL00	10	6	1080x2244	Hisilicon	8
+荣耀	YAL-AL00	9	8	1080x2340		8
+华为	WLZ-AL10	10	8	1080x2400	Hisilicon	8
+小米	M2002J9E	10	6	2400x1080	骁龙765g	8
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							

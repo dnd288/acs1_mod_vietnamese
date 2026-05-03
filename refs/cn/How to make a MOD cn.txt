@@ -1,0 +1,204 @@
+
+说明：
+1.xml文件可以任意新增，程序会遍历对应的整个目录，包括子目录
+2.同名的def会根据mod载入的顺序覆盖
+3.带数字ID的txt文件请自行管理ID重复问题。相同ID会根据mod载入的顺序覆盖
+4.带有汉字的文件都需要转换为UTF-8编码
+5.MOD不一致可能会导致读档失败
+6.MOD入口(Info.json)说明
+	"Name":"Example",		 			MOD名字，确定后请不要随意更改 
+	"DisplayName":"演示MOD"  				显示名字 
+	"Desc":"这是一个MOD的演示",  				MOD介绍 
+	"GameVersion":0.94,		 			最低支持游戏版本 
+	"Version":1,			 		MOD版本 
+	"Author":"GSQ",				 	作者 
+7.请通过游戏内模组管理器上传到工坊
+8.现在支持使用luac对lua脚本进行编译加密。请使用目录下的luac.exe进行编译，系统会读取.luac为后缀的编译后文件
+
+-----------------------------------------	
+         如何开始一个新的MOD
+-----------------------------------------
+1.在Mods文件夹下建立一个新的文件夹
+2.创建并编写Info.json
+3.参考范例开始你的Mod之旅
+
+-----------------------------------------
+	说明文件
+------------------------------------------
+Update.txt 			------------------------------MOD功能更新日志
+地图事件系统LUA说明(MapStory Lua) 	------------------------------地图事件系统lua接口
+多语言相关(Language pack)		------------------------------语言包的制作方法
+脚本API文档(Script API)		------------------------------脚本API网站连接
+快捷键列表(Hot Key)			------------------------------热键关键字
+自定义UI相关(UI DIY)			------------------------------自定义UI的模板及制作方法
+3D模型导入教学			------------------------------模型导入教学及相关资源和工具	
+-------------------------------------
+	脚本相关
+------------------------------------
+游戏中按CTRL+F8打开控制台，可以直接查看日志和调试lua脚本
+系统会自动加载mod中scripts内的所有lua文件
+所有模块都可以通过CS.XiaWorld.访问到，具体可以参考API
+易用性相关的接口会陆续添加
+脚本提供了简单的存读档机制
+请一定先查看Example学习入口的添加方法
+Mod中OnSetHotKey中可以进行快捷键的注册，OnHotKey中会返回快捷键的触发状态
+API：http://gsqgames.gitee.io/api
+
+--------------------------------------------
+	已支持的目录/文件
+--------------------------------------------
+-----资源目录---
+Resources\	文件夹 内部结构请自行管理
+目前支持游戏内所有2D资源的加载
+详情请参考Example中的测试建筑和测试道具
+
+-----配置目录---
+Settings\ThingDef\		   	物体数据
+Settings\Modifiers\			Modifiers数据
+Settings\Property\			角色属性
+
+Settings\Npc\Reincarnate\  	轮回者
+Settings\Npc\Backstories\  	角色背景 背景的变动会影响随机轮回者的属性
+Settings\Npc\Features\  	角色特性 特性的变动会影响随机轮回者的属性
+Settings\Npc\Experience\  	角色经历
+Settings\Npc\Moods\  		角色情绪
+Settings\Npc\Damages\ 		伤害
+Settings\Npc\Body\			角色身体结构定义
+Settings\Npc\Favour\		角色印象词条定义
+Settings\Npc\Race\			角色种族定义
+Settings\Npc\Relation\		角色关系定义
+Settings\Npc\SpDrop\		大能特殊掉落的定义
+
+Settings\Fun\				娱乐项目
+
+Settings\Practice\DanFormula\ 						丹方
+Settings\Practice\Gong\								功法
+Settings\Practice\Magic\							神通  神通除名字和基本参数外逻辑都是固定的
+Settings\Practice\Spell\  							符咒
+Settings\Practice\Tree\								参悟树
+Settings\Practice\FabaoFormula\						秘宝炼制
+Settings\Practice\FabaoHelian\						法宝合练
+Settings\Practice\RandomGong\						随机功法的随机规则
+Settings\Practice\BodyPractice\Attitude\			体修的姿态
+Settings\Practice\BodyPractice\LabelCache\			体修标签随机池
+Settings\Practice\BodyPractice\QuenchingLabel\		体修标签
+Settings\Practice\BodyPractice\QuenchingMethod\		体修淬炼之法
+Settings\Practice\BodyPractice\SuperPart\			体修秘体
+Settings\Practice\GodPractice\City\					神修建筑
+Settings\Practice\GodPractice\Guard\				神修护法
+Settings\Practice\GodPractice\Wish\					神修愿望
+
+Settings\Esoterica\			秘籍
+Settings\Weather\				天气
+Settings\MapStories\				历练
+Settings\Secrets\					秘闻
+Settings\Biomes\			地图环境配置 Biomes暂时无法新增 只能覆盖
+Settings\BiomesReplaceR\	地图环境替换配置，可以替换地图环境里的植物/地形
+Settings\Tang\				分堂专精
+Settings\PlantGroups\		种植物的配置
+Settings\AreaTypeDef\		区域定义
+Settings\Fight\FightSkillTemplate\	预制技能
+Settings\Fight\Driver\
+
+Settings\World\Places\ 				大地图数据  新地点在老档必须通过解锁才可以看见
+Settings\World\Events\ 				事件数据
+Settings\World\Schools\ 			门派数据
+Settings\World\FSItemSpecial\		风水镇物条件定义
+Settings\World\ItemPhysicalLable\	物体标签的物体特性定义
+
+Settings\Display\ClothesColor\ 衣服配色方案 ID用于原材料的ClothesColorID
+Settings\Display\SpecialName\  特殊物品命名方案
+
+Settings\Display\ArtItem\ 随机艺术品定义
+
+Settings\Display\EsotericaName\			秘籍名字定义
+Settings\Display\FabaoName\				法宝名字定义
+Settings\Display\NpcTitle\				角色称号的随机定义
+Settings\Display\RaceSpecialMod\		妖族的特殊模型定义
+Settings\Display\RandomGong\			随机功法的随机名称定义
+Settings\Display\NpcName\ 				角色的名字前缀定义
+
+Settings\UI\MainList\ 主菜单列表（请直接修改主体MainList.xml的mod将内容移至mods文件夹）
+Settings\UI\Help\ 帮助系统
+
+Settings\UI\HumanoidEvolution\Race\				妖族化形的种族配置
+Settings\UI\HumanoidEvolution\Rule\				妖族化形的规则配置
+Settings\UI\HumanoidEvolution\ThinkFragment\	妖族化形生成的思绪碎片定义
+
+Settings\Ui\MainList\		主界面建筑列表
+Settings\Ui\NpcUIEvent\		出现在游戏左侧的非暂停的提示消息配置
+
+Settings\Jianghu\Hobby\				动态江湖执念定义
+Settings\Jianghu\Npc\				动态江湖特殊角色定义
+Settings\Jianghu\Talk\				动态江湖对话定义
+
+Settings\LingShou					灵宠相关配置表，详情查看Settings\Lingshou\灵宠Mod使用指南.txt
+Settings\LingShou\Action\			灵宠行为定义
+Settings\LingShou\ActionType\		灵宠行为的类型定义
+Settings\LingShou\CD\				灵宠的行为cd定义
+Settings\LingShou\CValue\			灵宠的行为等级对应的自定义数据的值
+Settings\LingShou\Event\			灵宠行为树的事件定义
+Settings\LingShou\Extra\			灵宠的属性对灵宠的属性加值
+Settings\LingShou\Flag2Action\		灵宠第一次行为判断对应的变量定义
+Settings\LingShou\FoodNutrition\	灵宠食物营养
+Settings\LingShou\FoodType\			灵宠食物描述定义
+Settings\LingShou\Fun\				灵宠休闲定义
+Settings\LingShou\Job2Action\		灵宠某个动作对应的行为定义
+Settings\LingShou\Jobp\				灵宠行为等级对应的肥胖度/强壮度/说话定义
+Settings\LingShou\Justice\			灵宠行为的正邪值定义
+Settings\LingShou\LsRace\			灵宠种族定义
+Settings\LingShou\RebornBuild\		灵宠对应的建筑tag定义，对应描述
+Settings\LingShou\State\			灵宠的状态检查
+Settings\LingShou\Talk\				灵宠说话定义
+Settings\LingShou\Tree\				灵宠的行为树
+			
+Settings\MsgShow\				门规配置
+
+Settings\NpcBiography\		话外别传配置
+
+Settings\Outspread\Build\			代理点建筑配置
+Settings\Outspread\BuildSkill\		代理点建筑技能配置
+Settings\Outspread\BuildType\		代理点建筑类型限制配置
+Settings\Outspread\Disaster\		代理点灾难配置
+Settings\Outspread\DisasterTrigger\	代理点灾难触发概率/条件配置
+Settings\Outspread\GoOutspread\		代理人出门的时候的配置
+Settings\Outspread\Landform\		代理点地貌配置
+Settings\Outspread\Point\			代理点中可建设地点配置
+Settings\Outspread\Policy\			代理点政策配置
+Settings\Outspread\PolicyStory\		代理点配置对应的MapStory配置
+Settings\Outspread\Product\			代理点产出配置
+Settings\Outspread\Region\			代理点配置
+
+Settings\RPG\Dialogues\		冒险模式的对话定义
+Settings\RPG\Event\			冒险模式下的事件配置定义，可在编辑器里编辑
+Settings\RPG\Info\			冒险模式的入口定义
+Settings\RPG\Maps\			冒险模式的地图
+Settings\RPG\Operation\		冒险模式的操作定义
+Settings\RPG\RPGInput\		冒险模式的快捷键配置
+Settings\RPG\Things\		冒险模式的物体配置
+
+Settings\Trade\Auction\			拍卖配置
+Settings\Trade\GoodPool\		交易里的物品定义（门派交易，行商，拍卖行）
+Settings\Trade\Rule\			门派任务规则配置
+Settings\Trade\SchoolTask\		门派任务配置
+Settings\Trade\SchoolTrade\		门派交易配置
+Settings\Trade\Talk\			门派交易的对话
+Settings\Trade\TradeCount\		交易物品数量/可购买数量，刷新规则定义
+Settings\Trade\TradePrice\		交易价格tag配置
+Settings\Trade\WalkTrader\		行商配置
+
+Settings\World\Immortal\					真仙模式相关定义
+Settings\World\Immortal\Achievement\		真仙模式的成就条件
+Settings\World\Immortal\Constraint\			真仙模式的具体条目定义
+Settings\World\Immortal\ImmortalLevel\		真仙模式的级别定义
+
+Settings\Zhen\Node\					阵法的阵枢/阵眼定义
+Settings\Zhen\NodeLevelInfo\		阵枢/阵眼等级对应的表现定义
+Settings\Zhen\NodeTypeInfo\			阵法真意描述定义
+Settings\Zhen\Props\				阵法属性定义
+Settings\Zhen\Propvalue\			阵法属性计算逻辑定义
+Settings\Zhen\Rule\					阵法特殊匹配规则
+Settings\Zhen\Slot\					阵法玄机定义
+Settings\Zhen\SlotSuit\				阵法真意定义
+Settings\Zhen\Suit\					上古阵法效果定义
+

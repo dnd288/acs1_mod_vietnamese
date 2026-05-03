@@ -1,0 +1,360 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Mutation_Effect_Yang_FoodsDropCoin">
+			<DisplayName>Eat Out Coin</DisplayName>
+			<Desc>All food has a very low chance of yielding coins.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_FoodsDropCoin2">
+			<DisplayName>Eat Out Coin</DisplayName>
+			<Desc>All food has a small chance to produce coins when eaten</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_FoodsDropCoin3">
+			<DisplayName>Eat Out Coin</DisplayName>
+			<Desc>All food has a high chance of yielding coins.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_FaBaoSpecialAbility">
+			<DisplayName>Artifact Gains Effect</DisplayName>
+			<Desc>Gain a random rare artifact effect when an artifact is completed.</Desc>
+			<Effects.0.SpecialAbilities.0.Desc>Increases damage to targets of Earth element by 80%.</Effects.0.SpecialAbilities.0.Desc>
+			<Effects.0.SpecialAbilities.1.Desc>For every 15th strike, it will attack the cultivator's body itself, penetrating shield and deal additional damage.</Effects.0.SpecialAbilities.1.Desc>
+			<Effects.0.SpecialAbilities.2.Desc>For every 3 attacks, generates 9 spike apparitions that last 3 seconds.</Effects.0.SpecialAbilities.2.Desc>
+			<Effects.0.SpecialAbilities.3.Desc>The base power of artifact is increased by 1% for every 1 second the sword maintained flying. The effect is cleared when it returns.</Effects.0.SpecialAbilities.3.Desc>
+			<Effects.0.SpecialAbilities.4.Desc>For every 12 attacks on a same artifact, it can disable the target for a certain length of time corresponding to its tier.</Effects.0.SpecialAbilities.4.Desc>
+			<Effects.0.SpecialAbilities.5.Desc>For every 1% Health lower, Artifact Power is increased by 5%.</Effects.0.SpecialAbilities.5.Desc>
+			<Effects.0.SpecialAbilities.6.Desc>Power increases by 10% for each creature defeated, up to 36 layers. If you do not drink blood for a day, the effect will reset.</Effects.0.SpecialAbilities.6.Desc>
+			<Effects.0.SpecialAbilities.7.Desc>Every 9th attack will cast a spell on the target enemy.</Effects.0.SpecialAbilities.7.Desc>
+			<Effects.0.SpecialAbilities.8.Desc>Protection skill level increased by 10.</Effects.0.SpecialAbilities.8.Desc>
+			<Effects.0.SpecialAbilities.9.Desc>At the cost of being shattered, defy death once and restore all damage dealt to you.</Effects.0.SpecialAbilities.9.Desc>
+			<Effects.0.SpecialAbilities.10.Desc>The closer the user to maximum lifespan, the more powerful the artifact will be.</Effects.0.SpecialAbilities.10.Desc>
+			<Effects.0.SpecialAbilities.11.Desc>10% of damage dealt will be replenished to the artifact's Qi.</Effects.0.SpecialAbilities.11.Desc>
+			<Effects.0.SpecialAbilities.12.Desc>For every 7 attacks, generate a swordsprite that lasts 7 seconds.</Effects.0.SpecialAbilities.12.Desc>
+			<Effects.0.SpecialAbilities.13.Desc>Spell skill level increased by 10.</Effects.0.SpecialAbilities.13.Desc>
+			<Effects.0.SpecialAbilities.14.Desc>Increases damage to targets of Wood element by 100%.</Effects.0.SpecialAbilities.14.Desc>
+			<Effects.0.SpecialAbilities.15.Desc>Increases damage to targets of Earth element by 100%.</Effects.0.SpecialAbilities.15.Desc>
+			<Effects.0.SpecialAbilities.16.Desc>Increases damage to targets of Fire element by 100%.</Effects.0.SpecialAbilities.16.Desc>
+			<Effects.0.SpecialAbilities.17.Desc>Increases damage to targets of Metal element by 100%.</Effects.0.SpecialAbilities.17.Desc>
+			<Effects.0.SpecialAbilities.18.Desc>Increases damage to targets of Water element by 100%.</Effects.0.SpecialAbilities.18.Desc>
+			<Effects.0.SpecialAbilities.19.Desc>Surrounding the whole body, it focuses on defense and will not attack.</Effects.0.SpecialAbilities.19.Desc>
+			<Effects.0.SpecialAbilities.20.Desc>For every 10,000 Qi consumed, damage is increased by 10%, up to a maximum of 1000%. The effect is reset when replenishing Qi to the artifact.</Effects.0.SpecialAbilities.20.Desc>
+			<Effects.0.SpecialAbilities.21.Desc>For each kind of Elixir consumed, its power is increased by 5%.</Effects.0.SpecialAbilities.21.Desc>
+			<Effects.0.SpecialAbilities.22.Desc>Every 2 attacks reduce skill cooldown by 1 second.</Effects.0.SpecialAbilities.22.Desc>
+			<Effects.0.SpecialAbilities.23.Desc>Sword Mastery skill level increased by 10.</Effects.0.SpecialAbilities.23.Desc>
+			<Effects.0.SpecialAbilities.24.Desc>Deals 1.5x damage when fighting against other artifacts.</Effects.0.SpecialAbilities.24.Desc>
+			<Effects.0.SpecialAbilities.25.Desc>When dealing damage, there is a 10% chance of dealing 5x damage.</Effects.0.SpecialAbilities.25.Desc>
+			<Effects.0.SpecialAbilities.26.Desc>Deals 1.5x damage when attacking the enemy's body itself.</Effects.0.SpecialAbilities.26.Desc>
+			<Effects.0.SpecialAbilities.27.Desc>When attacking the enemy's body itself, there is a 1% chance of dealing an additional damage that is equal to 30% of the current target's Qi.</Effects.0.SpecialAbilities.27.Desc>
+			<Effects.0.SpecialAbilities.28.Desc>Fundamentally increases your Artifact Power Bonus by 30%.</Effects.0.SpecialAbilities.28.Desc>
+			<Effects.0.SpecialAbilities.29.Desc>Fundamentally increases your Artifact Qi Bonus by 30%.</Effects.0.SpecialAbilities.29.Desc>
+			<Effects.0.SpecialAbilities.30.Desc>Fundamentally increases your Artifact's Knockback Resistance by 30%.</Effects.0.SpecialAbilities.30.Desc>
+			<Effects.0.SpecialAbilities.31.Desc>Fundamentally increases your Artifact Turn Speed by 30%.</Effects.0.SpecialAbilities.31.Desc>
+			<Effects.0.SpecialAbilities.32.Desc>Fundamentally increases your Artifact Qi Recovery Rate by 30%.</Effects.0.SpecialAbilities.32.Desc>
+			<Effects.0.SpecialAbilities.33.Desc>Fundamentally increases your Artifact Knockback by 30%.</Effects.0.SpecialAbilities.33.Desc>
+			<Effects.0.SpecialAbilities.34.Desc>Fundamentally increases your Artifact Fly Speed by 30%.</Effects.0.SpecialAbilities.34.Desc>
+			<Effects.0.SpecialAbilities.35.Desc>Power of first sword strike increased by 500%. The effect is reset when replenishing Qi to the artifact.</Effects.0.SpecialAbilities.35.Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_PlantIgnoreTemp">
+			<DisplayName>Plants Ignore Temperature Conditions</DisplayName>
+			<Desc>Sect plants ignore temperature conditions for growth.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Persuasion">
+			<Desc>Slightly increases the persuasion success rate of sect disciples.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Persuasion2">
+			<Desc>Increase the persuasion success rate of sect disciples.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Persuasion3">
+			<Desc>Significantly increases the persuasion success rate of sect disciples.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_PuppetDropHPStop">
+			<Desc>Puppet ceases to degrade.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_1">
+			<Desc>Slightly increase the Qi recovery speed of sect disciples.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_2">
+			<Desc>Increase sect disciples' Qi recovery speed.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_3">
+			<Desc>Significantly increases the Qi recovery speed of sect disciples.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_4">
+			<Desc>Enhance sect disciples' cultivation speed.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_5">
+			<Desc>Significantly increase the cultivation speed of sect disciples.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_6">
+			<Desc>Sect disciples become less prone to hunger.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_7">
+			<Desc>Sect disciples become less prone to fatigue.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_8">
+			<Desc>Sect disciples become less prone to Thirst.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_9">
+			<Desc>Slightly increases the strength of sect disciples' Qi barrier.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_10">
+			<Desc>Increase the strength of Qi barrier for sect disciples</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_11">
+			<Desc>Slightly increases the probability of sect disciples breaking through bottlenecks.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_12">
+			<Desc>Increase the probability of sect disciples breaking through bottlenecks.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_13">
+			<Desc>Significantly increases the probability of sect disciples breaking through bottlenecks.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_14">
+			<Desc>Slightly increases the ability of sect disciples to practice inedia.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_15">
+			<Desc>Improve the ability of sect disciples to abstain from food and drink</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_16">
+			<Desc>Greatly enhances the ability of sect disciples to abstain from food and drink.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_17">
+			<Desc>Slightly reduces the attainment bonus of Sect disciples.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_18">
+			<Desc>Reduce sect disciples' attainment bonus.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_19">
+			<Desc>Significantly lowers Sect disciples' Dao merit bonus.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_20">
+			<Desc>Slightly increases sect disciples' lifespan cap.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_21">
+			<Desc>Increase sect disciples' lifespan limit.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_22">
+			<Desc>Greatly enhances sect disciples' lifespan cap.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_23">
+			<Desc>Slightly increase the movement speed of sect disciples</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_24">
+			<Desc>Increase sect disciples' movement speed</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_25">
+			<Desc>Greatly increase sect disciples' movement speed</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_26">
+			<Desc>Enhance sect disciples' foundation building speed.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_27">
+			<Desc>Greatly enhances sect disciples' Foundation Training speed.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_28">
+			<Desc>Enhance sect disciples' learning speed.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_29">
+			<Desc>Greatly enhances sect disciples' learning speed.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_30">
+			<Desc>Slightly increases the overall work speed of sect disciples.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_31">
+			<Desc>Speeds up Sect disciples' overall work.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_32">
+			<Desc>Significantly increase the overall work speed of sect disciples.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_33">
+			<Desc>Slightly increase the base mental state value of sect disciples</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_34">
+			<Desc>Increases the base Mental State value of Sect disciples.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_35">
+			<Desc>Significantly increase the base mental state value of sect disciples.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_36">
+			<Desc>The formation load capacity of sect disciples has been significantly increased.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_37">
+			<Desc>The formation load capacity of sect disciples has been significantly increased.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_40">
+			<Desc>Sect disciples' Battle skill level +1 (increase cap).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_41">
+			<Desc>Sect disciples' Battle skill level +1.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_42">
+			<Desc>Sect disciple's Battle skill level increases by 2.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_43">
+			<Desc>Sect disciples' Social skill level +1 (increase cap).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_44">
+			<Desc>Sect disciple's Social skill level increases by 1.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_45">
+			<Desc>Sect disciple's Social skill level increases by 2.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_46">
+			<Desc>Sect disciples' Artisanry skill level +1 (increase cap).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_47">
+			<Desc>Sect disciple's Artisanry skill level increases by 1.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_48">
+			<Desc>Sect disciples' Art skill level +2.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_49">
+			<Desc>Sect disciples' Qi Sense skill level +1 (raises cap).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_50">
+			<Desc>Sect disciple's Qi Sense skill level increases by 1.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_51">
+			<Desc>Sect disciples' Qi Sensing skill level +2.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_52">
+			<Desc>Sect disciples' Crafting/Artifact Crafting skill level +1 (increase cap).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_53">
+			<Desc>The [SCHOOL] disciple's Crafting/Artifact Crafting skill level +1.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_54">
+			<Desc>Sect disciples' Crafting/Artifact Crafting skill level +2.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_55">
+			<Desc>Sect disciples' Medicine/Alchemy Crafting skill level +1 (increase cap).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_56">
+			<Desc>Sect disciples' Medicine/Alchemy skill level +1.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_57">
+			<Desc>Sect disciples' Medicine/Alchemy skill level +2.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_58">
+			<Desc>Sect disciples' Artifact Mastery skill level +1 (increase cap).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_59">
+			<Desc>Sect disciples' Artifact Mastery skill level +1.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_60">
+			<Desc>Sect disciples' Artifact Mastery skill level +2.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_61">
+			<Desc>Sect disciples' Spell skill level +1 (increase cap).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_62">
+			<Desc>Sect disciples' Spell skill level +1.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_63">
+			<Desc>Sect disciple's Spell skill level increases by 2.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_64">
+			<Desc>Sect disciples' Protection skill level +1 (raises cap).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_65">
+			<Desc>Sect Disciple Protection Skill Level +1</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_66">
+			<Desc>Sect disciple's Protection skill level increases by 2.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_67">
+			<Desc>Sect disciples' Formation skill level +1 (increase cap).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_68">
+			<Desc>Sect disciple's Formation skill level increases by 1.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_69">
+			<Desc>Sect disciple's Formation skill level increases by 2.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_70">
+			<Desc>Sect disciples' Mining skill level +1 (increase cap).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_71">
+			<Desc>Sect disciple's Mining skill level increases by 1.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_72">
+			<Desc>Sect disciple's Mining skill level increases by 2.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_73">
+			<Desc>Sect disciples' Farming skill level +1 (increase cap).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_74">
+			<Desc>Sect disciples' Farming skill level +1.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_75">
+			<Desc>Sect disciples' Farming skill level +2.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_76">
+			<Desc>Sect disciples' Construction skill level +1 (raises cap).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_77">
+			<Desc>Sect Disciple Construction Skill Level +1</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_78">
+			<Desc>Sect disciple's Construction skill level increases by 2.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_79">
+			<Desc>Sect disciples' Cooking skill level +1 (increase cap).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_80">
+			<Desc>Sect Disciple Cooking Skill Level +1</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_81">
+			<Desc>Sect disciple's Cooking skill level increases by 2.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_82">
+			<Desc>Sect disciples' charisma increases by 10%.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_83">
+			<Desc>Sect disciples' charisma increases by 30%.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_84">
+			<Desc>Sect disciples' charisma increases by 50%.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_85">
+			<Desc>Sect disciples' Intelligence increases by 10%.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_86">
+			<Desc>Sect disciples' Intelligence increases by 30%.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_87">
+			<Desc>Sect disciples' Intelligence increases by 50%.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_88">
+			<Desc>Sect disciples' opportunity +10%</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_89">
+			<Desc>Sect disciples' luck increases by 30%.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_90">
+			<Desc>Sect disciples' luck increases by 50%.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_91">
+			<Desc>Sect disciples' perception increases by 10%.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_92">
+			<Desc>Sect disciples' perception +30%</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_93">
+			<Desc>Sect disciples' perception increases by 50%.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_94">
+			<Desc>Sect disciples' constitution increases by 10%.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_95">
+			<Desc>Sect disciples' physique +30%</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_96">
+			<Desc>Sect disciples' constitution increases by 50%.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_97">
+			<Desc>Sect disciples' five attributes increase by 10%.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Yang_Modifier_38">
+			<Desc>Sect disciples' five attributes increase by 30%.</Desc>
+		</Text>
+	</List>
+</Texts>

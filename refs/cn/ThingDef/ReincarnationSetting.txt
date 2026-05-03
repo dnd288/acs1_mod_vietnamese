@@ -1,0 +1,11 @@
+Name	Value
+
+fiveinfostart	4
+fiveinfomax	1000
+skillinfostart	0
+skillinfomax	1000
+skilllovestart	0
+skilllovemax	1000
+fiveinfoSuggestMax	9
+skillinfoSuggestMax	40
+skillloveSuggestMax	4

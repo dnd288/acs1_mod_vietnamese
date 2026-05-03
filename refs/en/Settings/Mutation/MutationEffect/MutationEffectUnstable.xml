@@ -1,0 +1,635 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Mutation_Effect_Unstable_EventTrigger">
+			<Desc>Attract a Lushu deer.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_EventTrigger2">
+			<Desc>Attracted a Qifei</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_EventTrigger3">
+			<Desc>Attract a group of strange little fairies</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_EventTrigger4">
+			<Desc>An artifact appears.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_EventTrigger5">
+			<Desc>A treasure appears.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Lua">
+			<Desc>Immediately attract a Flood Dragon.</Desc>
+			<SpecialDesc>A Flood Dragon suddenly appeared in [SCHOOL]!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Lua2">
+			<Desc>Immediately attract a fierce phoenix.</Desc>
+			<SpecialDesc>A fierce phoenix suddenly appeared in [SCHOOL]!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Lua3">
+			<Desc>Immediately attract a Zhulong.</Desc>
+			<SpecialDesc>A Torch Dragon suddenly appeared in [SCHOOL]!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_DaNengChuShi">
+			<Desc>Immediately trigger 3 ancient cultivator rumors.</Desc>
+			<SpecialDesc>[SCHOOL] has uncovered rumors about ancient cultivators...</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_BeginWeather">
+			<DisplayName>Summon Weather</DisplayName>
+			<Desc>Create a romantic ambiance within the sect</Desc>
+			<SpecialDesc>[TARGET] appears in [SCHOOL]...</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_BeginWeather2">
+			<Desc>Summon Weather: Rainy Season</Desc>
+			<SpecialDesc>[TARGET] appears in [SCHOOL]...</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_BeginWeather3">
+			<Desc>Summon Weather: Drought</Desc>
+			<SpecialDesc>[TARGET] appears in [SCHOOL]...</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_BeginWeather4">
+			<Desc>Summon Weather: Rainstorm</Desc>
+			<SpecialDesc>[TARGET] appears in [SCHOOL]...</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_BeginWeather5">
+			<Desc>Summon Weather: Foehn Wind</Desc>
+			<SpecialDesc>[TARGET] appears in [SCHOOL]...</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_BeginWeather6">
+			<Desc>Summon Weather: Dust Storm</Desc>
+			<SpecialDesc>[TARGET] appears in [SCHOOL]...</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_BeginWeather7">
+			<Desc>Summon weather: Eternal Night.</Desc>
+			<SpecialDesc>[TARGET] appears in [SCHOOL]...</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_BeginWeather8">
+			<Desc>Summon Weather: Noxious Air</Desc>
+			<SpecialDesc>[TARGET] appears in [SCHOOL]...</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_BeginWeather9">
+			<Desc>Summon weather: Thunderstorm.</Desc>
+			<SpecialDesc>[TARGET] appears in [SCHOOL]...</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_EventTrigger19">
+			<Desc>Attract a passerby.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_EventTrigger20">
+			<Desc>Attract an immortal friend.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_EventTrigger21">
+			<Desc>Attract a spirit.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_EventTrigger22">
+			<Desc>Lures a newly formed Yaoguai.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_EventTrigger23">
+			<Desc>Encountered an invasion of beasts.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_EventTrigger24">
+			<Desc>Encounter invasion by unknown individuals</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_RandomCreatureInjured">
+			<Desc>A random creature on the map suffers minor injuries.</Desc>
+			<SpecialDesc>[TARGET] feels slightly unwell!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_RandomCreatureInjured2">
+			<Desc>A random living being on the map suffers severe injuries</Desc>
+			<SpecialDesc>[TARGET] suddenly falls ill!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_RandomEnemyDies">
+			<Desc>A random non-friendly character dies within the map.</Desc>
+			<SpecialDesc>[TARGET] suddenly perishes!</SpecialDesc>
+			<Effects.0.sParam1>Heavenly Chaos</Effects.0.sParam1>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_TriggerMapSecretAtOnce">
+			<Desc>Immediately trigger a secret event.</Desc>
+			<SpecialDesc>[SCHOOL] has learned a rumor: [TARGET]</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_TriggerMapSecretAtOnce1">
+			<Desc>Immediately trigger a secret event.</Desc>
+			<SpecialDesc>[SCHOOL] has learned a rumor: [TARGET]</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_TriggerMapSecretAtOnce2">
+			<Desc>Immediately trigger a secret event.</Desc>
+			<SpecialDesc>[SCHOOL] has learned a rumor: [TARGET]</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetSchoolRelation">
+			<Desc>A specific Sect gains Favor for our Sect.</Desc>
+			<SpecialDesc>[TARGET] has a slight appreciation of [SCHOOL], Favor increased!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetSchoolRelation2">
+			<Desc>A certain righteous sect becomes increasingly close to our sect.</Desc>
+			<SpecialDesc>[TARGET] grows closer with [SCHOOL], Favor greatly increased!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetSchoolRelation3">
+			<Desc>A certain evil sect becomes increasingly close to our sect.</Desc>
+			<SpecialDesc>[TARGET] grows closer with [SCHOOL], Favor greatly increased!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetSchoolRelation4">
+			<Desc>The just cultivators in the world respects our Sect even more.</Desc>
+			<SpecialDesc>[TARGET] unanimously show respect for [SCHOOL], greatly increasing favor!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetSchoolRelation5">
+			<DisplayName>Sect Favor</DisplayName>
+			<Desc>Worldly evil cultivators show greater respect to our Sect.</Desc>
+			<SpecialDesc>[TARGET] unanimously show respect for [SCHOOL], greatly increasing favor!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetItemThing">
+			<Desc>Randomly obtain minerals.</Desc>
+			<SpecialDesc>[SCHOOL] acquires [TARGET]!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetItemThing2">
+			<Desc>Randomly obtain food.</Desc>
+			<SpecialDesc>[SCHOOL] acquires [TARGET]!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetItemThing3">
+			<Desc>Randomly obtain building materials.</Desc>
+			<SpecialDesc>[SCHOOL] acquires [TARGET]!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetItemThing4">
+			<Desc>Randomly obtain medicine.</Desc>
+			<SpecialDesc>[SCHOOL] acquires [TARGET]!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetItemThing5">
+			<Desc>Randomly obtain a Five Elements spiritual root.</Desc>
+			<SpecialDesc>[SCHOOL] acquires [TARGET]!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetItemThing6">
+			<Desc>Randomly obtain a drug.</Desc>
+			<SpecialDesc>[SCHOOL] acquires [TARGET]!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetItemThing7">
+			<Desc>Randomly obtain a large amount of Spirit Stones.</Desc>
+			<SpecialDesc>[SCHOOL] has gained a large amount of spirit stones!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetItemThing8">
+			<Desc>Randomly obtain a large amount of Amber.</Desc>
+			<SpecialDesc>[SCHOOL] has acquired a large quantity of Anguish Soul Gems!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetItemThing9">
+			<Desc>Randomly obtain a precious item.</Desc>
+			<SpecialDesc>[SCHOOL] acquires [TARGET]!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetSchoolScore">
+			<DisplayName>Sect Reputation</DisplayName>
+			<Desc>Gain a Bit of Sect Reputation</Desc>
+			<SpecialDesc>[SCHOOL] has gained a bit of reputation!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetSchoolScore2">
+			<DisplayName>Sect Reputation</DisplayName>
+			<Desc>Make the sect's reputation widespread.</Desc>
+			<SpecialDesc>[SCHOOL]'s fame spreads widely, earning substantial Reputation!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetSchoolScore3">
+			<DisplayName>Sect Reputation</DisplayName>
+			<Desc>Make the sect's name resound throughout the universe.</Desc>
+			<SpecialDesc>[SCHOOL]'s name resounds throughout the universe, gaining massive reputation!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_SexTransformation">
+			<Desc>Gender Transformation</Desc>
+			<SpecialDesc>[NPC] undergoes some mysterious changes..</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_HealthRecoverAtOnce">
+			<Desc>Instantly heal all injuries</Desc>
+			<SpecialDesc>[NPC] feels an unprecedented sense of comfort, as if all injuries and ailments have been swept away</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_RandomDrugToleranceCleared">
+			<Desc>Clears a random Medicine Tolerance.</Desc>
+			<SpecialDesc>[NPC] feels some changes in the body, with resistance to a certain drug disappearing</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_UnlockFabaoSlot">
+			<Desc>Unlock 1 talisman slot.</Desc>
+			<SpecialDesc>[NPC] can control more artifacts.</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_1">
+			<Desc>Slightly enhances personal Qi recovery speed.</Desc>
+			<SpecialDesc>[NPC]'s Qi recovery speed has been slightly increased</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_2">
+			<Desc>Enhance own Qi recovery speed.</Desc>
+			<SpecialDesc>[NPC]'s Qi recovery speed increases</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_3">
+			<Desc>Greatly enhances personal Qi recovery speed.</Desc>
+			<SpecialDesc>[NPC]'s Qi recovery speed has been significantly increased</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetZhuJiValue">
+			<Desc>Gain a small amount of Foundation value</Desc>
+			<SpecialDesc>[NPC]'s Foundation value increases slightly</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetZhuJiValue2">
+			<Desc>Gain a large amount of Foundation value</Desc>
+			<SpecialDesc>[NPC]'s Foundation value increases significantly</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetStageValue">
+			<Desc>Own cultivation improves slightly.</Desc>
+			<SpecialDesc>[NPC]'s cultivation has advanced, gaining some growth</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_GetStageValue2">
+			<Desc>Own cultivation progresses rapidly.</Desc>
+			<SpecialDesc>[NPC]'s cultivation has soared significantly</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_4">
+			<Desc>Increase own Qi limit.</Desc>
+			<SpecialDesc>[NPC]'s Qi limit increases</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_5">
+			<Desc>Fundamentally increase one's own Qi limit</Desc>
+			<SpecialDesc>[NPC]'s Qi cap has been fundamentally increased</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_6">
+			<Desc>Increase own cultivation speed.</Desc>
+			<SpecialDesc>[NPC]'s cultivation speed increases</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_7">
+			<Desc>Become Less Prone to Hunger</Desc>
+			<SpecialDesc>[NPC] becomes less prone to hunger</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_8">
+			<Desc>Become Less Prone to Fatigue</Desc>
+			<SpecialDesc>[NPC] becomes less prone to fatigue</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_9">
+			<Desc>Become less prone to thirst.</Desc>
+			<SpecialDesc>[NPC] becomes less prone to thirst</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_10">
+			<Desc>Amplify the power of own Qi barrier</Desc>
+			<SpecialDesc>[NPC]'s Qi barrier power has been increased</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_11">
+			<Desc>Increase personal bottleneck breakthrough chance</Desc>
+			<SpecialDesc>[NPC] becomes more likely to break through bottlenecks</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_12">
+			<Desc>Delay all own Tribulations.</Desc>
+			<SpecialDesc>[NPC] has obscured the Heavenly secrets, delaying the arrival of all heavenly tribulations</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_13">
+			<Desc>Reduce own Attainment bonus.</Desc>
+			<SpecialDesc>[NPC]'s attainment decreases slightly</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_14">
+			<Desc>Significantly reduce attainment gain</Desc>
+			<SpecialDesc>[NPC]'s attainment greatly decreases</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_15">
+			<Desc>Increase Own Attainment Bonus</Desc>
+			<SpecialDesc>[NPC]'s attainment increases slightly</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_16">
+			<Desc>Significantly increase own attainment bonus.</Desc>
+			<SpecialDesc>[NPC]'s attainment greatly increases</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_17">
+			<Desc>Slightly improve own breathing efficiency.</Desc>
+			<SpecialDesc>[NPC]'s breathing efficiency improves slightly</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_18">
+			<Desc>Significantly boost personal breathing efficiency</Desc>
+			<SpecialDesc>[NPC]'s breathing efficiency greatly improves</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_19">
+			<Desc>Enhances the body's Natural Resilience.</Desc>
+			<SpecialDesc>[NPC]'s natural body resilience has become stronger</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_20">
+			<Desc>Increase own perception range.</Desc>
+			<SpecialDesc>[NPC]'s perception range becomes wider</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_21">
+			<Desc>Significantly increase own lifespan limit.</Desc>
+			<SpecialDesc>[NPC]'s lifespan limit greatly increases</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_22">
+			<Desc>Significantly increase own movement speed.</Desc>
+			<SpecialDesc>[NPC] moves with significantly increased speed</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_23">
+			<Desc>Slightly enhance own foundation building speed.</Desc>
+			<SpecialDesc>[NPC]'s Foundation Training speed slightly increases</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_24">
+			<Desc>Increase own Foundation Training speed.</Desc>
+			<SpecialDesc>[NPC]'s Foundation Training speed increases slightly</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_25">
+			<Desc>Significantly boost personal Foundation Training speed</Desc>
+			<SpecialDesc>[NPC]'s Foundation Training speed greatly increases</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_26">
+			<Desc>Slightly enhance own learning speed.</Desc>
+			<SpecialDesc>[NPC]'s Learning Speed slightly increases</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_27">
+			<Desc>Increase own learning speed.</Desc>
+			<SpecialDesc>[NPC]'s Learning Speed increases slightly</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_28">
+			<Desc>Significantly enhance own learning speed.</Desc>
+			<SpecialDesc>[NPC]'s Learning Speed greatly increases</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_29">
+			<Desc>Make it easier for oneself to gain epiphany.</Desc>
+			<SpecialDesc>[NPC] becomes more likely to gain epiphany.</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_30">
+			<Desc>Enhance own overall work efficiency.</Desc>
+			<SpecialDesc>[NPC]'s overall work efficiency has significantly improved</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_31">
+			<Desc>Increase base Mental State value</Desc>
+			<SpecialDesc>[NPC]'s base mental state improves</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_32">
+			<Desc>Enhance own array load capacity.</Desc>
+			<SpecialDesc>[NPC]'s Formation load capacity increases</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_40">
+			<Desc>Increase own battle skill level by +1.</Desc>
+			<SpecialDesc>[NPC]'s Battle skill level +1</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_41">
+			<Desc>Increase own battle skill level by +2.</Desc>
+			<SpecialDesc>[NPC]'s Battle skill level +2</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_42">
+			<Desc>Own battle skill level +1 (increases cap).</Desc>
+			<SpecialDesc>[NPC]'s Battle skill level +1 (increase cap)</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_43">
+			<Desc>Increase own social skill level by +1.</Desc>
+			<SpecialDesc>[NPC]'s Social skill level +1</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_44">
+			<Desc>Increase own social skill level by +2.</Desc>
+			<SpecialDesc>[NPC]'s Social skill level +2</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_45">
+			<Desc>Own Social skill level +1 (increases cap).</Desc>
+			<SpecialDesc>[NPC]'s Social skill level +1 (increase cap)</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_46">
+			<Desc>Increase own artisanry skill level by +1.</Desc>
+			<SpecialDesc>[NPC]'s Artisanry skill level +1</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_47">
+			<Desc>Increase own artisanry skill level by +2.</Desc>
+			<SpecialDesc>[NPC]'s Artisanry skill level +2</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_48">
+			<Desc>Own Art skill level +1 (increases cap).</Desc>
+			<SpecialDesc>[NPC]'s Artisanry skill level +1 (increase cap)</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_49">
+			<Desc>Increase own Qi sense skill level by +1.</Desc>
+			<SpecialDesc>[NPC]'s Qi Sensing skill level +1</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_50">
+			<Desc>Increase own Qi sense skill level by +2.</Desc>
+			<SpecialDesc>[NPC]'s Qi Sensing skill level +2</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_51">
+			<Desc>Increase your Qi Sense skill level by 1 (raises the cap).</Desc>
+			<SpecialDesc>[NPC]'s Qi Sense skill level +1 (increase cap)</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_52">
+			<Desc>Own Crafting/Artifact Crafting Skill Level +1</Desc>
+			<SpecialDesc>[NPC]'s Crafting/Artifact Crafting skill level +1</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_53">
+			<Desc>Crafting/Artifact Crafting Skill Level +2</Desc>
+			<SpecialDesc>[NPC]'s Crafting/Artifact Crafting skill level +2</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_54">
+			<Desc>Self Crafting/Artifact Crafting skill level +1 (raises cap).</Desc>
+			<SpecialDesc>[NPC]'s Crafting/Artifact Crafting skill level +1 (increase cap)</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_55">
+			<Desc>Own Medicine/Alchemy Skill Level +1</Desc>
+			<SpecialDesc>[NPC]'s Medicine/Alchemy skill level +1</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_56">
+			<Desc>Own Medicine/Alchemy Skill Level +2</Desc>
+			<SpecialDesc>[NPC]'s Medicine/Alchemy skill level +2</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_57">
+			<Desc>Self Medicine/Alchemy skill level +1 (raises cap).</Desc>
+			<SpecialDesc>[NPC]'s Medicine/Alchemy skill level +1 (increase cap)</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_58">
+			<Desc>Personal Artifact Skill +1</Desc>
+			<SpecialDesc>[NPC]'s Artifact skill level +1</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_59">
+			<Desc>Personal Artifact Skill +2</Desc>
+			<SpecialDesc>[NPC]'s Artifact skill level +2</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_60">
+			<Desc>Artifact Mastery skill level +1 (raises the cap).</Desc>
+			<SpecialDesc>[NPC]'s Artifact skill level +1 (increase cap)</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_61">
+			<Desc>Increase own Spell skill level by +1.</Desc>
+			<SpecialDesc>[NPC]'s Spell skill level +1</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_62">
+			<Desc>Increase own Spell skill level by +2.</Desc>
+			<SpecialDesc>[NPC]'s Spell skill level +2</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_63">
+			<Desc>Own Spell skill level +1 (increases cap).</Desc>
+			<SpecialDesc>[NPC]'s Spell skill level +1 (increase cap)</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_64">
+			<Desc>Increase own protection skill level by +1.</Desc>
+			<SpecialDesc>[NPC]'s Protection skill level +1</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_65">
+			<Desc>Increase own protection skill level by +2.</Desc>
+			<SpecialDesc>[NPC]'s Protection skill level +2</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_66">
+			<Desc>Own Protection skill level +1 (increases cap).</Desc>
+			<SpecialDesc>[NPC]'s Protection skill level +1 (increase cap)</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_67">
+			<Desc>Increase own array skill level by +1.</Desc>
+			<SpecialDesc>[NPC]'s Formation skill level +1</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_68">
+			<Desc>Personal Formation Skill +2</Desc>
+			<SpecialDesc>[NPC]'s Formation skill level +2</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_69">
+			<Desc>Own Formation skill level +1 (increases cap).</Desc>
+			<SpecialDesc>[NPC]'s Formation skill level +1 (increase cap)</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_70">
+			<Desc>Increase mining skill level by +1.</Desc>
+			<SpecialDesc>[NPC]'s Mining skill level +1</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_71">
+			<Desc>Increase mining skill level by +2.</Desc>
+			<SpecialDesc>[NPC]'s Mining skill level +2</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_72">
+			<Desc>Increase your Mining skill level by 1 (raises the cap).</Desc>
+			<SpecialDesc>[NPC]'s Mining skill level +1 (increase cap)</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_73">
+			<Desc>Increase own farming skill level by +1.</Desc>
+			<SpecialDesc>[NPC]'s Farming skill level +1</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_74">
+			<Desc>Increase own farming skill level by +2.</Desc>
+			<SpecialDesc>[NPC]'s Farming skill level +2</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_75">
+			<Desc>Own Farming skill level +1 (increases cap).</Desc>
+			<SpecialDesc>[NPC]'s Farming skill level +1 (increase cap)</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_76">
+			<Desc>Increase own construction skill level by +1.</Desc>
+			<SpecialDesc>[NPC]'s construction skill level +1</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_77">
+			<Desc>Increase own construction skill level by +2.</Desc>
+			<SpecialDesc>[NPC]'s construction skill level +2</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_78">
+			<Desc>Own Construction skill level +1 (increases cap).</Desc>
+			<SpecialDesc>[NPC]'s Construction skill level +1 (increase cap)</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_79">
+			<Desc>Personal Cooking Skill +1</Desc>
+			<SpecialDesc>[NPC]'s Cooking skill level +1</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_80">
+			<Desc>Own cooking skill level +2</Desc>
+			<SpecialDesc>[NPC]'s Cooking skill level +2</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_81">
+			<Desc>Own Cooking skill level +1 (increases cap).</Desc>
+			<SpecialDesc>[NPC]'s Cooking skill level +1 (increase cap)</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_82">
+			<Desc>Increase own Charm by 10%.</Desc>
+			<SpecialDesc>[NPC]'s Charisma increases by 10%</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_83">
+			<Desc>Increase own Charm by 20%.</Desc>
+			<SpecialDesc>[NPC]'s Charisma increases by 20%</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_84">
+			<Desc>Increase own Charm by 30%.</Desc>
+			<SpecialDesc>[NPC]'s Charisma increases by 30%</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_85">
+			<Desc>Increase own Intelligence by 10%.</Desc>
+			<SpecialDesc>[NPC]'s Intelligence increases by 10%</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_86">
+			<Desc>Increase own Intelligence by 20%.</Desc>
+			<SpecialDesc>[NPC]'s Intelligence increases by 20%</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_87">
+			<Desc>Increase own Intelligence by 30%.</Desc>
+			<SpecialDesc>[NPC]'s Intelligence increases by 30%</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_88">
+			<Desc>Increase own Luck by 10%.</Desc>
+			<SpecialDesc>[NPC]'s Luck increases by 10%</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_89">
+			<Desc>Increase own Luck by 20%.</Desc>
+			<SpecialDesc>[NPC]'s Luck increases by 20%</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_90">
+			<Desc>Increase own Luck by 30%.</Desc>
+			<SpecialDesc>[NPC]'s Luck increases by 30%</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_91">
+			<Desc>Increase own Perception by 10%.</Desc>
+			<SpecialDesc>[NPC]'s Perception increases by 10%</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_92">
+			<Desc>Increase own Perception by 20%.</Desc>
+			<SpecialDesc>[NPC]'s Perception increases by 20%</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_93">
+			<Desc>Increase own Perception by 30%.</Desc>
+			<SpecialDesc>[NPC]'s Perception increases by 30%</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_94">
+			<Desc>Increase own Constitution by 10%.</Desc>
+			<SpecialDesc>[NPC]'s Constitution increases by 10%</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_95">
+			<Desc>Increase own Constitution by 20%.</Desc>
+			<SpecialDesc>[NPC]'s Constitution increases by 20%</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_96">
+			<Desc>Increase own Constitution by 30%.</Desc>
+			<SpecialDesc>[NPC]'s Constitution increases by 30%</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_97">
+			<Desc>Increase own five attibutes by 10%.</Desc>
+			<SpecialDesc>[NPC]'s five attributes increase by 10%</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_98">
+			<Desc>Improve one's own work ability related to being a physician</Desc>
+			<SpecialDesc>[NPC]'s work abilities related to healing have been improved</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_99">
+			<Desc>Increase your ability in butchery work.</Desc>
+			<SpecialDesc>[NPC]'s work abilities related to butchering have been improved</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_100">
+			<Desc>Improve one's own work ability related to cooking</Desc>
+			<SpecialDesc>[NPC]'s work abilities related to cooking have been improved</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_101">
+			<Desc>Improve one's own work ability related to construction</Desc>
+			<SpecialDesc>[NPC]'s work abilities related to construction have been improved</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_102">
+			<Desc>Increase your ability in mining work.</Desc>
+			<SpecialDesc>[NPC]'s work abilities related to mining have been improved</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_103">
+			<Desc>Improve one's own work ability related to peon tasks</Desc>
+			<SpecialDesc>[NPC]'s work abilities related to manual labor have been improved</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_104">
+			<Desc>Boosts extreme heat tolerance.</Desc>
+			<SpecialDesc>[NPC] becomes more heat-resistant</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_105">
+			<Desc>Increase personal tolerance to extreme cold.</Desc>
+			<SpecialDesc>[NPC] becomes more cold-resistant</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_106">
+			<Desc>Enhances overall Alchemy capabilities.</Desc>
+			<SpecialDesc>[NPC]'s abilities related to alchemy have been improved</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_108">
+			<Desc>Enhances overall Craft Artifact capabilities.</Desc>
+			<SpecialDesc>[NPC]'s abilities related to crafting artifacts have been improved</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_110">
+			<Desc>Increase your ability in handicraft work.</Desc>
+			<SpecialDesc>[NPC]'s abilities related to handcrafting have been improved</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_111">
+			<Desc>Improve one's own work ability related to farming</Desc>
+			<SpecialDesc>[NPC]'s abilities related to farming have been improved</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_112">
+			<Desc>Enhances overall Adventure capabilities.</Desc>
+			<SpecialDesc>[NPC]'s abilities related to adventure have been improved</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Unstable_Modifier_113">
+			<Desc>Enhances overall Remold capabilities.</Desc>
+			<SpecialDesc>[NPC]'s abilities related to body remolding have been improved</SpecialDesc>
+		</Text>
+	</List>
+</Texts>

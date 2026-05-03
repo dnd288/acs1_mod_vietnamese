@@ -1,0 +1,8 @@
+ID	UseTips
+CallTrader	Success! A world merchant has come to your sect.
+CallZuShiBiHu	Success! The crowd was immersed in the Qi descending from the Immortal World, and the five elementals become very active.
+ClearWeather	Success! A strong power dispelled all weathers.
+ResurrectionNpc	Success!
+RerollFabao	Success!
+RerollMapStory	Success!
+RerollCuiTi	Success!

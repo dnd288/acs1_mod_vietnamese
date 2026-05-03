@@ -1,0 +1,12 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Blood">
+			<Display>Beast Blood</Display>
+			<Desc>Offer beast blood for items.</Desc>
+		</Text>
+		<Text Name="Elixir">
+			<Display>Soul Pearl</Display>
+			<Desc>Offer soul pearls for items.</Desc>
+		</Text>
+	</List>
+</Texts>

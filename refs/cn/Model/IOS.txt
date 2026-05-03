@@ -1,0 +1,11 @@
+Model	FixLevel
+IPhone5	1
+IPhone6	1
+IPhone7	1
+IPhone8	1
+IPhone9	1
+IPhone10	1
+IPhone11	1
+IPhone12	1
+IPhone13	1
+IPhone14	1

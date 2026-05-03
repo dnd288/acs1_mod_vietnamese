@@ -1,0 +1,67 @@
+
+
+ <!--异动类型基础配置 1.恒定 2.动荡 3.阴阳
+		 
+
+		 /// <summary>
+        /// <异动类型
+        public enum g_emMutationType
+        {
+            None = 0,
+            Constant, //恒定
+            Unstable, //动荡
+            YinYang,  //阴阳
+        }
+
+
+			
+	
+-->
+
+<Defs>
+	<List>
+
+		<Def Name="Mutation_Type_HengDing">
+			<DisplayName>恒定</DisplayName>
+			<Desc>选择一项异动效果</Desc>
+			<Type>Constant</Type> 								<!-- 1.Constant 恒定 2.Unstable 动荡 3.YinYang 阴阳 -->
+			<Num>3</Num> 
+			
+			<UseConstant>1</UseConstant>
+			<ConstantNum>3</ConstantNum>
+
+		</Def>
+
+		<Def Name="Mutation_Type_DongDang"> 
+			<DisplayName>动荡</DisplayName>
+			<Desc>动荡类型提示文本</Desc>
+			<Desc>在条件与效果中各选一项，组合为完整的异动效果</Desc>
+			<Type>Unstable</Type>
+			<Num>4</Num>
+
+			<LevelRandomWeights>45,35,20</LevelRandomWeights>         <!-- 异动等级（1，2，3级分别）对应的权重信息 -->
+			<ConditionNum>4</ConditionNum>
+			<OneOnlyRate>0.5</OneOnlyRate>
+			<Effect>
+				<li Tag="Unstable" Count="4" />
+			</Effect>
+
+		</Def>
+	
+		<Def Name="Mutation_Type_YinYang"> 
+			<DisplayName>阴阳</DisplayName>
+
+			<Desc>在阴效果与阳效果中各选一项，组合为完整的异动效果</Desc>
+			<Type>YinYang</Type>
+			<Num>4</Num>
+
+			<LevelRandomWeights>45,35,20</LevelRandomWeights>         <!-- 异动等级（1，2，3级分别）对应的权重信息 -->
+
+			<Effect>
+				<li Tag="Yin" Count="4" />
+				<li Tag="Yang" Count="4" />
+			</Effect>
+		</Def>
+
+	</List>
+</Defs>

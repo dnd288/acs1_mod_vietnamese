@@ -1,0 +1,3218 @@
+<TeachingDefs>
+  <List>
+	<TeachingDef Name="CollectionAndProcessing">
+      <Type>基础篇</Type>
+      <DisplayName>材料的收集与加工</DisplayName>
+      <Desc>通过本章教学，了解游戏基础的材料收集与加工。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <Load>JC-01</Load>
+	  <Texpath>TeachFile\TP\JC-01.png</Texpath>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>木料收集</DisplayName>
+			<Tasks>
+			   <li>使用砍伐命令</li>
+			   <li>从目标发起砍伐命令</li>
+			   <li>批量砍伐</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>材料加工</DisplayName>
+			<Tasks>
+			   <li>建造材料加工点</li>
+			   <li>加工材料</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+	      <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+	      <li Type="Special">
+		    <Special>SetCmdState</Special>
+			<SpecialStr>1</SpecialStr>
+		  </li>				  		  
+	      <li Type="ClickUi">
+            <TaskDesc>点击砍伐指令，进入砍伐目标选择状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>cmds</ParentObject>
+			   <Name>Log</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickItem">
+            <TaskDesc>点击指定树木，发布砍伐命令</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>331</li>
+			   </Items>
+			   <CMD>Log</CMD>
+			</ItemData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击取消按钮，取消砍伐目标选择状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n232</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>CancelSelect</Special>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151</ParentObject>
+			   <Name>speedBtn</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151-speedBtnList</ParentObject>
+			   <Name>Max</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>Speed2</Special>
+          </li>
+		  <li Type="WaitCMD">
+            <TaskDesc>等待树木砍伐结束</TaskDesc>
+			<LookThing>389</LookThing>
+			<ItemData>
+			   <Items>
+			      <li>331</li>
+			   </Items>
+			   <CMD>Log</CMD>
+			</ItemData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ClickItem">
+            <TaskDesc>点击另外一棵树，选择这棵树，下方弹出该树的状态栏</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>321</li>
+			   </Items>
+			</ItemData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击砍伐指令，进入砍伐状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>砍伐</Name>
+			</UiData>
+          </li>
+		  <li Type="WaitCMD">
+            <TaskDesc>等待树木砍伐结束</TaskDesc>
+			<LookThing>389</LookThing>
+			<ItemData>
+			   <Items>
+			      <li>321</li>
+			   </Items>
+			   <CMD>Log</CMD>
+			</ItemData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="Special">
+		    <Special>ClearSelect</Special>
+		  </li>
+	      <li Type="Special">
+		    <Special>SetCmdState</Special>
+			<SpecialStr>1</SpecialStr>
+		  </li>				  
+		  <li Type="ClickUi">
+            <TaskDesc>点击砍伐指令，进入砍伐目标选择状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>cmds</ParentObject>
+			   <Name>Log</Name>
+			</UiData>
+          </li>
+		  <li Type="Draging">
+            <TaskDesc>在目标区域拖拽，发布批量砍伐命令</TaskDesc>
+			<DragingData>
+			   <Items>
+			      <li>288</li>
+			      <li>275</li>
+			      <li>254</li>
+			   </Items>
+			   <CMD>Log</CMD>
+			   <Width>400</Width>
+			   <Height>250</Height>
+			</DragingData>
+			<LookKey>365</LookKey>
+			<VideoData>
+			   <Videopath>JC-01</Videopath>
+			</VideoData>
+          </li>
+		   <li Type="ClickUi">
+            <TaskDesc>点击确定按钮，发布命令</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>CancelSelect</Special>
+          </li>
+		  <li Type="WaitCMD">
+            <TaskDesc>等待树木砍伐结束</TaskDesc>
+			<LookThing>389</LookThing>
+			<ItemData>
+			   <Items>
+			      <li>288</li>
+			      <li>275</li>
+			      <li>254</li>
+			   </Items>
+			   <CMD>Log</CMD>
+			</ItemData>
+			<LookKey>365</LookKey>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>本次教学里为木料采集，除木料外，矿物、金属、食物等其他材料的采集方式均于此类似，玩家可以在游戏过程中进行体验。</Desc>
+			</TipsData>
+          </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ClickUi">
+			<TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+          </li>		
+		  <li Type="ClickUi">
+			<TaskDesc>点击菜单中的建筑按钮，打开建筑页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Building</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击工作分类，进入工作建筑分页</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-ListType</ParentObject>
+			   <Name>工作</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击材料加工点，进入建筑摆放状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-MaterialWorkPlace</ParentObject>
+			   <Name>MaterialWorkPlace</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickMapKey">
+            <TaskDesc>将材料加工点摆放在系统提示的指定位置</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>326</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>326</LookKey>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确认建造</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>退出建造模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n150</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭建造面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n232</Name>
+			</UiData>
+          </li>
+		  
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="Special">
+		    <Special>CancelSelect</Special>
+          </li>
+		  <li Type="ClickItem">
+            <TaskDesc>选择材料加工点，下方将弹出该建筑的状态栏</TaskDesc>
+		    <Dir>6</Dir>
+			<ItemData>
+			   <BuildKeys>
+			     <li>326</li>
+			   </BuildKeys>
+			</ItemData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击生产按钮，进入制作页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>生产</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击木料，将木料加入到制作列表</TaskDesc>
+			<UiData>
+			   <ParentWindow>BuildingProduce</ParentWindow>
+			   <ParentObject>SelectList-Item_RoughWoodBlock</ParentObject>
+			   <Name>n27</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击循环10次</TaskDesc>
+			<UiData>
+			   <ParentWindow>BuildingProduce</ParentWindow>
+			   <Name>n29</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击关闭按钮，关闭制作页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>BuildingProduce</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+          </li>
+		  <li Type="WaitCMD">
+            <TaskDesc>等待木料制作成功</TaskDesc>
+			<LookThing>389</LookThing>
+			<ItemData>
+			   <BuildKeys>
+			     <li>326</li>
+			   </BuildKeys>
+			   <BuildingProduceTask>1</BuildingProduceTask>
+			</ItemData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>材料的加工一般要依赖相关的建筑进行，教学中提到的材料加工点只是最基础的加工建筑。随着游戏历程推进，玩家会解锁更专业的材料加工建筑，如砍柴处，石匠台，熔炉等，利用它们就能以更高的效率进行材料加工。</Desc>
+			</TipsData>
+          </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+	  </Tasks>
+    </TeachingDef>
+	<TeachingDef Name="BuildRoom">
+      <Type>基础篇</Type>
+      <DisplayName>房间建造</DisplayName>
+      <Desc>通过本章教学，了解游戏基础的房间建造。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <Load>JC-02</Load>
+	  <Texpath>TeachFile\TP\JC-02.png</Texpath>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <CleanItems>
+	     <li>673</li>
+	     <li>674</li>
+	     <li>671</li>
+	     <li>672</li>
+	     <li>654</li>
+	     <li>655</li>
+	     <li>656</li>
+	     <li>657</li>
+	     <li>658</li>
+	     <li>647</li>
+	     <li>648</li>
+	     <li>649</li>
+	     <li>650</li>
+	     <li>651</li>
+	     <li>652</li>
+	     <li>653</li>
+	     <li>642</li>
+	     <li>643</li>
+	     <li>644</li>
+	     <li>645</li>
+	     <li>646</li>
+	     <li>659</li>
+	     <li>660</li>
+	     <li>661</li>
+	     <li>662</li>
+	     <li>664</li>
+	     <li>665</li>
+	     <li>667</li>
+	     <li>668</li>
+	     <li>655</li>
+	     <li>656</li>
+	     <li>657</li>
+	     <li>658</li>
+	     <li>669</li>
+	     <li>670</li>
+	  </CleanItems>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>房间规划</DisplayName>
+			<Tasks>
+			   <li>构筑房间</li>
+			   <li>为房间设置入口</li>
+			   <li>摆放家具</li>
+			   <li>摆放装饰物</li>
+			   <li>等待建设完成</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>房间分配与相关属性</DisplayName>
+			<Tasks>
+			   <li>设置房间归属</li>
+			   <li>查看房间属性</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+	      <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击目标搜索按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>searchbnt</Name>
+			</UiData>
+          </li>				  
+		  <li Type="ClickUi">
+            <TaskDesc>选择材料分页,查看当前物资信息</TaskDesc>
+			<UiData>
+			   <ParentWindow>SearchMain</ParentWindow>
+			   <ParentObject>n164</ParentObject>
+			   <Name>材料</Name>
+			</UiData>
+          </li>		  
+		  
+	      <li Type="ShowTips">
+		    <Dir>0</Dir>
+			<TipsData>
+			   <Desc>我们已经有足够的物资，现在需要利用物资为角色建立居住的房屋。</Desc>
+			   <ParentWindow>SearchMain</ParentWindow>
+			   <Name>n163</Name>
+			</TipsData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭目标搜索面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>SearchMain</ParentWindow>
+			   <ParentObject>n162</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+          </li>		  
+		  <li Type="ClickUi">
+            <TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+                  </li>		
+		  <li Type="ClickUi">
+            <TaskDesc>点击菜单中的建筑按钮，打开建筑页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Building</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击墙，进入建筑摆放状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-Wall</ParentObject>
+			   <Name>Wall</Name>
+			</UiData>
+          </li>
+		  <li Type="BluePrint">
+            <TaskDesc>通过拖拽，将墙摆放在系统提示的指定位置</TaskDesc>
+			<VideoData>
+			   <Videopath>JC-02</Videopath>
+			</VideoData>
+			<UiData>
+			<ParentWindow>GameMain</ParentWindow>
+			<ParentObject>MainList-n40</ParentObject>
+			<Name>Drag</Name>
+			</UiData>
+			<BlueprintData>
+			   <Builds>
+			      <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>389</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>390</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>391</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>392</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>393</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>394</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>395</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>396</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>397</Key>
+				   </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>365</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>341</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>317</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>293</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>294</Key>
+				  </li>				  
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>295</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>296</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>297</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>298</Key>
+				  </li>				  
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>299</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>300</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>301</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>373</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>349</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>325</Key>
+				  </li>
+			   </Builds>
+			</BlueprintData>
+			<LookKey>320</LookKey>
+          </li>
+		  <li Type="BluePrint">
+            <TaskDesc>通过单点模式，将墙摆放在系统提示的指定位置</TaskDesc>
+			<VideoData>
+			   <Videopath>JC-02</Videopath>
+			</VideoData>
+			<UiData>
+				<ParentWindow>GameMain</ParentWindow>
+				<ParentObject>MainList-n40</ParentObject>
+				<Name>Click</Name>
+			</UiData>
+			<BlueprintData>
+			   <ShowArrow>1</ShowArrow>
+			   <Builds>
+				<li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>369</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>345</Key>
+				  </li>
+				  <li>
+				     <Name>Wall</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>321</Key>
+				</li>					
+			   </Builds>
+			</BlueprintData>
+			<LookKey>320</LookKey>
+          </li>
+
+		 <li Type="ClickUi">
+            <TaskDesc>选择消除模式,为建造门留出空隙</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-n40</ParentObject>
+			   <Name>Eliminate</Name>
+			</UiData>
+          </li>
+		 <li Type="ClickMapKey">
+            <TaskDesc>点击消除墙壁</TaskDesc>
+			<ShowReckBian>1</ShowReckBian>
+			<MapKeyData>
+			  <Keys>
+			    <li>294</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>294</LookKey>			
+         </li>
+		 <li Type="ClickMapKey">
+            <TaskDesc>点击消除墙壁</TaskDesc>
+			<ShowReckBian>1</ShowReckBian>
+			<MapKeyData>
+			  <Keys>
+			    <li>298</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>298</LookKey>			
+         </li>		 
+		  <li Type="ClickUi">
+            <TaskDesc>确认消除</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>CancelSelect</Special>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击门，进入建筑摆放状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-Door</ParentObject>
+			   <Name>Door</Name>
+			</UiData>
+          </li>
+		  <li Type="BluePrint">
+            <TaskDesc>通过点击模式，将门摆放在系统提示的指定位置</TaskDesc>
+			<VideoData>
+			   <Videopath>JC-02</Videopath>
+			</VideoData>
+			<BlueprintData>
+			   <ShowArrow>1</ShowArrow>
+			   <Builds>
+				<li>
+				     <Name>Door</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>294</Key>
+				  </li>
+				  <li>
+				     <Name>Door</Name>
+					 <Stuffname>Item_RoughWoodBlock</Stuffname>
+					 <Key>298</Key>
+				</li>					
+			   </Builds>
+			</BlueprintData>
+			<LookKey>320</LookKey>
+          </li>
+		  <li Type="Special">
+		    <Special>CancelSelect</Special>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击生活分页，进入生活建筑分类</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-ListType</ParentObject>
+			   <Name>生活</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击床，进入建筑摆放状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-Bed</ParentObject>
+			   <Name>Bed</Name>
+			</UiData>
+          </li>
+		  <li Type="BluePrint">
+            <TaskDesc>将床摆放在系统提示的指定位置</TaskDesc>
+			<BlueprintData>
+			   <ShowArrow>1</ShowArrow>
+			   <Builds>
+			      <li>
+				     <Name>Bed</Name>
+					 <Key>368</Key>
+				  </li>
+				  <li>
+				     <Name>Bed</Name>
+					 <Key>372</Key>
+				  </li>
+			   </Builds>
+			</BlueprintData>
+			<LookKey>320</LookKey>
+          </li>
+		  <li Type="Special">
+		    <Special>CancelSelect</Special>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击装饰分页，进入装饰建筑分类</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-ListType</ParentObject>
+			   <Name>装饰</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击油灯，进入建筑摆放状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-Candlestick</ParentObject>
+			   <Name>Candlestick</Name>
+			</UiData>
+          </li>
+		  <li Type="BluePrint">
+            <TaskDesc>将油灯摆放在系统提示的指定位置</TaskDesc>
+			<BlueprintData>
+			   <ShowArrow>1</ShowArrow>
+			   <Builds>
+			      <li>
+				     <Name>Candlestick</Name>
+					 <Key>367</Key>
+				  </li>
+				  <li>
+				     <Name>Candlestick</Name>
+					 <Key>371</Key>
+				  </li>
+			   </Builds>
+			</BlueprintData>
+			<LookKey>320</LookKey>
+          </li>
+		<li Type="Special">
+		    <Special>CancelSelect</Special>
+        </li>
+		  <li Type="Special">
+		    <Special>CancelSelect</Special>
+          </li>
+		  <li Type="Special">
+		    <Special>ClearSelect</Special>
+          </li>		  
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151</ParentObject>
+			   <Name>speedBtn</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151-speedBtnList</ParentObject>
+			   <Name>Max</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>Speed2</Special>
+          </li>
+		  <li Type="WaitCMD">
+            <TaskDesc>等待所有建筑建造完毕</TaskDesc>
+			<ItemData>
+			   <BuildKeys>
+			     <li>389</li>
+			     <li>390</li>
+			     <li>391</li>
+			     <li>392</li>
+			     <li>393</li>
+			     <li>394</li>
+			     <li>395</li>
+			     <li>396</li>
+			     <li>397</li>
+			     <li>365</li>
+			     <li>341</li>
+			     <li>317</li>
+			     <li>293</li>
+			     <li>295</li>
+			     <li>296</li>
+			     <li>297</li>
+			     <li>299</li>
+			     <li>300</li>
+			     <li>301</li>
+			     <li>369</li>
+			     <li>345</li>
+			     <li>321</li>
+			     <li>373</li>
+			     <li>349</li>
+			     <li>325</li>
+			     <li>294</li>
+			     <li>298</li>
+			     <li>368</li>
+			     <li>372</li>
+			     <li>367</li>
+			     <li>371</li>
+			   </BuildKeys>
+			   <BuildFinish>1</BuildFinish>
+			</ItemData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>通过房间规划的教学，玩家可以根据自己的实际需求，去规划其他的房间；但也需要注意房间构建的面积最大为400格，最小为3格。</Desc>
+			</TipsData>
+          </li>
+	      <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ClickItem">
+            <TaskDesc>点击房间中的床</TaskDesc>
+			<ItemData>
+			   <BuildKeys>
+			     <li>368</li>
+			   </BuildKeys>
+			</ItemData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击指定归属</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>指定归属</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击第一名角色，将床分配给他</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <ParentObject>n25</ParentObject>
+			   <Name>0</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确定床的归属分配</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <Name>n27</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ClickArea">
+            <TaskDesc>点击房间中的区域，选中房间</TaskDesc>
+			<AreaData>
+			   <Width>150</Width>
+			   <Height>150</Height>
+			</AreaData>
+			<LookKey>343</LookKey>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可通过此处，为该房间命名。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n60</Name>
+			</TipsData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可通过此处，查看该房间的当前温度。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n109</Name>
+			</TipsData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可通过此处，查看该房间的影响情况。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n110</Name>
+			</TipsData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可通过此处，查看该房间的布局情况。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n114</Name>
+			</TipsData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可通过此处，查看该房间的美观情况。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n112</Name>
+			</TipsData>
+          </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>拥有房间是弟子最基本的需求之一，为弟子提供舒适的房间在游戏中非常重要。</Desc>
+			</TipsData>
+          </li>
+	      <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+	  </Tasks>
+    </TeachingDef>
+	<TeachingDef Name="ExploreMap">
+      <Type>基础篇</Type>
+      <DisplayName>地图探索</DisplayName>
+      <Desc>通过本章教学，了解游戏基础的地图探索。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <Load>JC-03</Load>
+	  <Texpath>TeachFile\TP\JC-03.png</Texpath>
+	  <NoFog>0</NoFog>
+	  <Disable>0</Disable>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>第一次探索</DisplayName>
+			<Tasks>
+			   <li>发布探索指令</li>
+			   <li>查看探索到的生物和箱子</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>第二次探索</DisplayName>
+			<Tasks>
+			   <li>继续探索</li>
+			   <li>查看探索到的土地和矿物</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>第三次探索</DisplayName>
+			<Tasks>
+			   <li>继续探索</li>
+			   <li>查看探索到的植物</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+	      <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+	      <li Type="Special">
+		    <Special>SetCmdState</Special>
+			<SpecialStr>1</SpecialStr>
+		  </li>				  
+	     <li Type="ClickUi">
+            <TaskDesc>点击下方的探索按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>cmds</ParentObject>
+			   <Name>Explore</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickMapKey">
+            <TaskDesc>点击左下方迷雾发布探索任务</TaskDesc>
+			<ShowReckBian>1</ShowReckBian>
+			<MapKeyData>
+			  <Keys>
+			    <li>975</li>
+			  </Keys>
+			  <CMD>Explore</CMD>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>975</LookKey>
+         </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+         </li>
+		  <li Type="Special">
+		    <Special>Rabbit</Special>
+			<LookKey>976</LookKey>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151</ParentObject>
+			   <Name>speedBtn</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151-speedBtnList</ParentObject>
+			   <Name>Max</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>Speed2</Special>
+          </li>	
+		 <li Type="WaitCMD">
+            <TaskDesc>等待完成该探索命令</TaskDesc>
+			<LookThing>3026</LookThing>
+			<ItemData>
+			   <SpaceKeys>
+			     <li>975</li>
+			   </SpaceKeys>
+			   <CMD>Explore</CMD>
+			</ItemData>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击探索到的一个货箱</TaskDesc>
+			<ItemData>
+			   <Items>
+			     <li>10697</li>
+			   </Items>
+			</ItemData>
+          </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>通过探索可以找到了一些物资，通过互动按钮就可以将这些物资打开。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>搜索</Name>
+			</TipsData>
+         </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击探索到的一个兔子</TaskDesc>
+			<ItemData>
+			   <Items>
+			     <li>12631</li>
+			   </Items>
+			</ItemData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>找到了一些野生的动物。可以狩猎或驯化以获取资源。</Desc>
+			   <IsLook>1</IsLook>
+			   <Items>
+			     <li>12631</li>
+			   </Items>
+			   <Width>60</Width>
+			   <Height>60</Height>
+			</TipsData>
+			<LookKey>980</LookKey>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>通过探索地图可以找到一些有用的物资或动物，玩家可以在游戏初期获取这些物资，而这些动物则可以用来捕猎或者养殖。</Desc>
+			</TipsData>
+          </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="Special">
+		    <Special>ClearSelect</Special>
+		  </li>	
+	      <li Type="Special">
+		    <Special>SetCmdState</Special>
+			<SpecialStr>1</SpecialStr>
+		  </li>				  
+		  <li Type="ClickUi">
+            <TaskDesc>点击探索命令</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>cmds</ParentObject>
+			   <Name>Explore</Name>
+			</UiData>
+		  </li>			
+		  <li Type="ClickMapKey">
+            <TaskDesc>点击右上方迷雾发布探索任务</TaskDesc>
+			<ShowReckBian>1</ShowReckBian>
+			<MapKeyData>
+			  <Keys>
+			    <li>2991</li>
+			  </Keys>
+			  <CMD>Explore</CMD>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>2991</LookKey>
+         </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+         </li>
+		 <li Type="WaitCMD">
+            <TaskDesc>等待完成该探索命令</TaskDesc>
+			<LookThing>3026</LookThing>
+			<ItemData>
+			   <SpaceKeys>
+			     <li>2991</li>
+			   </SpaceKeys>
+			   <CMD>Explore</CMD>
+			</ItemData>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ClickItem">
+            <TaskDesc>点击探索到的矿脉</TaskDesc>
+			<ItemData>
+			   <Items>
+			     <li>5138</li>
+			   </Items>
+			</ItemData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>找到了一片含有稀有矿石的矿脉，在有需要的时候可以采集。</Desc>
+			   <IsLook>1</IsLook>
+			   <Items>
+			     <li>5138</li>
+			   </Items>
+			   <Width>180</Width>
+			   <Height>100</Height>
+			</TipsData>
+			<LookKey>2474</LookKey>
+         </li>
+		 <li Type="HoverKey">
+            <TaskDesc>查看土地信息。</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>2987</li>
+			    <li>2988</li>
+			    <li>2989</li>
+			    <li>2990</li>
+			    <li>2991</li>
+			    <li>3051</li>
+			    <li>3052</li>
+			    <li>3053</li>
+			    <li>3054</li>
+			    <li>3055</li>
+			    <li>2923</li>
+			    <li>2924</li>
+			    <li>2925</li>
+			    <li>2926</li>
+			    <li>2927</li>
+			  </Keys>
+			  <Width>250</Width>
+			  <Height>150</Height>
+			  <Time>3</Time>
+			</MapKeyData>
+			<LookKey>2989</LookKey>
+			<LockTipsUiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n32</Name>
+			</LockTipsUiData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>这是一片肥沃的土地，可以用来种植。</Desc>
+			   <MaskKey>2989</MaskKey>
+			   <Width>250</Width>
+			   <Height>150</Height>
+			</TipsData>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>通过探索地图可以找到一些矿藏或沃土，玩家可以在需要矿物或农田时，进行开采和耕种。</Desc>
+			</TipsData>
+          </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="Special">
+		    <Special>ClearSelect</Special>
+		  </li>	
+	      <li Type="Special">
+		    <Special>SetCmdState</Special>
+			<SpecialStr>1</SpecialStr>
+		  </li>				  
+		  <li Type="ClickUi">
+            <TaskDesc>点击探索命令</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>cmds</ParentObject>
+			   <Name>Explore</Name>
+			</UiData>
+		  </li>		
+		  <li Type="ClickMapKey">
+            <TaskDesc>点击左上方迷雾发布探索任务</TaskDesc>
+			<ShowReckBian>1</ShowReckBian>
+			<MapKeyData>
+			  <Keys>
+			    <li>3265</li>
+			  </Keys>
+			  <CMD>Explore</CMD>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>3265</LookKey>
+         </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+         </li>
+		 <li Type="WaitCMD">
+            <TaskDesc>等待完成该探索命令</TaskDesc>
+			<LookThing>3026</LookThing>
+			<ItemData>
+			   <SpaceKeys>
+			     <li>3265</li>
+			   </SpaceKeys>
+			   <CMD>Explore</CMD>
+			</ItemData>
+         </li>
+		  <li Type="Special">
+		    <Special>FogOfWar</Special>
+			<MapKeyData>
+			  <Keys>
+			    <li>4032</li>
+			    <li>4033</li>
+			    <li>4034</li>
+			    <li>4035</li>
+			    <li>4036</li>
+			    <li>4037</li>
+			    <li>4039</li>
+			    <li>4040</li>
+			    <li>4041</li>
+			    <li>4042</li>
+			    <li>4043</li>
+			    <li>4044</li>
+			    <li>3968</li>
+			    <li>3969</li>
+			    <li>3970</li>
+			    <li>3971</li>
+			    <li>3972</li>
+			    <li>3973</li>
+			    <li>3974</li>
+			    <li>3975</li>
+			    <li>3976</li>
+			    <li>3977</li>
+			    <li>3978</li>
+			    <li>3979</li>
+			    <li>3980</li>
+			    <li>3904</li>
+			    <li>3905</li>
+			    <li>3906</li>
+			    <li>3907</li>
+			    <li>3908</li>
+			    <li>3909</li>
+			    <li>3910</li>
+			    <li>3911</li>
+			    <li>3912</li>
+			    <li>3913</li>
+			    <li>3914</li>
+			    <li>3915</li>
+			    <li>3916</li>
+			    <li>3840</li>
+			    <li>3841</li>
+			    <li>3842</li>
+			    <li>3843</li>
+			    <li>3844</li>
+			    <li>3845</li>
+			    <li>3846</li>
+			    <li>3847</li>
+			    <li>3848</li>
+			    <li>3849</li>
+			    <li>3850</li>
+			    <li>3851</li>
+			    <li>3852</li>
+			    <li>3776</li>
+			    <li>3777</li>
+			    <li>3778</li>
+			    <li>3779</li>
+			    <li>3780</li>
+			    <li>3781</li>
+			    <li>3782</li>
+			    <li>3783</li>
+			    <li>3784</li>
+			    <li>3785</li>
+			    <li>3786</li>
+			    <li>3787</li>
+			    <li>3788</li>
+			    <li>3712</li>
+			    <li>3713</li>
+			    <li>3714</li>
+			    <li>3715</li>
+			    <li>3716</li>
+			    <li>3717</li>
+			    <li>3718</li>
+			    <li>3719</li>
+			    <li>3720</li>
+			    <li>3721</li>
+			    <li>3722</li>
+			    <li>3723</li>
+			    <li>3724</li>
+			    <li>3648</li>
+			    <li>3649</li>
+			    <li>3650</li>
+			    <li>3651</li>
+			    <li>3652</li>
+			    <li>3653</li>
+			    <li>3654</li>
+			    <li>3655</li>
+			    <li>3656</li>
+			    <li>3657</li>
+			    <li>3658</li>
+			    <li>3659</li>
+			    <li>3660</li>
+			    <li>3585</li>
+			    <li>3586</li>
+			    <li>3587</li>
+			    <li>3588</li>
+			    <li>3589</li>
+			    <li>3590</li>
+			    <li>3591</li>
+			    <li>3592</li>
+			    <li>3593</li>
+			    <li>3594</li>
+			    <li>3595</li>
+			    <li>3596</li>
+			  </Keys>
+			</MapKeyData>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ClickItem">
+            <TaskDesc>点击探索到的巨银杏</TaskDesc>
+			<ItemData>
+			   <Items>
+			     <li>10687</li>
+			   </Items>
+			</ItemData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>巨银杏不光美观，而且天生聚集灵气。对前期的修炼很有帮助，是前期不错的稀有资源。</Desc>
+			   <MaskKey>3718</MaskKey>
+			   <Width>500</Width>
+			   <Height>500</Height>
+			   <IsLook>2</IsLook>
+			</TipsData>
+			<LookKey>3720</LookKey>
+         </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击探索到的荷花</TaskDesc>
+			<ItemData>
+			   <Items>
+			     <li>10624</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>游戏前期，水域中的荷花是比较廉价的食物来源。</Desc>
+			   <Items>
+			     <li>10624</li>
+			   </Items>
+			   <Width>60</Width>
+			   <Height>60</Height>
+			</TipsData>
+			<LookKey>3284</LookKey>
+		</li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>玩家利用探索功能，可以逐步探索地图的各个角落，并发现新的物资、土地、动物等资源。</Desc>
+			</TipsData>
+          </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+	  </Tasks>
+    </TeachingDef>
+	<TeachingDef Name="BaseSave">
+      <Type>基础篇</Type>
+      <DisplayName>基础生存</DisplayName>
+      <Desc>通过本章教学，了解游戏基础的生存手段。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <Load>JC-04</Load>
+	  <Texpath>TeachFile\TP\JC-04.png</Texpath>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <CleanItems>
+	    <li>9907</li>
+	  </CleanItems>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>获取水源</DisplayName>
+			<Tasks>
+			   <li>建造水井</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>如何狩猎</DisplayName>
+			<Tasks>
+			   <li>使用人物托盘中的狩猎指令</li>
+			   <li>使用猎物托盘中的狩猎指令</li>
+			   <li>批量发布狩猎指令</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>如何耕种</DisplayName>
+			<Tasks>
+			   <li>划分农田</li>
+			   <li>选择作物</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+	    <li Type="Special">
+		    <Special>NextChapter</Special>
+		</li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+                  </li>		
+		  <li Type="ClickUi">
+            <TaskDesc>点击菜单中的建筑按钮，打开建筑页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Building</Name>
+			</UiData>
+          </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击工作分类，进入工作建筑分页</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-ListType</ParentObject>
+			   <Name>工作</Name>
+			</UiData>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击水井</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-Well</ParentObject>
+			   <Name>Well</Name>
+			</UiData>
+        </li>
+		
+		  <li Type="ClickMapKey">
+            <TaskDesc>将水井摆放在系统提示的指定位置</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>2335</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>2335</LookKey>
+          </li>			
+		  <li Type="ClickUi">
+            <TaskDesc>确认建造</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>		  
+		<li Type="ClickUi">
+            <TaskDesc>退出建造模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n150</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭建造面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n232</Name>
+			</UiData>
+        </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		 <li Type="WaitCMD">
+            <TaskDesc>等待水井完成</TaskDesc>
+			<ItemData>
+			   <BuildKeys>
+			     <li>2335</li>
+			   </BuildKeys>
+			   <BuildFinish>1</BuildFinish>
+			</ItemData>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>水井可以为角色提供干净的水源，水源也可以通过水缸进行存储，以备不时之需。</Desc>
+			</TipsData>
+          </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+	      <li Type="Special">
+		    <Special>SetCmdState</Special>
+			<SpecialStr>1</SpecialStr>
+		  </li>				  
+		<li Type="ClickUi">
+            <TaskDesc>点击下方的狩猎按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>cmds</ParentObject>
+			   <Name>Hunting</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击右上方的母鸡，狩猎母鸡</TaskDesc>
+			<ItemData>
+			   <Items>
+			     <li>2935</li>
+			   </Items>
+			   <CMD>Hunting</CMD>
+			</ItemData>
+         </li>
+
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="Special">
+		    <Special>CancelSelect</Special>
+          </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击附近的兔子</TaskDesc>
+			<ItemData>
+			   <Items>
+			     <li>12745</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击指定狩猎</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>狩猎</Name>
+			</UiData>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="Special">
+		    <Special>ClearSelect</Special>
+		  </li>
+	      <li Type="Special">
+		    <Special>SetCmdState</Special>
+			<SpecialStr>1</SpecialStr>
+		  </li>				  
+	     <li Type="ClickUi">
+            <TaskDesc>点击下方的狩猎按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>cmds</ParentObject>
+			   <Name>Hunting</Name>
+			</UiData>
+         </li>
+		 <li Type="Draging">
+            <TaskDesc>在目标区域拖拽，发布批量狩猎命令</TaskDesc>
+			<DragingData>
+			   <Items>
+			      <li>12744</li>
+			      <li>12747</li>
+			      <li>12746</li>
+			   </Items>
+			   <CMD>Hunting</CMD>
+			   <Width>400</Width>
+			   <Height>250</Height>
+			</DragingData>
+			<LookKey>2845</LookKey>
+          </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击确定按钮，发布命令</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>
+		   <li Type="Special">
+		    <Special>CancelSelect</Special>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151</ParentObject>
+			   <Name>speedBtn</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151-speedBtnList</ParentObject>
+			   <Name>Max</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>Speed2</Special>
+          </li>
+		  <li Type="WaitCMD">
+            <TaskDesc>等待狩猎结束</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>2935</li>
+			      <li>12744</li>
+			      <li>12745</li>
+			      <li>12747</li>
+			      <li>12746</li>
+			   </Items>
+			   <CMD>Hunting</CMD>
+			</ItemData>
+			<LookThing>3026</LookThing>
+          </li>
+		   <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>通过狩猎可快速获取食物资源。但动物数量有限，繁殖缓慢。如果想稳定获取食物，还是需要耕种。</Desc>
+			</TipsData>
+          </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+                  </li>		
+		  <li Type="ClickUi">
+            <TaskDesc>点击菜单中的建筑按钮，打开建筑页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Building</Name>
+			</UiData>
+          </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击区域分页</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-ListType</ParentObject>
+			   <Name>区域</Name>
+			</UiData>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击农田</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-AreaPlant</ParentObject>
+			   <Name>AreaPlant</Name>
+			</UiData>
+        </li>
+		
+		<li Type="DrawArea">
+            <TaskDesc>在指定的沃土上规划一片农田</TaskDesc>
+			<AreaData>
+			   <Name>AreaPlant</Name>
+			   <Width>500</Width>
+			   <Height>300</Height>
+			   <Keys>
+			      <li>3112</li>
+			      <li>3113</li>
+			      <li>3114</li>
+			      <li>3115</li>
+			      <li>3116</li>
+			      <li>3117</li>
+			      <li>3118</li>
+			      <li>3119</li>
+			      <li>3120</li>
+			      <li>3048</li>
+			      <li>3049</li>
+			      <li>3050</li>
+			      <li>3051</li>
+			      <li>3052</li>
+			      <li>3053</li>
+			      <li>3054</li>
+			      <li>3055</li>
+			      <li>3056</li>
+			      <li>2984</li>
+			      <li>2985</li>
+			      <li>2986</li>
+			      <li>2987</li>
+			      <li>2988</li>
+			      <li>2989</li>
+			      <li>2990</li>
+			      <li>2991</li>
+			      <li>2992</li>
+			      <li>2920</li>
+			      <li>2921</li>
+			      <li>2922</li>
+			      <li>2923</li>
+			      <li>2924</li>
+			      <li>2925</li>
+			      <li>2926</li>
+			      <li>2927</li>
+			      <li>2928</li>
+			      <li>2856</li>
+			      <li>2857</li>
+			      <li>2858</li>
+			      <li>2859</li>
+			      <li>2860</li>
+			      <li>2861</li>
+			      <li>2862</li>
+			      <li>2863</li>
+			      <li>2864</li>
+			   </Keys>
+			</AreaData>
+			<LookKey>2988</LookKey>
+        </li>
+		 <li Type="ClickUi">
+            <TaskDesc>退出建造模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n150</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭建造面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n232</Name>
+			</UiData>
+        </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		   <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		<li Type="ClickArea">
+            <TaskDesc>选中农田</TaskDesc>
+			<AreaData>
+			   <Width>540</Width>
+			   <Height>300</Height>
+			</AreaData>
+			<LookKey>2988</LookKey>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击互动按钮的种植物选择</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>种植物</Name>
+			</UiData>
+         </li>
+		<li Type="ClickUi">
+            <TaskDesc>玩家可通过点击小麦，来查看小麦种植的相关信息。</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectThing</ParentWindow>
+			   <ParentObject>things</ParentObject>
+			   <Name>Wheat</Name>
+			</UiData>
+         </li>
+	      <li Type="ShowTips">
+		    <Dir>0</Dir>
+			<TipsData>
+			   <Desc>查看小麦的相关信息</Desc>
+			   <ParentWindow>SelectThing</ParentWindow>
+			   <Name>tipframe</Name>
+			</TipsData>
+          </li>		 
+		<li Type="ClickUi">
+            <TaskDesc>选中植物后点击确认</TaskDesc>
+			<UiData>
+			  <ParentWindow>SelectThing</ParentWindow>
+			   <Name>n19</Name>
+			</UiData>
+         </li>
+		<li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>游戏中存在多种食材，不但可以在土地上种植作物，还可以在水中种植作物。</Desc>
+			</TipsData>
+          </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+	  </Tasks>
+    </TeachingDef>  
+	<TeachingDef Name="StrongArea">
+      <Type>基础篇</Type>
+      <DisplayName>仓库规划</DisplayName>
+      <Desc>通过本章教学，了解游戏基础的仓库规划。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <Load>JC-05</Load>
+	  <Texpath>TeachFile\TP\JC-05.png</Texpath>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>规划第一片仓库</DisplayName>
+			<Tasks>
+			   <li>划分仓库</li>
+			   <li>仓库筛选</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>规划第二片仓库</DisplayName>
+			<Tasks>
+			   <li>规划仓库</li>
+			   <li>仓库筛选</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>调节低温仓库</DisplayName>
+			<Tasks>
+			   <li>查看仓库温度</li>
+			   <li>放置降温物品</li>
+			   <li>再次查看仓库温度</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+	     <li Type="Special">
+		    <Special>NextChapter</Special>
+		</li>
+	    <li Type="ShowTips">
+			<TipsData>
+			   <Desc>随着物资获取的增多，物资散乱在地图各地，十分不利于玩家进行使用。此时应该使用仓库功能来达成物资的分类和管理。</Desc>
+			   <Items>
+			     <li>1263</li>
+			     <li>1244</li>
+			     <li>1255</li>
+			   </Items>
+			   <Width>3000</Width>
+			   <Height>3000</Height>
+			   <NeedArrow>1</NeedArrow>
+			   <MaskKey>777</MaskKey>
+			   <IsLook>2</IsLook>
+			</TipsData>
+			<LookKey>719</LookKey>
+	  	</li>
+		<li Type="ShowTips">
+			<TipsData>
+			   <Desc>首先，我们在场景中心规划一个材料工具区，这样，在往各个方向扩张时，都可以方便的取用材料工具。</Desc>
+			   <Width>460</Width>
+			   <Height>280</Height>
+			   <MaskKey>529</MaskKey>
+			   <IsLook>1</IsLook>
+			</TipsData>
+			<LookKey>529</LookKey>
+	  	</li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+                  </li>		
+		  <li Type="ClickUi">
+            <TaskDesc>点击菜单中的建筑按钮，打开建筑页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Building</Name>
+			</UiData>
+          </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击区域分页</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-ListType</ParentObject>
+			   <Name>区域</Name>
+			</UiData>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击仓库，进入仓库规划状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-AreaStorage</ParentObject>
+			   <Name>AreaStorage</Name>
+			</UiData>
+        </li>
+		<li Type="DrawArea">
+            <TaskDesc>在指定的土地上规划一片的仓库</TaskDesc>
+			<AreaData>
+			   <Name>AreaStorage</Name>
+			   <Width>460</Width>
+			   <Height>280</Height>
+			   <Keys>
+			      <li>558</li>
+			      <li>559</li>
+			      <li>560</li>
+			      <li>561</li>
+			      <li>562</li>
+			      <li>563</li>
+			      <li>564</li>
+			      <li>526</li>
+			      <li>527</li>
+			      <li>528</li>
+			      <li>529</li>
+			      <li>530</li>
+			      <li>531</li>
+			      <li>532</li>
+			      <li>494</li>
+			      <li>495</li>
+			      <li>496</li>
+			      <li>497</li>
+			      <li>498</li>
+			      <li>499</li>
+			      <li>500</li>
+			      <li>462</li>
+			      <li>463</li>
+			      <li>464</li>
+			      <li>465</li>
+			      <li>466</li>
+			      <li>467</li>
+			      <li>468</li>
+			   </Keys>
+			</AreaData>
+			<LookKey>529</LookKey>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>退出建造模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n150</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭建造面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n232</Name>
+			</UiData>
+        </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		<li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		<li Type="ClickArea">
+            <TaskDesc>选中仓库</TaskDesc>
+			<AreaData>
+			   <Width>460</Width>
+			   <Height>280</Height>
+			</AreaData>
+			<LookKey>529</LookKey>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击仓库筛选按钮，打开仓库筛选分页</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>仓库筛选</Name>
+			</UiData>
+         </li>
+		<li Type="ShowTips">
+			<TipsData>
+			   <Desc>可以通过仓库筛选分页，对该仓库中能储存的物品的类型、五行属性、品阶、品质进行详细的设定；需要注意的是，当把多个仓库划分到一起时，并不会把单个仓库的筛选作用到其他仓库上。</Desc>
+			   <ParentWindow>StorageArea</ParentWindow>
+			   <Name>frame</Name>
+			   <IsLook>2</IsLook>
+			</TipsData>
+          </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击消耗类型，将消耗品取消。</TaskDesc>
+			<UiData>
+			   <ParentWindow>StorageArea</ParentWindow>
+			   <ParentObject>n25-Consumable</ParentObject>
+			   <Name>title</Name>
+			   <Width>92</Width>
+			</UiData>
+         </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击关闭按钮，关闭该页面</TaskDesc>
+			<Dir>7</Dir>
+			<UiData>
+			   <ParentWindow>StorageArea</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+        </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>有部分物资，会随着时间流逝而逐渐腐败，为了保存这类物资，我们需要再规划一个低温仓库。</Desc>
+			</TipsData>
+          </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+
+		<li Type="ShowTips">
+			<TipsData>
+			   <Desc>接下来，我们在厨房附近规划一个食物储藏区，这样在烹饪时能高效的取用食物，并可以利用房间封闭的特性调节温度，方便的进行食物保存。</Desc>
+			   <Width>360</Width>
+			   <Height>280</Height>
+			   <MaskKey>389</MaskKey>
+			   <IsLook>1</IsLook>
+			</TipsData>
+			<LookKey>398</LookKey>
+	  	</li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+                  </li>		
+		  <li Type="ClickUi">
+            <TaskDesc>点击菜单中的建筑按钮，打开建筑页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Building</Name>
+			</UiData>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击区域分页</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-ListType</ParentObject>
+			   <Name>区域</Name>
+			</UiData>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击仓库，进入仓库规划状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-AreaStorage</ParentObject>
+			   <Name>AreaStorage</Name>
+			</UiData>
+        </li>
+		<li Type="DrawArea">
+            <TaskDesc>在指定区域，让玩家通过拖拽划出一片仓库</TaskDesc>
+			<AreaData>
+			   <Name>AreaStorage</Name>
+			   <Width>360</Width>
+			   <Height>240</Height>
+			   <Keys>
+			      <li>419</li>
+				  <li>420</li>
+				  <li>421</li>
+				  <li>422</li>
+				  <li>423</li>
+				  <li>386</li>
+				  <li>387</li>
+				  <li>388</li>
+				  <li>389</li>
+				  <li>390</li>
+				  <li>391</li>
+				  <li>392</li>
+				  <li>354</li>
+				  <li>355</li>
+				  <li>356</li>
+				  <li>357</li>
+				  <li>358</li>
+				  <li>359</li>
+				  <li>360</li>
+			   </Keys>
+			</AreaData>
+			<LookKey>389</LookKey>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>退出建造模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n150</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭建造面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n232</Name>
+			</UiData>
+        </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		<li Type="ClickArea">
+            <TaskDesc>选中仓库</TaskDesc>
+			<AreaData>
+			   <Name>AreaStorage</Name>
+			   <Width>360</Width>
+			   <Height>200</Height>
+			</AreaData>
+			<LookKey>389</LookKey>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击下方的仓库筛选，打开仓库筛选分页</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>仓库筛选</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击工具类型，将工具取消。</TaskDesc>
+			<UiData>
+			   <ParentWindow>StorageArea</ParentWindow>
+			   <ParentObject>n25-None-n17</ParentObject>
+			   <Name>Tool</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击其他类型，将其他取消。</TaskDesc>
+			<UiData>
+			   <ParentWindow>StorageArea</ParentWindow>
+			   <ParentObject>n25-None-n17</ParentObject>
+			   <Name>Other</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击材料类型，将材料取消。</TaskDesc>
+			<UiData>
+			   <ParentWindow>StorageArea</ParentWindow>
+			   <ParentObject>n25-Material</ParentObject>
+			   <Name>title</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击装备类型，将装备取消。</TaskDesc>
+			<UiData>
+			   <ParentWindow>StorageArea</ParentWindow>
+			   <ParentObject>n25-Equipment</ParentObject>
+			   <Name>title</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击修炼类型，将修炼取消。</TaskDesc>
+			<UiData>
+			   <ParentWindow>StorageArea</ParentWindow>
+			   <ParentObject>n25-Practice</ParentObject>
+			   <Name>title</Name>
+			</UiData>
+         </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击关闭按钮，关闭该页面</TaskDesc>
+			<Dir>7</Dir>
+			<UiData>
+			   <ParentWindow>StorageArea</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+        </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151</ParentObject>
+			   <Name>speedBtn</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151-speedBtnList</ParentObject>
+			   <Name>Max</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>Speed2</Special>
+          </li>
+		<li Type="WaitTime">
+	     	<TaskDesc>等待一段时间，弟子会将物品分类进行储藏</TaskDesc>
+		    <WaitTime>20</WaitTime>
+        </li>
+		<li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>当仓库存储的物品过多时，可以通过扩建并规划不同的仓库，进行更为细致的管理，以便玩家更好的查看物资储备信息。</Desc>
+			</TipsData>
+          </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		<li Type="ClickArea">
+            <TaskDesc>连续两次点击，选中仓库2所在的房间</TaskDesc>
+			<AreaData>
+			   <Name>AreaRoom</Name>
+			   <Width>360</Width>
+			   <Height>200</Height>
+			</AreaData>
+			<LookKey>389</LookKey>
+        </li>
+		<li Type="ShowTips">
+			<TipsData>
+			   <Desc>由于房间具有封闭特性，因此可以在房间内摆放热源来调节房间温度。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n109</Name>
+			</TipsData>
+        </li>
+		<li Type="Special">
+		    <Special>NextTask</Special>
+		</li>
+		<li Type="ClickItem">
+            <TaskDesc>选中置物台</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>3007</li>
+			   </Items>
+			</ItemData>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击放置</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>放置物品</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickMapKey">
+            <TaskDesc>点击寒晶矿</TaskDesc>
+			<MapKeyData>
+			  <Items>
+			      <li>2608</li>
+			   </Items>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确认放置</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>		  
+		<li Type="ClickItem">
+            <TaskDesc>选中另一个置物台</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>2604</li>
+			   </Items>
+			</ItemData>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击放置</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>放置物品</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickMapKey">
+            <TaskDesc>点击寒晶矿</TaskDesc>
+			<MapKeyData>
+			  <Items>
+			      <li>2608</li>
+			   </Items>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确认放置</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>		  
+		<li Type="WaitCMD">
+            <TaskDesc>等待放置结束</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>2604</li>
+				  <li>3007</li>
+			   </Items>
+			   <CMD>BagCarryItem</CMD>
+			</ItemData>
+        </li>
+		<li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		<li Type="ClickArea">
+            <TaskDesc>连续两次点击，选中仓库2所在的房间</TaskDesc>
+			<AreaData>
+			   <Name>AreaRoom</Name>
+			   <Width>360</Width>
+			   <Height>200</Height>
+			</AreaData>
+			<LookKey>389</LookKey>
+        </li>
+		<li Type="WaitTime">
+	     	<TaskDesc>等待5秒，观察房间温度的变化</TaskDesc>
+		    <WaitTime>5</WaitTime>
+         </li>
+		<li Type="ShowTips">
+			<TipsData>
+			   <Desc>房间温度下降了，越大的房间，温度调节就越困难，需要的热源就越多。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n109</Name>
+			</TipsData>
+        </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>这样我们就实现了食物与其他材料的分类储存。随着游戏历程的推进，也许会产生更精细的分类需求，都可以通过仓库筛选功能实现。</Desc>
+			</TipsData>
+          </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+	  </Tasks>
+	</TeachingDef>
+	<TeachingDef Name="MemberExpansion">
+      <Type>基础篇</Type>
+      <DisplayName>成员扩张</DisplayName>
+      <Desc>通过本章教学，了解游戏基础的成员扩张。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <Load>JC-06</Load>
+	  <Texpath>TeachFile\TP\JC-06.png</Texpath>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>接受新成员的加入</DisplayName>
+			<Tasks>
+			   <li>查看难民收留事件</li>
+			   <li>发布收留指令</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>安排新成员的工作</DisplayName>
+			<Tasks>
+			   <li>安排合适的工作</li>
+			   <li>提供工具</li>
+			   <li>装备工具</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>满足新成员的需求</DisplayName>
+			<Tasks>
+			   <li>查看需求</li>
+			   <li>指定床位与房间</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+	     <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+	     <li Type="WaitTime">
+	     	<TaskDesc>等待弹出难民求收留的事件</TaskDesc>
+		    <WaitTime>4</WaitTime>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击事件确认</TaskDesc>
+			<UiData>
+			   <ParentWindow>StorySelect</ParentWindow>
+			   <ParentObject>selection</ParentObject>
+			   <Name>1</Name>
+			</UiData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>在游戏过程中，会遇到难民求收留的事件。此时是扩充自己规模的大好时机。然而过快的增加人口会对基础建设，食物供给等方面产生压力，也需要适当考虑。</Desc>
+			   <Width>60</Width>
+			   <Height>60</Height>
+			   <MaskKey>172</MaskKey>
+			   <IsLook>1</IsLook>
+			</TipsData>
+			<LookKey>177</LookKey>
+	  	</li>
+		<li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		<li Type="ClickItem">
+            <TaskDesc>选中难民</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>3041</li>
+			   </Items>
+			</ItemData>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击角色面板上的收留</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>收留</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151</ParentObject>
+			   <Name>speedBtn</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151-speedBtnList</ParentObject>
+			   <Name>Max</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>Speed2</Special>
+          </li>
+		 <li Type="WaitCMD">
+            <TaskDesc>等待我方人员收留该角色</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>3041</li>
+			   </Items>
+			   <CMD>WalkerAccept</CMD>
+			</ItemData>
+          </li>
+		   <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>你新增了一个角色。每个角色都有自己擅长的事，现在打开工作安排面板，调整一下工作的分配，让角色各施所长。</Desc>
+			</TipsData>
+          </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+        </li>		
+		<li Type="ClickUi">
+		<TaskDesc>点击打开工作安排面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Works</Name>
+			</UiData>
+         </li>
+		 <li Type="HoverUi">
+            <TaskDesc>长按项目，就可以看到角色对该工作的能力，尽量挑选能力最高的人从事该工作。</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcWork</ParentWindow>
+			   <ParentObject>n15-3041-n13</ParentObject>
+			   <Name>Treat</Name>
+			   <Time>3</Time>
+			</UiData>
+			<LockTipsUiData>
+			  <Tips>1</Tips>
+			</LockTipsUiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>因为第一名角色郎中能力最高，因此点击第三名角色的郎中职位，将其取消。 </TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcWork</ParentWindow>
+			   <ParentObject>n15-3041-n13</ParentObject>
+			   <Name>Treat</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>因第三名角色的石工能力最高，因此点击第一名角色的石工职位，将其取消。</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcWork</ParentWindow>
+			   <ParentObject>n15-761-n13</ParentObject>
+			   <Name>Mine</Name>
+			</UiData>
+         </li>
+		 <li Type="Special">
+		    <Special>HideTaskGuide</Special>
+		  </li>
+		 <li Type="ClickUi">
+            <TaskDesc>关闭该页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcWork</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			   <NeedArrow>2</NeedArrow>			   
+			</UiData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>你分配好了角色的工作，而为工作者提供适宜的工具可以极大的提高效率。</Desc>
+			   <Width>60</Width>
+			   <Height>60</Height>
+			   <Items>
+			     <li>3041</li>
+			   </Items>
+			   <IsLook>1</IsLook>
+			</TipsData>
+			<LookKey>177</LookKey>
+	  	</li>
+		   <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		<li Type="ClickItem">
+            <TaskDesc>选择手工点，下方弹出该建筑的状态栏</TaskDesc>
+			<ItemData>
+			   <Items>
+			     <li>2124</li>
+			   </Items>
+			</ItemData>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击生产</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>生产</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>制作一个矿镐</TaskDesc>
+			<UiData>
+			   <ParentWindow>BuildingProduce</ParentWindow>
+			   <ParentObject>SelectList-Item_SysPickaxe</ParentObject>
+			   <Name>n27</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>制作一个矿镐</TaskDesc>
+			<UiData>
+			   <ParentWindow>BuildingProduce</ParentWindow>
+			   <Name>n32</Name>
+			</UiData>
+         </li>		 
+		 <li Type="ClickUi">
+            <TaskDesc>关闭生产窗口</TaskDesc>
+			<UiData>
+			   <ParentWindow>BuildingProduce</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+         </li>
+		  <li Type="WaitCMD">
+            <TaskDesc>等待矿镐制作成功</TaskDesc>
+			<ItemData>
+			   <Items>
+			     <li>2124</li>
+			   </Items>
+			   <BuildingProduceTask>1</BuildingProduceTask>
+			</ItemData>
+          </li>
+		   <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		 <li Type="ClickItem">
+            <TaskDesc>选择需要矿镐的角色</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>3041</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="Special">
+		    <Special>NpcInterruptJob</Special>
+			<ItemData>
+			   <Items>
+			      <li>3041</li>
+			   </Items>
+			</ItemData>
+		 </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击装备互动按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>装备道具</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickMapKey">
+            <TaskDesc>点击矿镐</TaskDesc>
+			<MapKeyData>
+			  <Items>
+			      <li>4155</li>
+			   </Items>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+          </li>
+	     <li Type="ClickUi">
+            <TaskDesc>点击增加数量</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n170</Name>
+			   <Fx>-22.5</Fx>
+			   <Fy>-22.5</Fy>			   
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确认装备</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>		 
+		 <li Type="WaitCMD">
+            <TaskDesc>等待角色装备好矿镐</TaskDesc>
+			<ItemData>
+			   <Items>
+			     <li>3041</li>
+			   </Items>
+			   <CMD>EquipItem</CMD>
+			</ItemData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>给新加入的弟子安排合适的工作，有助于提高门派整体的工作效率。在安排不同的工作时，需要给弟子提供不同的工具，有助于提高个人工作效率。</Desc>
+			</TipsData>
+          </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>如果角色的需求得不到满足，角色的心情会大受影响，导致工作效率降低，甚至怠工。现在看一下新加入的角色有什么需求吧。</Desc>
+			   <Items>
+			      <li>3041</li>
+			   </Items>
+			   <Width>60</Width>
+			   <Height>60</Height>
+			</TipsData>
+	  	  </li>
+		 <li Type="ClickItem">
+            <TaskDesc>选中新角色</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>3041</li>
+			   </Items>
+			</ItemData>
+         </li>
+
+		  <li Type="ClickUi">
+            <TaskDesc>点击打开人物面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-NpcInfoBnts</ParentObject>
+			   <Name>Info</Name>
+			   <Width>78</Width>
+			   <Height>78</Height>
+			   <Fx>-78</Fx>
+			</UiData>
+	     </li>		 
+		 <li Type="ClickUi">
+            <TaskDesc>点击情绪选项卡</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>NpcInfoBnts</ParentObject>
+			   <Name>Mood</Name>
+			</UiData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>角色需要房间，将空余的房间安排给他。</Desc>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>n116-n77</ParentObject>
+			   <Name>需要房间</Name>
+			</TipsData>
+         </li>
+	     <li Type="ClickUi">
+            <TaskDesc>关闭人物面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>				   
+			</UiData>
+         </li>		 
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击房间中的床</TaskDesc>
+			<ItemData>
+			   <Items>
+			     <li>880</li>
+			   </Items>
+			</ItemData>
+			<LookKey>705</LookKey>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击指定归属</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>指定归属</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击第一名角色，将床分配给他</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <ParentObject>n25</ParentObject>
+			   <Name>2</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确定床的归属分配</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <Name>n27</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>关注角色的情绪，满足角色的需求。让门派运转更有效率。在游戏过程中，除了被动的等待难民投奔，也可以在建立门派后，派内门弟子外出主动寻找有缘的弟子入山，或是参与某些特殊事件招收弟子。这些进阶内容需要玩家在游戏中探索。</Desc>
+			</TipsData>
+          </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+	  </Tasks>
+	</TeachingDef>  
+	<TeachingDef Name="Treatment">
+      <Type>基础篇</Type>
+      <DisplayName>外门治疗</DisplayName>
+      <Desc>通过本章教学，了解游戏基础的救治方式。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Load>JC-07</Load>
+	  <Disable>0</Disable>
+	  <Texpath>TeachFile\TP\JC-07.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>药物储备与制作</DisplayName>
+			<Tasks>
+			   <li>查看药物储备</li>
+			   <li>安排郎中</li>
+			   <li>制作药物</li>
+			</Tasks>
+		 </Chapter>
+		 <Chapter>
+		    <DisplayName>医治受伤弟子</DisplayName>
+			<Tasks>
+			   <li>查看伤势</li>
+			   <li>设置特殊优先级别</li>
+			   <li>再次查看伤势</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		 <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击目标搜索按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>searchbnt</Name>
+			</UiData>
+          </li>				  
+		  <li Type="ClickUi">
+            <TaskDesc>选择药物分页,查看当前物资信息</TaskDesc>
+			<UiData>
+			   <ParentWindow>SearchMain</ParentWindow>
+			   <ParentObject>n164</ParentObject>
+			   <Name>药物</Name>
+			</UiData>
+          </li>	
+	      <li Type="ShowTips">
+		    <Dir>0</Dir>
+			<TipsData>
+			   <Desc>游戏中每种药物都有各自的作用，比如金疮药治疗皮肉伤、接骨膏治疗骨骼伤、小还丹治疗内脏伤等等。当门派中药物储备不足时，可能无法及时医治受伤弟子，因此需要玩家多留意药物储备。</Desc>
+			   <ParentWindow>SearchMain</ParentWindow>
+			   <Name>n163</Name>
+			</TipsData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭目标界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>SearchMain</ParentWindow>
+			   <ParentObject>n162</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+          </li>			  
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+                  </li>		
+		<li Type="ClickUi">
+		<TaskDesc>点击打开工作安排面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Works</Name>
+			</UiData>
+         </li>
+		  <li Type="HoverUi">
+            <TaskDesc>玩家可通过长按郎中职位，看到郎中职位的关联技能需求，以及相关联的工作。</TaskDesc>
+			<Dir>7</Dir>
+			<UiData>
+			   <ParentWindow>NpcWork</ParentWindow>
+			   <ParentObject>n15-794-n13</ParentObject>
+			   <Name>Treat</Name>
+			   <Time>3</Time>
+			</UiData>
+			<LockTipsUiData>
+			  <Tips>1</Tips>
+			</LockTipsUiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>因为第二名弟子的郎中能力最高，因此将其选为郎中，并点击激活。 </TaskDesc>
+			<Dir>7</Dir>
+			<UiData>
+			   <ParentWindow>NpcWork</ParentWindow>
+			   <ParentObject>n15-794-n13</ParentObject>
+			   <Name>Treat</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>关闭该页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcWork</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击制药桌</TaskDesc>
+			<ItemData>
+			   <Items>
+			     <li>861</li>
+			   </Items>
+			</ItemData>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击制药桌的生产互动按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>生产</Name>
+			</UiData>
+         </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击金疮药</TaskDesc>
+			<UiData>
+			   <ParentWindow>BuildingProduce</ParentWindow>
+			   <ParentObject>SelectList-Item_Hemostatics</ParentObject>
+			   <Name>n27</Name>
+			</UiData>
+         </li>
+	      <li Type="ShowTips">
+		    <Dir>0</Dir>
+			<TipsData>
+			   <Desc>查看金疮药的制作说明与效果</Desc>
+			   <ParentWindow>BuildingProduce</ParentWindow>
+			   <Name>tipframe</Name>
+			</TipsData>
+          </li>			 
+		 <li Type="ClickUi">
+            <TaskDesc>点击生产一份金疮药</TaskDesc>
+			<UiData>
+			   <ParentWindow>BuildingProduce</ParentWindow>
+			   <Name>n32</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击关闭制药桌的生产面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>BuildingProduce</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151</ParentObject>
+			   <Name>speedBtn</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151-speedBtnList</ParentObject>
+			   <Name>Max</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>Speed2</Special>
+          </li>
+		  <li Type="WaitCMD">
+            <TaskDesc>等待金疮药生产完毕</TaskDesc>
+			<LookThing>794</LookThing>
+			<ItemData>
+			   <Items>
+			     <li>861</li>
+			   </Items>
+			   <BuildingProduceTask>1</BuildingProduceTask>
+			</ItemData>
+          </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>游戏中地图的野外草药资源有限，因此玩家可以提前规划好一片药田，以保障药草的来源。</Desc>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		 <li Type="Special">
+		    <Special>NpcDown</Special>
+			<ItemData>
+			   <Items>
+			      <li>794</li>
+			   </Items>
+			</ItemData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击右侧打开消息界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n253</Name>
+			   <Fx>30</Fx>
+			   <Width>36</Width>
+			</UiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击角色受伤的消息</TaskDesc>
+			<UiData>
+			   <ParentWindow>NormalMessageBox</ParentWindow>
+			   <ParentObject>n219</ParentObject>
+			   <Name>0</Name>
+			</UiData>
+         </li>	 
+		  <li Type="Special">
+		    <Special>SelectThing</Special>
+			<ItemData>
+			   <Items>
+			     <li>794</li>
+			   </Items>
+			</ItemData>
+		 </li>
+		 <li Type="ClickUi">
+            <TaskDesc>关闭消息界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>NormalMessageBox</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+         </li>				 
+		  <li Type="ClickUi">
+            <TaskDesc>点击打开受伤角色的人物面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-NpcInfoBnts</ParentObject>
+			   <Name>Info</Name>
+			   <Width>78</Width>
+			   <Height>78</Height>
+			   <Fx>-78</Fx>
+			</UiData>
+	     </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击健康选项卡</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>NpcInfoBnts</ParentObject>
+			   <Name>Health</Name>
+			</UiData>
+         </li>		 
+		  <li Type="HoverUi">
+            <TaskDesc>玩家可通过长按【恶化感染】区域，来查看伤势变化。</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>Heath-n121-0-n111</ParentObject>
+			   <Name>0</Name>
+			   <Time>3</Time>
+			   <Width>100</Width>
+			   <Height>30</Height>
+			</UiData>
+			<LockTipsUiData>
+			  <Tips>1</Tips>
+			</LockTipsUiData>
+	     </li>
+		 <li Type="HoverUi">
+            <TaskDesc>玩家可通过点击【左大腿骨】区域，来查看受伤部位类型和影响。</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>Heath-n121-0</ParentObject>
+			   <Name>n108</Name>
+			   <Time>3</Time>
+			   <Height>50</Height>
+			</UiData>
+			<LockTipsUiData>
+			  <Tips>1</Tips>
+			</LockTipsUiData>
+	     </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击关闭健康面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+        </li>		
+		<li Type="ClickUi">
+		<TaskDesc>点击打开工作安排面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Works</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击并激活郎中职位。 </TaskDesc>
+			<Dir>7</Dir>
+			<UiData>
+			   <ParentWindow>NpcWork</ParentWindow>
+			   <ParentObject>n15-788-n13</ParentObject>
+			   <Name>Treat</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击特别优先，打开下拉菜单 </TaskDesc>
+			<Dir>7</Dir>
+			<UiData>
+			   <ParentWindow>NpcWork</ParentWindow>
+			   <ParentObject>n15-788</ParentObject>
+			   <Name>n17</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击郎中将该职位设置为特别优先 </TaskDesc>
+			<Dir>7</Dir>
+			<UiData>
+			   <ParentWindow>NpcWork</ParentWindow>
+			   <ParentObject>n15-788-n17-ComboList</ParentObject>
+			   <Name>2</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>关闭该页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcWork</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+         </li>
+		 <li Type="WaitTime">
+	     	<TaskDesc>等待救治完成</TaskDesc>
+		    <WaitTime>12</WaitTime>
+			<LookThing>788</LookThing>
+        </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当郎中职位的弟子受伤时，便有可能会出现无人救治弟子的情况，玩家可以通过另设置一名郎中，并及时调整工作结构与特殊优先，或者打断当前行为等方式，来救治受伤的弟子。</Desc>
+			   <Items>
+			      <li>794</li>
+			   </Items>
+			   <Width>60</Width>
+			   <Height>60</Height>
+			</TipsData>
+	  	  </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击选中受伤的弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			     <li>794</li>
+			   </Items>
+			</ItemData>
+        </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击打开受伤角色的人物面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-NpcInfoBnts</ParentObject>
+			   <Name>Info</Name>
+			   <Width>78</Width>
+			   <Height>78</Height>
+			   <Fx>-78</Fx>
+			</UiData>
+	     </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击健康选项卡</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>NpcInfoBnts</ParentObject>
+			   <Name>Health</Name>
+			</UiData>
+         </li>	 
+		    <li Type="HoverUi">
+            <TaskDesc>我们可以看到，受伤趋势正在好转，代表该弟子得到了有效的医治。</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>Heath-n121-0-n111</ParentObject>
+			   <Name>0</Name>
+			   <Time>3</Time>
+			   <Fx>-15</Fx>
+			   <Fy>-5</Fy>
+			   <Width>70</Width>
+			   <Height>30</Height>
+			</UiData>
+			<LockTipsUiData>
+			  <Tips>1</Tips>
+			</LockTipsUiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>游戏中也有其他物品能提高治疗效果，如符篆、针灸等等，这都需要玩家对游戏更深入的探索和了解。</Desc>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	  </Tasks>
+    </TeachingDef>  
+  </List>
+</TeachingDefs>

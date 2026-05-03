@@ -1,0 +1,178 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Mutation_Effect_Constant_AnimalToMonster">
+			<DisplayName>Beast convertion</DisplayName>
+			<Desc>Dead animals may transform into monsters.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_ElixirGas">
+			<DisplayName>Alchemy Qi Fullness</DisplayName>
+			<Desc>Successful alchemy boosts the Five Elements Alchemy Qi in the area, offering varied effects based on proportions</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_LifeLost">
+			<DisplayName>Abrupt Fate</DisplayName>
+			<Desc>Eating medicine results in less Medicine Tolerance, but the character's Lifespan will deplete at 100 times the speed.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_AncientStoneChest">
+			<DisplayName>Deep Rock Curse</DisplayName>
+			<Desc>Greatly increases the chance of digging out an ancient casket, but doing so will kill the mining disciple.</Desc>
+			<Effects.0.sParam1>Deep Rock Curse</Effects.0.sParam1>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_LinQiSurge">
+			<DisplayName>Celestial Phenomenon Might</DisplayName>
+			<Desc>Each weather change is accompanied by a Burst of Qi, but changing the weather will cost a life.</Desc>
+			<Effects.0.sParam1>Celestial Phenomenon Might</Effects.0.sParam1>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_GoodsExpensiveButSuppliesCheaper">
+			<DisplayName>People Seek Profit</DisplayName>
+			<Desc>Merchant selling price is halved, purchasing price is doubled, but within a single merchant cycle, goods become more expensive the more you buy, and materials become cheaper the more you sell.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_FiveElementsRelationChange">
+			<DisplayName>Five Elements Reversal</DisplayName>
+			<Desc>The Five Elements generation and overcoming relationship is reversed once.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_CantDrawFuAndRandomFu">
+			<DisplayName>Talisman Path Collapse</DisplayName>
+			<Desc>Cannot manually draw talismans, but drawing talismans will yield random results. Characters can activate more talismans.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_RefineMustSuccess">
+			<DisplayName>Divinely Ordained Artifact</DisplayName>
+			<Desc>Refinement is guaranteed to succeed, but it consumes more resources.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_NpcAvoidDangerAutomatically">
+			<DisplayName>Harmonious World</DisplayName>
+			<Desc>Gaining favor from other cultivators is greatly increased, and one can directly break through mental defenses, but other cultivators will also automatically avoid danger.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_RealTime">
+			<DisplayName>Time Axis Adjustment</DisplayName>
+			<Desc>The trigger days for all secret events are shortened to 1/3, and disciples' time stationed outside will become actual time.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_SupplyBox">
+			<DisplayName>Apocalyptic Remnants</DisplayName>
+			<Desc>Map fog is automatically eliminated. Unable to obtain yields from butchering, harvesting, mining, or chopping, but supply crates will fall from the sky daily.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_GetGoodBadScoreRandom">
+			<DisplayName>Worldwide Connection</DisplayName>
+			<Desc>When acquiring reputation through various means, the acquired reputation is randomly positive or negative, and the multiplier for acquiring reputation ranges randomly from 0.1 to 10.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_UnlockGong">
+			<DisplayName>Dao Fruit at Risk</DisplayName>
+			<Desc>The foundation value required for Foundation Training, and the cultivation value needed for practice, are multipled by 5. All laws are now opened to all cultivators.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_Yang">
+			<DisplayName>Place of Extreme Yang</DisplayName>
+			<Desc>Sect Feng Shui is permanently at the highest, base spirit gathering effect increases by 100 points, all plots gain fire and wood attributes, but the map's base temperature rises by 20°.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_Yin">
+			<DisplayName>Place of Extreme Yin</DisplayName>
+			<Desc>Sect Feng Shui is permanently at the highest, base spirit gathering effect increases by 100 points, all plots gain metal and water attributes, but the map's base temperature decreases by 20°.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_Hunter_1">
+			<DisplayName>Monster Hunter</DisplayName>
+			<Desc>After hunting several rabbits, a rare item emerged.</Desc>
+			<SpecialDesc>After several rabbits hunted by the sect disciples, a [TARGET] appeared!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_Hunter_2">
+			<DisplayName>Monster Hunter</DisplayName>
+			<Desc>After hunting several wolves, a rare item appeared.</Desc>
+			<SpecialDesc>Upon Sect disciples hunting several wolves, a [TARGET] emerges!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_Hunter_3">
+			<DisplayName>Monster Hunter</DisplayName>
+			<Desc>After hunting several bears, a rare item appeared.</Desc>
+			<SpecialDesc>Upon Sect disciples hunting several bears, a [TARGET] emerges!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_Hunter_4">
+			<DisplayName>Monster Hunter</DisplayName>
+			<Desc>After hunting several turtles, a rare item appeared.</Desc>
+			<SpecialDesc>Upon Sect disciples hunting several turtles, a [TARGET] emerges!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_Hunter_5">
+			<DisplayName>Monster Hunter</DisplayName>
+			<Desc>After hunting several tigers, a rare item appeared.</Desc>
+			<SpecialDesc>Upon Sect disciples hunting several tigers, a [TARGET] emerges!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_Hunter_6">
+			<DisplayName>Monster Hunter</DisplayName>
+			<Desc>After hunting several cows, a rare item appeared.</Desc>
+			<SpecialDesc>Upon Sect disciples hunting several cows, a [TARGET] emerges!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_Hunter_7">
+			<DisplayName>Monster Hunter</DisplayName>
+			<Desc>After hunting several chickens, a rare item appeared.</Desc>
+			<SpecialDesc>Upon Sect disciples hunting several chickens, a [TARGET] emerges!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_Hunter_8">
+			<DisplayName>Monster Hunter</DisplayName>
+			<Desc>After hunting several snakes, a rare item appeared.</Desc>
+			<SpecialDesc>Upon Sect disciples hunting several snakes, a [TARGET] emerges!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_GetItem_1">
+			<DisplayName>Crime of Possession</DisplayName>
+			<Desc>Acquired several rare treasures, but all Sects' favor towards us plummeted.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_OuterDiscipleRoomDemand">
+			<Desc>Outer disciples gain flight ability, but their room requirements increase.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_GetItem_2">
+			<Desc>Obtain a Rare Item</Desc>
+			<SpecialDesc>With the surge in Sect Reputation, a [TARGET] materializes!</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_Sacrific">
+			<Desc>Start Beast Sacrifice</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_GetSchoolRelation">
+			<Desc>Provoke the anger of the Ten Thousand Demon Palace</Desc>
+			<SpecialDesc>Sacrificing demons enrages the Demon Palace</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_FengShuiChange">
+			<Desc>All sect disciples are naturally gifted, with all abilities +2 (increase cap), but your sect suffers from divine jealousy, making all relics permanently adverse.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_ModifierChange_1">
+			<Desc>Sect disciples' learning ability enhances, alchemy skills +5 (cap increased)</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_ModifierChange_2">
+			<Desc>Sect disciples' adventure-related abilities drop significantly, but weapon forging skill +5 (raises upper limit).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_ModifierChange_3">
+			<Desc>Sect disciples' Artisanry skill +5 (increases cap).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_ModifierChange_4">
+			<Desc>Mental state bonus significantly decreases; Social skill +5 (increases cap).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_ModifierChange_5">
+			<Desc>Sect disciples' manual skills significantly decreased, construction skill +10, mining skill +10.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_ModifierChange_6">
+			<Desc>Sect disciples' social skills -5, battle skills +5 (cap increased)</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_ModifierChange_7">
+			<Desc>Sect disciples more prone to hunger and fatigue (Qi Sense +10).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_ModifierChange_8">
+			<Desc>Sect disciples gain +50 lifespan, optimal/maximum temperature tolerance -10/-20.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_ModifierChange_9">
+			<Desc>Sect disciples' Qi cap rises, advancing all heavenly tribulations by 70%</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_ModifierChange_10">
+			<Desc>Sect disciples' battle skills -5, protection skills +5 (cap increased)</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_ModifierChange_11">
+			<Desc>Sect disciples' practice speed drops significantly, but technique skills +10 (raises upper limit).</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_ModifierChange_12">
+			<Desc>Sect disciples significantly boost their Foundation Training and cultivation speed in a short time.</Desc>
+			<SpecialDesc>[NPC]'s ascension significantly boosts the foundation establishment speed and cultivation speed of all sect disciples in the short term.</SpecialDesc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_ModifierChange_13">
+			<Desc>Sect disciples experience a significant reduction in Foundation Training and Cultivation speed.</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_ModifierChange_14">
+			<Desc>Sect disciples' learning speed significantly decreases, artifact mastery skills +5 (cap increased)</Desc>
+		</Text>
+		<Text Name="Mutation_Effect_Constant_GetStageValue_1">
+			<Desc>Gain Cultivation</Desc>
+			<SpecialDesc>[NPC]'s cultivation greatly increases after completing the kill.</SpecialDesc>
+		</Text>
+	</List>
+</Texts>

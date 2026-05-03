@@ -1,0 +1,152 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="LsXuanWu_Carve">
+			<Type>Pet</Type>
+		</Text>
+		<Text Name="RedWallDownLeft">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="RedWallUpLeft">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="RedWallMidUp">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="RedWallMidRight">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="RedWallVertical">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="RedWallVerticalHalf">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="RedWallHorizontal">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="RedWallDownLeftTiny">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="RedWallUpLeftTiny">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="RedWallDownLeftS">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="RedWallUpLeftS">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="RedWallMidUpS">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="RedWallMidRightS">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="RedWallVerticalS">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="RedWallVerticalHalfS">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="RedWallHorizontalS">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="RedWallDownLeftTinyS">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="RedWallUpLeftTinyS">
+			<Type>Decoration</Type>
+			<Label>Special</Label>
+		</Text>
+		<Text Name="ZhenWuCarve">
+			<Type>Decoration</Type>
+			<Label>Statue</Label>
+		</Text>
+		<Text Name="TurTleMonu">
+			<Type>Decoration</Type>
+			<Label>Statue</Label>
+		</Text>
+		<Text Name="IncenseTripod">
+			<Type>Decoration</Type>
+			<Label>Furniture</Label>
+		</Text>
+		<Text Name="RedWallGate">
+			<Type>Sect</Type>
+		</Text>
+		<Text Name="RedWallDrum">
+			<Type>Decoration</Type>
+			<Label>Scenery</Label>
+		</Text>
+		<Text Name="WuDangBigGate">
+			<Type>Sect</Type>
+		</Text>
+		<Text Name="WuDangScreen">
+			<Type>Decoration</Type>
+			<Label>Furniture</Label>
+		</Text>
+		<Text Name="WuDangFlag">
+			<Type>Decoration</Type>
+			<Label>Scenery</Label>
+		</Text>
+		<Text Name="WuDangXiangLu">
+			<Type>Decoration</Type>
+			<Label>Furniture</Label>
+		</Text>
+		<Text Name="WuDangPuTuan">
+			<Type>Sect</Type>
+		</Text>
+		<Text Name="WuDangXianHeDeng">
+			<Type>Decoration</Type>
+			<Label>Lighting</Label>
+		</Text>
+		<Text Name="WuDangDivine">
+			<Type>Decoration</Type>
+			<Label>Scenery</Label>
+		</Text>
+		<Text Name="WuDangXuanWuDeng">
+			<Type>Decoration</Type>
+			<Label>Lighting</Label>
+		</Text>
+		<Text Name="Building_ChaShu1">
+			<Type>Decoration</Type>
+			<Label>Uncommon Tree</Label>
+		</Text>
+		<Text Name="Building_ChaShu2">
+			<Type>Decoration</Type>
+			<Label>Uncommon Tree</Label>
+		</Text>
+		<Text Name="Building_WuDangSong1">
+			<Type>Decoration</Type>
+			<Label>Uncommon Tree</Label>
+		</Text>
+		<Text Name="Building_WuDangSong2">
+			<Type>Decoration</Type>
+			<Label>Uncommon Tree</Label>
+		</Text>
+		<Text Name="Building_WuDangSong3">
+			<Type>Decoration</Type>
+			<Label>Uncommon Tree</Label>
+		</Text>
+		<Text Name="Building_WuDangSong4">
+			<Type>Decoration</Type>
+			<Label>Uncommon Tree</Label>
+		</Text>
+	</List>
+</Texts>

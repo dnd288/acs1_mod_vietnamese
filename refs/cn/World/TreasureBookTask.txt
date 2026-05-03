@@ -1,0 +1,100 @@
+ID	Chapter	Sort	Event	sParam	sParam2	fParam	Follow	Desc	Rewards	Help	HelpParam	HelpTitle
+ID	所属章节Id	排序	事件	参数	参数2	数字参数	初始关注	介绍	奖励道具id 多个道具用;分割	帮助类型 0:跳转帮助界面 1:轮播图 2:播放视频	任务帮助参数(多个间使用;分割)	任务标题(没有则取任务名称)
+1	1	0	Build	Bonfire		1	1	建造1个篝火	1	1	Thelp-01-1.png;Thelp-01-2.png;Thelp-01-3.png;Thelp-01-4.png;Thelp-01-5.png	生火
+2	1	1	FinishedCMD	Log		1	1	砍伐1株树木	2	1	Thelp-02-1.png;Thelp-02-2.png;Thelp-02-3.png	砍树
+3	1	4	Build	Well		1	1	建造1座水井	3	1	Thelp-03-1.png;Thelp-03-2.png;Thelp-03-3.png;Thelp-03-4.png;Thelp-03-5.png;Thelp-03-6.png	打水
+4	1	5	MakeItem	Item_Jerky		1	1	制作1份肉干	4	1	Thelp-04-1.png;Thelp-04-2.png;Thelp-04-3.png;Thelp-04-4.png;Thelp-04-5.png	做熟食
+5	1	2	Build	MaterialWorkPlace		1	1	建造材料加工点	5	1	Thelp-05-1.png;Thelp-05-2.png;Thelp-05-3.png;Thelp-05-4.png;Thelp-05-5.png;Thelp-05-6.png	材料加工点
+6	1	3	MakeItem	Item_RoughWoodBlock		5	1	在材料加工点加工5份木料	6	1	Thelp-06-1.png;Thelp-06-2.png;Thelp-06-3.png;Thelp-06-4.png;Thelp-06-5.png	加工木材
+7	1	6	CreateArea	Storage		1	1	规划一片仓库区域	7	1	Thelp-07-1.png;Thelp-07-2.png;Thelp-07-3.png;Thelp-07-4.png;Thelp-07-5.png;Thelp-07-6.png	建仓库
+8	1	7	OpenPage	StorageArea		1	1	打开仓库筛选页面，查看该页面	8	1	Thelp-08-1.png;Thelp-08-2.png	规划仓库
+9	1	8	OpenPage	NpcMoodFavour		1	1	打开任一角色心情页面，查看角色心情	9;10	1	Thelp-09-1.png;Thelp-09-2.png;Thelp-09-3.png;Thelp-09-4.png	查看心情
+10	1	9	SetOwner	Bed		1	1	建造一个房间，在房间内建造床铺，并将该床铺指定给某一弟子	11;12	1	Thelp-10-1.png;Thelp-10-2.png;Thelp-10-3.png	分房间
+										0		
+11	2	0	Build	WorkPlace		1	1	建造手工点	13	1	Thelp-11-1.png;Thelp-11-2.png;Thelp-11-3.png;Thelp-11-4.png;Thelp-11-5.png	手工点
+12	2	1	MakeItem	Item_SysSickle		1	1	在手工点制作农具	14	1	Thelp-12-1.png;Thelp-12-2.png;Thelp-12-3.png;Thelp-12-4.png;Thelp-12-5.png	制作农具
+13	2	2	Plant	Wheat		1	1	规划一片农田区域，并种植小麦	15	1	Thelp-13-1.png;Thelp-13-2.png;Thelp-13-3.png;Thelp-13-4.png;Thelp-13-5.png;Thelp-13-6.png;Thelp-13-7.png;Thelp-13-8.png	种植小麦
+14	2	3	MakeItem	Item_WeaponWoodBow		1	1	在手工点制作木弓	16	1	Thelp-14-1.png;Thelp-14-2.png;Thelp-14-3.png;Thelp-14-4.png;Thelp-14-5.png	制作弓箭
+15	2	4	EquipItem	Item_WeaponWoodBow		1	1	为猎户装备木弓	17	1	Thelp-15-1.png;Thelp-15-2.png;Thelp-15-3.png;Thelp-15-4.png;Thelp-15-5.png	装备弓箭
+16	2	5	FinishedCMD	Hunting		1	1	狩猎一只猎物	18	1	Thelp-16-1.png;Thelp-16-2.png;Thelp-16-3.png	狩猎！
+17	2	6	MakeItem	Item_SysPickaxe		1	1	在手工点制作矿镐	19	1	Thelp-17-1.png;Thelp-17-2.png;Thelp-17-3.png;Thelp-17-4.png;Thelp-17-5.png	制作矿镐
+18	2	7	EquipItem	Item_SysPickaxe		1	1	为石工装备矿镐	83	1	Thelp-18-1.png;Thelp-18-2.png;Thelp-18-3.png;Thelp-18-4.png	装备矿镐
+19	2	8	FinishedCMD	Mine		1	1	发布开采命令，采集一次矿石	20	1	Thelp-19-1.png;Thelp-19-2.png;Thelp-19-3.png	采集矿石
+20	2	9	SetVipWork	Carry		1	1	打开工作面板，并将一名角色的特别优先设定为苦力	84	1	Thelp-20-1.png;Thelp-20-2.png;Thelp-20-3.png;Thelp-20-4.png	安排苦力
+										0		
+21	3	0	EatItem	Item_BasePracticeDrug		1	1	让一名弟子食用筑基丹	21	1	Thelp-21-1.png;Thelp-21-2.png;Thelp-21-3.png;Thelp-21-4.png	食用筑基丹
+22	3	1	Special	PracticeFeeling		1	1	将一名弟子晋升内门	89	1	Thelp-22-1.png;Thelp-22-2.png;Thelp-22-3.png;Thelp-22-4.png	晋升内门
+23	3	2	Special	SetNeckRoom		1	1	为内门弟子建造并分配一个单人房间	22	1	Thelp-23-1.png;Thelp-23-2.png	分配内门房间
+24	3	3	Special	CreateSchool		1	1	建立门派	24	1	Thelp-24-1.png;Thelp-24-2.png;Thelp-24-3.png;Thelp-24-4.png	重建门派
+25	3	4	Special	GoMapExplore		1	1	派遣弟子进行一次历练	85	1	Thelp-25-1.png;Thelp-25-2.png;Thelp-25-3.png;Thelp-25-4.png;Thelp-25-5.png	首次历练
+26	3	5	CreateArea	Trade		1	1	规划一片交易区	23	1	Thelp-26-1.png;Thelp-26-2.png;Thelp-26-3.png;Thelp-26-4.png;Thelp-26-5.png	交易区
+27	3	6	Trade	WalkTrader		1	1	和行商进行一次交易	23	1	Thelp-27-1.png;Thelp-27-2.png;Thelp-27-3.png	完成交易
+28	3	7	Plant	MagicHerb		1	1	规划一片药田，并种植灵仙草	29	1	Thelp-28-1.png;Thelp-28-2.png;Thelp-28-3.png;Thelp-28-4.png;Thelp-28-5.png;Thelp-28-6.png;Thelp-28-7.png;Thelp-28-8.png	种植灵仙草
+29	3	8	Build	RefiningCushion		1	1	建造炼宝台	30	1	Thelp-29-1.png;Thelp-29-2.png;Thelp-29-3.png;Thelp-29-4.png;Thelp-29-5.png	建造炼宝台
+30	3	9	Build	DanStove		1	1	建造丹炉	31	1	Thelp-30-1.png;Thelp-30-2.png;Thelp-30-3.png;Thelp-30-4.png;Thelp-30-5.png	建造炼丹炉
+										0		
+31	4	0	Build	FengShui		1	1	建造观星台	32	0	51	建造观星台
+32	4	1	OpenPage	ElementShow		1	1	点击右上角五行图，查看五行生克关系	33	1	Thelp-32-1.png;Thelp-32-2.png	查看五行图
+33	4	2	Special	BulidJinBed		1	1	使用金属性材料建造床铺	34	0	41	金属性床铺
+34	4	3	Special	BornJinBed		1	1	根据土生金的规则，在金属性床铺附近用土属性的材料建造油灯	35	0	53	尝试土生金
+35	4	4	Special	MakeJinBedBest		1	1	围绕金属性床铺，持续建造土属性的装饰，使金属性的床铺成为大吉	36	0	54	金床铺大吉
+36	4	5	OpenPage	RoomFengShui		1	1	选中一个房间，并查看房间的风水	37	0	55	查看房间风水
+37	4	6	Special	MakeRoomBest		1	1	建造一间风水评价为大吉的的房间	25	0	55	建造大吉房间
+38	4	7	Special	SetNeckBornBed		1	1	查看内门弟子功法属性，并使用相生的材料为其建造床铺	39	0	52	匹配功法的房间
+39	4	8	OpenPage	CheckFengshui		1	1	点击右侧太极图，进入风水模式，查看门派风水	37	0	56	查看风水模式
+40	4	9	Special	AllBuildBest		1	1	使门派中所有风水建筑都至少为吉	26	0	56	吉吉吉吉吉
+												
+41	5	0	FinishedCMD	Log	Item_LingWood	1	1	砍伐地图上的灵树，获得灵木	38	1	Thelp-41-1.png;Thelp-41-2.png;Thelp-41-3.png	砍灵树
+42	5	1	SetOwner	Cushion		1	1	建造蒲团，并将蒲团归属设为内门弟子	40	1	Thelp-42-1.png;Thelp-42-2.png;Thelp-42-3.png;Thelp-42-4.png;Thelp-42-5.png;Thelp-42-6.png	蒲团归属
+43	5	2	Special	JuLingAroundCushion		1	1	聚灵，在蒲团旁建造置物台，并将灵木放置于该置物台上	41	1	Thelp-43-1.png;Thelp-43-2.png;Thelp-43-3.png;Thelp-43-4.png;Thelp-43-5.png;Thelp-43-6.png;Thelp-43-7.png	灵木聚灵
+44	5	3	OpenPage	Learn		1	1	打开参悟页面，消耗参悟学习任一内容	42	0	66	首次参悟
+45	5	4	OpenPage	Quiet		1	1	切换内门弟子的修炼目标为调心	43	0	61	设定调心
+46	5	5	Special	Change2Practice		1	1	在内门弟子心境到达75点以上后，切换内门弟子的修炼目标为修炼	86	0	61	设定修炼
+47	5	6	Special	BrokenNeck		1	1	使任一内门弟子修炼到达瓶颈，并尝试突破瓶颈	44	0	65	突破瓶颈
+48	5	7	MakeItem	FaBao		1	1	使用炼宝台尝试炼制一个法宝	27	0	68	炼制法宝
+49	5	8	MakeItem	Dan		1	1	使用炼丹炉尝试炼制一炉丹药	28	0	68	炼制丹药
+50	5	9	MakeItem	Spell		1	1	绘制任意一张符咒	45	0	68	绘制符咒
+												
+51	6	0	FinishedCMD	Magic_FSItemOpen		1	1	鉴定风水镇物	46	1	Thelp-51-1.png;Thelp-51-2.png;Thelp-51-3.png;Thelp-51-4.png	鉴定风水镇物
+52	6	1	Special	FSItemEnterRoom		1	1	使风水镇物在房间内生效	37	1	Thelp-52-1.png;Thelp-52-2.png;Thelp-52-3.png	风水镇物生效
+53	6	2	CreateArea	Breeding		1	1	规划一片养殖区	47	1	Thelp-53-1.png;Thelp-53-2.png;Thelp-53-3.png;Thelp-53-4.png;Thelp-53-5.png	养殖区
+54	6	3	Special	ChangeToBreedingAnimal		1	1	收服一个动物	48;49	1	Thelp-54-1.png;Thelp-54-2.png	收服动物
+55	6	4	Plant	LingZhi		1	1	种植一株五行灵根	24;25;26;27;28	1	Thelp-55-1.png;Thelp-55-2.png	种植五行灵根
+56	6	5	Special	MakeLingZhiGrow		1	1	使五行灵根开始生长	36	1	Thelp-56-1.png;Thelp-56-2.png;Thelp-56-3.png	五行灵根生长
+57	6	6	FinishedCMD	YunYang		1	1	蕴养一次五行灵根	50	1	Thelp-57-1.png;Thelp-57-2.png;Thelp-57-3.png	蕴养灵根
+58	6	7	Special	JiaoGan		1	1	与五行灵根进行一次交感	51	1	Thelp-58-1.png;Thelp-58-2.png	交感
+59	6	8	Special	Boss_Gossip		1	1	拜访古修，并向古修询问上古之兽	52;53;54;55;56	1	Thelp-59-1.png;Thelp-59-2.png;Thelp-59-3.png	古修与上古之兽
+60	6	9	Special	MakeDragonHoleRoomBest		1	1	使用大吉风水房镇压神秘洞穴	57	1	Thelp-60-1.png;Thelp-60-2.png;Thelp-60-3.png;Thelp-60-4.png;Thelp-60-5.png;Thelp-60-6.png	镇压神秘洞穴
+												
+61	7	0	Special	EnterFightMap		1	1	进入一次野外地图	87	0	71	野外场景
+62	7	1	Special	OpenRegion		1	1	开启一个代理点	58;59	0	85	开启代理点
+63	7	2	Special	SendMember		10	1	为一个代理点派遣10名弟子	82	0	85	派遣弟子
+64	7	3	Special	DealRegionEvent		1	1	为代理点选择政策，并完成一次政策事件	61	0	85	选择政策
+65	7	4	Build	Region		1	1	建设一次代理点	62	0	85	建设代理点
+66	7	5	Special	CollectFaith		1	1	前往代理点收取一次信仰	51	0	91	收取信仰
+67	7	6	Special	UnLockNpcDataKnow		1	1	与任意角色社交，并向他打探到一条消息	64	0	104	打探消息
+68	7	7	Special	FinishBaiShanLike		1	1	送任意门派掌门喜好之物	60	0	104	投其所好
+69	7	8	Trade	OpenBorder		1	1	获取一个门派的通行权	88	0	80	获取通行权
+70	7	9	Special	PracticeFeeling	God	1	1	以神修功法进阶内门	63	1	Thelp-70-1.png	神修
+												
+71	8	0	MakeItem	Item_QiZhi		1	1	从百蛮山获得万寿通心诀，并炼制一枚启智丹	65	0	80	炼制启智丹
+72	8	1	Special	AnimalQiZhi		1	1	获得一只启智的野兽	67	0	121	获得启智野兽
+73	8	2	Special	ThinkableAnimPerferEnv		1	1	将一只启智的野兽安排在舒适的环境中	68	0	123	安排舒适环境
+74	8	3	Special	AddFrag		1	1	让一只启智的野兽通过观察获得思绪片段	69	0	123	获得思绪片段
+75	8	4	Special	FinishYsThink		1	1	为启智的野兽获得一个思绪	70	0	123	获得思绪
+76	8	5	Special	AddThinkAgg		1	1	为启智的野兽获得一个灵智碎片	71	0	122	获得灵智碎片
+77	8	6	Special	YsToHuman		1	1	为一只启智的野兽正式开启灵智	72	0	121	开启灵智
+78	8	7	Special	ThingTongLing		1	1	获得一只觉醒的精怪	66	0	141	精怪觉醒
+79	8	8	Special	JGTunShi_ChangeElement		1	1	通过吞噬物品改变一只觉醒精怪的五行配比	57	0	142	改变五行配比
+80	8	9	Special	PracticeFeeling	Body	1	1	以体修功法进阶内门	74;73	1	Thelp-80-1.png	体修
+												
+81	9	0	Special	PracticeFeeling_Gong	Gong_12_None	1	1	以符修功法进阶内门	72	1	Thelp-81-1.png;Thelp-81-2.png;Thelp-81-3.png;Thelp-81-4.png	符修
+82	9	1	Special	Story_Plant_ShiXiong		1	1	从铜陵山七师兄遗物中获得阵法秘籍	51	0	71	七师兄遗物
+83	9	2	Special	CreateZhen		1	1	在阵法页面设计一门阵法	60	0	75	设计阵法
+84	9	3	Special	MakeZhen		1	1	派遣弟子布置成功一次阵法	57	0	75	布置阵法
+85	9	4	EquipItem	Item_Cape		1	1	装备披风	80	1	Thelp-85-1.png;Thelp-85-2.png;Thelp-85-3.png;Thelp-85-4.png;Thelp-85-5.png;Thelp-85-6.png;Thelp-85-7.png;Thelp-85-8.png;Thelp-85-9.png;Thelp-85-10.png	装备披风
+86	9	5	MakeItem	Horse		1	1	通过神通封印制作灵契	81	0	P15	制作灵契
+87	9	6	Trade	Item_AuctionPaper		1	1	从行商处获得拍卖行邀请函	79	0	83	拍卖行邀请函
+88	9	7	Special	EnterAuction		1	1	参加一次拍卖	77	0	84	参加拍卖
+89	9	8	Special	AddDivideGodSoul		1	1	获得元神分神	75	0	73	获得元神分神
+90	9	9	Special	CostDivideGodSoul		1	1	完成一次元神寄托	76	0	73	元神寄托

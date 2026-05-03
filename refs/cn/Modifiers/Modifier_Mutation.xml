@@ -1,0 +1,2563 @@
+<ModifierDefs><List>
+
+	<Modifier Name="Modifier_Mutation_UnstableBase" Type="Normal">
+		<DisplayName>天道异动</DisplayName>
+		<Desc>受到动荡天道异动影响，各项属性被修改</Desc>
+		<MaxStack>99</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_YinYangBase" Type="Normal">
+		<DisplayName>天道异动</DisplayName>
+		<Desc>受到阴阳天道异动影响，各项属性被临时修改</Desc>
+		<MaxStack>99</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<MutationShow>1</MutationShow>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_ConstantBase" Type="Normal">
+		<DisplayName>天道异动</DisplayName>
+		<Desc>受到恒定天道异动影响，各项属性被修改。</Desc>
+		<MaxStack>99</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<MutationShow>1</MutationShow>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_BaseFive_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>魅力降低1成</Desc>
+		<BaseFive>0,0,-1,0,0</BaseFive>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_Mutation_Yin_BaseFive_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>魅力降低3成</Desc>
+		<BaseFive>0,0,-3,0,0</BaseFive>
+	</Modifier> 
+
+	<Modifier Name="Modifier_Mutation_Yin_BaseFive_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>魅力降低5成</Desc>
+		<BaseFive>0,0,-5,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_BaseFive_4" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>悟性降低1成</Desc>
+		<BaseFive>0,0,0,-1,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_BaseFive_5" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>悟性降低3成</Desc>
+		<BaseFive>0,0,0,-3,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_BaseFive_6" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>悟性降低5成</Desc>
+		<BaseFive>0,0,0,-5,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_BaseFive_7" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>机缘降低1成</Desc>
+		<BaseFive>0,0,0,0,-1</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_BaseFive_8" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>机缘降低3成</Desc>
+		<BaseFive>0,0,0,0,-3</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_BaseFive_9" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>机缘降低5成</Desc>
+		<BaseFive>0,0,0,0,-5</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_BaseFive_10" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>神识降低1成</Desc>
+		<BaseFive>-1,0,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_BaseFive_11" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>神识降低3成</Desc>
+		<BaseFive>-3,0,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_BaseFive_12" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>神识降低5成</Desc>
+		<BaseFive>-5,0,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_BaseFive_13" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>根骨降低1成</Desc>
+		<BaseFive>0,-1,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_BaseFive_14" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>根骨降低3成</Desc>
+		<BaseFive>0,-3,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_BaseFive_15" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>根骨降低5成</Desc>
+		<BaseFive>0,-5,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_BaseFive_16" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>五维降低1成</Desc>
+		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yin_BaseFive_17" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>五维降低3成</Desc>
+		<BaseFive>-3,-3,-3,-3,-3</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_BaseFive_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>魅力提高1成</Desc>
+		<BaseFive>0,0,1,0,0</BaseFive>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_Mutation_Yang_BaseFive_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>魅力提高3成</Desc>
+		<BaseFive>0,0,3,0,0</BaseFive>
+	</Modifier> 
+
+	<Modifier Name="Modifier_Mutation_Yang_BaseFive_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>魅力提高5成</Desc>
+		<BaseFive>0,0,5,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_BaseFive_4" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>悟性提高1成</Desc>
+		<BaseFive>0,0,0,1,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_BaseFive_5" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>悟性提高3成</Desc>
+		<BaseFive>0,0,0,3,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_BaseFive_6" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>悟性提高5成</Desc>
+		<BaseFive>0,0,0,5,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_BaseFive_7" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>机缘提高1成</Desc>
+		<BaseFive>0,0,0,0,1</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_BaseFive_8" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>机缘提高3成</Desc>
+		<BaseFive>0,0,0,0,3</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_BaseFive_9" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>机缘提高5成</Desc>
+		<BaseFive>0,0,0,0,5</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_BaseFive_10" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>神识提高1成</Desc>
+		<BaseFive>1,0,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_BaseFive_11" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>神识提高3成</Desc>
+		<BaseFive>3,0,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_BaseFive_12" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>神识提高5成</Desc>
+		<BaseFive>5,0,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_BaseFive_13" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>根骨提高1成</Desc>
+		<BaseFive>0,1,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_BaseFive_14" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>根骨提高3成</Desc>
+		<BaseFive>0,3,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_BaseFive_15" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>根骨提高5成</Desc>
+		<BaseFive>0,5,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_BaseFive_16" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>五维提高1成</Desc>
+		<BaseFive>1,1,1,1,1</BaseFive>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yang_BaseFive_17" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>五维提高3成</Desc>
+		<BaseFive>3,3,3,3,3</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_LingAbsorbSpeed_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>灵气恢复速度提高75%。</Desc>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="0.75"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_LingAbsorbSpeed_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>灵气恢复速度提高200%。</Desc>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="2"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_LingAbsorbSpeed_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>灵气恢复速度提高500%。</Desc>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_LingAbsorbSpeed_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>灵气恢复速度降低75%。</Desc>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="-0.75"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_LingAbsorbSpeed_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>灵气恢复速度降低200%。</Desc>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="-2"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_LingAbsorbSpeed_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>灵气恢复速度降低500%。</Desc>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="-5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_NpcLingMaxValue_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>提高灵气上限。</Desc>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="0.1"/>
+			<li Name="NpcLingMaxValue" AddV="100"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_NpcLingMaxValue_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>中量提高灵气上限。</Desc>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="0.2"/>
+			<li Name="NpcLingMaxValue" AddV="500"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_NpcLingMaxValue_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大量提高灵气上限。</Desc>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="0.3"/>
+			<li Name="NpcLingMaxValue" AddV="1000"/>
+		</Properties>
+	</Modifier>
+
+
+
+	<Modifier Name="Modifier_Mutation_Yang_NpcFight_ShieldConversionRate_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>护体真气强度受到轻度增强</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddP="0.1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yang_NpcFight_ShieldConversionRate_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>护体真气强度受到增强</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddP="0.2"/>
+		</Properties>
+	</Modifier>
+
+
+	<Modifier Name="Modifier_Mutation_Yin_NpcFight_ShieldConversionRate_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>护体真气强度受到轻度削弱</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddP="-0.1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yin_NpcFight_ShieldConversionRate_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>护体真气强度受到削弱</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddP="-0.2"/>
+		</Properties>
+	</Modifier>
+
+
+	<Modifier Name="Modifier_Mutation_Yang_MaxAge_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>略微增加寿元上限</Desc>
+		<Properties>
+			<li Name="MaxAge" AddV="10"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_MaxAge_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>增加寿元上限</Desc>
+		<Properties>
+			<li Name="MaxAge" AddV="30"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_MaxAge_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅增加寿元上限</Desc>
+		<Properties>
+			<li Name="MaxAge" AddV="80"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_MaxAge_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>略微减少寿元上限</Desc>
+		<Properties>
+			<li Name="MaxAge" AddV="-10"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_MaxAge_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>减少寿元上限</Desc>
+		<Properties>
+			<li Name="MaxAge" AddV="-30"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_MaxAge_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅减少寿元上限</Desc>
+		<Properties>
+			<li Name="MaxAge" AddV="-80"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_PracticeRateAddPFromDan_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>略微提高突破瓶颈概率</Desc>
+		<Properties>
+			<li Name="PracticeRateAddPFromDan" AddP="0.1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yang_PracticeRateAddPFromDan_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>提高突破瓶颈概率</Desc>
+		<Properties>
+			<li Name="PracticeRateAddPFromDan" AddP="0.2"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yang_PracticeRateAddPFromDan_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅提高突破瓶颈概率</Desc>
+		<Properties>
+			<li Name="PracticeRateAddPFromDan" AddP="0.4"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_PracticeRateAddPFromDan_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>略微降低突破瓶颈概率</Desc>
+		<Properties>
+			<li Name="PracticeRateAddPFromDan" AddP="-0.1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yin_PracticeRateAddPFromDan_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>降低突破瓶颈概率</Desc>
+		<Properties>
+			<li Name="PracticeRateAddPFromDan" AddP="-0.2"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_DeepPracticeSpeedSpecialCoefficient_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>小幅度提高修炼速度</Desc>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.25"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_DeepPracticeSpeedSpecialCoefficient_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅度提高修炼速度</Desc>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_DeepPracticeSpeedSpecialCoefficient_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>小幅度降低修炼速度</Desc>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-0.25"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_DeepPracticeSpeedSpecialCoefficient_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅度降低修炼速度</Desc>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_MindStateBaseValue_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>略微提高心境基础值</Desc>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yang_MindStateBaseValue_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>提高心境基础值</Desc>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="20"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yang_MindStateBaseValue_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅提高心境基础值</Desc>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="40"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_MindStateBaseValue_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>略微降低心境基础值</Desc>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yin_MindStateBaseValue_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>降低心境基础值</Desc>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="-20"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yin_MindStateBaseValue_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅降低心境基础值</Desc>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="-40"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_NutritionWaterAutoRecover_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>自动回复饮食度</Desc>
+		<Properties>
+			<li Name="NutritionWaterAutoRecover" AddV="0.4"/>
+		</Properties>
+	</Modifier>
+
+
+	<Modifier Name="Modifier_Mutation_Yang_NutritionConsumeConstant_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>变得不容易饿</Desc>
+		<Properties>
+			<li Name="NutritionConsumeConstant" AddP="-0.2"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_NutritionConsumeConstant_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>变得更容易饿</Desc>
+		<Properties>
+			<li Name="NutritionConsumeConstant" AddP="0.2"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_FatigueConsumeConstant_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>变得不容易疲劳</Desc>
+		<Properties>
+			<li Name="FatigueConsumeConstant" AddP="-0.2"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_FatigueConsumeConstant_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>变得更容易疲劳</Desc>
+		<Properties>
+			<li Name="FatigueConsumeConstant" AddP="0.2"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_WaterConsumeConstant_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>变得不容易口渴</Desc>
+		<Properties>
+			<li Name="WaterConsumeConstant" AddP="-0.2"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_WaterConsumeConstant_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>变得更容易口渴</Desc>
+		<Properties>
+			<li Name="WaterConsumeConstant" AddP="0.2"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_MoveSpeed_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>略微提高移动速度</Desc>
+		<Properties>
+			<li Name="MoveSpeed" AddP="0.15"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_MoveSpeed_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>提高移动速度</Desc>
+		<Properties>
+			<li Name="MoveSpeed" AddP="0.3"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_MoveSpeed_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅提高移动速度</Desc>
+		<Properties>
+			<li Name="MoveSpeed" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_MoveSpeed_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>略微降低移动速度</Desc>
+		<Properties>
+			<li Name="MoveSpeed" AddP="-0.15"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_MoveSpeed_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>降低移动速度</Desc>
+		<Properties>
+			<li Name="MoveSpeed" AddP="-0.3"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_MoveSpeed_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅降低移动速度</Desc>
+		<Properties>
+			<li Name="MoveSpeed" AddP="-0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_GlobalEfficiency_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>略微提高全局工作效率</Desc>
+		<Properties>
+			<li Name="GlobalEfficiency" AddP="0.15"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yang_GlobalEfficiency_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>提高全局工作效率</Desc>
+		<Properties>
+			<li Name="GlobalEfficiency" AddP="0.3"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yang_GlobalEfficiency_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅提高全局工作效率</Desc>
+		<Properties>
+			<li Name="GlobalEfficiency" AddP="0.75"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_GlobalEfficiency_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>略微降低全局工作效率</Desc>
+		<Properties>
+			<li Name="GlobalEfficiency" AddP="-0.15"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yin_GlobalEfficiency_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>降低全局工作效率</Desc>
+		<Properties>
+			<li Name="GlobalEfficiency" AddP="-0.3"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yin_GlobalEfficiency_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅降低全局工作效率</Desc>
+		<Properties>
+			<li Name="GlobalEfficiency" AddP="-0.75"/>
+		</Properties>
+	</Modifier>
+
+
+	<Modifier Name="Modifier_Mutation_Yang_IntelligenceSkillEXPConstant_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>提高学习速度</Desc>
+		<Properties>
+			<li Name="IntelligenceSkillEXPConstant" AddP="0.2"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yang_IntelligenceSkillEXPConstant_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅提高学习速度</Desc>
+		<Properties>
+			<li Name="IntelligenceSkillEXPConstant" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_IntelligenceSkillEXPConstant_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>降低学习速度</Desc>
+		<Properties>
+			<li Name="IntelligenceSkillEXPConstant" AddP="-0.2"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yin_IntelligenceSkillEXPConstant_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅降低学习速度</Desc>
+		<Properties>
+			<li Name="IntelligenceSkillEXPConstant" AddP="-0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_AbilityLvAddV_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>略微减少道行加值</Desc>
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yang_AbilityLvAddV_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>减少道行加值</Desc>
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="-25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yang_AbilityLvAddV_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅减少道行加值</Desc>
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="-60"/>
+		</Properties>
+	</Modifier>
+
+
+	<Modifier Name="Modifier_Mutation_Yin_AbilityLvAddV_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>略微增加道行加值</Desc>
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yin_AbilityLvAddV_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>增加道行加值</Desc>
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yin_AbilityLvAddV_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅增加道行加值</Desc>
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="60"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_ComfyTMax_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>提高对高温的适应</Desc>
+		<Properties>
+			<li Name="ComfyTMax" AddV="150"/>
+			<li Name="ToleranceTMax" AddV="150"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_ComfyTMax_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>降低对高温的适应</Desc>
+		<Properties>
+			<li Name="ComfyTMax" AddV="-50"/>
+			<li Name="ToleranceTMax" AddV="-50"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_ComfyTMin_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>提高对低温的适应</Desc>
+		<Properties>
+			<li Name="ComfyTMin" AddV="-90"/>
+			<li Name="ToleranceTMin" AddV="-90"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_ComfyTMin_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>降低对低温的适应</Desc>
+		<Properties>
+			<li Name="ComfyTMin" AddV="15"/>
+			<li Name="ToleranceTMin" AddV="15"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_DanMake_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>角色丹药炼制速度、成功率、产量大幅提高</Desc>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="0.3"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="0.3"/>
+			<li Name="DanMake_YieldAddP" AddV="0.225"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_DanMake_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>角色丹药炼制速度、成功率、产量大幅降低</Desc>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="-0.3"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="-0.3"/>
+			<li Name="DanMake_YieldAddP" AddV="-0.225"/>
+		</Properties>
+	</Modifier>
+
+
+
+	<Modifier Name="Modifier_Mutation_Yang_FabaoMake_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>角色法宝炼制速度、成功率、品阶、品质以及神器练成几率大幅提高</Desc>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="0.2"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.2"/>
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="0.2"/>
+			<li Name="FabaoMake_QualityAddV" AddV="0.05"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.04"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_FabaoMake_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>角色法宝炼制速度、成功率、品阶、品质以及神器练成几率大幅降低</Desc>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="-0.2"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="-0.2"/>
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="-0.2"/>
+			<li Name="FabaoMake_QualityAddV" AddV="-0.05"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="-0.04"/>
+		</Properties>
+	</Modifier>
+
+
+	<Modifier Name="Modifier_Mutation_Yang_Treatment_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>角色治疗速度、治疗效果大幅提高</Desc>
+		<Properties>
+			<li Name="DrugProductSpeed" AddP="0.2"/>
+			<li Name="TreatmentExpectQuality" AddP="0.2"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Treatment_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>角色治疗速度、治疗效果大幅降低</Desc>
+		<Properties>
+			<li Name="DrugProductSpeed" AddP="-0.2"/>
+			<li Name="TreatmentExpectQuality" AddP="-0.2"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Butcher_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>角色屠宰速度、屠宰产量大幅提高</Desc>
+		<Properties>
+			<li Name="ButcherSpeed" AddP="0.2"/>
+			<li Name="ButcherYieldEfficiency" AddP="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Butcher_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>角色屠宰速度、屠宰产量大幅降低</Desc>
+		<Properties>
+			<li Name="ButcherSpeed" AddP="-0.2"/>
+			<li Name="ButcherYieldEfficiency" AddP="-0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Cooking_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>角色烹饪速度、烹饪技能等级大幅提高</Desc>
+		<Properties>
+			<li Name="CookingSpeed" AddP="0.3"/>
+		</Properties>
+		<Skills>
+			<li Name="Cooking" LevelOver="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Cooking_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>角色烹饪速度、烹饪技能等级大幅降低</Desc>
+		<Properties>
+			<li Name="CookingSpeed" AddP="-0.3"/>
+		</Properties>
+		<Skills>
+			<li Name="Cooking" Level="-2"/>
+		</Skills>
+	</Modifier>
+
+
+	<Modifier Name="Modifier_Mutation_Yang_ConstructionSpeed_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>角色建造速度、版筑技能等级大幅提高</Desc>
+		<Properties>
+			<li Name="ConstructionSpeed" AddP="0.2"/>
+		</Properties>
+		<Skills>
+			<li Name="Building" LevelOver="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_ConstructionSpeed_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>角色建造速度、版筑技能等级大幅降低</Desc>
+		<Properties>
+			<li Name="ConstructionSpeed" AddP="-0.2"/>
+		</Properties>
+		<Skills>
+			<li Name="Building" Level="-2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Mining_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>角色采掘速度、采掘产量大幅提高</Desc>
+		<Properties>
+			<li Name="MiningSpeed" AddP="0.2"/>
+			<li Name="MiningYieldEfficiency" AddP="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Mining_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>角色采掘速度、采掘产量大幅降低</Desc>
+		<Properties>
+			<li Name="MiningSpeed" AddP="-0.2"/>
+			<li Name="MiningYieldEfficiency" AddP="-0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Coolie_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>角色救灾速度、清洁速度、移动速度大幅提高</Desc>
+		<Properties>
+			<li Name="DisasterFightingSpeed" AddP="0.2"/>
+			<li Name="CleanSpeed" AddP="0.2"/>
+			<li Name="MoveSpeed" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Coolie_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>角色救灾速度、清洁速度、移动速度大幅降低</Desc>
+		<Properties>
+			<li Name="DisasterFightingSpeed" AddP="-0.2"/>
+			<li Name="CleanSpeed" AddP="-0.2"/>
+			<li Name="MoveSpeed" AddP="-0.5"/>
+		</Properties>
+	</Modifier>
+
+
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>战斗技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Fight" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>战斗技能等级+1</Desc>
+		<Skills>
+			<li Name="Fight" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>战斗技能等级+2</Desc>
+		<Skills>
+			<li Name="Fight" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_4" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>处世技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="SocialContact" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_5" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>处世技能等级+1</Desc>
+		<Skills>
+			<li Name="SocialContact" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_6" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>处世技能等级+2</Desc>
+		<Skills>
+			<li Name="SocialContact" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_7" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>雅艺技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Art" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_8" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>雅艺技能等级+1</Desc>
+		<Skills>
+			<li Name="Art" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_9" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>雅艺技能等级+2</Desc>
+		<Skills>
+			<li Name="Art" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_10" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>气感技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Qi" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_11" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>气感技能等级+1</Desc>
+		<Skills>
+			<li Name="Qi" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_12" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>气感技能等级+2</Desc>
+		<Skills>
+			<li Name="Qi" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_13" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>巧匠/炼器技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Manual" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_14" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>巧匠/炼器技能等级+1</Desc>
+		<Skills>
+			<li Name="Manual" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_15" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>巧匠/炼器技能等级+2</Desc>
+		<Skills>
+			<li Name="Manual" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_16" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>岐黄/炼丹技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Medicine" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_17" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>岐黄/炼丹技能等级+1</Desc>
+		<Skills>
+			<li Name="Medicine" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_18" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>岐黄/炼丹技能等级+2</Desc>
+		<Skills>
+			<li Name="Medicine" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_19" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>御器技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Fabao" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_20" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>御器技能等级+1</Desc>
+		<Skills>
+			<li Name="Fabao" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_21" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>御器技能等级+2</Desc>
+		<Skills>
+			<li Name="Fabao" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_22" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>术法技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="FightSkill" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_23" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>术法技能等级+1</Desc>
+		<Skills>
+			<li Name="FightSkill" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_24" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>术法技能等级+2</Desc>
+		<Skills>
+			<li Name="FightSkill" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_25" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>护体技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Barrier" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_26" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>护体技能等级+1</Desc>
+		<Skills>
+			<li Name="Barrier" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_27" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>护体技能等级+2</Desc>
+		<Skills>
+			<li Name="Barrier" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_28" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>阵法技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Zhen" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_29" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>阵法技能等级+1</Desc>
+		<Skills>
+			<li Name="Zhen" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_30" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>阵法技能等级+2</Desc>
+		<Skills>
+			<li Name="Zhen" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_31" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>采掘技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Mining" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_32" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>采掘技能等级+1</Desc>
+		<Skills>
+			<li Name="Mining" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_33" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>采掘技能等级+2</Desc>
+		<Skills>
+			<li Name="Mining" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_34" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>耕作技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Farming" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_35" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>耕作技能等级+1</Desc>
+		<Skills>
+			<li Name="Farming" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_36" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>耕作技能等级+2</Desc>
+		<Skills>
+			<li Name="Farming" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_37" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>版筑技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Building" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_38" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>版筑技能等级+1</Desc>
+		<Skills>
+			<li Name="Building" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_39" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>版筑技能等级+2</Desc>
+		<Skills>
+			<li Name="Building" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_40" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>烹饪技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Cooking" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_41" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>烹饪技能等级+1</Desc>
+		<Skills>
+			<li Name="Cooking" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Skills_42" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>烹饪技能等级+2</Desc>
+		<Skills>
+			<li Name="Cooking" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>战斗技能等级-1</Desc>
+		<Skills>
+			<li Name="Fight" Level="-1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>战斗技能等级-2</Desc>
+		<Skills>
+			<li Name="Fight" Level="-2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>战斗技能等级-3</Desc>
+		<Skills>
+			<li Name="Fight" Level="-3"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_4" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>处世技能等级-1</Desc>
+		<Skills>
+			<li Name="SocialContact" Level="-1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_5" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>处世技能等级-2</Desc>
+		<Skills>
+			<li Name="SocialContact" Level="-2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_6" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>处世技能等级-3</Desc>
+		<Skills>
+			<li Name="SocialContact" Level="-3"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_7" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>雅艺技能等级-1</Desc>
+		<Skills>
+			<li Name="Art" Level="-1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_8" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>雅艺技能等级-2</Desc>
+		<Skills>
+			<li Name="Art" Level="-2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_9" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>雅艺技能等级-3</Desc>
+		<Skills>
+			<li Name="Art" Level="-3"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_10" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>气感技能等级-1</Desc>
+		<Skills>
+			<li Name="Qi" Level="-1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_11" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>气感技能等级-2</Desc>
+		<Skills>
+			<li Name="Qi" Level="-2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_12" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>气感技能等级-3</Desc>
+		<Skills>
+			<li Name="Qi" Level="-3"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_13" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>巧匠/炼器技能等级-1</Desc>
+		<Skills>
+			<li Name="Manual" Level="-1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_14" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>巧匠/炼器技能等级-2</Desc>
+		<Skills>
+			<li Name="Manual" Level="-2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_15" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>巧匠/炼器技能等级-3</Desc>
+		<Skills>
+			<li Name="Manual" Level="-3"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_16" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>岐黄/炼丹技能等级-1</Desc>
+		<Skills>
+			<li Name="Medicine" Level="-1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_17" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>岐黄/炼丹技能等级-2</Desc>
+		<Skills>
+			<li Name="Medicine" Level="-2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_18" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>岐黄/炼丹技能等级-3</Desc>
+		<Skills>
+			<li Name="Medicine" Level="-3"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_19" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>御器技能等级-1</Desc>
+		<Skills>
+			<li Name="Fabao" Level="-1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_20" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>御器技能等级-2</Desc>
+		<Skills>
+			<li Name="Fabao" Level="-2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_21" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>御器技能等级-3</Desc>
+		<Skills>
+			<li Name="Fabao" Level="-3"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_22" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>术法技能等级-1</Desc>
+		<Skills>
+			<li Name="FightSkill" Level="-1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_23" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>术法技能等级-2</Desc>
+		<Skills>
+			<li Name="FightSkill" Level="-2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_24" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>术法技能等级-3</Desc>
+		<Skills>
+			<li Name="FightSkill" Level="-3"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_25" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>护体技能等级-1</Desc>
+		<Skills>
+			<li Name="Barrier" Level="-1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_26" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>护体技能等级-2</Desc>
+		<Skills>
+			<li Name="Barrier" Level="-2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_27" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>护体技能等级-3</Desc>
+		<Skills>
+			<li Name="Barrier" Level="-3"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_28" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>阵法技能等级-1</Desc>
+		<Skills>
+			<li Name="Zhen" Level="-1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_29" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>阵法技能等级-2</Desc>
+		<Skills>
+			<li Name="Zhen" Level="-2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_30" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>阵法技能等级-3</Desc>
+		<Skills>
+			<li Name="Zhen" Level="-3"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_31" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>采掘技能等级-1</Desc>
+		<Skills>
+			<li Name="Mining" Level="-1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_32" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>采掘技能等级-2</Desc>
+		<Skills>
+			<li Name="Mining" Level="-2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_33" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>采掘技能等级-3</Desc>
+		<Skills>
+			<li Name="Mining" Level="-3"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_34" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>耕作技能等级-1</Desc>
+		<Skills>
+			<li Name="Farming" Level="-1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_35" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>耕作技能等级-2</Desc>
+		<Skills>
+			<li Name="Farming" Level="-2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_36" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>耕作技能等级-3</Desc>
+		<Skills>
+			<li Name="Farming" Level="-3"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_37" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>版筑技能等级-1</Desc>
+		<Skills>
+			<li Name="Building" Level="-1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_38" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>版筑技能等级-2</Desc>
+		<Skills>
+			<li Name="Building" Level="-2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_39" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>版筑技能等级-3</Desc>
+		<Skills>
+			<li Name="Building" Level="-3"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_40" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>烹饪技能等级-1</Desc>
+		<Skills>
+			<li Name="Cooking" Level="-1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_41" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>烹饪技能等级-2</Desc>
+		<Skills>
+			<li Name="Cooking" Level="-2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_Skills_42" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>烹饪技能等级-3</Desc>
+		<Skills>
+			<li Name="Cooking" Level="-3"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_Quenching_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>角色淬体速度、淬体出现高级进化的概率大幅提高</Desc>
+		<Properties>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="5"/>
+			<li Name="BodyPractice_RollAddtion_Cache1" AddV="0.5"/>
+			<li Name="BodyPractice_RollAddtion_Cache2" AddV="2"/>
+			<li Name="BodyPractice_RollAddtion_Cache3" AddV="3"/>
+			<li Name="BodyPractice_RollAddtion_Cache4" AddV="5"/>
+		</Properties>
+	</Modifier>
+
+
+
+
+	<Modifier Name="Modifier_Mutation_Yang_ZhenEnginePower_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>提高阵法负荷能力</Desc>
+		<Properties>
+			<li Name="NpcFight_ZhenEnginePower" AddV="1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yang_ZhenEnginePower_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅提高阵法负荷能力</Desc>
+		<Properties>
+			<li Name="NpcFight_ZhenEnginePower" AddV="3"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_ZhenEnginePower_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>降低阵法负荷能力</Desc>
+		<Properties>
+			<li Name="NpcFight_ZhenEnginePower" AddV="-1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_ShieldResistance_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>提高全属性伤害减免</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_ShieldResistance_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>提高金属性伤害减免</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_ShieldResistance_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>提高木属性伤害减免</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_ShieldResistance_4" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>提高水属性伤害减免</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_ShieldResistance_5" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>提高火属性伤害减免</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_ShieldResistance_6" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>提高土属性伤害减免</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_ShieldResistance_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>降低全属性伤害减免</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="-0.1"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="-0.1"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="-0.1"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="-0.1"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="-0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_ShieldResistance_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>降低金属性伤害减免</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="-0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_ShieldResistance_3" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>降低木属性伤害减免</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="-0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_ShieldResistance_4" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>降低水属性伤害减免</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="-0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_ShieldResistance_5" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>降低火属性伤害减免</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="-0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yin_ShieldResistance_6" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>降低土属性伤害减免</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="-0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Yang_BasepracticeSpeed_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>提高筑基速度</Desc>
+		<Properties>
+			<li Name="BasepracticeSpeedCoefficient" AddP="0.2"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yang_BasepracticeSpeed_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅提高筑基速度</Desc>
+		<Properties>
+			<li Name="BasepracticeSpeedCoefficient" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+
+
+	<Modifier Name="Modifier_Mutation_Yin_BasepracticeSpeed_1" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>降低筑基速度</Desc>
+		<Properties>
+			<li Name="BasepracticeSpeedCoefficient" AddP="-0.2"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Yin_BasepracticeSpeed_2" Type="Normal" Parent="Modifier_Mutation_YinYangBase">
+		<Desc>大幅降低筑基速度</Desc>
+		<Properties>
+			<li Name="BasepracticeSpeedCoefficient" AddP="-0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_BaseFive_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>魅力提高1成</Desc>
+		<BaseFive>0,0,1,0,0</BaseFive>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_Mutation_Unstable_BaseFive_2" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>魅力提高2成</Desc>
+		<BaseFive>0,0,2,0,0</BaseFive>
+	</Modifier> 
+
+	<Modifier Name="Modifier_Mutation_Unstable_BaseFive_3" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>魅力提高3成</Desc>
+		<BaseFive>0,0,3,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_BaseFive_4" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>悟性提高1成</Desc>
+		<BaseFive>0,0,0,1,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_BaseFive_5" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>悟性提高2成</Desc>
+		<BaseFive>0,0,0,2,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_BaseFive_6" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>悟性提高3成</Desc>
+		<BaseFive>0,0,0,3,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_BaseFive_7" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>机缘提高1成</Desc>
+		<BaseFive>0,0,0,0,1</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_BaseFive_8" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>机缘提高2成</Desc>
+		<BaseFive>0,0,0,0,2</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_BaseFive_9" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>机缘提高3成</Desc>
+		<BaseFive>0,0,0,0,3</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_BaseFive_10" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>神识提高1成</Desc>
+		<BaseFive>1,0,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_BaseFive_11" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>神识提高2成</Desc>
+		<BaseFive>2,0,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_BaseFive_12" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>神识提高3成</Desc>
+		<BaseFive>3,0,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_BaseFive_13" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>根骨提高1成</Desc>
+		<BaseFive>0,1,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_BaseFive_14" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>根骨提高2成</Desc>
+		<BaseFive>0,2,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_BaseFive_15" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>根骨提高3成</Desc>
+		<BaseFive>0,3,0,0,0</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_BaseFive_16" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>五维提高1成</Desc>
+		<BaseFive>1,1,1,1,1</BaseFive>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_LingAbsorbSpeed_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>小幅提高自身灵气恢复速度</Desc>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_LingAbsorbSpeed_2" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>提高自身灵气恢复速度</Desc>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="0.2"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_LingAbsorbSpeed_3" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>大幅提高自身灵气恢复速度</Desc>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_NpcLingMaxValue_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>提高灵气上限。</Desc>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="0.1"/>
+			<li Name="NpcLingMaxValue" AddV="500"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_NpcLingMaxValue_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>从根本上提高10%灵气上限</Desc>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddP="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_NpcFight_ShieldConversionRate_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>修改护体真气强度</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddP="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_MaxAge_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>修改寿命上限</Desc>
+		<Properties>
+			<li Name="MaxAge" AddV="50"/>
+		</Properties>
+	</Modifier>
+
+
+
+	<Modifier Name="Modifier_Mutation_Unstable_PracticeRateAddPFromDan_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>修改瓶颈突破概率</Desc>
+		<Properties>
+			<li Name="PracticeRateAddPFromDan" AddP="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_DeepPracticeSpeedSpecialCoefficient_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>修改修炼速度</Desc>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.25"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_MindStateBaseValue_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>修改心境基础值</Desc>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="20"/>
+		</Properties>
+	</Modifier>
+
+
+
+	<Modifier Name="Modifier_Mutation_Unstable_NutritionWaterAutoRecover_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>略微提高饮气辟谷的能力，自动回复饮食度</Desc>
+		<Properties>
+			<li Name="NutritionWaterAutoRecover" AddV="0.05"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Unstable_NutritionWaterAutoRecover_2" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>提高饮气辟谷的能力，自动回复饮食度</Desc>
+		<Properties>
+			<li Name="NutritionWaterAutoRecover" AddV="0.15"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Unstable_NutritionWaterAutoRecover_3" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>大幅提高饮气辟谷的能力，自动回复饮食度</Desc>
+		<Properties>
+			<li Name="NutritionWaterAutoRecover" AddV="0.3"/>
+		</Properties>
+	</Modifier>
+
+
+	<Modifier Name="Modifier_Mutation_Unstable_NutritionConsumeConstant_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>修改饥饿速度</Desc>
+		<Properties>
+			<li Name="NutritionConsumeConstant" AddP="-0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_FatigueConsumeConstant_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>修改疲劳速度</Desc>
+		<Properties>
+			<li Name="FatigueConsumeConstant" AddP="-0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_WaterConsumeConstant_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>修改饮水消耗速度</Desc>
+		<Properties>
+			<li Name="WaterConsumeConstant" AddP="-0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_MoveSpeed_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>修改移动速度</Desc>
+		<Properties>
+			<li Name="MoveSpeed" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+
+
+	<Modifier Name="Modifier_Mutation_Unstable_GlobalEfficiency_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>修改工作效率</Desc>
+		<Properties>
+			<li Name="GlobalEfficiency" AddP="0.3"/>
+		</Properties>
+	</Modifier>
+
+
+	<Modifier Name="Modifier_Mutation_Unstable_NeckCountdownAddV_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>推迟天劫</Desc>
+		<Properties>
+			<li Name="NeckCountdownAddV" AddV="18000"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_IntelligenceSkillEXPConstant_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>修改学习速度</Desc>
+		<Properties>
+			<li Name="IntelligenceSkillEXPConstant" AddP="0.05"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Unstable_IntelligenceSkillEXPConstant_2" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>修改学习速度</Desc>
+		<Properties>
+			<li Name="IntelligenceSkillEXPConstant" AddP="0.1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Unstable_IntelligenceSkillEXPConstant_3" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>修改学习速度</Desc>
+		<Properties>
+			<li Name="IntelligenceSkillEXPConstant" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_InspirationCoefficient_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>更容易领悟</Desc>
+		<Properties>
+				<li Name="InspirationCoefficient" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_ComfyTMax_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>提高对高温的适应</Desc>
+		<Properties>
+			<li Name="ComfyTMax" AddV="50"/>
+			<li Name="ToleranceTMax" AddV="50"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_ComfyTMin_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>提高对低温的适应</Desc>
+		<Properties>
+			<li Name="ComfyTMin" AddV="-25"/>
+			<li Name="ToleranceTMin" AddV="-25"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_DanMake_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色丹药炼制速度、成功率、产量大幅提高</Desc>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="0.3"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="0.2"/>
+			<li Name="DanMake_YieldAddP" AddV="0.225"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_FabaoMake_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色法宝炼制速度、成功率、品阶、品质以及神器练成几率大幅提高</Desc>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="0.2"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.15"/>
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="0.2"/>
+			<li Name="FabaoMake_QualityAddV" AddV="0.05"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.04"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Treatment_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色治疗速度、治疗效果大幅提高</Desc>
+		<Properties>
+			<li Name="DrugProductSpeed" AddP="0.2"/>
+			<li Name="TreatmentExpectQuality" AddP="0.3"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Butcher_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色屠宰速度、屠宰产量大幅提高</Desc>
+		<Properties>
+			<li Name="ButcherSpeed" AddP="0.2"/>
+			<li Name="ButcherYieldEfficiency" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Cooking_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色烹饪速度大幅提高</Desc>
+		<Properties>
+			<li Name="CookingSpeed" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Handwork_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色切石速度、锻造速度、手工速度、缝纫速度、制作品质加值大幅提高</Desc>
+		<Properties>
+			<li Name="StoneWorkSpeed" AddP="0.2"/>
+			<li Name="SmithingSpeed" AddP="0.2"/>
+			<li Name="HandworkSpeed" AddP="0.2"/>
+			<li Name="TailoringSpeed" AddP="0.2"/>
+			<li Name="MadeQualityAddValue" AddV="0.025"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_ConstructionSpeed_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色建造速度大幅提高</Desc>
+		<Properties>
+			<li Name="ConstructionSpeed" AddP="2"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_PlantWork_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色种植速度、收获速度、割除速度、收获产量大幅提高</Desc>
+		<Properties>
+			<li Name="PlantWorkSpeed" AddP="0.2"/>
+			<li Name="PlantHarvestSpeed" AddP="0.2"/>
+			<li Name="CuttingSpeed" AddP="0.2"/>
+			<li Name="PlantHarvestYieldEfficiency" AddP="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Mining_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色采掘速度、采掘产量大幅提高</Desc>
+		<Properties>
+			<li Name="MiningSpeed" AddP="3"/>
+			<li Name="MiningYieldEfficiency" AddP="0.3"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Coolie_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色救灾速度、清洁速度、移动速度大幅提高</Desc>
+		<Properties>
+			<li Name="DisasterFightingSpeed" AddP="0.2"/>
+			<li Name="CleanSpeed" AddP="0.5"/>
+			<li Name="MoveSpeed" AddP="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Experience_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色历练飞行速度、历练声望放大系数、历练探索速度、潜行值大幅提高</Desc>
+		<Properties>
+			<li Name="WorldMapFlySpeedAddP" AddV="6"/>
+			<li Name="ExperiencePrestigeAddP" AddV="0.1"/>
+			<li Name="ExperienceFindSpeedAddV" AddV="0.5"/>
+			<li Name="NpcFight_SneakValue" AddV="5"/>			
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色战斗技能等级+1</Desc>
+		<Skills>
+			<li Name="Fight" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_2" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色战斗技能等级+2</Desc>
+		<Skills>
+			<li Name="Fight" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_3" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色战斗技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Fight" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_4" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色处世技能等级+1</Desc>
+		<Skills>
+			<li Name="SocialContact" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_5" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色处世技能等级+2</Desc>
+		<Skills>
+			<li Name="SocialContact" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_6" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色处世技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="SocialContact" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_7" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色雅艺技能等级+1</Desc>
+		<Skills>
+			<li Name="Art" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_8" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色雅艺技能等级+2</Desc>
+		<Skills>
+			<li Name="Art" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_9" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色雅艺技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Art" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_10" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色气感技能等级+1</Desc>
+		<Skills>
+			<li Name="Qi" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_11" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色气感技能等级+2</Desc>
+		<Skills>
+			<li Name="Qi" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_12" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色气感技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Qi" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_13" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色巧匠/炼器技能等级+1</Desc>
+		<Skills>
+			<li Name="Manual" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_14" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色巧匠/炼器技能等级+2</Desc>
+		<Skills>
+			<li Name="Manual" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_15" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色巧匠/炼器技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Manual" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_16" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色岐黄/炼丹技能等级+1</Desc>
+		<Skills>
+			<li Name="Medicine" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_17" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色岐黄/炼丹技能等级+2</Desc>
+		<Skills>
+			<li Name="Medicine" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_18" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色岐黄/炼丹技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Medicine" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_19" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色御器技能等级+1</Desc>
+		<Skills>
+			<li Name="Fabao" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_20" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色御器技能等级+2</Desc>
+		<Skills>
+			<li Name="Fabao" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_21" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色御器技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Fabao" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_22" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色术法技能等级+1</Desc>
+		<Skills>
+			<li Name="FightSkill" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_23" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色术法技能等级+2</Desc>
+		<Skills>
+			<li Name="FightSkill" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_24" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色术法技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="FightSkill" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_25" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色护体技能等级+1</Desc>
+		<Skills>
+			<li Name="Barrier" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_26" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色护体技能等级+2</Desc>
+		<Skills>
+			<li Name="Barrier" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_27" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色护体技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Barrier" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_28" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色阵法技能等级+1</Desc>
+		<Skills>
+			<li Name="Zhen" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_29" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色阵法技能等级+2</Desc>
+		<Skills>
+			<li Name="Zhen" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_30" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色阵法技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Zhen" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_31" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色采掘技能等级+1</Desc>
+		<Skills>
+			<li Name="Mining" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_32" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色采掘技能等级+2</Desc>
+		<Skills>
+			<li Name="Mining" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_33" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色采掘技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Mining" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_34" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色耕作技能等级+1</Desc>
+		<Skills>
+			<li Name="Farming" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_35" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色耕作技能等级+2</Desc>
+		<Skills>
+			<li Name="Farming" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_36" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色耕作技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Farming" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_37" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色版筑技能等级+1</Desc>
+		<Skills>
+			<li Name="Building" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_38" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色版筑技能等级+2</Desc>
+		<Skills>
+			<li Name="Building" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_39" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色版筑技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Building" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_40" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色烹饪技能等级+1</Desc>
+		<Skills>
+			<li Name="Cooking" Level="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_41" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色烹饪技能等级+2</Desc>
+		<Skills>
+			<li Name="Cooking" Level="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Skills_42" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色烹饪技能等级+1（提高上限）</Desc>
+		<Skills>
+			<li Name="Cooking" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Quenching_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色淬体速度、淬体出现高级进化的概率大幅提高</Desc>
+		<Properties>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="5"/>
+			<li Name="BodyPractice_RollAddtion_Cache1" AddV="0.5"/>
+			<li Name="BodyPractice_RollAddtion_Cache2" AddV="2"/>
+			<li Name="BodyPractice_RollAddtion_Cache3" AddV="3"/>
+			<li Name="BodyPractice_RollAddtion_Cache4" AddV="5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_Tuna_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>略微提高角色吐纳效率</Desc>
+		<Properties>
+			<li Name="BodyPractice_Other_TunaAddp" AddV="0.01"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Unstable_Tuna_2" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>大幅提高角色吐纳效率</Desc>
+		<Properties>
+			<li Name="BodyPractice_Other_TunaAddp" AddV="0.2"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_RecoveryPower_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>提高身体自然恢复力</Desc>
+		<Properties>
+			<li Name="RecoveryPower" AddP="0.15"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Unstable_VisionRadius_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>提高自身感知范围</Desc>
+		<Properties>
+			<li Name="VisionRadius" AddP="0.15"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_ZhenEnginePower_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色阵法负荷能力大幅提高</Desc>
+		<Properties>
+			<li Name="NpcFight_ZhenEnginePower" AddV="2"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_ShieldResistance_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色全属性伤害减免大幅提高</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_ShieldResistance_2" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色金属性伤害减免大幅提高</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_ShieldResistance_3" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色木属性伤害减免大幅提高</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_ShieldResistance_4" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色水属性伤害减免大幅提高</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_ShieldResistance_5" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色火属性伤害减免大幅提高</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_ShieldResistance_6" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色土属性伤害减免大幅提高</Desc>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_BasepracticeSpeed_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色筑基速度略微提高</Desc>
+		<Properties>
+			<li Name="BasepracticeSpeedCoefficient" AddP="0.05"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Unstable_BasepracticeSpeed_2" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色筑基速度提高</Desc>
+		<Properties>
+			<li Name="BasepracticeSpeedCoefficient" AddP="0.1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Unstable_BasepracticeSpeed_3" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>角色筑基速度大幅提高</Desc>
+		<Properties>
+			<li Name="BasepracticeSpeedCoefficient" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_AbilityLvAddV_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>减少道行加值</Desc>
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Unstable_AbilityLvAddV_2" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>减少道行加值</Desc>
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="-30"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_AbilityLvAddV_3" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>增加道行加值</Desc>
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Unstable_AbilityLvAddV_4" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>增加道行加值</Desc>
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="30"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Constant_AgeCostSpeed_1" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>大幅度加速寿元流逝速度</Desc>
+		<Properties>
+			<li Name="AgeCostSpeed" AddP="99"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Unstable_FabaoNum_1" Type="Normal" Parent="Modifier_Mutation_UnstableBase">
+		<Desc>解锁1格法宝槽位</Desc>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Constant_Skills_1" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>所有技能等级＋2（提高上限）</Desc>
+		<Skills>
+			<li Name="Qi" LevelOver="2"/>
+			<li Name="Medicine" LevelOver="2"/>
+			<li Name="Manual" LevelOver="2"/>
+			<li Name="Art" LevelOver="2"/>
+			<li Name="SocialContact" LevelOver="2"/>
+			<li Name="Building" Level="2"/>
+			<li Name="Mining" Level="2"/>
+			<li Name="Fight" LevelOver="2"/>
+			<li Name="Barrier" LevelOver="2"/>
+			<li Name="FightSkill" LevelOver="2"/>
+			<li Name="Cooking" LevelOver="2"/>
+			<li Name="Farming" LevelOver="2"/>
+			<li Name="Zhen" LevelOver="2"/>
+			<li Name="Fabao" LevelOver="2"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Constant_Skills_2" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>炼丹技能等级＋5（提高上限）</Desc>
+		<Skills>
+			<li Name="Medicine" LevelOver="5"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Constant_Skills_3" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>炼器技能等级＋5（提高上限）</Desc>
+		<Skills>
+			<li Name="Manual" LevelOver="5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Constant_Skills_4" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>雅艺技能等级＋5（提高上限）</Desc>
+		<Skills>
+			<li Name="Art" LevelOver="5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Constant_Skills_5" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>处世技能等级＋5（提高上限）</Desc>
+		<Skills>
+			<li Name="SocialContact" LevelOver="5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Constant_Skills_6" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>版筑技能等级＋10</Desc>
+		<Skills>
+			<li Name="Building" Level="10"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Constant_Skills_7" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>金石技能等级＋10</Desc>
+		<Skills>
+			<li Name="Mining" Level="10"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Constant_Skills_8" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>处世技能等级－5</Desc>
+		<Skills>
+			<li Name="SocialContact" Level="-5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Constant_Skills_9" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>战斗技能等级＋5（提高上限）</Desc>
+		<Skills>
+			<li Name="Fight" LevelOver="5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Constant_Skills_10" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>气感技能等级＋10</Desc>
+		<Skills>
+			<li Name="Qi" Level="10"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Constant_Skills_11" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>战斗技能－5</Desc>
+		<Skills>
+			<li Name="Fight" Level="-5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Constant_Skills_12" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>护体技能＋5（提高上限）</Desc>
+		<Skills>
+			<li Name="Barrier" LevelOver="5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Constant_Skills_13" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>术法技能＋10（提高上限）</Desc>
+		<Skills>
+			<li Name="FightSkill" LevelOver="10"/>
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Constant_DeepPracticeSpeedSpecialCoefficient_2" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>大幅度降低修炼速度</Desc>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Constant_MaxAge_1" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>增加寿元上限</Desc>
+		<Properties>
+			<li Name="MaxAge" AddV="50"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Constant_ComfyTMin_1" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>降低对低温的适应</Desc>
+		<Properties>
+			<li Name="ComfyTMin" AddV="10"/>
+			<li Name="ToleranceTMin" AddV="20"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Constant_NpcLingMaxValue_1" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>从根本上提高灵气上限</Desc>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddP="0.1"/>
+			<li Name="NpcLingMaxValue" BAddV="150"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Constant_Quenching_1" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>角色吐纳速度、淬体速度、淬体出现高级进化的概率大幅降低</Desc>
+		<Properties>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="-5"/>
+			<li Name="BodyPractice_RollAddtion_Cache1" AddV="-0.5"/>
+			<li Name="BodyPractice_RollAddtion_Cache2" AddV="-2"/>
+			<li Name="BodyPractice_RollAddtion_Cache3" AddV="-3"/>
+			<li Name="BodyPractice_RollAddtion_Cache4" AddV="-5"/>
+			<li Name="BodyPractice_Other_TunaAddp" AddV="-0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Constant_Experience_1" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>角色历练飞行速度、历练声望放大系数、历练探索速度、潜行值大幅降低</Desc>
+		<Properties>
+			<li Name="WorldMapFlySpeedAddP" AddV="-6"/>
+			<li Name="ExperiencePrestigeAddP" AddV="-0.1"/>
+			<li Name="ExperienceFindSpeedAddV" AddV="-0.5"/>
+			<li Name="NpcFight_SneakValue" AddV="-5"/>			
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Constant_MindStateBaseValue_1" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>心境加值大幅降低</Desc>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="-20"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Constant_Handwork_1" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>角色切石速度、锻造速度、手工速度、缝纫速度、制作品质加值大幅降低</Desc>
+		<Properties>
+			<li Name="StoneWorkSpeed" AddP="-0.2"/>
+			<li Name="SmithingSpeed" AddP="-0.2"/>
+			<li Name="HandworkSpeed" AddP="-0.2"/>
+			<li Name="TailoringSpeed" AddP="-0.2"/>
+			<li Name="MadeQualityAddValue" AddV="-0.025"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Mutation_Constant_ConsumeConstant_1" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>角色更容易感到饥饿口渴与疲劳</Desc>
+		<Properties>
+			<li Name="NutritionConsumeConstant" AddP="0.3"/>
+			<li Name="WaterConsumeConstant" AddP="0.3"/>
+			<li Name="FatigueConsumeConstant" AddP="0.3"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Constant_BasepracticeSpeedCoefficient_1" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>临时提高筑基速度与修炼速度</Desc>
+		<Duration>6000</Duration>
+		<Properties>
+			<li Name="BasepracticeSpeedCoefficient" AddP="0.5"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Constant_BasepracticeSpeedCoefficient_2" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>大幅降低筑基速度与修炼速度</Desc>
+		<Properties>
+			<li Name="BasepracticeSpeedCoefficient" AddP="-0.8"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-0.8"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Constant_IntelligenceSkillEXPConstant_1" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>提高学习速度</Desc>
+		<Properties>
+			<li Name="IntelligenceSkillEXPConstant" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_Mutation_Constant_IntelligenceSkillEXPConstant_2" Type="Normal" Parent="Modifier_Mutation_ConstantBase">
+		<Desc>降低学习速度，御器技能等级＋5（提高上限）</Desc>
+		<Properties>
+			<li Name="IntelligenceSkillEXPConstant" AddP="-0.5"/>
+		</Properties>
+		<Skills>
+			<li Name="Fabao" LevelOver="5"/>
+		</Skills>
+	</Modifier>
+
+</List></ModifierDefs>

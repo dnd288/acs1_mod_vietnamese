@@ -1,0 +1,1581 @@
+ <!-- 
+        	
+    /// <summary>
+        /// 条件分类枚举   
+        /// </summary>
+        public enum g_emConditionType
+        {
+            None = 0,
+            
+            Eat,
+            /// <summary>
+            /// 食用普通物品                sParam1:名称（DefName 道具名）  sParam2:npc类型  sParam3:物品名称  nParam1:数量
+            ///                           ConditionValue: 食物数量
+            /// </summary>
+            EatItem,
+            /// <summary>
+            /// 食用丹药                   sParam1: Label道具标签  sParam2:npc类型 sParam3:物品名称  nParam1:数量
+            ///                           ConditionValue: 数量 
+            /// </summary>
+            EatLabel,
+            /// <summary>
+            /// 食用某种五行的道具           sParam1:ElementKind sParam2:npc类型 sParam3:物品名称  nParam1:数量
+            ///                           ConditionValue: 数量
+            /// </summary>
+            EatElementKind, 
+            
+            /// <summary>
+            /// 食用具有某种标签的道具       sParam1:TagName 标签名 sParam2:npc类型 sParam3:物品名称  nParam1:数量
+            ///                          ConditionValue: 数量
+            /// </summary>
+            EatTag,    
+            
+            /// <summary>
+            /// 受到指定伤害                sParam1:受到伤害名称  nParam1:数量
+            ///                          ConditionValue:受伤次数
+            /// </summary>
+            InjuryName,
+            
+            /// <summary>
+            /// 受到伤害部位               sParam1: 受伤部位名称 （g_emBodyPartKind）  sParam2:伤害类型 （g_emDamageLable）   fParam1:受伤程度数值    nParam1:数量
+            ///                          ConditionValue:
+            /// </summary>
+            InjuryPart,
+            
+            /// <summary>
+            /// 突破                      sParam1: 突破类型/方式 (g_emGongBottleNeckType)     sParam3:  StageLevel:突破等级     
+            ///                          ConditionValue:
+            /// </summary>
+            BrokenNeck,
+            /// <summary>
+            /// 恋爱                     sParam1:告白/被告白   g_emNpcInteractiveKind   sParam2:结果/成功和失败 g_emLoveResult  
+            ///                         ConditionValue:
+            /// </summary>
+            Love,
+            /// <summary>
+            /// 击败                     sParam1: 击杀类型      sParam2: 击杀目标    sParam3: 目标境界/境界等级    nParam1:数量
+            ///                         ConditionValue: 
+            /// </summary>
+            Kill,
+            /// <summary>
+            ///                          nParam1:数量
+            /// 打坐                     ConditionValue:
+            /// </summary>
+            DaZuo,
+            /// <summary>
+            /// 睡觉                     sParam1:睡觉地点   sParam2:睡眠质量     nParam1:睡觉时长
+            ///                         ConditionValue: 
+            /// </summary>
+            Sleep,  
+            /// <summary>
+            /// 交谈类                   sParam1:交谈子类型(闲聊/邀请/送礼  配置类型使用g_emTalkKind)  sParam2:交谈目标类型  sParam3:交谈目标境界等级  sParam4:交谈程度 （配置使用枚举g_emTalkExtent）   nParam1:数量
+            ///                         ConditionValue: 
+            /// </summary>
+            Talk,
+            /// <summary>
+            /// 门派声望风水相关数据         sParam1:数据类型   如提升等级/达到等级/提升点数据（配置使用 g_emSchoolDataChangeKind）   nParam1:数量
+            ///                          ConditionValue:
+            /// </summary>
+            School,
+            /// <summary>
+            /// 天气                     sParam1:天气类型    nParam1:数量
+            ///                         ConditionValue:
+            /// </summary>
+            Weather,
+            /// <summary>
+            /// 指定资产                  sParam1:指定资产名称      nParam1:数量
+            ///                         ConditionValue:
+            /// </summary>
+            SchoolAsset,
+
+        }
+        
+        /// <summary>
+        /// 交谈分类枚举
+        /// </summary>
+        public enum g_emTalkKind
+        {
+            None = 0,
+            JustTalk, //闲聊
+            Invite,   //邀请
+            SendGift, //送礼
+            Misc,     //其它
+            
+        }
+
+        /// <summary>
+        /// 交谈程度类型
+        /// </summary>
+        public enum g_emTalkExtent
+        {
+            None = 0,
+            Normal,     //普通任意
+            UnlockHeart,//破心防
+            Misc,       //其它
+        }
+        
+        public enum g_emSchoolDataChangeKind
+        {
+            None = 0,
+            ChangeLevelNum,       //提升了多少等级
+            UpgradeToLevelNum,    //提升到多少等级
+            ChangePointNum,       //提升了多少点数
+            UpgradeToPointNum,    //提升到多少点数
+            ChangeFengShui,    //风水改变
+            Misc,            //其它
+        }
+        
+
+        /// <summary>
+        /// 击杀子类型
+        /// </summary>
+        public enum g_emKillKind
+        {
+            None = 0,
+            Kill,
+            KillDie,
+        }
+
+        /// <summary>
+        /// 睡觉地点枚举
+        /// </summary>
+        public enum g_emSleepPlace
+        {
+            None = 0,
+            Bed,     //床上
+            Ground, //地面
+            Misc,   //其它
+        }
+
+        /// <summary>
+        /// 睡觉质量枚举
+        /// </summary>
+        public enum g_emSleepQuality
+        {
+            None = 0,
+            Good,    //完整睡觉
+            NotGood,     //不好
+            Misc,    //其它
+        }
+
+        /// <summary>
+        /// 表白结果枚举
+        /// </summary>
+        public enum g_emLoveResult
+        {
+            None = 0,
+            Success, //成功
+            Fail,    //失败
+        }
+
+
+    /// <summary>如何统计数据</summary>
+    public enum g_emMutationNpcStatsMode
+    {
+        None,
+        /// <summary>以高的为准</summary>
+        Max,
+        /// <summary>累加</summary>
+        Add,
+    }
+
+    /// <summary>统计数据的修改规则，需要跟另外一个配置值合起来用，假设值是v</summary>
+    public enum g_emMutationNpcStatsValueModifier
+    {
+        None,
+        /// <summary>不做修改，None是用来继承判断的</summary>
+        Keep,
+        /// <summary> 传入的值>v,1，否则0 </summary>
+        GreaterOne,
+        /// <summary> 传入的值除以v</summary>
+        ScaleV,
+        /// <summary> 传入的值除以v，并且向下取整</summary>
+        ScaleV_Floor,
+        /// <summary>用compareOp跟v比较，满足是1，否则是0</summary>
+        Check,
+    }
+
+        /// <summary>
+        /// 比较方式，仅对ValueModifyMode的Check生效
+        /// </summary>
+        [DefV(g_emCompareOp.Equal)]
+        public g_emCompareOp CompareOp = g_emCompareOp.Equal;
+
+        /// <summary>数据修改方式,跟<see cref="ValueModifyV"/>配合，仅对非Check生效</summary>
+        [DefV(g_emMutationNpcStatsValueModifier.Keep)]
+        public g_emMutationNpcStatsValueModifier ValueModifyMode;
+        [DefV(1f)]
+        public float ValueModifyV = float.MinValue;
+        /// <summary>数据统计方式</summary>
+        [DefV(g_emMutationNpcStatsMode.Add)]
+        public g_emMutationNpcStatsMode StatsMode = g_emMutationNpcStatsMode.None;
+        /// <summary>数据获取方式</summary>
+        [DefV(g_emMutationNpcStatsGetMode.One_Total)]
+        public g_emMutationNpcStatsGetMode ValueMode = g_emMutationNpcStatsGetMode.None;
+        /// <summary>数据清理方式</summary>
+        [DefV(g_emMutationNpcStatsClearMode.Npc)]
+        public g_emMutationNpcStatsClearMode ClearMode = g_emMutationNpcStatsClearMode.None;
+        /// <summary>判断通过必须旧数据小于条件，新数据大于等于条件</summary>
+        [DefV(0)]
+        public int CrossOnly = int.MinValue;
+
+        /// <summary>
+        /// 条件比较方式枚举
+        /// </summar>
+        public enum g_emCompareOp
+        {
+            None,
+            Greater, //大于
+            Less, //小于
+            GreaterEqual, //大于等于
+            LessEqual, //小于等于
+            Equal, //等于
+            NotEqual, //不等于
+        }
+
+    /// <summary>如何获取统计数据</summary>
+    public enum g_emMutationNpcStatsGetMode
+    {
+        // 举个例子， Npc1，触发 伤害部位2 , 统计数据修改如下
+        // 统计数据可能是[Npc1:[伤害部位1:2，伤害部位2:1], Npc2:[伤害部位2:3，伤害部位3:4]]
+        // 那么如果是
+        // 统计触发的Npc的Value是 1: Npc1.伤害部位2
+        // 统计触发的Npc的Key的数量 2
+        // 统计触发的Npc的Key的Value的总和 3 = 2 + 1
+        // 每个Npc算一次，是2 = Npc1 + Npc2
+        // 每个Key算一次，是3 =（伤害部位1，伤害部位2，伤害部位3）
+        // 每个Npc的每个Key算一次，是4 (伤害部位1，伤害部位2)+(伤害部位2，伤害部位3)
+        // 全量统计：10=2+1+3+4
+        
+        None,
+        
+        // 只计算触发的Npc
+        /// <summary>统计触发的Npc的Value</summary>
+        One_Value,
+        /// <summary>统计触发的Npc的Key的数量</summary>
+        One_KeyOnly,
+        /// <summary>统计触发的Npc的Key的Value的总和</summary>
+        One_Total,
+
+        // 多个Npc计算
+        /// <summary>每个Npc算一次</summary>
+        All_NpcOnly,
+        /// <summary>每个Npc的每个Key算一次</summary>
+        All_KeyForNpcOnly,
+        /// <summary>每个Key算一次</summary>
+        All_KeyOnly,
+        /// <summary>全量统计</summary>
+        All_Total,
+    }
+
+    /// <summary>如何清除统计数据</summary>
+    public enum g_emMutationNpcStatsClearMode
+    {
+        None,
+        /// <summary>不清理</summary>
+        Skip,
+        /// <summary>仅清理Npc的触发类型数据</summary>
+        Key,
+        /// <summary>仅清理触发的Npc数据</summary>
+        Npc,
+        /// <summary>所有数据，清零</summary>
+        Total,
+    }
+      
+    //}
+-->
+
+<Defs>
+	<List>
+		<Def Name="MutationCondition_Debug">
+			<DisplayName>失落之意</DisplayName>
+			<Desc>无人知晓这是何意…………</Desc>
+			<Weight>100,-1,-1</Weight>
+			<Level>1,2,3</Level>
+			<NotRandom>1</NotRandom>
+		</Def>
+
+		<Def Name="MutationCondition_One_Eat_1">
+			<DisplayName>吃任意物品</DisplayName>
+			<Desc>单个弟子吃下49个任意物品后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<OneOnly>1</OneOnly>
+			<Type>Eat</Type>
+			<ConditionValue>49</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_2" Parent="MutationCondition_One_Eat_1">
+			<Desc>单个弟子吃下124个任意物品后</Desc>
+			<Level>2</Level>
+			<ConditionValue>124</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_3" Parent="MutationCondition_One_Eat_1">
+			<Desc>单个弟子吃下99个7阶以上(含7阶)的物品</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ItemChecker>
+				<MinRate>7</MinRate>
+			</ItemChecker>
+			<ConditionValue>99</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_One_Eat_4" Parent="MutationCondition_One_Eat_1">
+			<DisplayName>吃指定标签的物品</DisplayName>
+			<Desc>单个弟子食用36次任意食物后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ItemChecker>
+				<Tag>Food</Tag>
+			</ItemChecker>
+			<ConditionValue>36</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_5" Parent="MutationCondition_One_Eat_4">
+			<Desc>单个弟子食用81次任意食物后</Desc>
+			<Level>2</Level>
+			<ConditionValue>81</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_6" Parent="MutationCondition_One_Eat_4">
+			<Desc>单个弟子食用10种不同的食物后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ValueMode>One_KeyOnly</ValueMode>
+			<ClearMode>Skip</ClearMode>
+			<ValueModifyMode>Keep</ValueModifyMode>
+			<ScaleMode>Divide</ScaleMode>		
+			<ConditionValue>10</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_7" Parent="MutationCondition_One_Eat_6">
+			<Desc>单个弟子食用3种不同的土属性食物后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ItemChecker>
+				<Tag>Food</Tag>
+				<ElementKind>Tu</ElementKind>
+			</ItemChecker>		
+			<ConditionValue>3</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_8" Parent="MutationCondition_One_Eat_7">
+			<Desc>单个弟子食用5种不同的土属性食物后</Desc>
+			<Level>2</Level>		
+			<ConditionValue>5</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_9" Parent="MutationCondition_One_Eat_7">
+			<Desc>单个弟子食用8种不同的土属性食物后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>	
+			<ConditionValue>8</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_One_Eat_10" Parent="MutationCondition_One_Eat_1">
+			<DisplayName>吃下金属性的物品</DisplayName>
+			<Desc>单个弟子食用3次金属性物品后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ItemChecker>
+				<ElementKind>Jin</ElementKind>
+			</ItemChecker>
+			<ConditionValue>3</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_11" Parent="MutationCondition_One_Eat_10">
+            <Desc>单个弟子食用7次金属性物品后</Desc>
+			<Level>2</Level>
+			<ConditionValue>7</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_12" Parent="MutationCondition_One_Eat_10">
+			<Desc>单个弟子食用5种不同的金属性物品后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ValueMode>One_KeyOnly</ValueMode>
+			<ClearMode>Skip</ClearMode>
+			<ValueModifyMode>Keep</ValueModifyMode>
+			<ScaleMode>Divide</ScaleMode>
+			<ConditionValue>5</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_One_Eat_13" Parent="MutationCondition_One_Eat_1">
+			<DisplayName>吃下木属性的物品</DisplayName>
+			<Desc>单个弟子食用21次木属性物品后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ItemChecker>
+				<ElementKind>Mu</ElementKind>
+			</ItemChecker>
+			<ConditionValue>21</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_14" Parent="MutationCondition_One_Eat_13">
+			<Desc>单个弟子食用55次木属性物品后</Desc>
+			<Level>2</Level>
+			<ConditionValue>55</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_15" Parent="MutationCondition_One_Eat_1">
+			<Desc>单个弟子食用7种不同的木属性药物后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ValueMode>One_KeyOnly</ValueMode>
+			<ClearMode>Skip</ClearMode>
+			<ValueModifyMode>Keep</ValueModifyMode>
+			<ScaleMode>Divide</ScaleMode>
+			<ItemChecker>
+				<Label>Drug</Label>
+				<ElementKind>Mu</ElementKind>
+			</ItemChecker>			
+			<ConditionValue>7</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_One_Eat_16" Parent="MutationCondition_One_Eat_1">
+			<DisplayName>吃下水属性的物品</DisplayName>
+			<Desc>单个弟子食用5次2阶以上(含2阶)的水属性物品后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ItemChecker>
+				<ElementKind>Shui</ElementKind>
+				<MinRate>2</MinRate>
+			</ItemChecker>
+			<ConditionValue>5</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_17" Parent="MutationCondition_One_Eat_16">
+			<Desc>单个弟子食用16次3阶以上(含3阶)的水属性物品后</Desc>
+			<Level>2</Level>
+			<ItemChecker>
+				<ElementKind>Shui</ElementKind>
+				<MinRate>3</MinRate>
+			</ItemChecker>
+			<ConditionValue>16</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_18" Parent="MutationCondition_One_Eat_1">
+			<Desc>单个弟子食用7种不同的水属性灵丹后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ValueMode>One_KeyOnly</ValueMode>
+			<ClearMode>Skip</ClearMode>
+			<ValueModifyMode>Keep</ValueModifyMode>
+			<ScaleMode>Divide</ScaleMode>
+			<ItemChecker>
+				<Label>Dan</Label>
+				<ElementKind>Shui</ElementKind>
+			</ItemChecker>	
+			<ConditionValue>7</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_One_Eat_19" Parent="MutationCondition_One_Eat_1">
+			<DisplayName>吃下火属性的物品</DisplayName>
+			<Desc>单个弟子食用5次火属性物品后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ItemChecker>
+				<ElementKind>Huo</ElementKind>
+			</ItemChecker>
+			<ConditionValue>5</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_20" Parent="MutationCondition_One_Eat_19">
+			<Desc>单个弟子食用16次五行为火的物品后</Desc>
+			<Level>2</Level>
+            <Hard>1</Hard>
+			<ConditionValue>16</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_21" Parent="MutationCondition_One_Eat_1">
+			<Desc>单个弟子食用7种不同的火属性物品后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ValueMode>One_KeyOnly</ValueMode>
+			<ClearMode>Skip</ClearMode>
+			<ValueModifyMode>Keep</ValueModifyMode>
+			<ScaleMode>Divide</ScaleMode>	
+			<ItemChecker>
+				<ElementKind>Huo</ElementKind>
+			</ItemChecker>	
+			<ConditionValue>7</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_22" Parent="MutationCondition_One_Eat_1">
+			<DisplayName>吃下土属性的物品</DisplayName>
+			<Desc>单个弟子食用10次2阶以上(含2阶)的土属性物品后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ItemChecker>
+				<ElementKind>Tu</ElementKind>
+				<MinRate>2</MinRate>
+			</ItemChecker>
+			<ConditionValue>10</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_23" Parent="MutationCondition_One_Eat_22">
+			<Desc>单个弟子食用30次3阶以上(含3阶)的土属性物品后</Desc>
+			<Level>2</Level>
+			<ItemChecker>
+				<ElementKind>Tu</ElementKind>
+				<MinRate>3</MinRate>
+			</ItemChecker>
+			<ConditionValue>30</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_24" Parent="MutationCondition_One_Eat_1">
+			<Desc>单个弟子食用7种不同的土属性药物后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ValueMode>One_KeyOnly</ValueMode>
+			<ClearMode>Skip</ClearMode>
+			<ValueModifyMode>Keep</ValueModifyMode>
+			<ScaleMode>Divide</ScaleMode>
+			<ItemChecker>
+				<Label>Drug</Label>
+				<ElementKind>Tu</ElementKind>
+			</ItemChecker>	
+			<ConditionValue>7</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_25" Parent="MutationCondition_One_Eat_1">
+			<DisplayName>吃下无属性的物品</DisplayName>
+			<Desc>单个弟子食用30次无属性物品后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ItemChecker>
+				<ElementKind>None</ElementKind>
+			</ItemChecker>
+			<ConditionValue>30</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_26" Parent="MutationCondition_One_Eat_25">
+			<Desc>单个弟子食用99次无属性物品后</Desc>
+			<Level>2</Level>
+			<ConditionValue>99</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Eat_27" Parent="MutationCondition_One_Eat_1">
+			<Desc>单个弟子食用4种不同的无属性物品后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ValueMode>One_KeyOnly</ValueMode>
+			<ClearMode>Skip</ClearMode>
+			<ValueModifyMode>Keep</ValueModifyMode>
+			<ScaleMode>Divide</ScaleMode>
+			<ItemChecker>
+				<ElementKind>None</ElementKind>
+			</ItemChecker>
+			<ConditionValue>4</ConditionValue>
+		</Def>
+
+
+		<Def Name="MutationCondition_All_Eat_1">
+			<DisplayName>全局吃任意物品</DisplayName>
+			<Desc>门派所有弟子累计吃下500个任意物品后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ValueMode>All_Total</ValueMode>
+			<ClearMode>Total</ClearMode>
+			<Type>Eat</Type>
+			<ConditionValue>500</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_2" Parent="MutationCondition_All_Eat_1">
+			<Desc>门派所有弟子累计吃下1000个任意物品后</Desc>
+			<Level>2</Level>
+			<ConditionValue>1000</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_3" Parent="MutationCondition_All_Eat_1">
+			<Desc>门派所有弟子累计吃下100种不同的物品后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ValueMode>All_KeyOnly</ValueMode>
+			<ClearMode>Skip</ClearMode>
+			<ValueModifyMode>Keep</ValueModifyMode>
+			<ScaleMode>Lerp</ScaleMode>	
+			<ConditionValue>100</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_4" Parent="MutationCondition_All_Eat_1">
+			<DisplayName>全局吃任意食物</DisplayName>
+			<Desc>门派所有弟子累计吃下400个任意食物后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ItemChecker>
+				<Tag>Food</Tag>
+			</ItemChecker>
+			<ConditionValue>400</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_5" Parent="MutationCondition_All_Eat_4">
+			<DisplayName>全局吃任意食物</DisplayName>
+			<Desc>门派所有弟子累计吃下800个任意食物后</Desc>
+			<Level>2</Level>
+			<ConditionValue>800</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_6" Parent="MutationCondition_All_Eat_3">
+			<Desc>门派所有弟子累计吃下12种不同的食物后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ItemChecker>
+				<Tag>Food</Tag>
+			</ItemChecker>
+			<ConditionValue>12</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_7" Parent="MutationCondition_All_Eat_1">
+			<DisplayName>全局吃金属性物品</DisplayName>
+			<Desc>门派所有弟子累计吃下30个金属性物品后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ItemChecker>
+				<ElementKind>Jin</ElementKind>
+			</ItemChecker>
+			<ConditionValue>30</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_8" Parent="MutationCondition_All_Eat_7">
+			<Desc>门派所有弟子累计吃下80个金属性物品后</Desc>
+			<Level>2</Level>
+			<ConditionValue>80</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_9" Parent="MutationCondition_All_Eat_3">
+			<Desc>门派所有弟子累计吃下10种不同的金属性物品后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ItemChecker>
+				<ElementKind>Jin</ElementKind>
+			</ItemChecker>
+			<ConditionValue>10</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_10" Parent="MutationCondition_All_Eat_1">
+			<DisplayName>全局吃木属性的药物</DisplayName>
+			<Desc>门派所有弟子累计吃下30个木属性药物后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ItemChecker>
+				<ElementKind>Mu</ElementKind>
+				<Label>Drug</Label>
+			</ItemChecker>
+			<ConditionValue>30</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_11" Parent="MutationCondition_All_Eat_10">
+			<Desc>门派所有弟子累计吃下80个木属性药物后</Desc>
+			<Level>2</Level>
+			<ConditionValue>80</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_12" Parent="MutationCondition_All_Eat_3">
+			<Desc>门派所有弟子累计吃下10种不同的木属性药物后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ItemChecker>
+				<ElementKind>Mu</ElementKind>
+				<Label>Drug</Label>
+			</ItemChecker>
+			<ConditionValue>10</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_13" Parent="MutationCondition_All_Eat_1">
+			<DisplayName>全局吃下水属性的灵丹</DisplayName>
+			<Desc>门派所有弟子累计吃下30个水属性灵丹后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ItemChecker>
+				<ElementKind>Shui</ElementKind>
+				<Label>Dan</Label>
+			</ItemChecker>
+			<ConditionValue>30</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_14" Parent="MutationCondition_All_Eat_13">
+			<Desc>门派所有弟子累计吃下80个水属性灵丹后</Desc>
+			<Level>2</Level>
+			<ConditionValue>80</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_15" Parent="MutationCondition_All_Eat_3">
+			<Desc>门派所有弟子累计吃下10种不同的水属性灵丹后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ItemChecker>
+				<ElementKind>Shui</ElementKind>
+				<Label>Dan</Label>
+			</ItemChecker>
+			<ConditionValue>10</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_16" Parent="MutationCondition_All_Eat_1">
+			<DisplayName>全局吃下火属性的物品</DisplayName>
+			<Desc>门派所有弟子累计吃下30个火属性物品后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ItemChecker>
+				<ElementKind>Huo</ElementKind>
+			</ItemChecker>
+			<ConditionValue>30</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_17" Parent="MutationCondition_All_Eat_16">
+			<Desc>门派所有弟子累计吃下80个火属性物品后</Desc>
+			<Level>2</Level>
+			<ConditionValue>80</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_18" Parent="MutationCondition_All_Eat_3">
+			<Desc>门派所有弟子累计吃下10种不同的火属性物品后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ItemChecker>
+				<ElementKind>Huo</ElementKind>
+			</ItemChecker>
+			<ConditionValue>10</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_19" Parent="MutationCondition_All_Eat_1">
+			<DisplayName>全局吃下土属性的药物</DisplayName>
+			<Desc>门派所有弟子累计吃下30个土属性药物后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ItemChecker>
+				<ElementKind>Tu</ElementKind>
+				<Label>Drug</Label>
+			</ItemChecker>
+			<ConditionValue>30</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_20" Parent="MutationCondition_All_Eat_19">
+			<Desc>门派所有弟子累计吃下80个土属性药物后</Desc>
+			<Level>2</Level>
+			<ConditionValue>80</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_21" Parent="MutationCondition_All_Eat_3">
+			<Desc>门派所有弟子累计吃下10种不同的土属性药物后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ItemChecker>
+				<ElementKind>Tu</ElementKind>
+				<Label>Drug</Label>
+			</ItemChecker>
+			<ConditionValue>10</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_22" Parent="MutationCondition_All_Eat_1">
+			<DisplayName>全局吃下无属性的物品</DisplayName>
+			<Desc>门派所有弟子累计吃下300个无属性物品后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ItemChecker>
+				<ElementKind>None</ElementKind>
+			</ItemChecker>
+			<ConditionValue>300</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_23" Parent="MutationCondition_All_Eat_22">
+			<Desc>门派所有弟子累计吃下800个无属性物品后</Desc>
+			<Level>2</Level>
+			<ConditionValue>800</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Eat_24" Parent="MutationCondition_All_Eat_3">
+			<Desc>门派所有弟子累计吃下7种不同的无属性物品后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ItemChecker>
+				<ElementKind>None</ElementKind>
+			</ItemChecker>
+			<ConditionValue>7</ConditionValue>
+		</Def>
+
+
+		<Def Name="MutationCondition_One_BrokenNeck_1">
+			<DisplayName>突破</DisplayName>
+			<Desc>单个弟子完成筑基后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<OneOnly>1</OneOnly>
+			<Type>BrokenNeck</Type>
+			<NeckChecker>
+				<StageLevel>Qi</StageLevel>
+			</NeckChecker>
+			<ConditionValue>1</ConditionValue>
+			<MaxDecimalPlace>-1</MaxDecimalPlace>
+		</Def>
+		<Def Name="MutationCondition_One_BrokenNeck_2" Parent="MutationCondition_One_BrokenNeck_1">
+			<Desc>单个弟子结出金丹后</Desc>
+			<Level>2</Level>
+            <Hard>1</Hard>            
+			<NeckChecker>
+				<StageLevel>Dan2</StageLevel>
+			</NeckChecker>
+		</Def>
+		<Def Name="MutationCondition_One_BrokenNeck_3" Parent="MutationCondition_One_BrokenNeck_1">
+			<Desc>单个弟子突破到元神期后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>           
+			<NeckChecker>
+				<StageLevel>God</StageLevel>
+			</NeckChecker>
+		</Def>
+
+		<Def Name="MutationCondition_All_BrokenNeck_1">
+			<DisplayName>全局突破</DisplayName>
+			<Desc>门派所有弟子累计筑基3次后</Desc>
+			<Level>1</Level>
+            <Hard>1</Hard>
+			<Weight>100,-1,-1</Weight>  
+			<ValueMode>All_Total</ValueMode>
+			<ClearMode>Total</ClearMode>
+			<Type>BrokenNeck</Type>             
+			<NeckChecker>
+				<StageLevel>Qi</StageLevel>
+			</NeckChecker>
+			<ConditionValue>3</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_BrokenNeck_2" Parent="MutationCondition_All_BrokenNeck_1">
+			<Desc>门派所有弟子累计结出金丹3次后</Desc>
+			<Level>2</Level>
+            <Hard>1</Hard>            
+			<NeckChecker>
+				<StageLevel>Dan2</StageLevel>
+			</NeckChecker>
+		</Def>
+		<Def Name="MutationCondition_All_BrokenNeck_3" Parent="MutationCondition_All_BrokenNeck_1">
+			<Desc>门派所有弟子累计突破元神3次后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>             
+			<NeckChecker>
+				<StageLevel>God</StageLevel>
+			</NeckChecker>
+		</Def>
+
+		<Def Name="MutationCondition_All_JustTalkJH_1"> 
+			<DisplayName>交谈</DisplayName>
+			<Desc>门派累计与10名不同的生灵完成交谈后</Desc>
+			<Level>1</Level>
+			<DlcInfo>HongChenZhongSheng</DlcInfo>
+            <Hard>1</Hard>
+			<Weight>100,-1,-1</Weight>
+			<ValueMode>All_KeyOnly</ValueMode>
+			<ClearMode>Skip</ClearMode>
+			<ValueModifyMode>Keep</ValueModifyMode>
+			<ScaleMode>Lerp</ScaleMode>
+			<Type>JustTalkJH</Type>
+			<ConditionValue>10</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_JustTalkJH_2" Parent="MutationCondition_All_JustTalkJH_1"> 
+			<Desc>门派累计与20名不同的生灵完成交谈后</Desc>
+			<Level>2</Level>
+            <Hard>1</Hard>
+			<ConditionValue>20</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_JustTalkJH_3" Parent="MutationCondition_All_JustTalkJH_1"> 
+			<Desc>门派累计与30名不同的生灵完成交谈后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ConditionValue>30</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_All_UnlockJHHeart_1" Parent="MutationCondition_All_JustTalkJH_1"> 
+			<DisplayName>交谈</DisplayName>
+			<Desc>门派累计与3名不同的生灵交谈并破除其心防</Desc>
+			<Level>1</Level>
+            <Hard>1</Hard>
+			<Weight>100,-1,-1</Weight>
+			<Type>UnlockJHHeart</Type>
+			<ConditionValue>3</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_UnlockJHHeart_2" Parent="MutationCondition_All_UnlockJHHeart_1"> 
+			<Desc>门派累计与8名不同的生灵交谈并破除其心防后</Desc>
+			<Level>2</Level>
+            <Hard>1</Hard>
+			<ConditionValue>8</ConditionValue>
+		</Def>
+ 		<Def Name="MutationCondition_All_UnlockJHHeart_3" Parent="MutationCondition_All_UnlockJHHeart_1"> 
+			<Desc>门派累计与24名不同的生灵交谈并破除其心防后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ConditionValue>24</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_All_InviteJH_1" Parent="MutationCondition_All_JustTalkJH_1"> 
+			<DisplayName>邀请</DisplayName>
+			<Desc>门派累计邀请3名凡人来门派做客</Desc>
+			<Level>1</Level>
+            <Hard>1</Hard>
+			<Weight>100,-1,-1</Weight>
+			<Type>InviteJH</Type>
+			<JHNpcChecker>
+				<StageLevel>None</StageLevel>
+			</JHNpcChecker>
+			<ConditionValue>3</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_InviteJH_2" Parent="MutationCondition_All_InviteJH_1"> 
+			<Desc>门派累计邀请12名凡人来门派做客</Desc>
+			<Level>2</Level>
+            <Hard>1</Hard>
+			<ConditionValue>12</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_InviteJH_3" Parent="MutationCondition_All_InviteJH_1"> 
+			<Desc>门派累计邀请3名结丹期及以上的修行者来门派做客</Desc>
+			<Level>2</Level>
+            <Hard>1</Hard>
+			<Weight>100,-1,-1</Weight>
+			<JHNpcChecker>
+				<StageLevel>Dan1</StageLevel>
+			</JHNpcChecker>
+			<ConditionValue>3</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_InviteJH_4" Parent="MutationCondition_All_InviteJH_1"> 
+			<Desc>门派累计邀请10名金丹期及以上的修行者来门派做客</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<Weight>100,-1,-1</Weight>
+			<JHNpcChecker>
+				<StageLevel>Dan2</StageLevel>
+			</JHNpcChecker>
+			<ConditionValue>10</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_InviteJH_5" Parent="MutationCondition_All_InviteJH_1"> 
+			<Desc>门派累计邀请1名练气期及以上的修行者来门派做客</Desc>
+			<Level>1</Level>
+            <Hard>1</Hard>
+			<Weight>100,-1,-1</Weight>
+			<JHNpcChecker>
+				<StageLevel>Qi</StageLevel>
+			</JHNpcChecker>
+			<ConditionValue>1</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_All_SendGiftToJH_1" Parent="MutationCondition_All_JustTalkJH_1"> 
+			<DisplayName>送礼</DisplayName>
+			<Desc>门派累计送给3名不同的修行者任意礼物</Desc>
+			<Level>1</Level>
+            <Hard>1</Hard>
+			<Weight>100,-1,-1</Weight>
+			<Type>SendGiftToJH</Type>
+			<JHNpcChecker>
+				<StageLevel>Qi</StageLevel>
+			</JHNpcChecker>
+			<ConditionValue>3</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_SendGiftToJH_2" Parent="MutationCondition_All_SendGiftToJH_1"> 
+			<Desc>门派累计送给12名不同的修行者任意礼物</Desc>
+			<Level>2</Level>
+            <Hard>1</Hard>
+			<Weight>100,-1,-1</Weight>
+			<ConditionValue>12</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_SendGiftToJH_3" Parent="MutationCondition_All_SendGiftToJH_1"> 
+			<Desc>门派累计送给36名不同的修行者任意礼物</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ConditionValue>36</ConditionValue>
+		</Def>
+
+
+		<Def Name="MutationCondition_One_DaZuo_1">
+			<DisplayName>单个弟子累计打坐</DisplayName>
+			<Desc>单个弟子累计打坐3天后</Desc>
+			<Level>1</Level>           
+			<Weight>100,-1,-1</Weight>
+			<OneOnly>1</OneOnly>
+			<ValueMode>One_Total</ValueMode>
+			<ClearMode>Npc</ClearMode>
+			<ValueModifyMode>Keep</ValueModifyMode>
+			<Type>DaZuoSpecial</Type>
+			<ConditionValue>72</ConditionValue>
+			<MaxDecimalPlace>1</MaxDecimalPlace>
+			<DisplayDivide>24</DisplayDivide>
+		</Def>
+		<Def Name="MutationCondition_One_DaZuo_2" Parent="MutationCondition_One_DaZuo_1">
+			<Desc>单个弟子累计打坐12天后</Desc>
+			<Level>2</Level>
+            <Hard>1</Hard>
+			<ConditionValue>288</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_DaZuo_3" Parent="MutationCondition_One_DaZuo_1">
+			<Desc>单个弟子累计打坐36天后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ConditionValue>864</ConditionValue>
+			<DisplayDivide>24</DisplayDivide>
+		</Def>
+
+		<Def Name="MutationCondition_One_DaZuo_4">
+			<DisplayName>单个弟子打坐满时间计次</DisplayName>
+			<Desc>单个弟子连续打坐12个时辰后</Desc>
+			<Level>1</Level>        
+			<Weight>100,-1,-1</Weight>
+			<OneOnly>1</OneOnly>
+			<ValueMode>One_Total</ValueMode>
+			<ValueModifyMode>Check</ValueModifyMode>
+			<CompareOp>GreaterEqual</CompareOp>
+			<ValueModifyV>24</ValueModifyV>
+			<ClearMode>Npc</ClearMode>
+			<Type>DaZuo</Type>
+			<ConditionValue>1</ConditionValue>
+			<MaxDecimalPlace>1</MaxDecimalPlace>
+			<DisplayMultiply>12</DisplayMultiply>
+		</Def>
+		<Def Name="MutationCondition_One_DaZuo_5" Parent="MutationCondition_One_DaZuo_4">
+			<Desc>单个弟子连续打坐30个时辰后</Desc>
+			<Level>2</Level>        
+			<ValueModifyV>60</ValueModifyV>
+		</Def>
+		<Def Name="MutationCondition_One_DaZuo_6" Parent="MutationCondition_One_DaZuo_4">
+			<Desc>单个弟子连续打坐30天后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ValueModifyV>720</ValueModifyV>
+			<DisplayMultiply>30</DisplayMultiply>
+		</Def>
+
+		<Def Name="MutationCondition_All_DaZuo_1">
+			<DisplayName>门派累计打坐</DisplayName>
+			<Desc>门派累计打坐30天后</Desc>
+			<Level>1</Level>           
+			<Weight>100,-1,-1</Weight>
+			<ValueMode>All_Total</ValueMode>
+			<ClearMode>Total</ClearMode>
+			<ValueModifyMode>Keep</ValueModifyMode>
+			<Type>DaZuoSpecial</Type>
+			<ConditionValue>720</ConditionValue>
+			<MaxDecimalPlace>1</MaxDecimalPlace>
+			<DisplayDivide>24</DisplayDivide>
+		</Def>
+		<Def Name="MutationCondition_All_DaZuo_2" Parent="MutationCondition_All_DaZuo_1">
+			<Desc>门派累计打坐120天后</Desc>
+			<Level>2</Level>
+            <Hard>1</Hard>
+			<ConditionValue>2880</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_DaZuo_3" Parent="MutationCondition_All_DaZuo_1">
+			<Desc>门派累计打坐360天后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>        
+			<ConditionValue>8640</ConditionValue>
+		</Def>
+ 
+		<Def Name="MutationCondition_One_Sleep_1">
+			<DisplayName>个人睡眠</DisplayName>
+			<Desc>单个弟子在床上完成5次完整的睡眠后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<OneOnly>1</OneOnly>
+			<Type>Sleep</Type>
+			<ValueModifyMode>GreaterOne</ValueModifyMode>
+			<SleepChecker>
+				<Place>Bed</Place>
+				<Quality>Good</Quality>
+			</SleepChecker>
+			<ConditionValue>5</ConditionValue>
+		</Def> 
+		<Def Name="MutationCondition_One_Sleep_2" Parent="MutationCondition_One_Sleep_1">
+			<Desc>单个弟子在床上完成20次完整的睡眠后</Desc>
+			<Level>2</Level>
+			<ConditionValue>20</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_One_Sleep_4">
+			<Desc>单个弟子在地上累计睡眠12个时辰后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<OneOnly>1</OneOnly>
+			<Type>SleepSpecial</Type>
+			<SleepChecker>
+				<Place>Ground</Place>
+			</SleepChecker>
+			<ConditionValue>24</ConditionValue>
+			<MaxDecimalPlace>1</MaxDecimalPlace>
+			<DisplayDivide>2</DisplayDivide>
+		</Def> 
+		<Def Name="MutationCondition_One_Sleep_5" Parent="MutationCondition_One_Sleep_4">
+			<Desc>单个弟子在地上累计睡眠36个时辰后</Desc>
+			<Level>2</Level>
+            <Hard>1</Hard>
+			<ConditionValue>72</ConditionValue>
+		</Def> 
+		<Def Name="MutationCondition_One_Sleep_6" Parent="MutationCondition_One_Sleep_4">
+			<Desc>单个弟子在地上累计睡眠180个时辰后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ConditionValue>360</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_All_Sleep_1">
+			<DisplayName>门派累计睡眠</DisplayName>
+			<Desc>门派累计睡眠时长达到120个时辰后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ValueMode>All_Total</ValueMode>
+			<ClearMode>Total</ClearMode>
+			<Type>SleepSpecial</Type>
+			<ConditionValue>240</ConditionValue>
+			<MaxDecimalPlace>1</MaxDecimalPlace>
+			<DisplayDivide>2</DisplayDivide>
+		</Def>
+		<Def Name="MutationCondition_All_Sleep_2" Parent="MutationCondition_All_Sleep_1">
+			<Desc>门派累计睡眠时长达到360个时辰后</Desc>
+			<Level>2</Level>
+			<ConditionValue>720</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_One_Love_1">
+			<DisplayName>恋爱</DisplayName>
+			<Desc>单个弟子被告白1次后</Desc>
+			<Level>2</Level>
+			<Weight>100,-1,-1</Weight>            
+			<OneOnly>1</OneOnly>
+			<Type>Love</Type>
+			<LoveChecker>
+				<Declaration>-1</Declaration>
+			</LoveChecker>
+			<ConditionValue>1</ConditionValue>
+			<MaxDecimalPlace>-1</MaxDecimalPlace>
+		</Def>
+
+		<Def Name="MutationCondition_One_Love_2" Parent="MutationCondition_One_Love_1">
+			<DisplayName>恋爱</DisplayName>
+			<Desc>单个弟子被告白3次后</Desc>
+			<Level>3</Level>
+			<Weight>100,-1,-1</Weight>
+			<ConditionValue>3</ConditionValue>
+			<MaxDecimalPlace>0</MaxDecimalPlace>
+		</Def>
+
+		<Def Name="MutationCondition_One_Love_3" Parent="MutationCondition_One_Love_1">
+			<DisplayName>恋爱</DisplayName>
+			<Desc>单个弟子告白1次后</Desc>
+			<Level>2</Level>
+			<Weight>100,-1,-1</Weight>
+			<LoveChecker>
+				<Declaration>1</Declaration>
+			</LoveChecker>
+			<ConditionValue>1</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_One_Love_4" Parent="MutationCondition_One_Love_1">
+			<DisplayName>恋爱</DisplayName>
+			<Desc>单个弟子告白3次后</Desc>
+			<Level>3</Level>
+			<Weight>100,-1,-1</Weight>
+			<ConditionValue>3</ConditionValue>
+			<MaxDecimalPlace>0</MaxDecimalPlace>
+		</Def>
+
+		<Def Name="MutationCondition_One_Love_5" Parent="MutationCondition_One_Love_1">
+			<DisplayName>恋爱</DisplayName>
+			<Desc>单个弟子告白1次并成功后</Desc>
+			<Level>3</Level>
+			<Weight>100,-1,-1</Weight>
+			<LoveChecker>
+				<Declaration>1</Declaration>
+				<Result>1</Result>
+			</LoveChecker>
+			<ConditionValue>1</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_One_Love_6" Parent="MutationCondition_One_Love_1">
+			<DisplayName>恋爱</DisplayName>
+			<Desc>单个弟子被告白1次并接受后</Desc>
+			<Level>3</Level>
+			<Weight>100,-1,-1</Weight>
+			<LoveChecker>
+				<Declaration>-1</Declaration>
+				<Result>1</Result>
+			</LoveChecker>
+			<ConditionValue>1</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_One_Damage_1">
+			<DisplayName>受伤</DisplayName>
+			<Desc>单个弟子受到任意轻伤5次</Desc>
+			<OneOnly>1</OneOnly>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<Type>Damage</Type>
+			<DamageChecker>
+				<!--<PartKind></PartKind>PartKind部位|DamageLable类型|Integrity程度
+				<DamageLable></DamageLable>-->
+				<Integrity>0.05</Integrity>
+			</DamageChecker>
+			<ConditionValue>5</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_One_Damage_2" Parent="MutationCondition_One_Damage_1">
+			<Desc>单个弟子受到任意轻伤10次</Desc> 
+			<Level>2</Level>
+			<Weight>100,-1,-1</Weight>            
+			<ConditionValue>10</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_One_Damage_3" Parent="MutationCondition_One_Damage_1">
+			<Desc>单个弟子骨骼受到1次轻伤</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<DamageChecker>
+				<PartKind>Bone</PartKind>
+				<!--<DamageLable></DamageLable>-->
+				<Integrity>0.05</Integrity>
+			</DamageChecker>
+			<ConditionValue>1</ConditionValue>
+			<MaxDecimalPlace>-1</MaxDecimalPlace>
+		</Def>
+
+		<Def Name="MutationCondition_One_Damage_4" Parent="MutationCondition_One_Damage_3">
+			<Desc>单个弟子骨骼受到3次轻伤</Desc> 
+			<Level>2</Level>
+			<Weight>100,-1,-1</Weight>     
+			<ConditionValue>3</ConditionValue>
+			<MaxDecimalPlace>0</MaxDecimalPlace>
+		</Def>
+
+		<Def Name="MutationCondition_One_Damage_5" Parent="MutationCondition_One_Damage_1">
+			<Desc>单个弟子骨骼受到1次重伤</Desc> 
+			<Level>2</Level>
+			<Weight>100,-1,-1</Weight>
+			<DamageChecker>
+				<PartKind>Bone</PartKind>
+				<!--<DamageLable></DamageLable>-->
+				<Integrity>0.5</Integrity>
+			</DamageChecker>       
+			<ConditionValue>1</ConditionValue>
+			<MaxDecimalPlace>-1</MaxDecimalPlace>
+		</Def>
+
+
+		<Def Name="MutationCondition_All_SchoolScoreUp_1">
+			<DisplayName>门派声望</DisplayName>
+			<Desc>门派声望点数累计提升超过5000点时</Desc>            
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ValueMode>All_Total</ValueMode>
+			<ClearMode>Total</ClearMode>
+			<ValueModifyMode>Keep</ValueModifyMode>
+			<Type>SchoolScoreUp</Type>
+			<ConditionValue>5000</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_SchoolScoreUp_2" Parent="MutationCondition_All_SchoolScoreUp_1">
+			<Desc>门派声望点数累计提升超过20000点时</Desc>
+			<Level>2</Level>
+            <Hard>1</Hard>
+			<ConditionValue>20000</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_SchoolScoreUp_3" Parent="MutationCondition_All_SchoolScoreUp_1">
+			<Desc>门派声望点数累计提升超过180000点时</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<ConditionValue>180000</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_SchoolScoreUp_4" Parent="MutationCondition_All_SchoolScoreUp_1">
+			<Desc>门派声望单次获得达到500点时</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ValueModifyMode>Check</ValueModifyMode>
+			<CompareOp>GreaterEqual</CompareOp>
+			<ValueModifyV>500</ValueModifyV>
+			<ConditionValue>1</ConditionValue>
+			<MaxDecimalPlace>-1</MaxDecimalPlace>
+		</Def>
+		<Def Name="MutationCondition_All_SchoolScoreUp_5" Parent="MutationCondition_All_SchoolScoreUp_4">
+			<Desc>门派声望单次获得达到2000点时</Desc>
+			<Level>2</Level>
+			<Weight>100,-1,-1</Weight>
+			<ValueModifyV>2000</ValueModifyV>
+			<ConditionValue>1</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_SchoolScoreUp_6" Parent="MutationCondition_All_SchoolScoreUp_4">
+			<Desc>门派声望单次获得达到10000点时</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<Weight>100,-1,-1</Weight>
+			<ValueModifyV>10000</ValueModifyV>
+			<ConditionValue>1</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_One_Kill_1"> 
+			<DisplayName>击杀</DisplayName>
+			<Desc>单个弟子击杀10名任意目标后</Desc>
+			<Level>1</Level>
+			<OneOnly>1</OneOnly>
+			<Weight>100,-1,-1</Weight>
+			<Type>Kill</Type>
+			<KillChecker>
+				<Kind>KillDie</Kind>
+			</KillChecker>
+			<ConditionValue>10</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Kill_2" Parent="MutationCondition_One_Kill_1"> 
+			<Desc>单个弟子击杀30名任意目标后</Desc>
+			<Level>2</Level>
+			<Weight>100,-1,-1</Weight>
+			<ConditionValue>30</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Kill_3" Parent="MutationCondition_One_Kill_1"> 
+			<Desc>单个弟子击杀3名结丹期及以上的修行者后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<KillChecker>
+				<Kind>KillDie</Kind>
+				<RaceType>Wisdom</RaceType>
+				<StageLevel>Dan1</StageLevel>
+			</KillChecker>
+			<ConditionValue>3</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Kill_4" Parent="MutationCondition_One_Kill_1"> 
+			<Desc>单个弟子击杀5名金丹期及以上的修行者后</Desc>
+			<Level>2</Level>
+			<Weight>100,-1,-1</Weight>
+			<KillChecker>
+				<Kind>KillDie</Kind>
+				<RaceType>Wisdom</RaceType>
+				<StageLevel>Dan2</StageLevel>
+			</KillChecker>
+			<ConditionValue>5</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Kill_5" Parent="MutationCondition_One_Kill_1"> 
+			<Desc>单个弟子击杀15名元神期及以上的任意目标后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<Weight>100,-1,-1</Weight>
+			<KillChecker>
+				<Kind>KillDie</Kind>
+				<StageLevel>God</StageLevel>
+			</KillChecker>
+			<ConditionValue>15</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Kill_6" Parent="MutationCondition_One_Kill_1"> 
+			<DisplayName>击杀</DisplayName>
+			<Desc>单个弟子击杀3只妖兽后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<KillChecker>
+				<Kind>KillDie</Kind>
+				<RaceType>Monster</RaceType>
+			</KillChecker>
+			<ConditionValue>3</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_One_Kill_7" Parent="MutationCondition_One_Kill_1"> 
+			<DisplayName>击杀</DisplayName>
+			<Desc>单个弟子击杀5只金丹期及以上的妖兽后</Desc>
+			<Level>2</Level>
+            <Hard>1</Hard>
+			<Weight>100,-1,-1</Weight>
+			<KillChecker>
+				<Kind>KillDie</Kind>
+				<RaceType>Monster</RaceType>
+				<StageLevel>Dan2</StageLevel>
+			</KillChecker>
+			<ConditionValue>5</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_All_Kill_1"> 
+			<Desc>门派累计击杀100名任意目标后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<ValueMode>All_Total</ValueMode>
+			<ClearMode>Total</ClearMode>
+			<Type>Kill</Type>			
+			<KillChecker>
+				<Kind>KillDie</Kind>
+			</KillChecker>
+			<ConditionValue>100</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Kill_2" Parent="MutationCondition_All_Kill_1"> 
+			<Desc>门派累计击杀300名任意目标后</Desc>
+			<Level>2</Level>
+			<Weight>100,-1,-1</Weight>
+			<ConditionValue>300</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Kill_3" Parent="MutationCondition_All_Kill_1"> 
+			<Desc>门派累计击杀18名结丹期及以上的修行者后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<KillChecker>
+				<Kind>KillDie</Kind>
+				<RaceType>Wisdom</RaceType>
+				<StageLevel>Dan1</StageLevel>
+			</KillChecker>			
+			<ConditionValue>18</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Kill_4" Parent="MutationCondition_All_Kill_1"> 
+			<Desc>门派累计击杀30名金丹期及以上的修行者后</Desc>
+			<Level>2</Level>
+			<Weight>100,-1,-1</Weight>
+			<KillChecker>
+				<Kind>KillDie</Kind>
+				<RaceType>Wisdom</RaceType>
+				<StageLevel>Dan2</StageLevel>
+			</KillChecker>			
+			<ConditionValue>30</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Kill_5" Parent="MutationCondition_All_Kill_1"> 
+			<Desc>门派累计击杀81名元神期及以上的任意目标后</Desc>
+			<Level>3</Level>
+            <Hard>1</Hard>
+			<Weight>100,-1,-1</Weight>
+			<KillChecker>
+				<Kind>KillDie</Kind>
+				<StageLevel>God</StageLevel>
+			</KillChecker>
+			<ConditionValue>81</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Kill_6" Parent="MutationCondition_All_Kill_1">
+			<Desc>门派累计击杀18只妖兽后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>			
+			<KillChecker>
+				<Kind>KillDie</Kind>
+				<RaceType>Monster</RaceType>
+			</KillChecker>
+			<ConditionValue>18</ConditionValue>
+		</Def>
+		<Def Name="MutationCondition_All_Kill_7" Parent="MutationCondition_All_Kill_1">
+			<Desc>门派累计击杀30只金丹期及以上的妖兽后</Desc>
+			<Level>2</Level>
+            <Hard>1</Hard>
+			<Weight>100,-1,-1</Weight>			
+			<KillChecker>
+				<Kind>KillDie</Kind>
+				<RaceType>Monster</RaceType>
+				<StageLevel>Dan2</StageLevel>
+			</KillChecker>
+			<ConditionValue>30</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_Constant_All_Kill_1"> 
+			<DisplayName>击杀</DisplayName>
+			<Desc>击杀7只兔，下次翻倍</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<NotRandom>1</NotRandom>
+			<ValueMode>All_Total</ValueMode>
+			<ClearMode>Total</ClearMode>
+			<ValueModifyMode>Keep</ValueModifyMode>
+			<ScaleMode>Lerp</ScaleMode>
+			<Type>Kill</Type>
+			<KillChecker>
+				<Kind>KillDie</Kind>
+				<RaceType>Animal</RaceType>
+				<CheckRace>1</CheckRace>
+				<RaceDef>Rabbit</RaceDef>
+				<StageLevel>None</StageLevel>
+			</KillChecker>
+			<ConditionValue>7</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_Constant_All_Kill_2" Parent="MutationCondition_Constant_All_Kill_1"> 
+			<DisplayName>击杀</DisplayName>
+			<Desc>击杀5只狼，下次翻倍</Desc>
+			<NotRandom>1</NotRandom>
+			<KillChecker>
+				<RaceType>Animal</RaceType>
+				<CheckRace>1</CheckRace>
+				<RaceDef>Wolf</RaceDef>
+				<StageLevel>None</StageLevel>
+			</KillChecker>
+			<ConditionValue>5</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_Constant_All_Kill_3" Parent="MutationCondition_Constant_All_Kill_1"> 
+			<DisplayName>击杀</DisplayName>
+			<Desc>击杀3头熊，下次翻倍</Desc>
+			<NotRandom>1</NotRandom>
+			<KillChecker>
+				<RaceType>Animal</RaceType>
+				<CheckRace>1</CheckRace>
+				<RaceDef>Bear</RaceDef>
+				<StageLevel>None</StageLevel>
+			</KillChecker>
+			<ConditionValue>3</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_Constant_All_Kill_4" Parent="MutationCondition_Constant_All_Kill_1"> 
+			<DisplayName>击杀</DisplayName>
+			<Desc>击杀7只龟，下次翻倍</Desc>
+			<NotRandom>1</NotRandom>
+			<KillChecker>
+				<RaceType>Animal</RaceType>
+				<CheckRace>1</CheckRace>
+				<RaceDef>Turtle</RaceDef>
+				<StageLevel>None</StageLevel>
+			</KillChecker>
+			<ConditionValue>7</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_Constant_All_Kill_5" Parent="MutationCondition_Constant_All_Kill_1"> 
+			<DisplayName>击杀</DisplayName>
+			<Desc>击杀5只虎，下次翻倍</Desc>
+			<NotRandom>1</NotRandom>
+			<KillChecker>
+				<RaceType>Animal</RaceType>
+				<CheckRace>1</CheckRace>
+				<RaceDef>Tiger</RaceDef>
+				<StageLevel>None</StageLevel>
+			</KillChecker>
+			<ConditionValue>5</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_Constant_All_Kill_6" Parent="MutationCondition_Constant_All_Kill_1"> 
+			<DisplayName>击杀</DisplayName>
+			<Desc>击杀5头牛，下次翻倍</Desc>
+			<NotRandom>1</NotRandom>
+			<KillChecker>
+				<RaceType>Animal</RaceType>
+				<CheckRace>1</CheckRace>
+				<RaceDef>Cattle</RaceDef>
+				<StageLevel>None</StageLevel>
+			</KillChecker>
+			<ConditionValue>5</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_Constant_All_Kill_7" Parent="MutationCondition_Constant_All_Kill_1"> 
+			<DisplayName>击杀</DisplayName>
+			<Desc>击杀7只鸡，下次翻倍</Desc>
+			<NotRandom>1</NotRandom>
+			<KillChecker>
+				<RaceType>Animal</RaceType>
+				<CheckRace>1</CheckRace>
+				<RaceDef>Chicken</RaceDef>
+				<StageLevel>None</StageLevel>
+			</KillChecker>
+			<ConditionValue>7</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_Constant_All_Kill_8" Parent="MutationCondition_Constant_All_Kill_1"> 
+			<DisplayName>击杀</DisplayName>
+			<Desc>击杀5条蛇，下次翻倍</Desc>
+			<NotRandom>1</NotRandom>
+			<KillChecker>
+				<RaceType>Animal</RaceType>
+				<CheckRace>1</CheckRace>
+				<RaceDef>Snake</RaceDef>
+				<StageLevel>None</StageLevel>
+			</KillChecker>
+			<ConditionValue>5</ConditionValue>
+		</Def>
+
+		<Def Name="MutationCondition_Constant_All_Sacrific_1"> 
+			<DisplayName>祭妖</DisplayName>
+			<Desc>祭妖后，引起万妖殿的愤怒</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<NotRandom>1</NotRandom>
+			<Type>Sacrifice</Type>
+			<ConditionValue>1</ConditionValue>
+			<MaxDecimalPlace>-1</MaxDecimalPlace>
+		</Def>
+
+		<Def Name="MutationCondition_Constant_All_SchoolLevelUp_1">
+			<DisplayName>门派声望</DisplayName>
+			<Desc>门派声望等级提升1档后</Desc>            
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<NotRandom>1</NotRandom>
+			<ValueMode>All_Total</ValueMode>
+			<ClearMode>Total</ClearMode>
+			<ValueModifyMode>Keep</ValueModifyMode>
+			<Type>SchoolLevelUp</Type>
+			<ConditionValue>1</ConditionValue>
+			<MaxDecimalPlace>-1</MaxDecimalPlace>
+		</Def>
+
+		<Def Name="MutationCondition_Constant_All_BrokenNeck_1">
+			<DisplayName>全局突破</DisplayName>
+			<Desc>门派有弟子飞升后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>  
+			<ValueMode>All_Total</ValueMode>
+			<ClearMode>Total</ClearMode>
+			<Type>BrokenNeck</Type>             
+			<NeckChecker>
+				<StageLevel>God2</StageLevel>
+			</NeckChecker>
+			<ConditionValue>1</ConditionValue>
+			<MaxDecimalPlace>-1</MaxDecimalPlace>
+		</Def>
+
+		<Def Name="MutationCondition_Constant_One_Kill_1"> 
+			<Desc>单个弟子击杀1名金丹期及以上的修行者后</Desc>
+			<Level>1</Level>
+			<Weight>100,-1,-1</Weight>
+			<OneOnly>1</OneOnly>
+			<ValueMode>One_Total</ValueMode>
+			<ClearMode>Total</ClearMode>
+			<Type>Kill</Type>
+			<KillChecker>
+				<Kind>KillDie</Kind>
+				<StageLevel>Dan2</StageLevel>
+				<RaceType>Wisdom</RaceType>
+			</KillChecker>
+			<ConditionValue>1</ConditionValue>
+			<MaxDecimalPlace>-1</MaxDecimalPlace>
+		</Def>
+
+	</List>
+</Defs>

@@ -1,0 +1,3230 @@
+<TeachingDefs>
+  <List>
+  <TeachingDef Name="SchoolManager">
+      <Type>经营篇</Type>
+      <DisplayName>门派管理</DisplayName>
+      <Desc>通过本章教学，查看门派界面的各种功能，了解声望对门派的影响，正邪对门派的作用等。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>JY-01</Load>
+	  <Texpath>TeachFile\TP\JY-01.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>基础信息简介</DisplayName>
+			<Tasks>
+			   <li>门派解锁提示</li>
+			   <li>查看声望</li>
+			   <li>查看正邪倾向</li>
+			   <li>查看门派风水</li>
+			   <li>查看门派伙食</li>
+			   <li>查阅门派功法</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>门派其他功能</DisplayName>
+			<Tasks>
+			   <li>查看门派结构</li>
+			   <li>查看弟子列表</li>
+			   <li>查看门派关系</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ClickUi">
+			<TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+          </li>				
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当玩家拥有内门弟子后，便可以对门派进行查看和管理。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>School</Name>
+			</TipsData>
+          </li>		    
+		  <li Type="ClickUi">
+            <TaskDesc>点击左侧门派按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>School</Name>
+			</UiData>
+          </li>
+		  <li Type="HoverUi">
+            <TaskDesc>点击查看声望信息.玩家可通过历练天下、地图事件、使用神通等行为来获得声望，但是声望越高，进攻的敌人也会越强。</TaskDesc>
+			<UiData>
+			   <ParentWindow>WindowSchool</ParentWindow>
+			   <Name>n98</Name>
+			   <Time>3</Time>
+			</UiData>
+			<LockTipsUiData>
+			  <Tips>1</Tips>
+			</LockTipsUiData>
+	     </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>声望每达到一定程度，便可以提升门派规模；门派规模越大，可招揽的弟子也越多。</Desc>
+			   <ParentWindow>WindowSchool</ParentWindow>
+			   <Name>n185</Name>
+			</TipsData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="HoverUi">
+            <TaskDesc>点击查看正邪倾向.玩家在游戏中的各种行为，会影响门派的正邪倾向，而正邪倾向又会影响到玩家门派与其他门派的关系，也会影响事件的选择和发展方向。</TaskDesc>
+			<UiData>
+			   <ParentWindow>WindowSchool</ParentWindow>
+			   <Name>n81</Name>
+			   <Time>3</Time>
+			</UiData>
+			<LockTipsUiData>
+			  <Tips>1</Tips>
+			</LockTipsUiData>
+	     </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>门派风水由所有房间和所有风水建筑的风水决定，门派风水会影响门派内所有弟子的运势。</Desc>
+			   <ParentWindow>WindowSchool</ParentWindow>
+			   <Name>n92</Name>
+			</TipsData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当玩家勾选门派食物后，弟子会在饭点前两个小时自动发布做饭任务；玩家也可以根据门派当前的食物储备情况，选择不同的伙食来改善弟子的饮食状况；食物储备足够的情况下，也可以取消勾选。</Desc>
+			   <ParentWindow>WindowSchool</ParentWindow>
+			   <Name>n34</Name>
+			</TipsData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击门派界面右下角的功法按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>WindowSchool</ParentWindow>
+			   <Name>n103</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击收起左侧无上大法</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectGong</ParentWindow>
+			   <ParentObject>n50</ParentObject>
+			   <Name>0</Name>
+			</UiData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>这里将显示玩家门派中获得的所有功法，并予以分类；凡俗之法往往只能修炼到结丹期，金丹之法往往只能修炼到金丹期，其他类别的功法各不相同。</Desc>
+			   <ParentWindow>SelectGong</ParentWindow>
+			   <Name>n50</Name>
+			</TipsData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>这里将显示玩家需要查看的功法属性、功法匹配属性、功法境界等详细信息。</Desc>
+			   <ParentWindow>SelectGong</ParentWindow>
+			   <Name>n4</Name>
+			</TipsData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击查看参悟树按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectGong</ParentWindow>
+			   <Name>n52</Name>
+			</UiData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>这里将显示玩家需要查看的功法参悟树具体详情，玩家可根据参悟树了解该功法所能学习的秘籍有哪些。</Desc>
+			   <ParentWindow>GongSkillTree</ParentWindow>
+			   <Name>tree</Name>
+			</TipsData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击关闭参悟树</TaskDesc>
+			<UiData>
+			   <ParentWindow>GongSkillTree</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击关闭功法界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectGong</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+          </li>   
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>门派基础信息界面中，可以了解当前门派的各类信息，方便玩家对门派进行管理。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击门派结构</TaskDesc>
+			<UiData>
+			   <ParentWindow>WindowSchool</ParentWindow>
+			   <ParentObject>Head</ParentObject>
+			   <Name>jiegou</Name>
+			</UiData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可以通过点击此处，为当前门派设置一个合适的掌门，掌门能力的强弱，将会对门下弟子的情绪造成影响，更换或卸任掌门亦会如此。</Desc>
+			   <ParentWindow>WindowSchool</ParentWindow>
+			   <Name>n136</Name>
+			   <Width>124</Width>
+			   <Height>29</Height>
+			   <Fx>-28</Fx>
+			   <Fy>-2</Fy>
+			</TipsData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家门派达到洞天规模时，可以建立分堂，堂主能力越强，分堂的弟子收益也会越高；设置分堂后也可以通过建造，设立分堂区域，在弟子在分堂区域内，也会获得增益；堂主的卸任或更换也会对门下弟子造成一定的影响。</Desc>
+			   <ParentWindow>WindowSchool</ParentWindow>
+			   <Name>n133</Name>
+			</TipsData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击弟子列表</TaskDesc>
+			<UiData>
+			   <ParentWindow>WindowSchool</ParentWindow>
+			   <ParentObject>Head</ParentObject>
+			   <Name>list</Name>
+			</UiData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可以看到所以的内门弟子和对应的弟子师承。</Desc>
+			   <ParentWindow>WindowSchool</ParentWindow>
+			   <Name>n46</Name>
+			</TipsData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可以通过点击X驱逐弟子。</Desc>
+			   <ParentWindow>WindowSchool</ParentWindow>
+			   <ParentObject>n46-42163</ParentObject>
+			   <Name>n11</Name>
+			</TipsData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击门派关系</TaskDesc>
+			<UiData>
+			   <ParentWindow>WindowSchool</ParentWindow>
+			   <ParentObject>Head</ParentObject>
+			   <Name>relation</Name>
+			</UiData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可以通过查看该界面，了解自己门派与其他门派的关系、友好度、交互倾向等信息，以便规划自身门派的发展方向。</Desc>
+			   <ParentWindow>WindowSchool</ParentWindow>
+			   <Name>relation</Name>
+			</TipsData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击丹霞洞天详情</TaskDesc>
+			<UiData>
+			   <ParentWindow>WindowSchool</ParentWindow>
+			   <ParentObject>relation-1</ParentObject>
+			   <Name>moreinfo</Name>
+			</UiData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可以通过点击详情，查看某一门派与其他门派之间的关系，以及门派实力，掌握其门派实力的动向，有助于玩家制定不同的策略。</Desc>
+			   <ParentWindow>WindowSchoolInfo</ParentWindow>
+			   <Name>frame</Name>
+			</TipsData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击关闭丹霞洞天界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>WindowSchoolInfo</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>以上的门派功能都会在玩家体验游戏的过程中，发挥着重要的作用，玩家也能通过使用这些功能发展自己的门派和制定不同的策略。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	  </Tasks>
+    </TeachingDef>
+
+	<TeachingDef Name="FengShui">
+      <Type>经营篇</Type>
+      <DisplayName>风水之道</DisplayName>
+      <Desc>通过本章教学，了解风水建筑和非风水建筑的区别，并根据其属性来调节风水。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>JY-02</Load>
+	  <Disable>0</Disable>
+	  <Texpath>TeachFile\TP\JY-02.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>风水建筑与装饰建筑的区别</DisplayName>
+			<Tasks>
+			   <li>查看风水类建筑</li>
+			   <li>查看装饰类建筑</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>如何调节风水建筑的风水</DisplayName>
+			<Tasks>
+			   <li>查看方桌风水</li>
+			   <li>查看方桌附近风水</li>
+			   <li>放置火铜锭</li>
+			   <li>移动装饰类建筑</li>
+			   <li>查看风水变化</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>如何调节房间的风水</DisplayName>
+			<Tasks>
+			   <li>查看房间风水</li>
+			   <li>查看风水建筑</li>
+			   <li>查看房间的布局</li>
+			   <li>查看开门朝向</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+                  </li>		
+		  <li Type="ClickUi">
+            <TaskDesc>点击菜单中的建筑按钮，打开建筑页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Building</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击生活分页，进入生活建筑分类</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-ListType</ParentObject>
+			   <Name>生活</Name>
+			</UiData>
+          </li>
+		  <li Type="HoverUi">
+            <TaskDesc>游戏中，大部分生活类、工作类、门派类、娱乐类等建筑上，附有风水建筑标签时都属于风水类建筑；该类建筑会随着所在位置的五行分布而变化，被环境五行相生，则风水越好，反之亦然。</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-Bed</ParentObject>
+			   <Name>Bed</Name>
+			   <Time>3</Time>
+			</UiData>
+			<LockTipsUiData>
+			  <Tips>1</Tips>
+			</LockTipsUiData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="Special">
+		    <Special>ScrollView</Special>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList</ParentObject>
+			   <Name>List</Name>
+			   <Ex>6</Ex>
+			</UiData>
+		  </li>
+		  <li Type="HoverUi">
+            <TaskDesc>游戏中，若无风水建筑标签，则为装饰类建筑，此类建筑，大多数会继承主材料的五行属性，从而影响周围的五行环境，而该建筑本身不受环境五行的影响，也不会有风水属性。</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-Building_ShuZhuangTai</ParentObject>
+			   <Name>Building_ShuZhuangTai</Name>
+			   <Time>3</Time>
+			</UiData>
+			<LockTipsUiData>
+			  <Tips>1</Tips>
+			</LockTipsUiData>
+          </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>游戏中，有一部分建筑会自带属性标签，当携带五行属性标签或者无属性标签时，该建筑不会受到主材料的属性影响，因此影响周围的五行环境则为该标签属性。</Desc>
+			    <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-Building_ItemShelf-Building_ItemShelf</ParentObject>
+			   <Name>Element</Name>
+			</TipsData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>需要玩家注意的是，游戏中的部分建筑，会自带一个地表五行属性，与建筑的五行属性完全不同，如灶台带有火属性地表、水井带有水属性地表等等，因此需要玩家对风水更加深入的了解和探索。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		  <li Type="Special">
+		    <Special>CancelSelect</Special>
+		  </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右侧的风水按钮进入风水模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>guanxing</Name>
+			</UiData>
+          </li>
+		  <li Type="HoverKey">
+            <TaskDesc>棕石方桌为土属性的风水建筑，因此会受到环境五行的生克影响，而在风水模式中，显示黄色或红色的建筑，为风水不好的建筑；当前建筑的风水颜色较红，显然是受到了克制五行属性的影响。</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>1192</li>
+			  </Keys>
+			  <Width>40</Width>
+			  <Height>40</Height>
+			  <Time>3</Time>
+			  <MapKey>1192</MapKey>
+			</MapKeyData>
+			<LockTipsUiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>ElementShow</Name>
+			</LockTipsUiData>
+			<LookKey>1256</LookKey>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="HoverKey">
+            <TaskDesc>梧桐木料是具有木属性的物品，会影响周围的五行环境。</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>1255</li>
+			  </Keys>
+			  <Width>40</Width>
+			  <Height>40</Height>
+			  <Time>3</Time>
+			  <MapKey>1255</MapKey>
+			</MapKeyData>
+			<LockTipsUiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>ElementShow</Name>
+			</LockTipsUiData>
+			<LookKey>1384</LookKey>
+         </li>
+		  <li Type="HoverKey">
+            <TaskDesc>梧桐木料灯笼是具有木属性的装饰类建筑，会影响周围的五行环境。</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>1257</li>
+			  </Keys>
+			  <Width>40</Width>
+			  <Height>40</Height>
+			  <Time>3</Time>
+			  <MapKey>1257</MapKey>
+			</MapKeyData>
+			<LockTipsUiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>ElementShow</Name>
+			</LockTipsUiData>
+			<LookKey>1384</LookKey>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>再次点击右侧风水按钮开启风水模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>guanxing</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击选择棕石方桌左侧的灵石置物台</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>48840</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击放置物品按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>放置物品</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickMapKey">
+            <TaskDesc>点击选择火铜锭</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>1580</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>1580</LookKey>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确认选择</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>		  
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击选择棕石方桌右侧的梧桐木灯笼</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>48854</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击拆除按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>拆除</Name>
+			</UiData>
+          </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击选择棕石方桌右侧的梧桐木灯笼</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>48855</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击移动按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>移动</Name>
+			</UiData>
+          </li>
+		 <li Type="ClickMapKey">
+            <TaskDesc>点击放置到示意位置</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>1129</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			  <MapKey>1129</MapKey>
+			</MapKeyData>
+			<LookKey>1256</LookKey>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确认选择</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>				 
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151</ParentObject>
+			   <Name>speedBtn</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151-speedBtnList</ParentObject>
+			   <Name>Max</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>Speed2</Special>
+          </li>
+		  <li Type="WaitTime">
+	     	<TaskDesc>等待全部完成</TaskDesc>
+		    <WaitTime>6</WaitTime>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右侧风水按钮退出风水模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>guanxing</Name>
+			</UiData>
+          </li>
+		  <li Type="HoverKey">
+            <TaskDesc>因为置换成了火铜锭，此时提高了周围火属性环境。</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>1255</li>
+			  </Keys>
+			  <Width>40</Width>
+			  <Height>40</Height>
+			  <Time>3</Time>
+			  <MapKey>1255</MapKey>
+			</MapKeyData>
+			<LockTipsUiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>ElementShow</Name>
+			</LockTipsUiData>
+			<LookKey>1384</LookKey>
+         </li>
+		  <li Type="HoverKey">
+            <TaskDesc>因为更换成了火铜灯笼，此时提高了周围火属性环境。因为五行环境的改变，此时棕石方桌受到火属性环境的影响，有利于土属性的棕石方桌，因此风水已趋于良好。</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>1129</li>
+			  </Keys>
+			  <Width>40</Width>
+			  <Height>40</Height>
+			  <Time>3</Time>
+			  <MapKey>1129</MapKey>
+			</MapKeyData>
+			<LockTipsUiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>ElementShow</Name>
+			</LockTipsUiData>
+			<LookKey>1384</LookKey>
+         </li>
+		  <!-- <li Type="HoverKey">
+            <TaskDesc>因为五行环境的改变，此时棕石方桌受到火属性环境的影响，有利于土属性的棕石方桌，因此风水已趋于良好。</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>1192</li>
+			  </Keys>
+			  <Width>40</Width>
+			  <Height>40</Height>
+			  <Time>3</Time>
+			  <MapKey>1192</MapKey>
+			</MapKeyData>
+			<LockTipsUiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>ElementShow</Name>
+			</LockTipsUiData>
+			<LookKey>1384</LookKey>
+         </li> -->
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>玩家在游戏过程中，可以通过改变风水建筑的环境五行，来改变风水趋向，而建筑风水又影响着房间风水。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		  <li Type="ClickArea">
+            <TaskDesc>点击房间中的区域，选中房间</TaskDesc>
+			<AreaData>
+			   <Width>180</Width>
+			   <Height>180</Height>
+			</AreaData>
+			<LookKey>1129</LookKey>
+          </li>
+		  <li Type="HoverUi">
+            <TaskDesc>玩家可通过查看这里的风水表示，看到房间风水是由多种因素所构成。</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>roomfengshui</Name>
+			   <Time>3</Time>
+			</UiData>
+			<LockTipsUiData>
+			  <Tips>1</Tips>
+			</LockTipsUiData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+	    <li Type="ShowTips">
+			<TipsData>
+			   <Desc>房间中所有的风水建筑的风水会影响房间风水，而所有风水建筑的平均值决定了房间的风水。</Desc>
+			   <Items>
+			     <li>48839</li>
+			     <li>48924</li>
+			   </Items>
+			   <Width>3000</Width>
+			   <Height>3000</Height>
+			   <NeedArrow>1</NeedArrow>
+			   <MaskKey>1130</MaskKey>
+			   <IsLook>2</IsLook>
+			</TipsData>
+			<LookKey>1384</LookKey>
+	  	</li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>房间的布局过于拥挤和过于空旷都会影响房间风水。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>n114</Name>
+			</TipsData>
+          </li>
+	    <li Type="ShowTips">
+			<TipsData>
+			   <Desc>根据房间的功能不同，开门朝向、多扇门等也会影响房间风水；这里以卧室为例，因此该房间正确的开门方向是坐北朝南，门应该建设在下面；而其他类型的房间朝向、风水等，都可通过帮助系统进行查看。</Desc>
+			   <Items>
+			     <li>48928</li>
+			     <li>48929</li>
+			   </Items>
+			   <Width>3000</Width>
+			   <Height>3000</Height>
+			   <NeedArrow>1</NeedArrow>
+			   <MaskKey>1130</MaskKey>
+			   <IsLook>2</IsLook>
+			</TipsData>
+			<LookKey>1384</LookKey>
+	  	</li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>在游戏中，玩家还可以通过点击右上角的帮助按钮，查询五行风水中的房间风水，了解更多有关风水的具体规则。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	  </Tasks>
+    </TeachingDef>
+
+    <TeachingDef Name="RoomDesign">
+      <Type>经营篇</Type>
+      <DisplayName>内门房间的设计</DisplayName>
+      <Desc>通过本章教学，了解内门房间的核心需求，以及如何满足内门房间风水。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>JY-03</Load>
+	  <Disable>0</Disable>
+	  <Texpath>TeachFile\TP\JY-03.png</Texpath>
+	  <CleanItems>
+	     <li>50977</li>
+	     <li>58535</li>
+	     <li>58533</li>
+	     <li>58534</li>
+	     <li>55802</li>
+	  </CleanItems>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>内门房间的选择</DisplayName>
+			<Tasks>
+			   <li>查看功法属性</li>
+			   <li>查看房间五行属性</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>建造修炼点</DisplayName>
+			<Tasks>
+			   <li>选择主材料</li>
+			   <li>等待建造完成</li>
+			   <li>设置归属</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>改善内门房间的风水</DisplayName>
+			<Tasks>
+			   <li>摆放油灯</li>
+			   <li>摆放家具</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		 <li Type="ClickItem">
+            <TaskDesc>点击选择内门弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>45268</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击打开人物面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-NpcInfoBnts</ParentObject>
+			   <Name>Info</Name>
+			   <Width>78</Width>
+			   <Height>78</Height>
+			   <Fx>-78</Fx>
+			</UiData>
+	     </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击功法修行选项卡</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>NpcInfoBnts</ParentObject>
+			   <Name>Parctice</Name>
+			</UiData>
+         </li>		 
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>该弟子的功法属性为金属性，而根据五行生克规则，我们需要给该弟子安排一个土属性的房间。</Desc>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>Practice</ParentObject>
+			   <Name>gongelement</Name>
+			</TipsData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击关闭功法修行面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>NpcInfo</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+	     </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		  </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左上角的风水按钮进入风水模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>guanxing</Name>
+			</UiData>
+          </li>
+		  
+		  <li Type="ClickMapKey">
+            <TaskDesc>该房间具有很高的火属性，与该弟子的功法属性成克制关系，不适合给该弟子做内门房。</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>2601</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>2601</LookKey>
+          </li>		
+		  <li Type="ClickMapKey">
+            <TaskDesc>该房间具有很高的土属性，与该弟子的功法属性成相生关系，更适合给该弟子做内门房。</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>2590</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			</MapKeyData>
+			<LookKey>2590</LookKey>
+          </li>				  
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的风水按钮退出风水模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>guanxing</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>内门弟子的房间选择，遵循五行生克的原则，尽量选择对内门弟子属性相生的区域建造房间。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+                  </li>		
+		  <li Type="ClickUi">
+            <TaskDesc>点击菜单中的建筑按钮，打开建筑页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Building</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击生活分页，进入生活建筑分类</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-ListType</ParentObject>
+			   <Name>生活</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击床，进入建筑摆放状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-Bed</ParentObject>
+			   <Name>Bed</Name>
+			</UiData>
+          </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>因为该弟子的五行属性为金，适合在土属性较为丰富的五行环境下修行；而风水类建筑需要搭配相生的装饰类建筑；因此我们在主材料的选择上用金属性较为合适，这样可以布置大量土属性的装饰类建筑，来达到相生的目的。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList</ParentObject>
+			   <Name>n9</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择铁锭</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-StuffList</ParentObject>
+			   <Name>Item_IronBlock</Name>
+			</UiData>
+          </li>
+		  <li Type="BluePrint">
+            <TaskDesc>点击放置到蓝图示意位置</TaskDesc>
+			<BlueprintData>
+			   <ShowArrow>1</ShowArrow>
+			   <Builds>
+			      <li>
+				     <Name>Bed</Name>
+					 <Key>2653</Key>
+				  </li>
+			   </Builds>
+			</BlueprintData>
+			<LookKey>2589</LookKey>
+          </li>
+		<li Type="ClickUi">
+            <TaskDesc>退出建造模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n150</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭建造面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n232</Name>
+			</UiData>
+        </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151</ParentObject>
+			   <Name>speedBtn</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151-speedBtnList</ParentObject>
+			   <Name>Max</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>Speed2</Special>
+          </li>
+		  <li Type="WaitCMD">
+            <TaskDesc>等待建设完成</TaskDesc>
+			<ItemData>
+			   <BuildKeys>
+			     <li>2653</li>
+			   </BuildKeys>
+			   <BuildFinish>1</BuildFinish>
+			</ItemData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickItem">
+            <TaskDesc>点击选择铁床</TaskDesc>
+			<ItemData>
+			   <BuildKeys>
+			     <li>2653</li>
+			   </BuildKeys>
+			</ItemData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击指定归属</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>指定归属</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击第一名角色，将床分配给他</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <ParentObject>n25</ParentObject>
+			   <Name>3</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确定床的归属分配</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <Name>n27</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>游戏中修炼点不止可以用床，还可以用蒲团或者法座做修炼点，主材料的选择上应与内门弟子的功法属性保持一致。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+                  </li>		
+		  <li Type="ClickUi">
+            <TaskDesc>点击菜单中的建筑按钮，打开建筑页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Building</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击装饰分页，进入生活建筑分类</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-ListType</ParentObject>
+			   <Name>装饰</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击油灯，进入建筑摆放状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-Candlestick</ParentObject>
+			   <Name>Candlestick</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择主材料棕石</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-StuffList</ParentObject>
+			   <Name>Item_BrownRockBlock</Name>
+			</UiData>
+          </li>
+		  <li Type="BluePrint">
+            <TaskDesc>点击放置到蓝图示意位置</TaskDesc>
+			<BlueprintData>
+			   <ShowArrow>1</ShowArrow>
+			   <Builds>
+			      <li>
+				     <Name>Candlestick</Name>
+					 <Key>2652</Key>
+				  </li>
+			      <li>
+				     <Name>Candlestick</Name>
+					 <Key>2654</Key>
+				  </li>
+			   </Builds>
+			</BlueprintData>
+			<LookKey>2589</LookKey>
+          </li>
+		<li Type="ClickUi">
+            <TaskDesc>退出建造模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n150</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>	  
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击家具分类</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-ListLable</ParentObject>
+			   <Name>家具</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击花瓶</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-Building_SmallVase</ParentObject>
+			   <Name>Building_SmallVase</Name>
+			</UiData>
+          </li>
+		  <li Type="BluePrint">
+            <TaskDesc>点击放置到蓝图示意位置</TaskDesc>
+			<BlueprintData>
+			   <ShowArrow>1</ShowArrow>
+			   <Builds>
+			      <li>
+				     <Name>Building_SmallVase</Name>
+					 <Key>2717</Key>
+				  </li>
+			   </Builds>
+			</BlueprintData>
+			<LookKey>2589</LookKey>
+          </li>
+		<li Type="ClickUi">
+            <TaskDesc>退出建造模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n150</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>	  		  
+		  <li Type="ClickUi">
+            <TaskDesc>点击香炉</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-Building_BigCenser</ParentObject>
+			   <Name>Building_BigCenser</Name>
+			</UiData>
+          </li>
+		  <li Type="BluePrint">
+            <TaskDesc>点击放置到蓝图示意位置</TaskDesc>
+			<BlueprintData>
+			   <ShowArrow>1</ShowArrow>
+			   <Builds>
+			      <li>
+				     <Name>Building_BigCenser</Name>
+					 <Key>2525</Key>
+				  </li>
+			   </Builds>
+			</BlueprintData>
+			<LookKey>2589</LookKey>
+          </li>
+		<li Type="ClickUi">
+            <TaskDesc>退出建造模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n150</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>	  		
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>内门弟子房间的主要风水建筑一般为床、蒲团、法座等，而包含这类风水建筑的房间朝向，通常为坐北朝南的卧室类型；内门房间设计的核心是用相生属性材料的装饰类建筑，与内门弟子的功法属性相生；如土属性油灯生金属性功法的内门弟子，就用金属性的材料做修炼点（教学中以床为例）。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	  </Tasks>
+    </TeachingDef>
+
+    <TeachingDef Name="WalkStop">
+      <Type>经营篇</Type>
+      <DisplayName>行商交易</DisplayName>
+      <Desc>通过本章教学，了解如何与行商交易，以及了解一些与行商有关的必要说明。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>JY-04</Load>
+	  <Texpath>TeachFile\TP\JY-04.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>交易前的准备</DisplayName>
+			<Tasks>
+			   <li>查看行商消息</li>
+			   <li>规划交易区</li>
+			   <li>准备待交易物品</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>如何进行交易</DisplayName>
+			<Tasks>
+			   <li>与行商交易</li>
+			   <li>查看交易界面</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="Special">
+		    <Special>WalkShop</Special>
+		  </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击事件确认</TaskDesc>
+			<UiData>
+			   <ParentWindow>StorySelect</ParentWindow>
+			   <ParentObject>selection</ParentObject>
+			   <Name>1</Name>
+			</UiData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击右侧打开消息界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n253</Name>
+			   <Fx>30</Fx>
+			   <Width>36</Width>
+			</UiData>
+         </li>		 
+		 <li Type="ClickUi">
+			<TaskDesc>点击行商到来的消息</TaskDesc>
+			<UiData>
+			   <ParentWindow>NormalMessageBox</ParentWindow>
+			   <ParentObject>n219</ParentObject>
+			   <Name>0</Name>
+			</UiData>
+         </li>	 
+		  <li Type="Special">
+		    <Special>SelectThing</Special>
+			<ItemData>
+			   <Items>
+			     <li>60124</li>
+			   </Items>
+			</ItemData>
+		 </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>游戏中，行商会不定期前来玩家门派，玩家可以通过与其互动，从而交易物资；交易的货币主要为灵石，当然也可以用等价的物品进行交换；而每次交易前，需要玩家准备好需要交易的物资。</Desc>
+			   <Width>60</Width>
+			   <Height>60</Height>
+			   <Items>
+			     <li>60124</li>
+			   </Items>
+			</TipsData>
+	  	</li>
+		 <li Type="ClickUi">
+			<TaskDesc>点击关闭消息界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>NormalMessageBox</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+         </li>	 		
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+                  </li>		
+		  <li Type="ClickUi">
+            <TaskDesc>点击菜单中的建筑按钮，打开建筑页面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Building</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击区域分页，进入区域建筑分类</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-ListType</ParentObject>
+			   <Name>区域</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击交易区，进入区域摆放状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainList-List-AreaTrade</ParentObject>
+			   <Name>AreaTrade</Name>
+			</UiData>
+          </li>
+		 <li Type="DrawArea">
+            <TaskDesc>在指定区域，让玩家拖拽出一片交易区</TaskDesc>
+			<AreaData>
+			   <Name>AreaTrade</Name>
+			   <Width>260</Width>
+			   <Height>160</Height>
+			   <Keys>
+			      <li>2222</li>
+			      <li>2223</li>
+			      <li>2224</li>
+			      <li>2225</li>
+			      <li>2226</li>
+			      <li>2158</li>
+			      <li>2159</li>
+			      <li>2160</li>
+			      <li>2161</li>
+			      <li>2162</li>
+			      <li>2094</li>
+			      <li>2095</li>
+			      <li>2096</li>
+			      <li>2097</li>
+			      <li>2098</li>
+			   </Keys>
+			</AreaData>
+			<LookKey>2160</LookKey>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>退出建造模式</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n150</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭建造面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMainBack</ParentWindow>
+			   <Name>n232</Name>
+			</UiData>
+        </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		<li Type="ClickItem">
+            <TaskDesc>选中灵石</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>55145</li>
+			   </Items>
+			</ItemData>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击下方列表中的交易区</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>交易区</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151</ParentObject>
+			   <Name>speedBtn</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151-speedBtnList</ParentObject>
+			   <Name>Max</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>Speed2</Special>
+          </li>
+		  <li Type="WaitTime">
+	     	<TaskDesc>等待物品移到交易区</TaskDesc>
+		    <WaitTime>2</WaitTime>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>行商每次到来，都会携带大量物资，因此玩家可以在行商到来前，预先准备好需要交易的物品，以免错过交易时间。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		<li Type="ClickItem">
+            <TaskDesc>点击选择行商</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>60124</li>
+			   </Items>
+			</ItemData>
+        </li>
+		<li Type="ClickUi">
+            <TaskDesc>点击交易</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>交易</Name>
+			</UiData>
+         </li>
+		 <li Type="WaitCMD">
+            <TaskDesc>等待弟子前往交易</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>60124</li>
+			   </Items>
+			   <CMD>MoveToTrade</CMD>
+			</ItemData>
+          </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>这里是行商带的物资。</Desc>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>leftitem</Name>
+			</TipsData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>这里是玩家门派交易区的物资。</Desc>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>rightitem</Name>
+			</TipsData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>这里是正在交易的物资，左上角是行商正在参与交易物资的价值，右上角是玩家门派正在参与交易物资的价值，当双方价格合适时，玩家可以通过点击下方确定按钮，完成交易。</Desc>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>frame</Name>
+			</TipsData>
+         </li>
+		<li Type="ClickUi">
+            <TaskDesc>关闭交易面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>no</Name>
+			</UiData>
+         </li>		 
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>行商每次到来时，会停留一段时间，因此玩家可以分多次交易；但需要玩家注意的是，若行商陨落于玩家门派，虽然会获得这一次的所有物资，但是行商将不会再前来玩家门派交易，因此还请玩家三思而后行。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	  </Tasks>
+    </TeachingDef>
+
+    <TeachingDef Name="WorldMap">
+      <Type>经营篇</Type>
+      <DisplayName>天下地点</DisplayName>
+      <Desc>通过本章教学，了解天下地点与天下界面，并掌握如何与这些地点进行互动。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Load>JY-05</Load>
+	  <Disable>0</Disable>
+	  <Texpath>TeachFile\TP\JY-05.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>天下界面简介</DisplayName>
+			<Tasks>
+			   <li>查看地点</li>
+			   <li>查看秘闻</li>
+			   <li>查看弟子</li>
+			   <li>查看扩张</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>如何历练与驻扎</DisplayName>
+			<Tasks>
+			   <li>派遣历练</li>
+			   <li>派遣驻扎</li>
+			   <li>查看探索度</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ClickUi">
+			<TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+          </li>				  
+		  <li Type="ClickUi">
+            <TaskDesc>点击打开天下界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>World</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>LockList</Special>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>map</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当玩家拥有内门弟子后，可以通过天下界面，将弟子派遣到这些地点中进行历练，而历练过程中，会遇到多种多样的秘闻，并从中获取各种奖励和物资。</Desc>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>map-Places</ParentObject>
+			   <UINames>
+			      <li>Place_BirthPlace11</li>
+			      <li>Place_ShanCity</li>
+			      <li>Place_WuLian</li>
+			  </UINames>
+			  <Width>4000</Width>
+			  <Height>4000</Height>
+			  <MaskKey>2601</MaskKey>
+			  <IsLook>2</IsLook>
+			  <NeedArrow>1</NeedArrow>
+			</TipsData>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的秘闻按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>bnt_miwen</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家在游戏中遇到秘闻时，便会在这里显示正在发生的秘闻，点击这些秘闻，镜头便会跳转到秘闻所在地。</Desc>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>miwenlist</Name>
+			</TipsData>
+         </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的弟子按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>npcs</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家在游戏中，如果有派遣弟子去某地历练或驻扎，将会显示在此处；当玩家需要召回弟子时，可以通过点击召回按钮召回。</Desc>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>renyuanlist</Name>
+			</TipsData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>再次点击关闭弟子查看面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>npcs2</Name>
+			</UiData>
+	     </li>
+		  <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左上角扩张按钮，进入扩张界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>outsinfo</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>地图上所有势力都有各自的势力范围，不同的势力范围，势力颜色不相同；玩家可以通过多种方式扩大自己的势力范围，而中立地区往往是最好入手的地区。</Desc>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>schoolsign</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左上角情报按钮，退出扩张界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>schoolinfo</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>通过刚刚的天下界面介绍，我们已经有了相当多的互动玩法，接下来让我们了解一下一般地点。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		 <li Type="Special">
+		    <Special>SetMapLock</Special>
+			<UiData>
+				<Ex>true</Ex>
+				<Name>Place_BirthPlace11</Name>
+			</UiData>
+	     </li>			 
+		  <li Type="ClickUi">
+            <TaskDesc>点击南屏村</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>map-Places</ParentObject>
+			   <Name>Place_BirthPlace11</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击历练</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>lilianpos</ParentObject>
+			   <Name>goexp</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择一名弟子</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <ParentObject>n25</ParentObject>
+			   <Name>0</Name>
+			</UiData>
+          </li>	  
+		  <li Type="HoverUi">
+            <TaskDesc>该弟子在前往目标地点历练时，耗时长短与该弟子的境界，历练速度等属性有关；并且玩家可以同时指派多个弟子前往目标地点进行历练。</TaskDesc>
+			<TipsData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>schoolsign</Name>
+			</TipsData>
+          </li>		  
+		  <li Type="ClickUi">
+            <TaskDesc>确认选择</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <Name>n49</Name>
+			</UiData>
+	     </li>		  
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <Name>n27</Name>
+			</UiData>
+          </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击好的</TaskDesc>
+			<UiData>
+			   <ParentWindow>MessageSelect</ParentWindow>
+			   <Name>n27</Name>
+			</UiData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击驻扎</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>lilianpos</ParentObject>
+			   <Name>gostay</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择一名弟子</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <ParentObject>n25</ParentObject>
+			   <Name>1</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确认选择</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <Name>n49</Name>
+			</UiData>
+	     </li>			  
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc</ParentWindow>
+			   <Name>n27</Name>
+			</UiData>
+          </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>这里可以看到当前地点的探索度，玩家通过历练和驻扎都能逐渐提升该地探索的探索度，当探索度提高时，会解锁周围的隐藏地点；而百分之百则表示当前地点，已经被探索完毕。</Desc>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>lilianpos</ParentObject>
+			   <Name>allunlock</Name>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>在了解了如何历练与驻扎之后，玩家便可以前往天下地点中获取各种珍稀资源、发现有趣的秘闻、或者拜访其他门派等等。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	  </Tasks>
+    </TeachingDef>
+
+	<TeachingDef Name="DLPlace">
+      <Type>经营篇</Type>
+      <DisplayName>代理点入驻</DisplayName>
+      <Desc>通过本章教学，了解如何建立一个代理点，并掌握如何管理代理点。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>JY-06</Load>
+	  <DLC>HongChenZhongSheng</DLC>
+	  <Texpath>TeachFile\TP\JY-06.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>查看代理点</DisplayName>
+			<Tasks>
+			   <li>打开入驻界面</li>
+			   <li>查看岭南代理点</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>代理点管理</DisplayName>
+			<Tasks>
+			   <li>查看势力管理界面</li>
+			   <li>发布政策</li>
+			   <li>领取物资</li>
+			   <li>提高关注度</li>
+			   <li>查看代理点界面</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>处理代理点事件</DisplayName>
+			<Tasks>
+			   <li>处理布施事件</li>
+			   <li>查看事件结果</li>
+			   <li>处理特殊事件</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ClickUi">
+			<TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+          </li>				  
+		  <li Type="ClickUi">
+            <TaskDesc>点击打开天下界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>World</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>SetMapLock</Special>
+			<UiData>
+				<Ex>true</Ex>
+				<Name>Place_ShanCity</Name>
+			</UiData>
+	     </li>	
+		 <li Type="Special">
+		    <Special>LockList</Special>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>map</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击丰城</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>map-Places</ParentObject>
+			   <Name>Place_ShanCity</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家派遣外门弟子入驻代理点之前，需要先满足一定的需求。</Desc>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>lilianpos</ParentObject>
+			   <Name>n398</Name>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="Special">
+		    <Special>SetMapLock</Special>
+			<UiData>
+				<Ex>true</Ex>
+				<Ex2>true</Ex2>
+				<Name>Place_SouthMount</Name>
+			</UiData>
+	     </li>	 
+		  <li Type="ClickUi">
+            <TaskDesc>点击岭南</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>map-Places</ParentObject>
+			   <Name>Place_SouthMount</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当外门弟子入驻代理点完成之后，会解锁更多代理点的功能和建筑。</Desc>
+			   <ParentWindow>OutsWindow</ParentWindow>
+			   <ParentObject>n137</ParentObject>
+			   <Name>b0</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击关闭岭南界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>OutsWindow</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击关闭天下界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>close</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>SetCmdState</Special>
+		    <SpecialStr>0</SpecialStr>
+		 </li>				 
+		 <li Type="Special">
+		    <Special>SetMapLock</Special>
+			<UiData>
+				<Ex>false</Ex>
+			</UiData>
+	     </li>		 
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>当玩家拥有代理点之后，便可以对代理点进行相应的管理。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>			 
+		  <li Type="ClickUi">
+			<TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左侧势力按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Power</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>这里将显示游戏中所有的代理点，而只有玩家已经派遣入驻的代理点，才可以通过该界面进行管理操作；每个代理点的一些主要的信息都通过这里进行快速查阅；而点击左侧的图标可以快速打开代理点界面，查看更加具体的情况。</Desc>
+			   <ParentWindow>QuickCity</ParentWindow>
+			   <Name>n3</Name>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击劳作</TaskDesc>
+			<UiData>
+			   <ParentWindow>QuickCity</ParentWindow>
+			   <ParentObject>n3-Place_SouthMount</ParentObject>
+			   <Name>qingxiang</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>每个代理点都可以设置独立的地方政策，而遇到特殊事件时，政策的选择往往与影响力、信仰值、人口等等挂钩。</Desc>
+			   <ParentWindow>QuickCity</ParentWindow>
+			   <Name>n11</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击布施</TaskDesc>
+			<UiData>
+			   <ParentWindow>QuickCity</ParentWindow>
+			   <ParentObject>n11</ParentObject>
+			   <Name>Policy_Missionary</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>每个代理点都有独立的仓库，玩家每隔一段时间，便可以通过领取按钮，收取当地的物资，但是需要注意仓库有存储上限。</Desc>
+			   <ParentWindow>QuickCity</ParentWindow>
+			   <ParentObject>n3-Place_SouthMount</ParentObject>
+			   <Name>n159</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击领取</TaskDesc>
+			<UiData>
+			    <ParentWindow>QuickCity</ParentWindow>
+			   <ParentObject>n3-Place_SouthMount</ParentObject>
+			   <Name>n130</Name>
+			</UiData>
+	     </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击好的</TaskDesc>
+			<UiData>
+			   <ParentWindow>MessageSelect</ParentWindow>
+			   <Name>n30</Name>
+			</UiData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>有时提高关注度是增加该代理点事件发生频率的一个好方法，但是消耗的资源也会更多。</Desc>
+			   <ParentWindow>QuickCity</ParentWindow>
+			   <ParentObject>n3-Place_SouthMount</ParentObject>
+			   <Name>n140</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击关注</TaskDesc>
+			<UiData>
+			    <ParentWindow>QuickCity</ParentWindow>
+			   <ParentObject>n3-Place_SouthMount</ParentObject>
+			   <Name>n140</Name>
+			   <Width>70</Width>
+			   <Fx>-5</Fx>			   
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击岭南</TaskDesc>
+			<UiData>
+			    <ParentWindow>QuickCity</ParentWindow>
+			   <ParentObject>n3-Place_SouthMount</ParentObject>
+			   <Name>n142</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>这里将显示玩家所控制的代理点的主要信息，如核心代理人，主要建筑，产出，仓库等等。</Desc>
+			   <ParentWindow>OutsWindow</ParentWindow>
+			   <Name>frame</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左侧代理人按钮</TaskDesc>
+			<UiData>
+			    <ParentWindow>OutsWindow</ParentWindow>
+			   <ParentObject>Head</ParentObject>
+			   <Name>zhuchi</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>这里将显示玩家所控制的代理点的代理人信息，如代理人总属性，代理弟子等等。</Desc>
+			   <ParentWindow>OutsWindow</ParentWindow>
+			   <Name>frame</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左侧信仰按钮</TaskDesc>
+			<UiData>
+			    <ParentWindow>OutsWindow</ParentWindow>
+			   <ParentObject>Head</ParentObject>
+			   <Name>xinyang</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>这里将显示玩家所控制的代理点的信仰情况，如当地的信仰流派，信仰值，雕像，总人口等等。</Desc>
+			   <ParentWindow>OutsWindow</ParentWindow>
+			   <Name>frame</Name>
+			</TipsData>
+         </li>
+		    <li Type="ClickUi">
+            <TaskDesc>点击关闭岭南界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>OutsWindow</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击关闭天下界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>close</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>SetCmdState</Special>
+		    <SpecialStr>0</SpecialStr>
+		 </li>				 
+		  <li Type="ClickUi">
+            <TaskDesc>点击关闭势力管理界面</TaskDesc>
+			<UiData>
+			    <ParentWindow>QuickCity</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>当玩家拥有代理点之后，便可以对代理点进行相应的管理。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		 <li Type="Special">
+		    <Special>TriggerPolicy</Special>
+		 </li>
+		 <li Type="Special">
+		    <Special>SetCmdState</Special>
+		    <SpecialStr>0</SpecialStr>
+		 </li>		 
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当发生代理点事件时，玩家可通过右侧的小窗口查看事件，如果玩家在倒计时结束前，处理完成事件，则会给与一定奖励。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>citystory</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右侧的查看事件按钮</TaskDesc>
+			<UiData>
+			    <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>citystory</ParentObject>
+			   <Name>n396</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可根据文本提示，选择合适的解决方式，解决效果通常与代理点的弟子属性有关。</Desc>
+			   <ParentWindow>QuickCity</ParentWindow>
+			   <Name>n31</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择原木</TaskDesc>
+			<UiData>
+			    <ParentWindow>QuickCity</ParentWindow>
+			   <ParentObject>n31</ParentObject>
+			   <Name>7</Name>
+			</UiData>
+	     </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击是的</TaskDesc>
+			<UiData>
+			   <ParentWindow>MessageSelect</ParentWindow>
+			   <Name>n30</Name>
+			</UiData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当玩家解决完事件时，政策框便不再显示感叹号。</Desc>
+			   <ParentWindow>QuickCity</ParentWindow>
+			   <ParentObject>n3-Place_SouthMount</ParentObject>
+			   <Name>qingxiang</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击关闭势力管理界面</TaskDesc>
+			<UiData>
+			    <ParentWindow>QuickCity</ParentWindow>
+			   <ParentObject>frame</ParentObject>
+			   <Name>n5</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151</ParentObject>
+			   <Name>speedBtn</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151-speedBtnList</ParentObject>
+			   <Name>Max</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>Speed2</Special>
+          </li>
+		  <li Type="WaitTime">
+	     	<TaskDesc>布施事件完成后弹出的事件框</TaskDesc>
+		    <WaitTime>8</WaitTime>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击查看结果</TaskDesc>
+			<UiData>
+			   <ParentWindow>StorySelect</ParentWindow>
+			   <ParentObject>selection</ParentObject>
+			   <Name>1</Name>
+			</UiData>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当玩家成功完成事件时，会增加代理点大量的信众；信众越多，对于代理点扩张越有利。</Desc>
+			   <ParentWindow>StorySelect</ParentWindow>
+			   <Name>desc</Name>
+			</TipsData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击知道了</TaskDesc>
+			<UiData>
+			   <ParentWindow>StorySelect</ParentWindow>
+			   <ParentObject>selection</ParentObject>
+			   <Name>1</Name>
+			</UiData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="Special">
+		    <Special>StartDisaster</Special>
+		 </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击知道了</TaskDesc>
+			<UiData>
+			   <ParentWindow>StorySelect</ParentWindow>
+			   <ParentObject>selection</ParentObject>
+			   <Name>1</Name>
+			</UiData>
+         </li>
+		 <li Type="Special">
+		    <Special>SetCmdState</Special>
+		    <SpecialStr>0</SpecialStr>
+		 </li>			
+		  <li Type="ClickUi">
+			<TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+          </li>				 
+		  <li Type="ClickUi">
+            <TaskDesc>点击左侧势力按钮</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Power</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>ClickUI</Special>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>Power</Name>
+			</UiData>
+		 </li>		 	 
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可通过左侧弹出消息，快速查看代理点正在发生的特殊事件。</Desc>
+			   <ParentWindow>QuickCity</ParentWindow>
+			   <ParentObject>n3-Place_SouthMount</ParentObject>
+			   <Name>n156</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击岭南</TaskDesc>
+			<UiData>
+			    <ParentWindow>QuickCity</ParentWindow>
+			   <ParentObject>n3-Place_SouthMount</ParentObject>
+			   <Name>n142</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家需要在倒计时结束前，满足下面的需求；只有在倒计时结束前满足需求，才算完成事件，若未完成事件，则会损失一定的信众；玩家也可以通过历练，加速完成特殊事件。</Desc>
+			   <ParentWindow>OutsWindow</ParentWindow>
+			   <Name>n387</Name>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>代理点有时会发生一些特殊事件，需要玩家去处理，处理得当则会获得大量影响力；影响力的扩大，有利于玩家加速扩张势力范围，提升代理点等级等等；代理点也可以为玩家门派带来大量收益，如地点产出、招揽弟子、获取信仰等等。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	  </Tasks>
+    </TeachingDef>
+
+    <TeachingDef Name="SchoolInteractive">
+      <Type>经营篇</Type>
+      <DisplayName>门派交互</DisplayName>
+      <Desc>通过本章教学，了解如何与其他门派进行交互，并通过这些门派进行交易往来。</Desc>
+	  <NoFog>1</NoFog>
+	  <Disable>0</Disable>
+	  <Load>JY-07</Load>
+	  <DLC>HongChenZhongSheng</DLC>
+	  <Texpath>TeachFile\TP\JY-07.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>如何与门派建交</DisplayName>
+			<Tasks>
+			   <li>拜山蜀山</li>
+			   <li>完成门派任务</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>如何与门派交易</DisplayName>
+			<Tasks>
+			   <li>门派交易</li>
+			   <li>查看门派交易物</li>
+			   <li>尝试交易</li>
+			   <li>再次尝试交易</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ClickUi">
+			<TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+          </li>				  
+		  <li Type="ClickUi">
+            <TaskDesc>点击打开天下界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>World</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>LockList</Special>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>map</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>SetMapLock</Special>
+			<UiData>
+				<Ex>true</Ex>
+				<Name>Place_Shu</Name>
+			</UiData>
+	     </li>	
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择蜀山</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>map-Places</ParentObject>
+			   <Name>Place_Shu</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击拜山</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>lilianpos</ParentObject>
+			   <Name>gobaishan</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家需要通过给门派送见面礼，完成拜山；因此最好提前规划好交易区，并选择好合适的交易物；玩家通过拜山后才能解锁更多内容。</Desc>
+			   <ParentWindow>SchoolGiveGift</ParentWindow>
+			   <Name>n40</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击琴谱</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolGiveGift</ParentWindow>
+			   <ParentObject>rightitem</ParentObject>
+			   <Name>Item_FunMusic</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>添加数量</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolGiveGift</ParentWindow>
+			   <Name>n46</Name>
+			   <Fx>-46</Fx>
+			   <Fy>-20</Fy>			   
+			</UiData>
+	     </li>		 
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolGiveGift</ParentWindow>
+			   <Name>yes</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolGiveGift</ParentWindow>
+			   <Name>close</Name>
+			</UiData>
+	     </li>		
+		  <li Type="ClickUi">
+            <TaskDesc>关闭交易面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolGiveGift</ParentWindow>
+			   <Name>no</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击关闭天下界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>close</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>SetCmdState</Special>
+		    <SpecialStr>0</SpecialStr>
+		 </li>				 
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="WaitTime">
+		    <WaitTime>0.5</WaitTime>
+         </li>
+		 <li Type="Special">
+		    <Special>GetSchoolTask</Special>
+		 </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当弹出门派任务的提示时，玩家可通过在扩张界面赠与需求物品。</Desc>
+			   <ParentWindow>StorySelect</ParentWindow>
+			   <Name>desc</Name>
+			</TipsData>
+         </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击好的</TaskDesc>
+			<UiData>
+			   <ParentWindow>StorySelect</ParentWindow>
+			   <ParentObject>selection</ParentObject>
+			   <Name>1</Name>
+			</UiData>
+         </li>		
+		  <li Type="ClickUi">
+			<TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+          </li>				 	 
+		  <li Type="ClickUi">
+            <TaskDesc>点击打开天下界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>World</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当触发门派任务时，扩张按钮上会出现问号标识，代表玩家可以给其他门派予以帮助，这会获得一定的门派人情。</Desc>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>schoolta</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角任务按钮，进入任务界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>schoolta</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>SetMapLock</Special>
+			<UiData>
+				<Ex>false</Ex>
+				<Name>Place_Shu</Name>
+			</UiData>
+	     </li>
+		  <li Type="ShowTips">
+			<TipsData>
+               <Desc>这里将显示该门派所需求的任务物品，玩家需要将准备好的物品放在交易区才能给与。</Desc>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>map-Places-6</ParentObject>
+			   <Name>n20</Name>
+			</TipsData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击给与</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>map-Places-6</ParentObject>
+			   <Name>n25</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击长生丹</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolGiveGift</ParentWindow>
+			   <ParentObject>rightitem</ParentObject>
+			   <Name>Item_Dan_IncreaseLife1</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>添加数量</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolGiveGift</ParentWindow>
+			   <Name>n46</Name>
+			   <Fx>-46</Fx>
+			   <Fy>-20</Fy>			   
+			</UiData>
+	     </li>			 
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolGiveGift</ParentWindow>
+			   <Name>yes</Name>
+			</UiData>
+	     </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击知道了</TaskDesc>
+			<UiData>
+			   <ParentWindow>StorySelect</ParentWindow>
+			   <ParentObject>selection</ParentObject>
+			   <Name>1</Name>
+			</UiData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolGiveGift</ParentWindow>
+			   <Name>close</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭交易面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolGiveGift</ParentWindow>
+			   <Name>no</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角任务按钮，关闭任务界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>schoolta2</Name>
+			</UiData>
+	     </li>		  
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>玩家可通过多种途径，增加门派人情，这关系到之后与该门派的交易；通常来说，门派人情点数越高，越有利。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择蜀山</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>map-Places</ParentObject>
+			   <Name>Place_Shu</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击交易</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>lilianpos</ParentObject>
+			   <Name>gotrade</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ShowTips">
+			<TipsData>
+               <Desc>玩家可通过这里查看可交易的类型；显示红色的物品，代表着玩家与当前门派的人情点数过低，目前无法交易这类物品。</Desc>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>leftitem</Name>
+			</TipsData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击道具栏进行缩放</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <ParentObject>leftitem</ParentObject>
+			   <Name>ItemType</Name>
+			</UiData>
+	     </li>
+		  <li Type="ShowTips">
+			<TipsData>
+               <Desc>玩家可通过点击缩放栏，查看更多可交易的种类，如租赁法宝、求助金丹期弟子等等。</Desc>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>leftitem</Name>
+			</TipsData>
+          </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击道具栏进行缩放</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <ParentObject>leftitem</ParentObject>
+			   <Name>ItemType</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左侧门派道具 赤参</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <ParentObject>leftitem</ParentObject>
+			   <Name>Item_RedGinseng</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>添加数量</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>n56</Name>
+			   <Fx>-46</Fx>
+			   <Fy>-20</Fy>			   
+			</UiData>
+	     </li>			 
+		  <li Type="ClickUi">
+            <TaskDesc>点击右侧玩家道具 灵血符</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <ParentObject>rightitem</ParentObject>
+			   <Name>Item_SpellPaperLv2</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>添加数量</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>n56</Name>
+			   <Fx>-46</Fx>
+			   <Fy>-20</Fy>			   
+			</UiData>
+	     </li>			 
+		  <li Type="ClickUi">
+            <TaskDesc>点击尝试交易</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>try</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右侧玩家道具 灵血符</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <ParentObject>rightitem</ParentObject>
+			   <Name>Item_SpellPaperLv2</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>添加数量</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>n56</Name>
+			   <Fx>-46</Fx>
+			   <Fy>-20</Fy>			   
+			</UiData>
+	     </li>		 
+		  <li Type="ClickUi">
+            <TaskDesc>点击尝试交易</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>try</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>yes</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>close</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>SetMapLock</Special>
+			<UiData>
+				<Ex>false</Ex>
+			</UiData>
+	     </li>		 
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>在门派交易中，玩家可多利用“尝试交易”的方式，预估对方物品的价值，这能有助于玩家在交易时用合适的价格购买物品。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	  </Tasks>
+    </TeachingDef>
+
+    <TeachingDef Name="MapExplore">
+      <Type>经营篇</Type>
+      <DisplayName>地图探索</DisplayName>
+      <Desc>通过本章教学，了解如何进入地点，并进行地图探索。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>0</NoFog>
+	  <Disable>0</Disable>
+	  <Load>JY-08A</Load>
+	  <DLC>HongChenZhongSheng</DLC>
+	  <Texpath>TeachFile\TP\JY-08.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>获得通行权</DisplayName>
+			<Tasks>
+			   <li>查看归属地</li>
+			   <li>购买通行权</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>地图探索</DisplayName>
+			<Tasks>
+			   <li>查看进入</li>
+			   <li>进入地图</li>
+			   <li>移动探索</li>
+			   <li>隐匿探索</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>地图交互</DisplayName>
+			<Tasks>
+			   <li>拾取物品</li>
+			   <li>离开地图</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		  <li Type="ClickUi">
+			<TaskDesc>点击左下角菜单按钮,开启选择菜单</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n269</Name>
+			</UiData>
+          </li>				  
+		  <li Type="ClickUi">
+            <TaskDesc>点击打开天下界面</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>MainMenu</ParentObject>
+			   <Name>World</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>SetMapLock</Special>
+			<UiData>
+				<Ex>true</Ex>
+				<Name>Place_WuLian</Name>
+			</UiData>
+	     </li>
+		 <li Type="Special">
+		    <Special>LockList</Special>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <Name>map</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击五莲山</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>map-Places</ParentObject>
+			   <Name>Place_WuLian</Name>
+			</UiData>
+	     </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>这里可以看到当前地点的势力归属；有归属权的地点，需要先行获得该势力的通行权，才能前往历练或驻扎。</Desc>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>lilianpos</ParentObject>
+			   <Name>school</Name>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击交易</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>lilianpos</ParentObject>
+			   <Name>gotrade</Name>
+			</UiData>
+	     </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可通过购买通行权，提前解锁在该门派下的所有地点自由通行的权利，这有助于玩家前往探索门派或门派下的其他地点。</Desc>
+			    <ParentWindow>SchoolTrade</ParentWindow>
+			   <ParentObject>leftitem</ParentObject>
+			   <Name>OpenBorder</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击左侧门派权限 通行权</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <ParentObject>leftitem</ParentObject>
+			   <Name>OpenBorder</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>添加数量</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>n56</Name>
+			   <Fx>-46</Fx>
+			   <Fy>-20</Fy>			   
+			</UiData>
+	     </li>				 
+		  <li Type="ClickUi">
+            <TaskDesc>点击右侧玩家道具 地母灵液</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <ParentObject>rightitem</ParentObject>
+			   <Name>Item_EarthEssence</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>添加数量</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>n56</Name>
+			   <Fx>-46</Fx>
+			   <Fy>-20</Fy>			   
+			</UiData>
+	     </li>				 
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>yes</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>close</Name>
+			</UiData>
+	     </li>
+		  <li Type="ClickUi">
+            <TaskDesc>关闭交易面板</TaskDesc>
+			<UiData>
+			   <ParentWindow>SchoolTrade</ParentWindow>
+			   <Name>no</Name>
+			</UiData>
+          </li>		 
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>在天下界面中红色区域代表着玩家无法进入的势力区域；玩家可通过购买通行权，解锁该势力归属区域的进入权限，当解锁权限之后，该区域会变成正常颜色，意味着玩家能进入该地点并进行探索。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择蜀山</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>map-Places</ParentObject>
+			   <Name>Place_Shu</Name>
+			</UiData>
+	     </li>		 
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>游戏中的大部分地点，都可以通过派遣已经在该地驻扎的弟子，进入到场景中进行探索。</Desc>
+			    <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>lilianpos</ParentObject>
+			   <Name>beginatk</Name>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>SetMapLock</Special>
+			<UiData>
+				<Fx>-0.1</Fx>
+				<Ex>false</Ex>
+			</UiData>
+	     </li>		 
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击进入</TaskDesc>
+			<UiData>
+			   <ParentWindow>WorldMap</ParentWindow>
+			   <ParentObject>lilianpos</ParentObject>
+			   <Name>beginatk</Name>
+			</UiData>
+	     </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可通过派遣正在当地驻扎的弟子，进入场景地图。</Desc>
+			    <ParentWindow>SelectNpc4Map</ParentWindow>
+			   <Name>n30</Name>
+			</TipsData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击选择一名弟子</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc4Map</ParentWindow>
+			   <ParentObject>n25</ParentObject>
+			   <Name>0</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确认选择</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc4Map</ParentWindow>
+			   <Name>n65</Name>
+			</UiData>
+	     </li>			  
+		  <li Type="ClickUi">
+            <TaskDesc>点击确定</TaskDesc>
+			<UiData>
+			   <ParentWindow>SelectNpc4Map</ParentWindow>
+			   <Name>n27</Name>
+			</UiData>
+          </li>
+		 <li Type="ClickUi">
+            <TaskDesc>点击是的</TaskDesc>
+			<UiData>
+			   <ParentWindow>MessageSelect</ParentWindow>
+			   <Name>n30</Name>
+			</UiData>
+         </li>
+		 <li Type="Special">
+		    <Special>LoadNewTeach</Special>
+		    <SpecialStr>MapExplore2</SpecialStr>
+		 </li>
+	  </Tasks>
+    </TeachingDef>
+
+	<TeachingDef Name="MapExplore2">
+      <Type>经营篇</Type>
+      <DisplayName>地图探索-续</DisplayName>
+      <Desc>通过本章教学，了解如何进入地点，并进行地图探索。\n[color=#BC1717]教学过程中，可点击右上角跳过按钮，跳过当前环节并继续教学。我们不建议一气呵成的完成全部教学，这会十分枯燥。您可以在经典模式中遭遇特定问题时再来教学中查阅对应内容。[/color]</Desc>
+	  <NoFog>0</NoFog>
+	  <Disable>1</Disable>
+	  <Load>JY-08A</Load>
+	  <Active>MapExplore</Active>
+	  <Texpath>TeachFile\TP\JY-08.png</Texpath>
+	  <Chapters>
+	     <Chapter>
+		    <DisplayName>地图探索</DisplayName>
+			<Tasks>
+			   <li>查看进入</li>
+			   <li>进入地图</li>
+			   <li>移动探索</li>
+			   <li>隐匿探索</li>
+			</Tasks>
+		 </Chapter>
+	     <Chapter>
+		    <DisplayName>地图交互</DisplayName>
+			<Tasks>
+			   <li>拾取物品</li>
+			   <li>离开地图</li>
+			</Tasks>
+		 </Chapter>
+	  </Chapters>
+	  <Tasks>
+		  <li Type="Special">
+		    <Special>NextChapter</Special>
+		  </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickItem">
+            <TaskDesc>点击选择一名弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>42244</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="HoverUi">
+            <TaskDesc>玩家可通过点击按钮进行移动，并探索场景地图。</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>moveto</Name>
+			   <Time>3</Time>
+			</UiData>
+			<LockTipsUiData>
+			  <Tips>1</Tips>
+			</LockTipsUiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到最高档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151</ParentObject>
+			   <Name>speedBtn</Name>
+			</UiData>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击右下角的速度切换按钮，切换到第二档加速状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>n151-speedBtnList</ParentObject>
+			   <Name>2</Name>
+			</UiData>
+          </li>
+		  <li Type="Special">
+		    <Special>Speed2A</Special>
+          </li>
+		  <li Type="ClickUi">
+            <TaskDesc>通过移动按钮，进入探索状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>moveto</Name>
+			</UiData>
+          </li>		  
+		 <li Type="ClickMapKey">
+            <TaskDesc>点击放置到示意位置</TaskDesc>
+			<VideoData>
+			   <Videopath>JY-08</Videopath>
+			</VideoData>
+			<MapKeyData>
+			  <Keys>
+			    <li>4523</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			  <MapKey>4523</MapKey>
+			</MapKeyData>
+			<LookKey>4396</LookKey>
+         </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>	 
+		  <li Type="WaitTime">
+            <TaskDesc>等待移动</TaskDesc>
+		    <WaitTime>3</WaitTime>
+			<LookThing>42244</LookThing>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击隐匿指令，进入隐匿状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>隐匿</Name>
+			</UiData>
+          </li>
+		  <li Type="WaitTime">
+		    <WaitTime>0.5</WaitTime>
+         </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当处于潜行状态下的弟子，其身上的眼睛标识为红色时，代表有较大几率被他人发现；当眼睛标识为黄色时，代表较小几率被他人发现；白色代表不会被他人发现；没有眼睛代表此地无人在意该弟子的行踪。</Desc>
+			   <Items>
+			     <li>42244</li>
+			   </Items>
+			   <Width>60</Width>
+			   <Height>60</Height>
+			</TipsData>
+			<LookKey>4396</LookKey>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>通过移动按钮，进入探索状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>moveto</Name>
+			</UiData>
+          </li>		
+		 <li Type="ClickMapKey">
+            <TaskDesc>点击移动到示意位置</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>4773</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			  <MapKey>4773</MapKey>
+			</MapKeyData>
+			<LookKey>4396</LookKey>
+         </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>			
+		  <li Type="WaitTime">
+            <TaskDesc>等待移动</TaskDesc>
+		    <WaitTime>1.5</WaitTime>
+			<LookThing>42244</LookThing>
+         </li>
+		  <li Type="ShowTips">
+			<TipsData>
+			   <Desc>被发现的几率与当前弟子的根骨、感知有较大关系；而与周围其他角色的距离远近，双方境界差距也会有影响。</Desc>
+			   <Items>
+			     <li>42244</li>
+			   </Items>
+			   <Width>60</Width>
+			   <Height>60</Height>
+			</TipsData>
+			<LookKey>4396</LookKey>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>值得玩家注意的是，不是所有地图都是安全的，在某些地图中，也会有敌对目标或势力出现；而探索过程中，也有一些场景物品或建筑可以进行互动；玩家可通过这些互动方式，探索更多的玩法；但是需要注意的是，潜行模式下拾取其他门派的物品，被发现之后后果会很严重。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击拾取指令，进入拾取状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>拾取</Name>
+			</UiData>
+          </li>
+		 <li Type="ClickMapKey">
+            <TaskDesc>点击选择拾取物品 叛逆刀</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>4901</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			  <MapKey>4901</MapKey>
+			</MapKeyData>
+			<LookKey>4900</LookKey>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>确认拾取</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>n157</Name>
+			   <Fx>-41.5</Fx>
+			   <Fy>-41.5</Fy>
+			   <NeedArrow>2</NeedArrow>
+			</UiData>
+          </li>		 
+		  <li Type="WaitTime">
+            <TaskDesc>等待拾取叛逆刀物品</TaskDesc>
+		    <WaitTime>1.5</WaitTime>
+			<LookThing>42244</LookThing>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>当玩家拾取物品时，会显示到这个面板上，一个弟子最多携带六种物品；当拾取到不需要的物品时，可以点击物品栏中对应图标，并将其丢弃；拾取的物品会在弟子安全返回门派后获得。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>bagcell</Name>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ClickItem">
+            <TaskDesc>点击选择一名弟子</TaskDesc>
+			<ItemData>
+			   <Items>
+			      <li>42244</li>
+			   </Items>
+			</ItemData>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>通过移动按钮，进入探索状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo</ParentObject>
+			   <Name>moveto</Name>
+			</UiData>
+          </li>		
+		 <li Type="ClickMapKey">
+            <TaskDesc>点击移动到示意位置</TaskDesc>
+			<MapKeyData>
+			  <Keys>
+			    <li>190</li>
+			  </Keys>
+			  <Width>30</Width>
+			  <Height>30</Height>
+			  <MapKey>190</MapKey>
+			</MapKeyData>
+			<LookKey>318</LookKey>
+         </li>
+		 <li Type="Special">
+		    <Special>CancelSelect</Special>
+		 </li>	
+		  <li Type="WaitTime">
+            <TaskDesc>等待移动</TaskDesc>
+		    <WaitTime>3</WaitTime>
+			<LookThing>42244</LookThing>
+         </li>
+		  <li Type="ClickUi">
+            <TaskDesc>点击隐匿指令，解开隐匿状态</TaskDesc>
+			<UiData>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <ParentObject>thinginfo-cmdbnts</ParentObject>
+			   <Name>隐匿</Name>
+			</UiData>
+          </li>
+		  <li Type="WaitTime">
+		    <WaitTime>0.5</WaitTime>
+         </li>
+		 <li Type="ShowTips">
+			<TipsData>
+			   <Desc>玩家可以通过点击离开脱离当前场景地图，并返回门派，前提是弟子需要处于安全状态；如果弟子处于战斗状态，则无法离开场景地图；或者受到死亡威胁时，也会被强制离开场景地图。</Desc>
+			   <ParentWindow>GameMain</ParentWindow>
+			   <Name>back</Name>
+			</TipsData>
+         </li>
+		 <li Type="Special">
+		    <Special>NextTask</Special>
+		 </li>
+		  <li Type="ChapterShow">
+		    <TipsData>
+			   <Desc>游戏中的其他地点虽然各有不同，但是探索方式是一样的，因此其他的地图探索需要玩家更细心，更小心的探索，一定要小心那些潜藏的危险或机遇。</Desc>
+			</TipsData>
+         </li>
+		   <li Type="Special">
+		    <Special>NextChapter</Special>
+		 </li>
+	   </Tasks>
+    </TeachingDef>
+  </List>
+</TeachingDefs>

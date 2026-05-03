@@ -1,0 +1,9 @@
+<Texts Type="Story">
+	<List>
+		<Text Name="OutSpread_TreeEXP">
+			<DisplayName>Study Nature</DisplayName>
+			<Desc>You have learned enough from the Creed of Heaven, and your gains can be congealed into a pill now.</Desc>
+			<Selections.0.Display>Check results</Selections.0.Display>
+		</Text>
+	</List>
+</Texts>

@@ -1,0 +1,114 @@
+
+<!-- 
+
+        ///  异动程度
+        public enum g_emMutationExtent
+        {
+            None = 0,
+            Shallow = 1, //浅层
+            Middle = 2,  //中层
+            Deep = 3     //深层
+        }
+
+
+        /// 时效类型
+     
+        public enum g_emExpireType
+        {
+            None = 0,
+            Times,     //次数 
+            Duration,  //时间段 比如几天
+            Permanent  //永久，本局有效
+        }
+
+        /// <summary>
+        /// 权重计算方式
+        /// </summary>
+        public enum g_emWeightCorrectKind
+        {
+            None = 0,
+            Base,
+            Increment,     // 递增
+            Decrement,     // 递减
+            SingleAdd,     // 单增
+            SingleMinus // 单减
+        }
+
+-->
+
+
+
+<Defs>
+	<List>
+
+		<!--异动程度基础配置 -->
+		<Def Name="Mutation_Extent_Shallow"> <!--浅层 -->
+			<DisplayName>动荡</DisplayName>
+			<Extent>Shallow</Extent>
+			<Desc>异动效果触发次数耗尽后消失。</Desc>
+			<ExpireDesc>剩余{0}次。</ExpireDesc>
+			 <!--<ExpireTimesNum>5</ExpireTimesNum> 次数时效信息 -->
+
+			<WeightCorrectRuleInfo>
+		    	<li>
+		    		<Type>Mutation_Type_HengDing</Type>
+		    		<BaseWeight>-1</BaseWeight>
+		    	</li>
+				<li>
+		    		<Type>Mutation_Type_DongDang</Type>
+		    		<BaseWeight>40</BaseWeight>
+		    	</li>
+				<li>
+					<Type>Mutation_Type_YinYang</Type>
+		    		<BaseWeight>-1</BaseWeight>
+		    	</li>
+		    </WeightCorrectRuleInfo>
+
+		</Def>
+
+		<Def Name="Mutation_Extent_Middle">  <!--中层 -->
+			<DisplayName>阴阳</DisplayName>
+			<Extent>Middle</Extent>
+			<Desc>异动效果在112天后消失。</Desc>
+			<ExpireDesc>剩余{0}天。</ExpireDesc>
+			<ExpireDayNum>112</ExpireDayNum>    <!--次数天数信息 -->
+			<WeightCorrectRuleInfo>
+		    	<li>
+		    		<Type>Mutation_Type_HengDing</Type>
+		    		<BaseWeight>-1</BaseWeight>
+		    	</li>
+				<li>
+		    		<Type>Mutation_Type_DongDang</Type>
+		    		<BaseWeight>-1</BaseWeight>
+		    	</li>
+				<li>
+					<Type>Mutation_Type_YinYang</Type>
+		    		<BaseWeight>30</BaseWeight>
+		    	</li>
+		    </WeightCorrectRuleInfo>
+
+		</Def>
+
+		<Def Name="Mutation_Extent_Deep"> 	 <!--深层 -->
+			<DisplayName>恒定</DisplayName>
+			<Extent>Deep</Extent>
+			<Desc>异动效果在本世界中永久生效。</Desc>
+			<ExpireDesc>永久</ExpireDesc>
+			<WeightCorrectRuleInfo>
+		    	<li>
+		    		<Type>Mutation_Type_HengDing</Type>
+		    		<BaseWeight>30</BaseWeight>
+		    	</li>
+				<li>
+		    		<Type>Mutation_Type_DongDang</Type>
+		    		<BaseWeight>-1</BaseWeight>
+		    	</li>
+				<li>
+					<Type>Mutation_Type_YinYang</Type>
+		    		<BaseWeight>-1</BaseWeight>
+		    	</li>
+		    </WeightCorrectRuleInfo>
+
+		</Def>
+	</List>
+</Defs>

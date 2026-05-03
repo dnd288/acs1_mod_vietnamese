@@ -1,0 +1,73 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="kind_1">
+			<Desc>Characters Ascended: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_2">
+			<Desc>Adventures: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_3">
+			<Desc>Alchemy: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_4">
+			<Desc>Artifacts Crafted: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_5">
+			<Desc>Talismans Drawn: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_6">
+			<Desc>Creatures Killed: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_7">
+			<Desc>Cultivators Killed: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_8">
+			<Desc>Food Created: {0:F0} types</Desc>
+		</Text>
+		<Text Name="kind_9">
+			<Desc>Rare Art: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_10">
+			<Desc>Successful Persuasions: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_11">
+			<Desc>Manuals Learned: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_12">
+			<Desc>Deceased Disciples: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_13">
+			<Desc>Deceased Inner disciples: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_14">
+			<Desc>Possessions: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_15">
+			<Desc>Meditation: {0:F0} sec</Desc>
+		</Text>
+		<Text Name="kind_16">
+			<Desc>Soul Searches: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_17">
+			<Desc>Lifespan Stolen: {0:F0} sec</Desc>
+		</Text>
+		<Text Name="kind_18">
+			<Desc>Souls Refined: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_19">
+			<Desc>Souls Taken: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_20">
+			<Desc>Corpses Refined:{0:F0}</Desc>
+		</Text>
+		<Text Name="kind_21">
+			<Desc>Sacrifices: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_22">
+			<Desc>Souls Possessed: {0:F0}</Desc>
+		</Text>
+		<Text Name="kind_23">
+			<Desc>Greater Artifacts: {0:F0}</Desc>
+		</Text>
+	</List>
+</Texts>

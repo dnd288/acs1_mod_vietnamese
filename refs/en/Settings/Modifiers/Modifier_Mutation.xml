@@ -1,0 +1,1099 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Modifier_Mutation_UnstableBase">
+			<DisplayName>Heavenly Chaos</DisplayName>
+			<Desc>Under the influence of Turbulent Heavenly Chaos, all stats are altered.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_YinYangBase">
+			<DisplayName>Heavenly Chaos</DisplayName>
+			<Desc>Due to Yin Yang Creed of Heavenly Chaos, all stats are temporarily altered</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_ConstantBase">
+			<DisplayName>Heavenly Chaos</DisplayName>
+			<Desc>Affected by Constant Heavenly Chaos, all stats are modified.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BaseFive_1">
+			<Desc>Decrease Charisma by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BaseFive_2">
+			<Desc>Decrease Charisma by 30%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BaseFive_3">
+			<Desc>Decrease Charisma by 50%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BaseFive_4">
+			<Desc>Decrease Intelligence by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BaseFive_5">
+			<Desc>Decrease Intelligence by 30%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BaseFive_6">
+			<Desc>Intelligence reduced by 50%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BaseFive_7">
+			<Desc>Decrease Luck by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BaseFive_8">
+			<Desc>Luck reduced by 30%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BaseFive_9">
+			<Desc>Luck reduced by 50%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BaseFive_10">
+			<Desc>Decrease Perception by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BaseFive_11">
+			<Desc>Decrease Perception by 30%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BaseFive_12">
+			<Desc>Decrease Perception by 50%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BaseFive_13">
+			<Desc>Decrease Constitution by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BaseFive_14">
+			<Desc>Decrease Constitution by 30%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BaseFive_15">
+			<Desc>Decrease Constitution by 50%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BaseFive_16">
+			<Desc>Five Attributes reduced by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BaseFive_17">
+			<Desc>Decrease All Five Attributes by 30%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BaseFive_1">
+			<Desc>Increase Charisma by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BaseFive_2">
+			<Desc>Increase Charisma by 30%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BaseFive_3">
+			<Desc>Increase Charisma by 50%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BaseFive_4">
+			<Desc>Increase Intelligence by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BaseFive_5">
+			<Desc>Increase Intelligence by 30%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BaseFive_6">
+			<Desc>Increase Intelligence by 50%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BaseFive_7">
+			<Desc>Increase Luck by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BaseFive_8">
+			<Desc>Luck increased by 30%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BaseFive_9">
+			<Desc>Increase Luck by 50%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BaseFive_10">
+			<Desc>Increase Perception by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BaseFive_11">
+			<Desc>Increase Perception by 30%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BaseFive_12">
+			<Desc>Increase Perception by 50%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BaseFive_13">
+			<Desc>Increase Constitution by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BaseFive_14">
+			<Desc>Increase Constitution by 30%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BaseFive_15">
+			<Desc>Increase Constitution by 50%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BaseFive_16">
+			<Desc>Five Attributes increased by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BaseFive_17">
+			<Desc>Increase All Five Attributes by 30%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_LingAbsorbSpeed_1">
+			<Desc>Qi recovery speed increases by 75%.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_LingAbsorbSpeed_2">
+			<Desc>Qi recovery triples.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_LingAbsorbSpeed_3">
+			<Desc>Qi recovery speed increases by 500%.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_LingAbsorbSpeed_1">
+			<Desc>Qi recovery slows by 75%.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_LingAbsorbSpeed_2">
+			<Desc>Qi recovery speed decreases by 200%.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_LingAbsorbSpeed_3">
+			<Desc>Qi recovery speed reduced by 500%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_NpcLingMaxValue_1">
+			<Desc>Increase Qi limit.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_NpcLingMaxValue_2">
+			<Desc>Moderately increase Qi limit.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_NpcLingMaxValue_3">
+			<Desc>Significantly increase Qi limit.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_NpcFight_ShieldConversionRate_1">
+			<Desc>Slightly enhances the Power of Qi barrier.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_NpcFight_ShieldConversionRate_2">
+			<Desc>Enhance Qi barrier strength</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_NpcFight_ShieldConversionRate_1">
+			<Desc>Slightly weakens the Power of Qi barrier</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_NpcFight_ShieldConversionRate_2">
+			<Desc>Weaken Qi barrier strength</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_MaxAge_1">
+			<Desc>Slightly increase lifespan cap</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_MaxAge_2">
+			<Desc>Increase Lifespan Cap</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_MaxAge_3">
+			<Desc>Significantly increase lifespan cap</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_MaxAge_1">
+			<Desc>Slightly Reduce Lifespan Cap</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_MaxAge_2">
+			<Desc>Decrease Lifespan Cap</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_MaxAge_3">
+			<Desc>Significantly reduce lifespan cap</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_PracticeRateAddPFromDan_1">
+			<Desc>Slightly increase bottleneck breakthrough chance</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_PracticeRateAddPFromDan_2">
+			<Desc>Increase bottleneck breakthrough probability</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_PracticeRateAddPFromDan_3">
+			<Desc>Significantly increase bottleneck breakthrough chance</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_PracticeRateAddPFromDan_1">
+			<Desc>Slightly reduce bottleneck breakthrough chance</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_PracticeRateAddPFromDan_2">
+			<Desc>Decrease bottleneck breakthrough probability</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_DeepPracticeSpeedSpecialCoefficient_1">
+			<Desc>Slightly increase cultivation speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_DeepPracticeSpeedSpecialCoefficient_2">
+			<Desc>Greatly increase cultivation speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_DeepPracticeSpeedSpecialCoefficient_1">
+			<Desc>Slightly reduce cultivation speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_DeepPracticeSpeedSpecialCoefficient_2">
+			<Desc>Greatly reduce cultivation speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_MindStateBaseValue_1">
+			<Desc>Slightly increase base Mental State value</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_MindStateBaseValue_2">
+			<Desc>Increase base Mental State value</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_MindStateBaseValue_3">
+			<Desc>Significantly increase base Mental State value</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_MindStateBaseValue_1">
+			<Desc>Slightly decrease base Mental State value</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_MindStateBaseValue_2">
+			<Desc>Decrease base Mental State value</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_MindStateBaseValue_3">
+			<Desc>Significantly decrease base Mental State value</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_NutritionWaterAutoRecover_1">
+			<Desc>Auto-recover hunger level</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_NutritionConsumeConstant_1">
+			<Desc>Become Less Hungry</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_NutritionConsumeConstant_1">
+			<Desc>Become More Hungry</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_FatigueConsumeConstant_1">
+			<Desc>Become less prone to fatigue</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_FatigueConsumeConstant_1">
+			<Desc>Become more prone to fatigue</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_WaterConsumeConstant_1">
+			<Desc>Become less prone to thirst</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_WaterConsumeConstant_1">
+			<Desc>Become more prone to thirst</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_MoveSpeed_1">
+			<Desc>Slightly Increase Move Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_MoveSpeed_2">
+			<Desc>Increase Movement Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_MoveSpeed_3">
+			<Desc>Significantly Increase Move Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_MoveSpeed_1">
+			<Desc>Slightly Reduce Move Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_MoveSpeed_2">
+			<Desc>Decrease Movement Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_MoveSpeed_3">
+			<Desc>Significantly reduce movement speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_GlobalEfficiency_1">
+			<Desc>Slightly boost global work efficiency</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_GlobalEfficiency_2">
+			<Desc>Increase Global Work Efficiency</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_GlobalEfficiency_3">
+			<Desc>Significantly boost global work efficiency</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_GlobalEfficiency_1">
+			<Desc>Slightly reduce global work efficiency</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_GlobalEfficiency_2">
+			<Desc>Reduce Global Work Efficiency</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_GlobalEfficiency_3">
+			<Desc>Significantly reduce global work efficiency</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_IntelligenceSkillEXPConstant_1">
+			<Desc>Increase Learning Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_IntelligenceSkillEXPConstant_2">
+			<Desc>Significantly increase learning speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_IntelligenceSkillEXPConstant_1">
+			<Desc>Decrease Learning Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_IntelligenceSkillEXPConstant_2">
+			<Desc>Significantly Reduce Learning Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_AbilityLvAddV_1">
+			<Desc>Slightly reduce Attainment bonus</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_AbilityLvAddV_2">
+			<Desc>Reduce Attainment bonus</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_AbilityLvAddV_3">
+			<Desc>Significantly Reduce Attainment Bonus</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_AbilityLvAddV_1">
+			<Desc>Slightly Increase Attainment Bonus</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_AbilityLvAddV_2">
+			<Desc>Increase Attainment</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_AbilityLvAddV_3">
+			<Desc>Significantly Increase Attainment Bonus</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_ComfyTMax_1">
+			<Desc>Increase adaptation to high temperatures</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_ComfyTMax_1">
+			<Desc>Reduce Adaptation to High Temperatures</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_ComfyTMin_1">
+			<Desc>Increase Adaptation to Low Temperatures</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_ComfyTMin_1">
+			<Desc>Reduce Adaptation to Low Temperatures</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_DanMake_1">
+			<Desc>Character's alchemy speed, success rate, and yield greatly increase</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_DanMake_1">
+			<Desc>Character's alchemy speed, success rate, and yield sharply decrease</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_FabaoMake_1">
+			<Desc>Significantly enhance the speed, success rate, rank, quality, and artifact creation chance of character's magical item refinement.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_FabaoMake_1">
+			<Desc>Significantly reduce the speed, success rate, rank, quality, and artifact creation chance of character's magical item refinement.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Treatment_1">
+			<Desc>Character healing speed and effectiveness are significantly increased</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Treatment_1">
+			<Desc>Character healing speed and effectiveness are significantly reduced</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Butcher_1">
+			<Desc>Character butchery speed and yield are significantly increased</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Butcher_1">
+			<Desc>Character butchery speed and yield are significantly reduced</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Cooking_1">
+			<Desc>Character's cooking speed and cooking skill level significantly increased.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Cooking_1">
+			<Desc>Character's cooking speed and cooking skill level significantly reduced.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_ConstructionSpeed_1">
+			<Desc>Building Speed &amp; Construction Skill Level Significantly Increased</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_ConstructionSpeed_1">
+			<Desc>Building Speed &amp; Construction Skill Level Significantly Decreased</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Mining_1">
+			<Desc>Character mining speed and yield are significantly increased</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Mining_1">
+			<Desc>Character mining speed and yield are significantly reduced</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Coolie_1">
+			<Desc>Character's disaster relief, cleaning, and movement speeds greatly increase</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Coolie_1">
+			<Desc>Character's disaster relief, cleaning, and movement speeds sharply decrease</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_1">
+			<Desc>Battle Skill Level +1 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_2">
+			<Desc>Battle skill level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_3">
+			<Desc>Battle Skill Level +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_4">
+			<Desc>Worldly Skill Level +1 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_5">
+			<Desc>Social Skill Level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_6">
+			<Desc>Social Skill Level +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_7">
+			<Desc>Artisanry skill level +1 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_8">
+			<Desc>Artisanry Skill Level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_9">
+			<Desc>Artisanry Skill Level +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_10">
+			<Desc>Qi Sense Skill Level +1 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_11">
+			<Desc>Qi Sense Skill Level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_12">
+			<Desc>Qi Sense Skill Level +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_13">
+			<Desc>Crafting/Artifact Crafting skill level +1 (increases cap).</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_14">
+			<Desc>Increase own Crafting/Artifact Crafting skill level by +1.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_15">
+			<Desc>Increase own Crafting/Artifact Crafting skill level by +2.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_16">
+			<Desc>Medicine/Alchemy skill level +1 (increases cap).</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_17">
+			<Desc>Medicine/Alchemy Skill +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_18">
+			<Desc>Increase own Medicine/Alchemy skill level by +2.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_19">
+			<Desc>Artifact Mastery Level +1 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_20">
+			<Desc>Artifact Mastery Skill Level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_21">
+			<Desc>Artifact Mastery Skill Level +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_22">
+			<Desc>Spell Skill Level +1 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_23">
+			<Desc>Spell skill level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_24">
+			<Desc>Spell Skill Level +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_25">
+			<Desc>Protection Skill Level +1 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_26">
+			<Desc>Protection skill level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_27">
+			<Desc>Protection Skill Level +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_28">
+			<Desc>Array Skill Level +1 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_29">
+			<Desc>Formation Skill Level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_30">
+			<Desc>Formation skill level +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_31">
+			<Desc>Mining skill level +1 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_32">
+			<Desc>Mining Skill Level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_33">
+			<Desc>Mining Skill Level +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_34">
+			<Desc>Farming Skill Level +1 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_35">
+			<Desc>Farming Skill Level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_36">
+			<Desc>Farming Skill Level +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_37">
+			<Desc>Construction Skill Level +1 (Increase Cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_38">
+			<Desc>Construction Skill Level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_39">
+			<Desc>Construction Skill Level +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_40">
+			<Desc>Cooking Skill Level +1 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_41">
+			<Desc>Cooking Skill Level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Skills_42">
+			<Desc>Cooking Skill Level +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_1">
+			<Desc>Battle skill level -1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_2">
+			<Desc>Battle skill level -2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_3">
+			<Desc>Battle Skill Level -3</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_4">
+			<Desc>Social Skill Level -1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_5">
+			<Desc>Social skill level -2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_6">
+			<Desc>Social Skill Level -3</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_7">
+			<Desc>Artisanry Skill Level -1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_8">
+			<Desc>Artisanry Skill Level -2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_9">
+			<Desc>Artisanry Skill Level -3</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_10">
+			<Desc>Qi Sense Skill Level -1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_11">
+			<Desc>Qi Sense Skill Level -2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_12">
+			<Desc>Qi Sense Skill Level -3</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_13">
+			<Desc>Decrease own Crafting/Artifact Crafting skill level by -1.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_14">
+			<Desc>Crafting/Artifact Crafting Skill -2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_15">
+			<Desc>Decrease own crafting/artifact crafting skill level by -3.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_16">
+			<Desc>Decrease own Medicine/Alchemy skill level by -1.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_17">
+			<Desc>Decrease own Medicine/Alchemy skill level by -2.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_18">
+			<Desc>Medicine/Alchemy Skill -3</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_19">
+			<Desc>Artifact Mastery Skill Level -1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_20">
+			<Desc>Artifact Mastery Skill Level -2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_21">
+			<Desc>Artifact Mastery skill level -3</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_22">
+			<Desc>Spell skill level -1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_23">
+			<Desc>Spell Skill Level -2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_24">
+			<Desc>Spell skill level -3</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_25">
+			<Desc>Protection Skill Level -1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_26">
+			<Desc>Protection Skill Level -2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_27">
+			<Desc>Protection Skill Level -3</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_28">
+			<Desc>Formation skill level -1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_29">
+			<Desc>Formation Skill Level -2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_30">
+			<Desc>Formation skill level -3</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_31">
+			<Desc>Mining skill level -1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_32">
+			<Desc>Mining skill level -2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_33">
+			<Desc>Mining Skill Level -3</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_34">
+			<Desc>Farming Skill Level -1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_35">
+			<Desc>Farming Skill Level -2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_36">
+			<Desc>Farming skill level -3</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_37">
+			<Desc>Construction Skill Level -1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_38">
+			<Desc>Construction Skill Level -2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_39">
+			<Desc>Construction Skill Level -3</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_40">
+			<Desc>Cooking Skill Level -1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_41">
+			<Desc>Cooking Skill Level -2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_Skills_42">
+			<Desc>Cooking skill level -3</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_Quenching_1">
+			<Desc>Character body refinement speed and advanced evolution probability significantly increase.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_ZhenEnginePower_1">
+			<Desc>Increase formation load capacity</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_ZhenEnginePower_2">
+			<Desc>Significantly enhance formation load capacity</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_ZhenEnginePower_1">
+			<Desc>Decrease formation load capacity</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_ShieldResistance_1">
+			<Desc>Increase all attribute damage reduction</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_ShieldResistance_2">
+			<Desc>Increase Metal Damage Reduction</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_ShieldResistance_3">
+			<Desc>Increase Wood Damage Reduction</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_ShieldResistance_4">
+			<Desc>Increase Water Damage Reduction</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_ShieldResistance_5">
+			<Desc>Increase Fire Damage Reduction</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_ShieldResistance_6">
+			<Desc>Increase Earth Attribute Damage Reduction</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_ShieldResistance_1">
+			<Desc>Reduce All Attribute Damage Reduction</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_ShieldResistance_2">
+			<Desc>Decrease Metal Damage Reduction</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_ShieldResistance_3">
+			<Desc>Decrease Wood Damage Reduction</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_ShieldResistance_4">
+			<Desc>Decrease Water Damage Reduction</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_ShieldResistance_5">
+			<Desc>Decrease Fire Damage Reduction</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_ShieldResistance_6">
+			<Desc>Decrease Earth Damage Reduction</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BasepracticeSpeed_1">
+			<Desc>Increase Foundation Training Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yang_BasepracticeSpeed_2">
+			<Desc>Significantly Increase Foundation Training Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BasepracticeSpeed_1">
+			<Desc>Decrease Foundation Training Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Yin_BasepracticeSpeed_2">
+			<Desc>Significantly Reduce Foundation Training Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BaseFive_1">
+			<Desc>Increase Charisma by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BaseFive_2">
+			<Desc>Increase Charisma by 20%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BaseFive_3">
+			<Desc>Increase Charisma by 30%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BaseFive_4">
+			<Desc>Increase Intelligence by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BaseFive_5">
+			<Desc>Increase Intelligence by 20%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BaseFive_6">
+			<Desc>Increase Intelligence by 30%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BaseFive_7">
+			<Desc>Increase Luck by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BaseFive_8">
+			<Desc>Increase Luck by 20%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BaseFive_9">
+			<Desc>Luck increased by 30%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BaseFive_10">
+			<Desc>Increase Perception by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BaseFive_11">
+			<Desc>Increase Perception by 20%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BaseFive_12">
+			<Desc>Increase Perception by 30%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BaseFive_13">
+			<Desc>Increase Constitution by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BaseFive_14">
+			<Desc>Increase Constitution by 20%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BaseFive_15">
+			<Desc>Increase Constitution by 30%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BaseFive_16">
+			<Desc>Five Attributes increased by 10%</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_LingAbsorbSpeed_1">
+			<Desc>Boosts Qi recovery slightly.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_LingAbsorbSpeed_2">
+			<Desc>Increase own Qi recovery speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_LingAbsorbSpeed_3">
+			<Desc>Greatly increases Qi recovery speed.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_NpcLingMaxValue_1">
+			<Desc>Fundamentally increase Qi limit by 10%.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_NpcFight_ShieldConversionRate_1">
+			<Desc>Modify Qi barrier strength</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_MaxAge_1">
+			<Desc>Modify Lifespan Limit</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_PracticeRateAddPFromDan_1">
+			<Desc>Modify Bottleneck Breakthrough Probability</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_DeepPracticeSpeedSpecialCoefficient_1">
+			<Desc>Modify Cultivation Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_MindStateBaseValue_1">
+			<Desc>Modify base Mental State value</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_NutritionWaterAutoRecover_1">
+			<Desc>Slightly improve the ability to abstain from food and water, automatically restore satiety.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_NutritionWaterAutoRecover_2">
+			<Desc>Enhances the ability to abstain from food and drink, automatically restoring satiety.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_NutritionWaterAutoRecover_3">
+			<Desc>Greatly improve the ability to abstain from food and water, automatically restore satiety.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_NutritionConsumeConstant_1">
+			<Desc>Modify Hunger Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_FatigueConsumeConstant_1">
+			<Desc>Modify Fatigue Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_WaterConsumeConstant_1">
+			<Desc>Modify water consumption speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_MoveSpeed_1">
+			<Desc>Modify Movement Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_GlobalEfficiency_1">
+			<Desc>Modify Work Efficiency</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_NeckCountdownAddV_1">
+			<Desc>Delay Tribulation</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_IntelligenceSkillEXPConstant_1">
+			<Desc>Modify Learning Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_IntelligenceSkillEXPConstant_2">
+			<Desc>Modify Learning Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_IntelligenceSkillEXPConstant_3">
+			<Desc>Modify Learning Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_InspirationCoefficient_1">
+			<Desc>Easier to Comprehend</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_ComfyTMax_1">
+			<Desc>Increase adaptation to high temperatures</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_ComfyTMin_1">
+			<Desc>Increase Adaptation to Low Temperatures</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_DanMake_1">
+			<Desc>Character's alchemy speed, success rate, and yield greatly increase</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_FabaoMake_1">
+			<Desc>Significantly enhance the speed, success rate, rank, quality, and artifact creation chance of character's magical item refinement.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Treatment_1">
+			<Desc>Character healing speed and effectiveness are significantly increased</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Butcher_1">
+			<Desc>Character butchery speed and yield are significantly increased</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Cooking_1">
+			<Desc>Significantly increase character cooking speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Handwork_1">
+			<Desc>Character's stone cutting speed, forging speed, crafting speed, sewing speed, and quality bonus drastically increase.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_ConstructionSpeed_1">
+			<Desc>Character building speed greatly increased</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_PlantWork_1">
+			<Desc>Significantly boosts character's planting, harvesting, cutting speeds, and yield.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Mining_1">
+			<Desc>Character mining speed and yield are significantly increased</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Coolie_1">
+			<Desc>Character's disaster relief, cleaning, and movement speeds greatly increase</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Experience_1">
+			<Desc>Character's adventure flying speed, adventure reputation amplification factor, adventure exploration speed, and stealth value substantially increase.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_1">
+			<Desc>Character battle skill level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_2">
+			<Desc>Character Battle Skill +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_3">
+			<Desc>Character Battle skill level +1 (increases cap).</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_4">
+			<Desc>Character Social Skill +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_5">
+			<Desc>Character social skill level +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_6">
+			<Desc>Character Social skill level +1 (increases cap).</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_7">
+			<Desc>Character Artisanry Skill +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_8">
+			<Desc>Character Artisanry Skill +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_9">
+			<Desc>Character Artisanry skill level +1 (increases cap).</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_10">
+			<Desc>Character Qi Sense Skill +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_11">
+			<Desc>Character Qi Sense Skill +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_12">
+			<Desc>Character Qi Sense skill level +1 (increases cap).</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_13">
+			<Desc>Character Crafting/Artifact Crafting Skill Level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_14">
+			<Desc>Character's Crafting/Artifact Crafting skill level increases by 2.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_15">
+			<Desc>Character's Crafting/Artifact Crafting skill level +1 (increase cap).</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_16">
+			<Desc>Character Medicine/Alchemy Skill Level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_17">
+			<Desc>Medicine/Alchemy skill +2.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_18">
+			<Desc>Character's Medicine/Alchemy skill level +1 (increase cap).</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_19">
+			<Desc>Character artifact skill level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_20">
+			<Desc>Character artifact skill level +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_21">
+			<Desc>Character's artifact skill level +1 (increases cap).</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_22">
+			<Desc>Character Spell Skill +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_23">
+			<Desc>Character Spell Skill +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_24">
+			<Desc>Character Spell skill level +1 (increases cap).</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_25">
+			<Desc>Character Protection Skill +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_26">
+			<Desc>Character protection skill level +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_27">
+			<Desc>Character's Protection skill level +1 (increases cap).</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_28">
+			<Desc>Character Formation Skill +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_29">
+			<Desc>Character Formation Skill +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_30">
+			<Desc>Character Formation skill level +1 (increases cap).</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_31">
+			<Desc>Character mining skill level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_32">
+			<Desc>Character Dig Skill +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_33">
+			<Desc>Character Mining skill level +1 (increases cap).</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_34">
+			<Desc>Character farming skill level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_35">
+			<Desc>Character farming skill level +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_36">
+			<Desc>Character Farming skill level +1 (increases cap).</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_37">
+			<Desc>Construction Skill Level +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_38">
+			<Desc>Construction Skill Level +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_39">
+			<Desc>Construction Skill Level +1 (Increase Cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_40">
+			<Desc>Character Cooking Skill +1</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_41">
+			<Desc>Character Cooking Skill +2</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Skills_42">
+			<Desc>Character Cooking skill level +1 (increases cap).</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Quenching_1">
+			<Desc>Character body refinement speed and advanced evolution probability significantly increase.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Tuna_1">
+			<Desc>Slightly boost character breathing efficiency</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_Tuna_2">
+			<Desc>Significantly enhance character breathing efficiency</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_RecoveryPower_1">
+			<Desc>Increase natural body resilience</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_VisionRadius_1">
+			<Desc>Increase own perception range</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_ZhenEnginePower_1">
+			<Desc>Significantly boosts character's formation Load capacity.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_ShieldResistance_1">
+			<Desc>Greatly enhances all attribute damage reduction for the character.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_ShieldResistance_2">
+			<Desc>Greatly enhances Metal Damage reduction for the character.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_ShieldResistance_3">
+			<Desc>Greatly enhances Wood Damage reduction for the character.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_ShieldResistance_4">
+			<Desc>Greatly increases character's Water attribute damage reduction.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_ShieldResistance_5">
+			<Desc>Significantly boosts character's Fire damage resistance.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_ShieldResistance_6">
+			<Desc>Greatly enhances Earth Damage reduction for the character.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BasepracticeSpeed_1">
+			<Desc>Slightly increase character Foundation Training speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BasepracticeSpeed_2">
+			<Desc>Increase Character's Foundation Training Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_BasepracticeSpeed_3">
+			<Desc>Significantly boost character Foundation Training speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_AbilityLvAddV_1">
+			<Desc>Reduce Attainment bonus</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_AbilityLvAddV_2">
+			<Desc>Reduce Attainment bonus</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_AbilityLvAddV_3">
+			<Desc>Increase Attainment</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_AbilityLvAddV_4">
+			<Desc>Increase Attainment</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_AgeCostSpeed_1">
+			<Desc>Significantly accelerate the speed of lifespan decay.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Unstable_FabaoNum_1">
+			<Desc>Unlock 1 Artifact Slot</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_Skills_1">
+			<Desc>All Skill Levels +2 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_Skills_2">
+			<Desc>Alchemy Skill Level +5 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_Skills_3">
+			<Desc>Artifact crafting skill level +5 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_Skills_4">
+			<Desc>Artisanry Skill Level +5 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_Skills_5">
+			<Desc>Worldly Skill Level +5 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_Skills_6">
+			<Desc>Construction Skill Level +10</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_Skills_7">
+			<Desc>Mining skill level +10</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_Skills_8">
+			<Desc>Social Skill Level -5</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_Skills_9">
+			<Desc>Battle Skill Level +5 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_Skills_10">
+			<Desc>Qi Sense Skill Level +10</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_Skills_11">
+			<Desc>Battle Skill -5</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_Skills_12">
+			<Desc>Protection skill +5 (raises Cap).</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_Skills_13">
+			<Desc>Spell Skill +10 (increase cap)</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_DeepPracticeSpeedSpecialCoefficient_2">
+			<Desc>Greatly reduce cultivation speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_MaxAge_1">
+			<Desc>Increase Lifespan Cap</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_ComfyTMin_1">
+			<Desc>Reduce Adaptation to Low Temperatures</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_NpcLingMaxValue_1">
+			<Desc>Fundamentally boost Qi limit</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_Quenching_1">
+			<Desc>Character's breathing and body refining speeds, and advanced evolution probability during body refining, significantly decrease.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_Experience_1">
+			<Desc>Character's adventure flying speed, adventure reputation amplification factor, adventure exploration speed, and stealth value substantially decrease.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_MindStateBaseValue_1">
+			<Desc>Significantly Reduce Mental State Bonus</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_Handwork_1">
+			<Desc>Character's stone cutting speed, forging speed, crafting speed, sewing speed, and quality bonus drastically decrease.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_ConsumeConstant_1">
+			<Desc>Characters are more likely to feel hunger, thirst, and fatigue</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_BasepracticeSpeedCoefficient_1">
+			<Desc>Temporarily increase Foundation Training and cultivation speed.</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_BasepracticeSpeedCoefficient_2">
+			<Desc>Significantly reduce foundation training and cultivation speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_IntelligenceSkillEXPConstant_1">
+			<Desc>Increase Learning Speed</Desc>
+		</Text>
+		<Text Name="Modifier_Mutation_Constant_IntelligenceSkillEXPConstant_2">
+			<Desc>Decrease Learning Speed, and + 5 Artifact Mastery Level (Increase Cap)</Desc>
+		</Text>
+	</List>
+</Texts>
