@@ -8,23 +8,29 @@
 
 ## WORKFLOW OVERVIEW
 
-### Execution Model: Phased with Dependencies
+### Execution Model: Phased with PR + Review Gate
 
 ```
 Phase 0: SETUP (Manual)
     ↓
 Phase 1: GLOSSARY (Blocking) ← MUST complete first
+    └─> GLOSSARY Builder translates
+        └─> [PR] Create branch translation/phase-1-glossary
+            └─> [REVIEW] Code Reviewer reviews GLOSSARY.md
+                └─> [MERGE] Merge to master
     ↓
 Phase 2: CORE TRANSLATION (Blocking) ← MUST complete before Phase 3
+    └─> Core Translation Agent translates
+        └─> [PR] Create branch translation/phase-2-core
+            └─> [REVIEW] Code Reviewer reviews 3 core files
+                └─> [MERGE] Merge to master
     ↓
 Phase 3: PARALLEL TRANSLATION ← Can run in parallel
-    ├─> Practice Specialist
-    ├─> NPC Specialist
-    ├─> Item Specialist
-    ├─> World Specialist
-    ├─> UI Specialist
-    ├─> System Specialist
-    └─> Dictionary Specialists (2-3 agents)
+    ├─> Practice Specialist     → PR → Review → Merge
+    ├─> NPC + Item Specialist   → PR → Review → Merge
+    ├─> World + UI Specialist   → PR → Review → Merge
+    ├─> System Specialist       → PR → Review → Merge
+    └─> Dictionary Specialist   → PR → Review → Merge
     ↓
 Phase 4: QUALITY CONTROL
     ├─> Format Validator (parallel)
@@ -787,14 +793,117 @@ Phase 5 (Finalization)
 
 ---
 
+## PR & CODE REVIEW WORKFLOW
+
+### Overview
+
+Mỗi translation phase PHẢI đi qua PR + Review gate trước khi merge vào master.
+
+```
+Translation Agent
+    ↓ (commits to branch)
+Branch: translation/phase-Xa-module
+    ↓ (creates PR)
+Pull Request on GitHub
+    ↓ (assigned to)
+Code Reviewer Agent
+    ↓ (reviews & approves or requests changes)
+Merge to master  ← only after approval
+```
+
+### Agents
+
+| Agent | Role |
+|-------|------|
+| **PR Creator** | Tạo branch, commit, push, mở PR |
+| **Code Reviewer** | Review diff, approve/reject, merge |
+
+### Git Branch Convention
+
+```
+translation/phase-[X][a-z]-[module-name]
+
+Examples:
+  translation/phase-1-glossary
+  translation/phase-2-core
+  translation/phase-3a-practice
+  translation/phase-3b-npc-items
+  translation/phase-3c-world-ui
+  translation/phase-3d-system
+  translation/phase-3e-sl-dict
+  translation/phase-4-qc-fixes
+```
+
+### PR Template
+
+Xem: `docs/agents/PR_TEMPLATE.md`
+
+### Translation Agent Responsibility
+
+Sau khi hoàn thành dịch, **mỗi translation agent PHẢI**:
+
+1. Tạo branch mới: `git checkout -b translation/phase-Xa-module`
+2. Stage files đã dịch: `git add Language/Vi/...`
+3. Commit theo convention: `feat(vi): Phase Xa Translate [module]`
+4. Push branch: `git push origin translation/phase-Xa-module`
+5. Tạo PR bằng gh cli theo PR_TEMPLATE.md
+6. Comment URL PR vào Multica issue tương ứng
+
+### Code Reviewer Responsibility
+
+Khi nhận issue `[PR] Phase X - ...`, **Code Reviewer PHẢI**:
+
+1. Checkout PR branch: `gh pr checkout [PR number]`
+2. Review diff theo checklist (format, consistency, completeness, quality)
+3. Nếu **PASS**: Approve + merge + comment vào Multica issue
+4. Nếu **FAIL**: Request changes với comments cụ thể + tạo sub-issue để fix
+
+### Review Checklist Summary
+
+**Critical (phải pass 100%)**
+- XML well-formed
+- Dictionary TAB-separated
+- Format strings `{0}`, `{1:N0}` intact
+- Placeholders `[NAME]`, `[PLACE]` intact
+- Color tags `[color=#...]...[/color]` intact
+- Escape sequences `\n` intact
+- XML attributes unchanged
+- UTF-8 encoding
+
+**High (cần > 95%)**
+- Cultivation terms theo GLOSSARY
+- Consistent terminology
+- No Thai text remaining
+- No untranslated Chinese (except keys)
+
+**Medium**
+- Natural Vietnamese
+- Context appropriate
+- No major spelling errors
+
+### Multica Issues Map
+
+| Phase | Translation Issue | Review Issue |
+|-------|-------------------|--------------|
+| Phase 1 | TTC-4 (GLOSSARY) | TTC-11 [PR] |
+| Phase 2 | TTC-3 (Core Files) | TTC-12 [PR] |
+| Phase 3a | TTC-5 (Practice) | TTC-13 [PR] |
+| Phase 3b | TTC-... (NPC+Items) | TTC-14 [PR] |
+| Phase 3c | TTC-6 (World+UI) | TTC-15 [PR] |
+| Phase 3d | TTC-7 (System) | TTC-16 [PR] |
+| Phase 3e | TTC-9 (SL Dict) | TTC-17 [PR] |
+
+---
+
 ## NEXT STEPS
 
 1. **Execute Phase 0** - Setup structure
 2. **Execute Phase 1** - Create GLOSSARY (CRITICAL)
 3. **Follow agent instructions** in `docs/agents/`
+4. **PR + Review** - Every phase goes through PR gate
 
 ---
 
-**Document Version:** 1.0  
-**Last Updated:** 2026-05-03T02:50:30.128Z  
-**Status:** Complete
+**Document Version:** 1.1  
+**Last Updated:** 2026-05-03  
+**Status:** Updated with PR + Review workflow
