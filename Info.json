@@ -1,7 +1,7 @@
-﻿{
-	"Name":"ThaiLandLanguage",		
-	"DisplayName":"ThaiLandLanguage", 
-	"Desc":"MOD แปลภาษาไทยจาก ThaiByTheEmpty(Main) & Tz_TonZa(Sub)",		
-	"Author":"ThaiByTheEmpty(Main) & Tz_TonZa(Sub)",			
+{
+	"Name":"VietnameseLanguage",		
+	"DisplayName":"Vietnamese Language", 
+	"Desc":"Bản dịch tiếng Việt cho Amazing Cultivation Simulator",		
+	"Author":"Vietnamese Translation Team",			
 	"Sort":"9999999",			
 }

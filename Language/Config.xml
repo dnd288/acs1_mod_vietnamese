@@ -1,7 +1,7 @@
 <Languages><List>
-	<Language Name="Th">
-		<DisplayName>ภาษาไทย</DisplayName>
-		<Icon>thflag.png</Icon>
+	<Language Name="Vi">
+		<DisplayName>Tiếng Việt</DisplayName>
+		<Icon>viflag.png</Icon>
 		<!--0:CNMODE 1:ENMODE-->
 		<UIMode>1</UIMode>
 		<Desc>Language Example</Desc>
@@ -11,10 +11,10 @@
 		<FamilyPostposition>false</FamilyPostposition>
 		 <!--change the labelword in StoryTxt -->
 		<Labels>
-			<li Label="[ENHIM]" SecondPersonF="her" SecondPersonM="him"/>
-			<li Label="[ENHERS]" SecondPersonF="hers" SecondPersonM="his"/>
-			<li Label="[ENHIM2]" ThirdPersonF="her" ThirdPersonM="him"/>
-			<li Label="[ENHERS2]" ThirdPersonF="hers" ThirdPersonM="his"/>
+			<li Label="[ENHIM]" SecondPersonF="cô ấy" SecondPersonM="anh ấy"/>
+			<li Label="[ENHERS]" SecondPersonF="của cô ấy" SecondPersonM="của anh ấy"/>
+			<li Label="[ENHIM2]" ThirdPersonF="cô ấy" ThirdPersonM="anh ấy"/>
+			<li Label="[ENHERS2]" ThirdPersonF="của cô ấy" ThirdPersonM="của anh ấy"/>
 		</Labels>
 	</Language>	
 </List></Languages>
