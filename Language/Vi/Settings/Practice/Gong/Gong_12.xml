@@ -1,0 +1,43 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Gong_12_None">
+			<DisplayName>Thái Nguyên Ngũ Phù Vân Lục</DisplayName>
+			<Desc>Truyền văn nãi thị Kim Tiên Vân Trung Tử đạo thống, tại truyền thống Kim Đan tu hành đích thể hệ trung lánh tịch kê kính, tá trợ phá quan chi cơ, khả ngưng kết ngũ đạo bản mệnh chân phù, biệt hữu huyền diệu.</Desc>
+			<SelectDesc>Thử công pháp tùy trước tu vi gia thâm, khả ngưng kết ngũ đạo bản mệnh chân phù hoạch đắc phù chú chi lực đích vĩnh cửu gia trì. Nhưng kỳ công pháp bản thân ở đấu pháp nhất đồ thượng hữu sở khuyết hãm, bất thiện tranh đấu.</SelectDesc>
+			<Stages.0.DisplayName>Hóa Khí chi cảnh</Stages.0.DisplayName>
+			<Stages.0.Desc></Stages.0.Desc>
+			<Stages.0.Necks.0.DisplayName>Hội Lưu</Stages.0.Necks.0.DisplayName>
+			<Stages.0.Necks.0.Desc>[color=#D06508]\nBình cổ này thần thức càng thấp, càng khó đột phá.[/color]</Stages.0.Necks.0.Desc>
+			<Stages.0.Necks.1.DisplayName>Quán Hải</Stages.0.Necks.1.DisplayName>
+			<Stages.0.Necks.1.Desc></Stages.0.Necks.1.Desc>
+			<Stages.1.DisplayName>Sơ Động chi cảnh</Stages.1.DisplayName>
+			<Stages.1.Desc></Stages.1.Desc>
+			<Stages.1.Necks.0.DisplayName>Hậu Tích</Stages.1.Necks.0.DisplayName>
+			<Stages.1.Necks.0.Desc>[color=#D06508]\nBình cổ này căn cốt càng thấp, càng khó đột phá.[/color]</Stages.1.Necks.0.Desc>
+			<Stages.1.Necks.1.DisplayName>Sơ Phù</Stages.1.Necks.1.DisplayName>
+			<Stages.1.Necks.1.Desc></Stages.1.Necks.1.Desc>
+			<Stages.2.DisplayName>Thủy Hỏa chi cảnh</Stages.2.DisplayName>
+			<Stages.2.Desc></Stages.2.Desc>
+			<Stages.2.Necks.0.DisplayName>Hỏa Phù</Stages.2.Necks.0.DisplayName>
+			<Stages.2.Necks.0.Desc></Stages.2.Necks.0.Desc>
+			<Stages.2.Necks.1.DisplayName>Thủy Phù</Stages.2.Necks.1.DisplayName>
+			<Stages.2.Necks.1.Desc></Stages.2.Necks.1.Desc>
+			<Stages.2.Necks.2.DisplayName>Thành Đan</Stages.2.Necks.2.DisplayName>
+			<Stages.2.Necks.2.Desc></Stages.2.Necks.2.Desc>
+			<Stages.3.DisplayName>Nguyên Đan chi cảnh</Stages.3.DisplayName>
+			<Stages.3.Desc></Stages.3.Desc>
+			<Stages.3.Necks.0.DisplayName>Hỗn Thành</Stages.3.Necks.0.DisplayName>
+			<Stages.3.Necks.0.Desc></Stages.3.Necks.0.Desc>
+			<Stages.3.Necks.1.DisplayName>Nguyên Phù</Stages.3.Necks.1.DisplayName>
+			<Stages.3.Necks.1.Desc></Stages.3.Necks.1.Desc>
+			<Stages.4.DisplayName>Thuần Dương chi cảnh</Stages.4.DisplayName>
+			<Stages.4.Desc></Stages.4.Desc>
+			<Stages.4.Necks.0.DisplayName>Hóa Hình</Stages.4.Necks.0.DisplayName>
+			<Stages.4.Necks.0.Desc></Stages.4.Necks.0.Desc>
+			<Stages.4.Necks.1.DisplayName>Thần Phù</Stages.4.Necks.1.DisplayName>
+			<Stages.4.Necks.1.Desc></Stages.4.Necks.1.Desc>
+			<Stages.4.Necks.2.DisplayName>Vân Thăng</Stages.4.Necks.2.DisplayName>
+			<Stages.4.Necks.2.Desc></Stages.4.Necks.2.Desc>
+		</Text>
+	</List>
+</Texts>

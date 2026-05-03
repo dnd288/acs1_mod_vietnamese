@@ -1,0 +1,43 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Gong_5_Tu">
+			<DisplayName>Thâu Thiên Quyết</DisplayName>
+			<Desc>Thiên niên tiền tuyệt địa thiên thông, nhân giới linh khí kỷ cận khô kiệt, thành tiên vô vọng. Tuyệt cảnh chi trung, nhất danh thiên tư tuyệt diễm đích tu hành giả lánh tịch kê kính, sáng xuất thử pháp. Thử pháp bất y lại môi trường, lấy sinh mệnh tiềm lực vi đại giá đột phá cảnh giới, vì thử tất tu thiên sinh thể cách cường kiện chi nhân tài năng tu hành, nhi thả cần yếu chủng chủng thiên tài địa bảo diên thọ tài hữu nhất tuyến thành tiên chi hy vọng.</Desc>
+			<SelectDesc>Công pháp này thiện trường hộ ngự chi thuật, tại Kim Đan phẩm cấp mãn túc điều kiện đích tình huống hạ, đột phá tất nhiên thành công, chỉ thị tu luyện quá trình trung cần yếu tiêu hao đại lượng thọ mệnh. Có muốn chọn tu tập công pháp này không?</SelectDesc>
+			<Stages.0.DisplayName>Hóa Huyết kỳ</Stages.0.DisplayName>
+			<Stages.0.Desc></Stages.0.Desc>
+			<Stages.0.Necks.0.DisplayName>Hóa Huyết</Stages.0.Necks.0.DisplayName>
+			<Stages.0.Necks.0.Desc></Stages.0.Necks.0.Desc>
+			<Stages.0.Necks.1.DisplayName>Ngưng Khí</Stages.0.Necks.1.DisplayName>
+			<Stages.0.Necks.1.Desc></Stages.0.Necks.1.Desc>
+			<Stages.1.DisplayName>Xả Thân kỳ</Stages.1.DisplayName>
+			<Stages.1.Desc></Stages.1.Desc>
+			<Stages.1.Necks.0.DisplayName>Xả Thân</Stages.1.Necks.0.DisplayName>
+			<Stages.1.Necks.0.Desc></Stages.1.Necks.0.Desc>
+			<Stages.1.Necks.1.DisplayName>Bách Luyện</Stages.1.Necks.1.DisplayName>
+			<Stages.1.Necks.1.Desc></Stages.1.Necks.1.Desc>
+			<Stages.1.Necks.2.DisplayName>Ngưng Đan</Stages.1.Necks.2.DisplayName>
+			<Stages.1.Necks.2.Desc></Stages.1.Necks.2.Desc>
+			<Stages.2.DisplayName>Hoán Cốt kỳ</Stages.2.DisplayName>
+			<Stages.2.Desc></Stages.2.Desc>
+			<Stages.2.Necks.0.DisplayName>Hoán Cốt</Stages.2.Necks.0.DisplayName>
+			<Stages.2.Necks.0.Desc></Stages.2.Necks.0.Desc>
+			<Stages.2.Necks.1.DisplayName>Bất Đọa</Stages.2.Necks.1.DisplayName>
+			<Stages.2.Necks.1.Desc></Stages.2.Necks.1.Desc>
+			<Stages.2.Necks.2.DisplayName>Anh Nhi</Stages.2.Necks.2.DisplayName>
+			<Stages.2.Necks.2.Desc></Stages.2.Necks.2.Desc>
+			<Stages.3.DisplayName>Nhiên Hồn kỳ</Stages.3.DisplayName>
+			<Stages.3.Desc></Stages.3.Desc>
+			<Stages.3.Necks.0.DisplayName>Nhiên Hồn</Stages.3.Necks.0.DisplayName>
+			<Stages.3.Necks.0.Desc></Stages.3.Necks.0.Desc>
+			<Stages.3.Necks.1.DisplayName>Phần Niệm</Stages.3.Necks.1.DisplayName>
+			<Stages.3.Necks.1.Desc></Stages.3.Necks.1.Desc>
+			<Stages.4.DisplayName>Phá Phủ kỳ</Stages.4.DisplayName>
+			<Stages.4.Desc></Stages.4.Desc>
+			<Stages.4.Necks.0.DisplayName>Phá Phủ</Stages.4.Necks.0.DisplayName>
+			<Stages.4.Necks.0.Desc></Stages.4.Necks.0.Desc>
+			<Stages.4.Necks.1.DisplayName>Phi Thăng</Stages.4.Necks.1.DisplayName>
+			<Stages.4.Necks.1.Desc></Stages.4.Necks.1.Desc>
+		</Text>
+	</List>
+</Texts>

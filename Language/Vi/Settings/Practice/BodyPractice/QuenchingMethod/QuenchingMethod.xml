@@ -1,0 +1,60 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="BPQuenchingMethods_test1">
+			<DisplayName>Thử nghiệm lục</DisplayName>
+			<Desc>Luyện thể giả tối cơ sở đích thuý thể chi pháp. Mỗi lần vận chuyển thử pháp hội đối mục tiêu bộ vị tiến hành 1 lần tiêu chuẩn đích thuý luyện.</Desc>
+		</Text>
+		<Text Name="BPQuenchingMethods_test2">
+			<DisplayName>Thử nghiệm tử</DisplayName>
+			<Desc>Luyện thể giả tối cơ sở đích thuý thể chi pháp. Mỗi lần vận chuyển thử pháp hội đối mục tiêu bộ vị tiến hành 1 lần tiêu chuẩn đích thuý luyện.</Desc>
+		</Text>
+		<Text Name="BPQuenchingMethods_test3">
+			<DisplayName>Thử nghiệm cam</DisplayName>
+			<Desc>Luyện thể giả tối cơ sở đích thuý thể chi pháp. Mỗi lần vận chuyển thử pháp hội đối mục tiêu bộ vị tiến hành 1 lần tiêu chuẩn đích thuý luyện.</Desc>
+		</Text>
+		<Text Name="BPQuenchingMethods_1">
+			<DisplayName>Vô Cực Luyện Thể</DisplayName>
+			<Desc>Luyện thể giả tối cơ sở đích thuý thể chi pháp. Mỗi lần vận chuyển thử pháp hội đối mục tiêu bộ vị tiến hành 1 lần tiêu chuẩn đích thuý luyện.</Desc>
+		</Text>
+		<Text Name="BPQuenchingMethods_1_1">
+			<DisplayName>Bát Cực Luyện Thể</DisplayName>
+			<Desc>Luyện thể giả tối cơ sở đích thuý thể chi pháp, tương đương ở liên tục sử dụng Vô Cực Luyện Thể thuý luyện 8 lần. Mỗi lần vận chuyển thử pháp hội đối mục tiêu bộ vị tiến hành 8 lần tiêu chuẩn đích thuý luyện, và tối hậu nhất lần thuý luyện tất định hội xuất hiện hi hữu đích tiến hóa phương hướng.</Desc>
+		</Text>
+		<Text Name="BPQuenchingMethods_2">
+			<DisplayName>Man Cực Thuý Thân Pháp</DisplayName>
+			<Desc>Man hoang yêu tộc thuý luyện thân thể đích phương pháp, tiêu hao cánh đa đích tinh hoa thích kích nhục thân, dĩ xúc sử nhục thể sản sinh cánh đa đích tiến hóa phương hướng. Mỗi lần vận chuyển thử pháp hội đối mục tiêu bộ vị tiến hành 1 lần sản sinh cánh đa tiến hóa phương hướng đích thuý luyện.</Desc>
+		</Text>
+		<Text Name="BPQuenchingMethods_3">
+			<DisplayName>Lục Hợp Luyện Thể Thuật</DisplayName>
+			<Desc>Lấy lục hợp chi thế vận chuyển tinh hoa, tuy nhiên nhược hóa liễu tinh hoa đích đặc tính, nhưng thắng tại hiệu suất khá cao. Mỗi lần vận chuyển thử pháp hội đối mục tiêu bộ vị tiến hành 6 lần cơ sở tính đích thuý luyện.</Desc>
+		</Text>
+		<Text Name="BPQuenchingMethods_4">
+			<DisplayName>Ngũ Đế Huyền Thuý Pháp</DisplayName>
+			<Desc>Thượng cổ Ngũ Đế cộng sáng đích luyện thể chi thuật, tiêu hao đại lượng tinh hoa sung phân phát huy tinh hoa chi hiệu, dĩ thích kích nhục thể hướng cánh hi hữu đích phương hướng tiến hóa. Mỗi lần vận chuyển thử pháp hội đối mục tiêu bộ vị tiến hành 1 lần cánh dung dị sản sinh cao cấp tiến hóa đích thuý luyện.</Desc>
+		</Text>
+		<Text Name="BPQuenchingMethods_5">
+			<DisplayName>Cửu Âm Luyện Thể Thuật</DisplayName>
+			<Desc>Lấy đại diễn chi thuật đối thân khu tiến hành thuý luyện, mỗi lần vận chuyển thử pháp hội đối mục tiêu bộ vị tiến hành 9 lần tiêu chuẩn đích thuý luyện, và tối hậu nhất lần thuý luyện tất định hội xuất hiện hãn kiến đích tiến hóa phương hướng.</Desc>
+		</Text>
+		<Text Name="BPQuenchingMethods_6">
+			<DisplayName>Tử Vi Thuý Thể Thuật</DisplayName>
+			<Desc>Hiệu pháp Tử Vi Đẩu Số chi huyền diệu đối thân khu tiến hành thuý luyện, mỗi lần vận chuyển thử pháp hội đối mục tiêu bộ vị tiến hành 14 lần tiêu chuẩn đích thuý luyện, và tối hậu nhất lần thuý luyện tất định hội xuất hiện siêu phàm đích tiến hóa phương hướng.</Desc>
+		</Text>
+		<Text Name="BPQuenchingMethods_Sp1">
+			<DisplayName>Cửu Liệt Thuý Thể Pháp</DisplayName>
+			<Desc>Lấy Cửu Liệt thần huyết thôi động tinh hoa thuý thể, tuy nhiên mỗi lần thuý luyện phát sinh tiến hóa đích khả năng tính số lượng hội rất thiểu, nhưng thị hữu cánh cao đích kỷ suất thuý luyện xuất cánh cao cấp đích tiến hóa kết quả. Nhược thị dĩ thử thuý luyện tích trụ, hữu khá thấp xác suất sử tích trụ phát sinh dị biến, tiến nhất bộ khai phát xuất toàn thân cốt cách đích tiến hóa tiềm lực.</Desc>
+		</Text>
+		<Text Name="BPQuenchingMethods_Sp2">
+			<DisplayName>Thái Hư Yêu Thức</DisplayName>
+			<Desc>Lấy Thái Hư Yêu Thức thôi động tinh hoa thuý thể, tuy nhiên mỗi lần thuý luyện phát sinh tiến hóa đích khả năng tính số lượng hội rất thiểu, nhưng thị hữu cánh cao đích kỷ suất thuý luyện xuất cánh cao cấp đích tiến hóa kết quả. Nhược thị dĩ thử thuý luyện đại não, hữu khá thấp xác suất sử đại não phát sinh dị biến, tiến nhất bộ khai phát xuất toàn thân khí quan đích tiến hóa tiềm lực.</Desc>
+		</Text>
+		<Text Name="BPQuenchingMethods_Sp3">
+			<DisplayName>Xích Dị Thuý Thể Pháp</DisplayName>
+			<Desc>Lấy siêu việt chi tâm thôi động xích dị chi lực thôi động tinh hoa thuý thể, tuy nhiên mỗi lần thuý luyện phát sinh tiến hóa đích khả năng tính số lượng hội rất thiểu, nhưng thị hữu cánh cao đích kỷ suất thuý luyện xuất cánh cao cấp đích tiến hóa kết quả. Nhược thị dĩ thử thuý luyện tâm tạng, hữu khá thấp xác suất sử tâm tạng phát sinh dị biến, tiến nhất bộ khai phát xuất toàn thân huyết nhục đích tiến hóa tiềm lực.</Desc>
+		</Text>
+		<Text Name="BPQuenchingMethods_ReQuenching">
+			<DisplayName>Hủy Luyện Chi Pháp</DisplayName>
+			<Desc>Tá trợ linh khí sản vật và luyện thể giả chi khu tương xích đích đặc tính, lấy tiên đạo tinh hoa sẽ mỗ cá bộ vị luyện thể chi công hóa tán, sử chi hồi quy đáo phàm thai chi thể đích trạng thái.</Desc>
+		</Text>
+	</List>
+</Texts>

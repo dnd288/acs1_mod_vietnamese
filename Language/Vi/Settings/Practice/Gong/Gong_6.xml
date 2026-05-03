@@ -1,0 +1,45 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Gong_6_Huo">
+			<DisplayName>Cửu Chuyển Kim Đan Trực Chỉ</DisplayName>
+			<Desc>Lão Quân đích truyền chân pháp, đạo môn ngoại đan thuật chi vô thượng bảo điển. Tu hành thử pháp bất thiện thần thông tranh đấu, chỉ cầu lấy ngoại đan nhị dược phụ tá, dũng mãnh tinh tiến. Thử pháp cộng cửu trọng cảnh giới, cửu chuyển công thành đại đạo thản đồ trực chỉ Kim Tiên.</Desc>
+			<SelectDesc>Công pháp này thiện trường luyện đan thuật, mỗi lần đột phá cần yếu ngoại đan phụ trợ. Có muốn chọn tu tập công pháp này không?</SelectDesc>
+			<Stages.0.DisplayName>Cửu Khiếu</Stages.0.DisplayName>
+			<Stages.0.Desc></Stages.0.Desc>
+			<Stages.0.Necks.0.DisplayName>Cửu Khiếu</Stages.0.Necks.0.DisplayName>
+			<Stages.0.Necks.0.Desc>[color=#D06508]\nBình cổ này thần thức càng thấp, càng khó đột phá.[/color]</Stages.0.Necks.0.Desc>
+			<Stages.1.DisplayName>Chu Thiên</Stages.1.DisplayName>
+			<Stages.1.Desc></Stages.1.Desc>
+			<Stages.1.Necks.0.DisplayName>Chu Thiên</Stages.1.Necks.0.DisplayName>
+			<Stages.1.Necks.0.Desc>[color=#D06508]\nBình cổ này thần thức càng thấp, càng khó đột phá.[/color]</Stages.1.Necks.0.Desc>
+			<Stages.2.DisplayName>Diên Hống</Stages.2.DisplayName>
+			<Stages.2.Desc></Stages.2.Desc>
+			<Stages.2.Necks.0.DisplayName>Diên Hống</Stages.2.Necks.0.DisplayName>
+			<Stages.2.Necks.0.Desc>[color=#D06508]\nBình cổ này thần thức càng thấp, càng khó đột phá.[/color]</Stages.2.Necks.0.Desc>
+			<Stages.3.DisplayName>Kim Hoàn</Stages.3.DisplayName>
+			<Stages.3.Desc></Stages.3.Desc>
+			<Stages.3.Necks.0.DisplayName>Kim Hoàn</Stages.3.Necks.0.DisplayName>
+			<Stages.3.Necks.0.Desc></Stages.3.Necks.0.Desc>
+			<Stages.4.DisplayName>Nhiếp Ngự</Stages.4.DisplayName>
+			<Stages.4.Desc></Stages.4.Desc>
+			<Stages.4.Necks.0.DisplayName>Nhiếp Ngự</Stages.4.Necks.0.DisplayName>
+			<Stages.4.Necks.0.Desc>[color=#D06508]\nBình cổ này cần phản phục thử, phương năng dần bộ đột phá.\nBình cổ này thần thức càng thấp, càng khó đột phá.[/color]</Stages.4.Necks.0.Desc>
+			<Stages.5.DisplayName>Hoàn Châu</Stages.5.DisplayName>
+			<Stages.5.Desc></Stages.5.Desc>
+			<Stages.5.Necks.0.DisplayName>Hoàn Châu</Stages.5.Necks.0.DisplayName>
+			<Stages.5.Necks.0.Desc>[color=#D06508]\nBình cổ này cần phản phục thử, phương năng dần bộ đột phá.\nBình cổ này thần thức càng thấp, càng khó đột phá.[/color]</Stages.5.Necks.0.Desc>
+			<Stages.6.DisplayName>Anh Hài</Stages.6.DisplayName>
+			<Stages.6.Desc></Stages.6.Desc>
+			<Stages.6.Necks.0.DisplayName>Anh Hài</Stages.6.Necks.0.DisplayName>
+			<Stages.6.Necks.0.Desc>[color=#D06508]\nBình cổ này cần phản phục thử, phương năng dần bộ đột phá.\nBình cổ này thần thức càng thấp, càng khó đột phá.[/color]</Stages.6.Necks.0.Desc>
+			<Stages.7.DisplayName>Khổ Hải</Stages.7.DisplayName>
+			<Stages.7.Desc></Stages.7.Desc>
+			<Stages.7.Necks.0.DisplayName>Khổ Hải</Stages.7.Necks.0.DisplayName>
+			<Stages.7.Necks.0.Desc>Lấy nguyên thần du Khổ Hải mịch thiên đạo chi diệu, nhất đán quá thử quan, sẽ trực diện thiên kiếp.</Stages.7.Necks.0.Desc>
+			<Stages.8.DisplayName>Thuần Dương</Stages.8.DisplayName>
+			<Stages.8.Desc></Stages.8.Desc>
+			<Stages.8.Necks.0.DisplayName>Thuần Dương</Stages.8.Necks.0.DisplayName>
+			<Stages.8.Necks.0.Desc></Stages.8.Necks.0.Desc>
+		</Text>
+	</List>
+</Texts>

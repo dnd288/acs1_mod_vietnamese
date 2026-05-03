@@ -1,0 +1,57 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Gong_9_Mu">
+			<DisplayName>Trường Sinh Lục Đạo Luân Hồi Kinh</DisplayName>
+			<Desc>Thái Nhất Môn trấn phái ngũ hành chân quyết chi nhất, thử pháp tu hành mỗi cá cảnh giới khai thủy tức vi điên phong, tùy tu vi gia thâm tu hành giả khước bộ bộ thoái chuyển, tối hậu như đồng phàm nhân. Trực đáo đột phá luân hồi, tái thứ tân sinh, tài năng thoát thai hoán cốt cánh tiến nhất bộ. Vì thử đặc chất, thử công pháp tuy nhiên quảng vi lưu hành, nhưng khước thiểu hữu nhân đại thành.</Desc>
+			<SelectDesc>Công pháp này chiến đấu lực rất mạnh, bất thiện trường luyện đan luyện khí. Chỉ thị tu luyện quá trình trung yếu kinh lịch luân hồi, thực lực sẽ dần dần hạ giáng, trực đáo tiến nhập hạ nhất cá điên phong. Có muốn chọn tu tập công pháp này không?</SelectDesc>
+			<Stages.0.DisplayName>Nhân Đạo</Stages.0.DisplayName>
+			<Stages.0.Desc></Stages.0.Desc>
+			<Stages.0.Necks.0.DisplayName>Tân Sinh</Stages.0.Necks.0.DisplayName>
+			<Stages.0.Necks.0.Desc>[color=#D06508]\nBình cổ này ngộ tính càng thấp, càng khó đột phá.[/color]</Stages.0.Necks.0.Desc>
+			<Stages.0.Necks.1.DisplayName>Trầm Luân</Stages.0.Necks.1.DisplayName>
+			<Stages.0.Necks.1.Desc></Stages.0.Necks.1.Desc>
+			<Stages.0.Necks.2.DisplayName>Luân Hồi</Stages.0.Necks.2.DisplayName>
+			<Stages.0.Necks.2.Desc>[color=#D06508]\nBình cổ này ngộ tính càng thấp, càng khó đột phá.[/color]</Stages.0.Necks.2.Desc>
+			<Stages.1.DisplayName>Bàng Sinh Đạo</Stages.1.DisplayName>
+			<Stages.1.Desc></Stages.1.Desc>
+			<Stages.1.Necks.0.DisplayName>Tân Sinh</Stages.1.Necks.0.DisplayName>
+			<Stages.1.Necks.0.Desc>[color=#D06508]\nBình cổ này ngộ tính càng thấp, càng khó đột phá.[/color]</Stages.1.Necks.0.Desc>
+			<Stages.1.Necks.1.DisplayName>Trầm Luân</Stages.1.Necks.1.DisplayName>
+			<Stages.1.Necks.1.Desc></Stages.1.Necks.1.Desc>
+			<Stages.1.Necks.2.DisplayName>Luân Hồi</Stages.1.Necks.2.DisplayName>
+			<Stages.1.Necks.2.Desc></Stages.1.Necks.2.Desc>
+			<Stages.2.DisplayName>Ác Quỷ Đạo</Stages.2.DisplayName>
+			<Stages.2.Desc></Stages.2.Desc>
+			<Stages.2.Necks.0.DisplayName>Tân Sinh</Stages.2.Necks.0.DisplayName>
+			<Stages.2.Necks.0.Desc>[color=#D06508]\nBình cổ này ngộ tính càng thấp, càng khó đột phá.[/color]</Stages.2.Necks.0.Desc>
+			<Stages.2.Necks.1.DisplayName>Trầm Luân</Stages.2.Necks.1.DisplayName>
+			<Stages.2.Necks.1.Desc></Stages.2.Necks.1.Desc>
+			<Stages.2.Necks.2.DisplayName>Luân Hồi</Stages.2.Necks.2.DisplayName>
+			<Stages.2.Necks.2.Desc>[color=#D06508]\nBình cổ này ngộ tính càng thấp, càng khó đột phá.[/color]</Stages.2.Necks.2.Desc>
+			<Stages.3.DisplayName>Địa Ngục Đạo</Stages.3.DisplayName>
+			<Stages.3.Desc></Stages.3.Desc>
+			<Stages.3.Necks.0.DisplayName>Tân Sinh</Stages.3.Necks.0.DisplayName>
+			<Stages.3.Necks.0.Desc>[color=#D06508]\nBình cổ này ngộ tính càng thấp, càng khó đột phá.[/color]</Stages.3.Necks.0.Desc>
+			<Stages.3.Necks.1.DisplayName>Trầm Luân</Stages.3.Necks.1.DisplayName>
+			<Stages.3.Necks.1.Desc></Stages.3.Necks.1.Desc>
+			<Stages.3.Necks.2.DisplayName>Luân Hồi</Stages.3.Necks.2.DisplayName>
+			<Stages.3.Necks.2.Desc></Stages.3.Necks.2.Desc>
+			<Stages.4.DisplayName>Tu La Đạo</Stages.4.DisplayName>
+			<Stages.4.Desc></Stages.4.Desc>
+			<Stages.4.Necks.0.DisplayName>Tân Sinh</Stages.4.Necks.0.DisplayName>
+			<Stages.4.Necks.0.Desc>[color=#D06508]\nBình cổ này cần phản phục thử, phương năng dần bộ đột phá.\nBình cổ này ngộ tính càng thấp, càng khó đột phá.[/color]</Stages.4.Necks.0.Desc>
+			<Stages.4.Necks.1.DisplayName>Trầm Luân</Stages.4.Necks.1.DisplayName>
+			<Stages.4.Necks.1.Desc></Stages.4.Necks.1.Desc>
+			<Stages.4.Necks.2.DisplayName>Luân Hồi</Stages.4.Necks.2.DisplayName>
+			<Stages.4.Necks.2.Desc></Stages.4.Necks.2.Desc>
+			<Stages.5.DisplayName>Thiên Đạo</Stages.5.DisplayName>
+			<Stages.5.Desc></Stages.5.Desc>
+			<Stages.5.Necks.0.DisplayName>Tân Sinh</Stages.5.Necks.0.DisplayName>
+			<Stages.5.Necks.0.Desc>[color=#D06508]\nBình cổ này cần phản phục thử, phương năng dần bộ đột phá.\nBình cổ này ngộ tính càng thấp, càng khó đột phá.[/color]</Stages.5.Necks.0.Desc>
+			<Stages.5.Necks.1.DisplayName>Trầm Luân</Stages.5.Necks.1.DisplayName>
+			<Stages.5.Necks.1.Desc></Stages.5.Necks.1.Desc>
+			<Stages.5.Necks.2.DisplayName>Luân Hồi</Stages.5.Necks.2.DisplayName>
+			<Stages.5.Necks.2.Desc>Thử khứ luân hồi tức thoát ly lục đạo chi ngoại, trường sinh cửu thị.</Stages.5.Necks.2.Desc>
+		</Text>
+	</List>
+</Texts>

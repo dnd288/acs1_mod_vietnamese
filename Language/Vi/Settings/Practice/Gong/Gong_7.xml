@@ -1,0 +1,37 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Gong_7_Huo">
+			<DisplayName>Thái Thượng Vong Tình Đạo</DisplayName>
+			<Desc>Cực Thiên Cung sở truyền bí pháp, tu hành thử pháp tất tu dung mạo tuấn mỹ, mị lực kinh nhân chi bối tài năng nhập môn. Tu hành giả nhập môn chi hậu cần nhập hồng trần lịch luyện, tiên hữu tình, tái vong tình, khổ hải chi trung liễu ngộ bản tâm chân ngã, phi thăng thành tiên. Vì thử pháp tu hành phương thức đặc thù, thường thường nhạ đắc duyên phân củ cát, tình nghiệt triền thân.</Desc>
+			<SelectDesc>Công pháp này thiện trường kiếm thuật và thao lộng nhân tâm chi thuật, chỉ thị đột phá cần yếu tần phồn lịch luyện. Có muốn chọn tu tập công pháp này không?</SelectDesc>
+			<Stages.0.DisplayName>Dưỡng Ngô</Stages.0.DisplayName>
+			<Stages.0.Desc></Stages.0.Desc>
+			<Stages.0.Necks.0.DisplayName>Linh Tê</Stages.0.Necks.0.DisplayName>
+			<Stages.0.Necks.0.Desc></Stages.0.Necks.0.Desc>
+			<Stages.1.DisplayName>Phá Vọng</Stages.1.DisplayName>
+			<Stages.1.Desc></Stages.1.Desc>
+			<Stages.1.Necks.0.DisplayName>Thủy Hỏa</Stages.1.Necks.0.DisplayName>
+			<Stages.1.Necks.0.Desc></Stages.1.Necks.0.Desc>
+			<Stages.1.Necks.1.DisplayName>Chân Đan</Stages.1.Necks.1.DisplayName>
+			<Stages.1.Necks.1.Desc></Stages.1.Necks.1.Desc>
+			<Stages.2.DisplayName>Cực Tình</Stages.2.DisplayName>
+			<Stages.2.Desc></Stages.2.Desc>
+			<Stages.2.Necks.0.DisplayName>Đại Dục</Stages.2.Necks.0.DisplayName>
+			<Stages.2.Necks.0.Desc>[color=#D06508]\nBình cổ này cần phản phục thử, phương năng dần bộ đột phá.\nBình cổ này mị lực càng thấp, càng khó đột phá.[/color]</Stages.2.Necks.0.Desc>
+			<Stages.2.Necks.1.DisplayName>Tân Sinh</Stages.2.Necks.1.DisplayName>
+			<Stages.2.Necks.1.Desc></Stages.2.Necks.1.Desc>
+			<Stages.3.DisplayName>Đắc Chân</Stages.3.DisplayName>
+			<Stages.3.Desc></Stages.3.Desc>
+			<Stages.3.Necks.0.DisplayName>Ngũ Uẩn</Stages.3.Necks.0.DisplayName>
+			<Stages.3.Necks.0.Desc>[color=#D06508]\nBình cổ này cần phản phục thử, phương năng dần bộ đột phá.\nBình cổ này mị lực càng thấp, càng khó đột phá.[/color]</Stages.3.Necks.0.Desc>
+			<Stages.3.Necks.1.DisplayName>Kiếp Không</Stages.3.Necks.1.DisplayName>
+			<Stages.3.Necks.1.Desc></Stages.3.Necks.1.Desc>
+			<Stages.4.DisplayName>Thái Thượng</Stages.4.DisplayName>
+			<Stages.4.Desc></Stages.4.Desc>
+			<Stages.4.Necks.0.DisplayName>Trảm Niệm</Stages.4.Necks.0.DisplayName>
+			<Stages.4.Necks.0.Desc>[color=#D06508]\nBình cổ này rất khó đột phá, và không có kinh nghiệm gia thành.[/color]</Stages.4.Necks.0.Desc>
+			<Stages.4.Necks.1.DisplayName>Vong Tình</Stages.4.Necks.1.DisplayName>
+			<Stages.4.Necks.1.Desc></Stages.4.Necks.1.Desc>
+		</Text>
+	</List>
+</Texts>

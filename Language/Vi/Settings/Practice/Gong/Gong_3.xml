@@ -1,0 +1,37 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Gong_3_Jin">
+			<DisplayName>Thất Sát Kiếm Quyết</DisplayName>
+			<Desc>Tương truyền là từ ma giới lưu xuất chuyên tu kiếm thuật chi tu hành bí pháp. Có thất tầng cảnh giới, nhập môn gian nan, tiến giai cũng cực nan. Tu thử bí pháp chiến đấu lực cực kỳ kinh nhân, nhưng khước vì sát ý quá trọng, có tam trọng lôi kiếp khảo nghiệm, hung hiểm vạn phân. Nãi thị bất chiết bất khấu đích sát phạt chi thuật.</Desc>
+			<SelectDesc>Công pháp này thiện trường ngự khí chi thuật, chiến đấu lực kinh nhân, tuy nhiên vì sát kiếp thái trọng, yếu kinh lịch tầng tầng thiên kiếp. Có muốn chọn tu tập công pháp này không?</SelectDesc>
+			<Stages.0.DisplayName>Kiếm Tâm</Stages.0.DisplayName>
+			<Stages.0.Desc></Stages.0.Desc>
+			<Stages.0.Necks.0.DisplayName>Kiếm Tâm</Stages.0.Necks.0.DisplayName>
+			<Stages.0.Necks.0.Desc>Lấy tâm chứng kiếm, tầm tìm thuộc về mình kiếm chi đạo. Nhất đán thất bại, tắc cần yếu từ đầu tái lai.[color=#D06508]\nBình cổ này cần phản phục thử, phương năng dần bộ đột phá.\nBình cổ này thần thức càng thấp, càng khó đột phá.\nĐột phá thất bại có thể bị thương.[/color]</Stages.0.Necks.0.Desc>
+			<Stages.1.DisplayName>Kiếm Khí</Stages.1.DisplayName>
+			<Stages.1.Desc></Stages.1.Desc>
+			<Stages.1.Necks.0.DisplayName>Kiếm Khí</Stages.1.Necks.0.DisplayName>
+			<Stages.1.Necks.0.Desc>Ngưng tụ nhất thân tinh huyết, đốt cháy thọ mệnh, hóa vi kiếm khí, lấy đại quyết tâm trảm khai huyền quan.[color=#D06508]\nBình cổ này cần phản phục thử, phương năng dần bộ đột phá.\nBình cổ này thần thức càng thấp, càng khó đột phá.\nĐột phá thất bại có thể bị thương.[/color]</Stages.1.Necks.0.Desc>
+			<Stages.2.DisplayName>Kiếm Hoàn</Stages.2.DisplayName>
+			<Stages.2.Desc>Thần khí ngưng kết vi nhất lạp kiếm hoàn, như đạo gia Kim Đan, hỗn nguyên như nhất.</Stages.2.Desc>
+			<Stages.2.Necks.0.DisplayName>Kiếm Hoàn</Stages.2.Necks.0.DisplayName>
+			<Stages.2.Necks.0.Desc></Stages.2.Necks.0.Desc>
+			<Stages.3.DisplayName>Kiếm Ý</Stages.3.DisplayName>
+			<Stages.3.Desc>Kiếm Hoàn sơ thành, thiên giáng thần lôi, tá chi ngưng tụ kiếm chi ý chí.</Stages.3.Desc>
+			<Stages.3.Necks.0.DisplayName>Kiếm Ý</Stages.3.Necks.0.DisplayName>
+			<Stages.3.Necks.0.Desc></Stages.3.Necks.0.Desc>
+			<Stages.4.DisplayName>Kiếm Thai</Stages.4.DisplayName>
+			<Stages.4.Desc></Stages.4.Desc>
+			<Stages.4.Necks.0.DisplayName>Kiếm Thai</Stages.4.Necks.0.DisplayName>
+			<Stages.4.Necks.0.Desc>Thiên kiếp thuý luyện, phản phác quy chân, tự Kiếm Hoàn trung dựng dục Kiếm Thai.</Stages.4.Necks.0.Desc>
+			<Stages.5.DisplayName>Kiếm Hồn</Stages.5.DisplayName>
+			<Stages.5.Desc></Stages.5.Desc>
+			<Stages.5.Necks.0.DisplayName>Kiếm Hồn</Stages.5.Necks.0.DisplayName>
+			<Stages.5.Necks.0.Desc>Lấy Kiếm Ý thiết thủ lôi kiếp trung hủy diệt chi thiên đạo, để đạt Kiếm Thần cảnh giới, nhất đán thành công, thiên ý chấn nộ, sẽ hội trực diện tối chung thiên kiếp.</Stages.5.Necks.0.Desc>
+			<Stages.6.DisplayName>Kiếm Thần</Stages.6.DisplayName>
+			<Stages.6.Desc></Stages.6.Desc>
+			<Stages.6.Necks.0.DisplayName>Kiếm Thần</Stages.6.Necks.0.DisplayName>
+			<Stages.6.Necks.0.Desc>Lấy thiên lôi thuý luyện Kiếm Hồn, lấy chứng thuần dương, phi thăng thiên cừ.</Stages.6.Necks.0.Desc>
+		</Text>
+	</List>
+</Texts>

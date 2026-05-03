@@ -1,0 +1,39 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Gong_8_Jin">
+			<DisplayName>Bắc Đẩu Động Tâm Kiếp Pháp</DisplayName>
+			<Desc>Thái Nhất Môn trấn phái ngũ hành chân quyết chi nhất, tá trợ quán tưởng Bắc Đẩu tinh thần chi hình tu luyện đích công pháp, Bắc Đẩu chú tử, thử công pháp diệc phong nhuệ vô tỷ, cực thiện tranh đấu.</Desc>
+			<SelectDesc>Công pháp này thiện trường kiếm thuật tranh đấu, chỉ thị tu luyện khá chậm. Có muốn chọn tu tập công pháp này không?</SelectDesc>
+			<Stages.0.DisplayName>Thiên Xu cảnh</Stages.0.DisplayName>
+			<Stages.0.Desc></Stages.0.Desc>
+			<Stages.0.Necks.0.DisplayName>Thiên Xu cảnh</Stages.0.Necks.0.DisplayName>
+			<Stages.0.Necks.0.Desc>[color=#D06508]\nBình cổ này cần phản phục thử, phương năng dần bộ đột phá.\nBình cổ này thần thức càng thấp, càng khó đột phá.[/color]</Stages.0.Necks.0.Desc>
+			<Stages.1.DisplayName>Thiên Huyền cảnh</Stages.1.DisplayName>
+			<Stages.1.Desc></Stages.1.Desc>
+			<Stages.1.Necks.0.DisplayName>Thiên Huyền cảnh</Stages.1.Necks.0.DisplayName>
+			<Stages.1.Necks.0.Desc>[color=#D06508]\nBình cổ này cần phản phục thử, phương năng dần bộ đột phá.\nBình cổ này thần thức càng thấp, càng khó đột phá.[/color]</Stages.1.Necks.0.Desc>
+			<Stages.2.DisplayName>Thiên Cơ cảnh</Stages.2.DisplayName>
+			<Stages.2.Desc></Stages.2.Desc>
+			<Stages.2.Necks.0.DisplayName>Thiên Cơ cảnh</Stages.2.Necks.0.DisplayName>
+			<Stages.2.Necks.0.Desc>[color=#D06508]\nBình cổ này cần phản phục thử, phương năng dần bộ đột phá.\nBình cổ này căn cốt càng thấp, càng khó đột phá.[/color]</Stages.2.Necks.0.Desc>
+			<Stages.3.DisplayName>Thiên Quyền cảnh</Stages.3.DisplayName>
+			<Stages.3.Desc></Stages.3.Desc>
+			<Stages.3.Necks.0.DisplayName>Thiên Quyền cảnh</Stages.3.Necks.0.DisplayName>
+			<Stages.3.Necks.0.Desc></Stages.3.Necks.0.Desc>
+			<Stages.4.DisplayName>Ngọc Hành cảnh</Stages.4.DisplayName>
+			<Stages.4.Desc></Stages.4.Desc>
+			<Stages.4.Necks.0.DisplayName>Ngọc Hành cảnh</Stages.4.Necks.0.DisplayName>
+			<Stages.4.Necks.0.Desc>[color=#D06508]\nBình cổ này cần phản phục thử, phương năng dần bộ đột phá.\nBình cổ này căn cốt càng thấp, càng khó đột phá.[/color]</Stages.4.Necks.0.Desc>
+			<Stages.5.DisplayName>Khai Dương cảnh</Stages.5.DisplayName>
+			<Stages.5.Desc></Stages.5.Desc>
+			<Stages.5.Necks.0.DisplayName>Phụ cảnh</Stages.5.Necks.0.DisplayName>
+			<Stages.5.Necks.0.Desc></Stages.5.Necks.0.Desc>
+			<Stages.5.Necks.1.DisplayName>Khai Dương cảnh</Stages.5.Necks.1.DisplayName>
+			<Stages.5.Necks.1.Desc>Lấy nguyên thần đắc thiên đạo chi diệu, nhất đán quá thử quan, sẽ trực diện thiên kiếp. Bình cổ này rất khó đột phá.</Stages.5.Necks.1.Desc>
+			<Stages.6.DisplayName>Dao Quang cảnh</Stages.6.DisplayName>
+			<Stages.6.Desc></Stages.6.Desc>
+			<Stages.6.Necks.0.DisplayName>Dao Quang cảnh</Stages.6.Necks.0.DisplayName>
+			<Stages.6.Necks.0.Desc>Thoái khứ phàm thai, phi thăng thành tiên.</Stages.6.Necks.0.Desc>
+		</Text>
+	</List>
+</Texts>

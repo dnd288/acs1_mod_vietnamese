@@ -1,0 +1,33 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Gong_10_Huo">
+			<DisplayName>Tam Dương Tam Muội Bính Đinh Luyện Hỏa Quyết</DisplayName>
+			<Desc>Thái Nhất Môn trấn phái ngũ hành chân quyết chi nhất, tá Thiếu Dương, Dương Minh, Thái Dương tam dương kinh lược, ngưng kết thiên địa nhân tam tài chi hỏa, vô vật bất nhiên, cực cụ phá hoại lực. Nhưng thị tu luyện quá trình thập phân nguy hiểm, nhất đán sơ hốt, chân hỏa phản phệ, thậm chí hội thần hình câu diệt.</Desc>
+			<SelectDesc>Công pháp này thiện trường thuật pháp công kích, nhưng đột phá bình cổ thời cần yếu mạo khá đại phong hiểm. Có muốn chọn tu tập công pháp này không?</SelectDesc>
+			<Stages.0.DisplayName>Nhân Hỏa chi cảnh</Stages.0.DisplayName>
+			<Stages.0.Desc></Stages.0.Desc>
+			<Stages.0.Necks.0.DisplayName>Hỏa Chủng</Stages.0.Necks.0.DisplayName>
+			<Stages.0.Necks.0.Desc>Cảm ngộ thân thể tiên thiên hỏa chủng, tịnh sẽ kỳ dẫn nhiên, thử nãi tu luyện chi thủy.[color=#D06508]\nNhất đán thất bại khả trí kinh mạch thụ sáng.[/color]</Stages.0.Necks.0.Desc>
+			<Stages.0.Necks.1.DisplayName>Nhân Hỏa</Stages.0.Necks.1.DisplayName>
+			<Stages.0.Necks.1.Desc>Lấy chân hỏa ngưng tụ huyền quan, điểm lượng đỉnh thượng chi hỏa, giao thông thiên địa.[color=#D06508]\nNhất đán thất bại chân hỏa dật xuất khả trí toàn thân huyết nhục chước thống, khổ bất kham ngôn.[/color]</Stages.0.Necks.1.Desc>
+			<Stages.1.DisplayName>Địa Hỏa chi cảnh</Stages.1.DisplayName>
+			<Stages.1.Desc></Stages.1.Desc>
+			<Stages.1.Necks.0.DisplayName>Thác Dược</Stages.1.Necks.0.DisplayName>
+			<Stages.1.Necks.0.Desc>Vận dụng chân hỏa đoán thiêu toàn thân cốt cách, lấy thân vi thác dược, cổ động thần phong, vi ngưng luyện Địa Hỏa Chân Đan tố chuẩn bị.[color=#D06508]\nNhất đán thất bại chân hỏa xâm nhập cốt hài, sẽ thụ khô tủy chi hình, đột phá thời cần thận trọng.[/color]</Stages.1.Necks.0.Desc>
+			<Stages.1.Necks.1.DisplayName>Địa Hỏa</Stages.1.Necks.1.DisplayName>
+			<Stages.1.Necks.1.Desc></Stages.1.Necks.1.Desc>
+			<Stages.2.DisplayName>Thiên Hỏa chi cảnh</Stages.2.DisplayName>
+			<Stages.2.Desc></Stages.2.Desc>
+			<Stages.2.Necks.0.DisplayName>Nhiên Đăng</Stages.2.Necks.0.DisplayName>
+			<Stages.2.Necks.0.Desc>Vận dụng toàn thân chân nguyên ngưng tụ ở tâm tạng, điểm nhiên tâm hỏa.[color=#D06508]\nNhất đán thất bại tắc hội chân khí bạo tán, thụ phần tâm chi hình. Đột phá chi thời vụ tất tố hảo chuẩn bị.[/color]</Stages.2.Necks.0.Desc>
+			<Stages.2.Necks.1.DisplayName>Thiên Hỏa</Stages.2.Necks.1.DisplayName>
+			<Stages.2.Necks.1.Desc></Stages.2.Necks.1.Desc>
+			<Stages.3.DisplayName>Thần Hỏa chi cảnh</Stages.3.DisplayName>
+			<Stages.3.Desc></Stages.3.Desc>
+			<Stages.3.Necks.0.DisplayName>Khuy Thiên</Stages.3.Necks.0.DisplayName>
+			<Stages.3.Necks.0.Desc>Lấy nguyên thần đắc thiên đạo chi diệu, nhất đán quá thử quan, sẽ trực diện thiên kiếp.[color=#D06508]\nBình cổ này rất khó đột phá, và không có kinh nghiệm gia thành.[/color]</Stages.3.Necks.0.Desc>
+			<Stages.3.Necks.1.DisplayName>Phi Thăng</Stages.3.Necks.1.DisplayName>
+			<Stages.3.Necks.1.Desc></Stages.3.Necks.1.Desc>
+		</Text>
+	</List>
+</Texts>

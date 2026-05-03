@@ -1,0 +1,37 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Gong_13_None">
+			<DisplayName>Huyền Thiên Chân Vũ Lưỡng Nghi Diệu Đạo</DisplayName>
+			<Desc>Huyền Thiên Chân Vũ Đại Đế sở truyền đăng tiên diệu pháp. Tu tập thử pháp khả ở nội cảnh chi trung khai tịch âm dương, kết âm dương Kim Đan, thành tựu âm dương nguyên thần, tại tu luyện nguyên thần phân thần thời cánh hữu sự bán công bội đích hiệu quả, nãi thị Vũ Đang Sơn Huyền Thiên Chân Vũ nhất mạch đích trấn sơn pháp quyết, huyền diệu phi thường.</Desc>
+			<SelectDesc>Tu tập thử pháp hậu, tham ngộ huyền diệu sở đắc đạo hành diệc các tự quy thuộc ở âm dương chi hạ, tuy nhiên khả dĩ cực đại đích đề cao liễu tu hành giả đích thực lực thượng hạn, nhưng âm dương nguyên thần chi gian đích đạo hành tỷ lệ dã hội từ căn bản thượng ảnh hưởng tu hành giả đích tu vi. Thử pháp thâu thiên địa âm dương chi huyền diệu, đại tao thiên đố, vì thử thiên kiếp uy lực cực kỳ cường đại.</SelectDesc>
+			<Stages.0.DisplayName>Thái Dị</Stages.0.DisplayName>
+			<Stages.0.Desc></Stages.0.Desc>
+			<Stages.0.Necks.0.DisplayName>Hư Ngân</Stages.0.Necks.0.DisplayName>
+			<Stages.0.Necks.0.Desc></Stages.0.Necks.0.Desc>
+			<Stages.1.DisplayName>Thái Sơ</Stages.1.DisplayName>
+			<Stages.1.Desc></Stages.1.Desc>
+			<Stages.1.Necks.0.DisplayName>Tiên Thiên</Stages.1.Necks.0.DisplayName>
+			<Stages.1.Necks.0.Desc>[color=#D06508]\nBình cổ này căn cốt càng thấp, càng khó đột phá.[/color]</Stages.1.Necks.0.Desc>
+			<Stages.1.Necks.1.DisplayName>Nguyên Khí</Stages.1.Necks.1.DisplayName>
+			<Stages.1.Necks.1.Desc></Stages.1.Necks.1.Desc>
+			<Stages.2.DisplayName>Thái Thủy</Stages.2.DisplayName>
+			<Stages.2.Desc></Stages.2.Desc>
+			<Stages.2.Necks.0.DisplayName>Sơ Hình</Stages.2.Necks.0.DisplayName>
+			<Stages.2.Necks.0.Desc></Stages.2.Necks.0.Desc>
+			<Stages.2.Necks.1.DisplayName>Hỗn Nhất</Stages.2.Necks.1.DisplayName>
+			<Stages.2.Necks.1.Desc></Stages.2.Necks.1.Desc>
+			<Stages.3.DisplayName>Thái Tố</Stages.3.DisplayName>
+			<Stages.3.Desc></Stages.3.Desc>
+			<Stages.3.Necks.0.DisplayName>Hóa Sinh</Stages.3.Necks.0.DisplayName>
+			<Stages.3.Necks.0.Desc></Stages.3.Necks.0.Desc>
+			<Stages.3.Necks.1.DisplayName>Ngưng Chất</Stages.3.Necks.1.DisplayName>
+			<Stages.3.Necks.1.Desc></Stages.3.Necks.1.Desc>
+			<Stages.4.DisplayName>Thái Cực</Stages.4.DisplayName>
+			<Stages.4.Desc></Stages.4.Desc>
+			<Stages.4.Necks.0.DisplayName>Âm Dương</Stages.4.Necks.0.DisplayName>
+			<Stages.4.Necks.0.Desc></Stages.4.Necks.0.Desc>
+			<Stages.4.Necks.1.DisplayName>Khai Tịch</Stages.4.Necks.1.DisplayName>
+			<Stages.4.Necks.1.Desc></Stages.4.Necks.1.Desc>
+		</Text>
+	</List>
+</Texts>

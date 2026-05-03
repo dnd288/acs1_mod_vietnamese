@@ -1,0 +1,33 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Gong_DaNeng">
+			<DisplayName>Vị tri công pháp</DisplayName>
+			<Desc>Truyền tự thượng cổ đích độc gia công pháp, bất vi ngoại nhân sở tri.</Desc>
+			<SelectDesc></SelectDesc>
+			<Stages.0.DisplayName>Vị tri</Stages.0.DisplayName>
+			<Stages.0.Necks.0.DisplayName>Vị tri</Stages.0.Necks.0.DisplayName>
+			<Stages.1.DisplayName>Vị tri</Stages.1.DisplayName>
+			<Stages.1.Necks.0.DisplayName>Vị tri</Stages.1.Necks.0.DisplayName>
+			<Stages.2.DisplayName>Vị tri</Stages.2.DisplayName>
+			<Stages.2.Necks.0.DisplayName>Vị tri</Stages.2.Necks.0.DisplayName>
+			<Stages.3.DisplayName>Vị tri</Stages.3.DisplayName>
+			<Stages.3.Necks.0.DisplayName>Vị tri</Stages.3.Necks.0.DisplayName>
+			<Stages.4.DisplayName>Vị tri</Stages.4.DisplayName>
+			<Stages.4.Necks.0.DisplayName>Vị tri</Stages.4.Necks.0.DisplayName>
+			<Stages.5.DisplayName>Vị tri</Stages.5.DisplayName>
+			<Stages.5.Necks.0.DisplayName>Vị tri</Stages.5.Necks.0.DisplayName>
+			<Stages.6.DisplayName>Vị tri</Stages.6.DisplayName>
+			<Stages.6.Necks.0.DisplayName>Vị tri</Stages.6.Necks.0.DisplayName>
+			<Stages.7.DisplayName>Vị tri</Stages.7.DisplayName>
+			<Stages.7.Necks.0.DisplayName>Vị tri</Stages.7.Necks.0.DisplayName>
+			<Stages.8.DisplayName>Vị tri</Stages.8.DisplayName>
+			<Stages.8.Necks.0.DisplayName>Vị tri</Stages.8.Necks.0.DisplayName>
+			<Stages.9.DisplayName>Vị tri</Stages.9.DisplayName>
+			<Stages.9.Necks.0.DisplayName>Vị tri</Stages.9.Necks.0.DisplayName>
+			<Stages.10.DisplayName>Vị tri</Stages.10.DisplayName>
+			<Stages.10.Necks.0.DisplayName>Vị tri</Stages.10.Necks.0.DisplayName>
+			<Stages.11.DisplayName>Vị tri</Stages.11.DisplayName>
+			<Stages.11.Necks.0.DisplayName>Vị tri</Stages.11.Necks.0.DisplayName>
+		</Text>
+	</List>
+</Texts>

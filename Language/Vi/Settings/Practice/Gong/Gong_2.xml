@@ -1,0 +1,49 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Gong_2_Mu">
+			<DisplayName>Kỷ Dần Cửu Xung Đa Bảo Chân Giải</DisplayName>
+			<Desc>Thượng Thanh Linh Bảo Thiên Tôn đích truyền, bí pháp trấn phái của Đan Hà Sơn, chân quyết luyện bảo vô thượng của đạo môn. Pháp này phi thiên tư thông minh chi nhân bất năng tu hành, thông hiểu pháp này có thể luyện vạn vật vi pháp bảo. Tu hành chia thành ngũ trọng thiên, thập ngũ cung. Tu hành viên mãn liền có thể phi thăng thành tiên, siêu thoát phàm trần.</Desc>
+			<SelectDesc>Công pháp này thiện trường luyện khí thuật, tuy nhiên ở chiến đấu nhất đạo tịnh bất tại hành. Có muốn chọn tu tập công pháp này không?</SelectDesc>
+			<Stages.0.DisplayName>Vô Tưởng Thiên</Stages.0.DisplayName>
+			<Stages.0.Desc>Đệ nhất trọng thiên, ở vô tưởng chi cảnh trung tầm đắc tiên thiên linh quang, khai khải tu tiên đại đạo, cố xưng Vô Tưởng Thiên.</Stages.0.Desc>
+			<Stages.0.Necks.0.DisplayName>Ngũ Tâm Cung</Stages.0.Necks.0.DisplayName>
+			<Stages.0.Necks.0.Desc>Lấy ngũ tâm triều thiên chi tư tĩnh tọa, phân nhất tâm vi ngũ tâm, bác động khí huyết vận chuyển.[color=#D06508]\nBình cổ này ngộ tính càng cao, càng khó đột phá.[/color]</Stages.0.Necks.0.Desc>
+			<Stages.0.Necks.1.DisplayName>Ngũ Khí Cung</Stages.0.Necks.1.DisplayName>
+			<Stages.0.Necks.1.Desc>Tĩnh trung sinh động, khí huyết bôn đằng chi hạ, cảm thụ ngũ khí tự nhiên sinh phát ở huyết mạch, tùy khí huyết du tẩu tráng đại.[color=#D06508]\nBình cổ này căn cốt càng thấp, càng khó đột phá.\nĐột phá thất bại có thể bị thương.[/color]</Stages.0.Necks.1.Desc>
+			<Stages.0.Necks.2.DisplayName>Triều Nguyên Cung</Stages.0.Necks.2.DisplayName>
+			<Stages.0.Necks.2.Desc>Lấy thần niệm sẽ ngũ khí quy ở khí hải chi trung, trùng phục thử quá trình, tu vi dần dần tinh thâm.[color=#D06508]\nBình cổ này cần phản phục thử, phương năng dần bộ đột phá.[/color]</Stages.0.Necks.2.Desc>
+			<Stages.1.DisplayName>Trường Sinh Thiên</Stages.1.DisplayName>
+			<Stages.1.Desc>Đệ nhị trọng thiên, tu thành thử cảnh tắc thành tựu Kim Đan, thần thông thọ nguyên đại tăng, cố xưng Trường Sinh Thiên.</Stages.1.Desc>
+			<Stages.1.Necks.0.DisplayName>Động Huyền Cung</Stages.1.Necks.0.DisplayName>
+			<Stages.1.Necks.0.Desc>Lấy linh khí oanh khai tử phủ huyền quan, giao thông thiên địa. Tiên phàm từ đây hai biệt.[color=#D06508]\nBình cổ này cần phản phục thử, phương năng dần bộ đột phá.[/color]</Stages.1.Necks.0.Desc>
+			<Stages.1.Necks.1.DisplayName>Dương Hòa Cung</Stages.1.Necks.1.DisplayName>
+			<Stages.1.Necks.1.Desc>Lấy tự thân chi nguyên khí, dẫn thiên địa chi linh khí, pháp lực nhật tiệm thâm hậu.[color=#D06508]\nBình cổ này căn cốt càng thấp, càng khó đột phá.\nĐột phá thất bại có thể bị thương.[/color]</Stages.1.Necks.1.Desc>
+			<Stages.1.Necks.2.DisplayName>Kim Linh Cung</Stages.1.Necks.2.DisplayName>
+			<Stages.1.Necks.2.Desc>Tinh khí thần hợp nhất, kết thành Kim Đan, điền định đạo cơ.</Stages.1.Necks.2.Desc>
+			<Stages.2.DisplayName>Tạo Hóa Thiên</Stages.2.DisplayName>
+			<Stages.2.Desc>Đệ tam trọng thiên, ở thử cảnh giới tham ngộ thiên địa vạn vật chi tính, tá tha sơn chi thạch, công kỷ chi ngọc. Vi Nguyên Anh đản sinh đả hạ căn cơ.</Stages.2.Desc>
+			<Stages.2.Necks.0.DisplayName>Hỏa Chân Cung</Stages.2.Necks.0.DisplayName>
+			<Stages.2.Necks.0.Desc>Lấy Kim Đan chi cảnh thôi phát chân hỏa tam vị, dung luyện vạn vật.[color=#D06508]\nBình cổ này căn cốt càng thấp, càng khó đột phá.\nĐột phá thất bại có thể bị thương.[/color]</Stages.2.Necks.0.Desc>
+			<Stages.2.Necks.1.DisplayName>Vạn Tượng Cung</Stages.2.Necks.1.DisplayName>
+			<Stages.2.Necks.1.Desc>Nhập hồng trần chi trung, lấy chân hỏa tam vị phi lãm vạn vật chi diệu, thành trúc tại hung.</Stages.2.Necks.1.Desc>
+			<Stages.2.Necks.2.DisplayName>Diệu Thành Cung</Stages.2.Necks.2.DisplayName>
+			<Stages.2.Necks.2.Desc>Tĩnh tọa bế quan thập nhị cá thời thần, ở định cảnh chi trung sẽ sở kiến sở học dung ở nhất lô, tu hành chí thử, luyện khí chi thuật dĩ hữu tiểu thành, Nguyên Anh chi diệu diệc hữu sở đắc.</Stages.2.Necks.2.Desc>
+			<Stages.3.DisplayName>Thuần Dương Thiên</Stages.3.DisplayName>
+			<Stages.3.Desc>Đệ tứ trọng thiên, lấy chân hỏa đoán luyện Kim Đan, minh tâm kiến tính, thành tựu Thượng Thanh Thuần Dương Nguyên Anh, cố xưng Thuần Dương Thiên.</Stages.3.Desc>
+			<Stages.3.Necks.0.DisplayName>Nhiếp Ngộ Cung</Stages.3.Necks.0.DisplayName>
+			<Stages.3.Necks.0.Desc>Cảm ngộ chân ngã, Kim Đan nhất điểm linh quang hiện.[color=#D06508]\nBình cổ này cần phản phục thử, phương năng dần bộ đột phá.[/color]</Stages.3.Necks.0.Desc>
+			<Stages.3.Necks.1.DisplayName>Chân Thai Cung</Stages.3.Necks.1.DisplayName>
+			<Stages.3.Necks.1.Desc>Ôn dưỡng Kim Đan, tráng đại chân ngã.[color=#D06508]\nBình cổ này cần phản phục thử, phương năng dần bộ đột phá.[/color]</Stages.3.Necks.1.Desc>
+			<Stages.3.Necks.2.DisplayName>Thần Anh Cung</Stages.3.Necks.2.DisplayName>
+			<Stages.3.Necks.2.Desc>Kim Đan phá toái, Nguyên Anh xuất hiện.</Stages.3.Necks.2.Desc>
+			<Stages.4.DisplayName>Vũ Dư Thiên</Stages.4.DisplayName>
+			<Stages.4.Desc>Đệ ngũ trọng thiên, độ qua tối chung lôi kiếp, thành tựu Thuần Dương Thượng Thanh Nguyên Thần, phi thăng Vũ Dư Thiên.</Stages.4.Desc>
+			<Stages.4.Necks.0.DisplayName>Tiêu Dao Cung</Stages.4.Necks.0.DisplayName>
+			<Stages.4.Necks.0.Desc>Lấy nguyên khí ngưng luyện nguyên thần, khiến chi xuất khiếu vô ngại, đắc dĩ tiêu dao.[color=#D06508]\nĐột phá bình cổ này sẽ đại tổn thọ nguyên, cần chú ý.[/color]</Stages.4.Necks.0.Desc>
+			<Stages.4.Necks.1.DisplayName>Định Kiếp Cung</Stages.4.Necks.1.DisplayName>
+			<Stages.4.Necks.1.Desc>Lấy nguyên thần đắc thiên đạo chi diệu, nhất đán quá thử quan, sẽ trực diện thiên kiếp.[color=#D06508]\nBình cổ này rất khó đột phá, và không có kinh nghiệm gia thành.[/color]</Stages.4.Necks.1.Desc>
+			<Stages.4.Necks.2.DisplayName>Tử Vi Cung</Stages.4.Necks.2.DisplayName>
+			<Stages.4.Necks.2.Desc>Thoái khứ phàm thai, phi thăng thành tiên.</Stages.4.Necks.2.Desc>
+		</Text>
+	</List>
+</Texts>

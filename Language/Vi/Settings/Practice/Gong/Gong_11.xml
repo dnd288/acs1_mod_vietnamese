@@ -1,0 +1,41 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Gong_11_Tu">
+			<DisplayName>Quỳ Hoa Luyện Thần Đại Pháp</DisplayName>
+			<Desc>Thái Nhất Môn trấn phái ngũ hành chân quyết chi nhất, chỉ hữu nữ tính tài năng tu luyện. Tá hậu thổ chí âm chi lực thành tựu thuần âm nguyên thần dĩ thoát ly phàm thai phi thăng thành tiên. Như quả nam tính cưỡng hành tu luyện, tính biệt hội phát sinh nghịch chuyển.</Desc>
+			<SelectDesc>Công pháp này thích hợp nữ tính tu luyện, như quả nam tính cưỡng hành tu luyện, tính biệt hội phát sinh nghịch chuyển. Thử công pháp thiện trường ngự khí chi thuật, chỉ thị tại thành đan thời hội thừa thụ sơ kiếp rửa tội. Có muốn chọn tu tập công pháp này không?</SelectDesc>
+			<Stages.0.DisplayName>Thiểu Âm chi thể</Stages.0.DisplayName>
+			<Stages.0.Desc></Stages.0.Desc>
+			<Stages.0.Necks.0.DisplayName>Anh Ninh</Stages.0.Necks.0.DisplayName>
+			<Stages.0.Necks.0.Desc>[color=#D06508]\nBình cổ này thần thức càng thấp, càng khó đột phá.[/color]</Stages.0.Necks.0.Desc>
+			<Stages.0.Necks.1.DisplayName>Giao Cảm</Stages.0.Necks.1.DisplayName>
+			<Stages.0.Necks.1.Desc>[color=#D06508]\nBình cổ này thần thức càng thấp, càng khó đột phá.[/color]</Stages.0.Necks.1.Desc>
+			<Stages.0.Necks.2.DisplayName>Nhập Thể</Stages.0.Necks.2.DisplayName>
+			<Stages.0.Necks.2.Desc></Stages.0.Necks.2.Desc>
+			<Stages.1.DisplayName>Trung Âm Thành Đan</Stages.1.DisplayName>
+			<Stages.1.Desc></Stages.1.Desc>
+			<Stages.1.Necks.0.DisplayName>Thông Cù</Stages.1.Necks.0.DisplayName>
+			<Stages.1.Necks.0.Desc>[color=#D06508]\nBình cổ này thần thức càng thấp, càng khó đột phá.[/color]</Stages.1.Necks.0.Desc>
+			<Stages.1.Necks.1.DisplayName>Bách Hội</Stages.1.Necks.1.DisplayName>
+			<Stages.1.Necks.1.Desc>[color=#D06508]\nBình cổ này thần thức càng thấp, càng khó đột phá.[/color]</Stages.1.Necks.1.Desc>
+			<Stages.1.Necks.2.DisplayName>Thành Đan</Stages.1.Necks.2.DisplayName>
+			<Stages.1.Necks.2.Desc></Stages.1.Necks.2.Desc>
+			<Stages.2.DisplayName>Thái Âm Nguyên Thần</Stages.2.DisplayName>
+			<Stages.2.Desc></Stages.2.Desc>
+			<Stages.2.Necks.0.DisplayName>Vong Ngã</Stages.2.Necks.0.DisplayName>
+			<Stages.2.Necks.0.Desc></Stages.2.Necks.0.Desc>
+			<Stages.2.Necks.1.DisplayName>Tòng Chân</Stages.2.Necks.1.DisplayName>
+			<Stages.2.Necks.1.Desc></Stages.2.Necks.1.Desc>
+			<Stages.2.Necks.2.DisplayName>Phản Hư</Stages.2.Necks.2.DisplayName>
+			<Stages.2.Necks.2.Desc></Stages.2.Necks.2.Desc>
+			<Stages.3.DisplayName>Phá Toái Hư Không</Stages.3.DisplayName>
+			<Stages.3.Desc></Stages.3.Desc>
+			<Stages.3.Necks.0.DisplayName>Cụ Túc</Stages.3.Necks.0.DisplayName>
+			<Stages.3.Necks.0.Desc>Lấy yêu thú thành niên đích huyền tẫn châu hợp nhập Thái Âm Nguyên Thần, tá trợ kỳ trung Thái Âm chi khí hoàn mãn cụ túc.</Stages.3.Necks.0.Desc>
+			<Stages.3.Necks.1.DisplayName>Hóa Thần</Stages.3.Necks.1.DisplayName>
+			<Stages.3.Necks.1.Desc>Lấy cụ túc chi nguyên thần phân hóa vạn thiên, các ngộ sinh tử, dĩ khuy thiên đạo.[color=#D06508]\nBình cổ này rất khó đột phá, và không có kinh nghiệm gia thành.[/color]</Stages.3.Necks.1.Desc>
+			<Stages.3.Necks.2.DisplayName>Hợp Đạo</Stages.3.Necks.2.DisplayName>
+			<Stages.3.Necks.2.Desc></Stages.3.Necks.2.Desc>
+		</Text>
+	</List>
+</Texts>

@@ -1,0 +1,33 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Gong_YaoShou">
+			<DisplayName>Bản Năng Tu Hành</DisplayName>
+			<Desc>Yêu thú y lại bản năng tu hành đích phương pháp.</Desc>
+			<SelectDesc></SelectDesc>
+			<Stages.0.DisplayName>Nhất cảnh</Stages.0.DisplayName>
+			<Stages.0.Necks.0.DisplayName>Nhất cảnh</Stages.0.Necks.0.DisplayName>
+			<Stages.1.DisplayName>Nhị cảnh</Stages.1.DisplayName>
+			<Stages.1.Necks.0.DisplayName>Nhị cảnh</Stages.1.Necks.0.DisplayName>
+			<Stages.2.DisplayName>Tam cảnh</Stages.2.DisplayName>
+			<Stages.2.Necks.0.DisplayName>Tam cảnh</Stages.2.Necks.0.DisplayName>
+			<Stages.3.DisplayName>Tứ cảnh</Stages.3.DisplayName>
+			<Stages.3.Necks.0.DisplayName>Tứ cảnh</Stages.3.Necks.0.DisplayName>
+			<Stages.4.DisplayName>Ngũ cảnh</Stages.4.DisplayName>
+			<Stages.4.Necks.0.DisplayName>Ngũ cảnh</Stages.4.Necks.0.DisplayName>
+			<Stages.5.DisplayName>Lục cảnh</Stages.5.DisplayName>
+			<Stages.5.Necks.0.DisplayName>Lục cảnh</Stages.5.Necks.0.DisplayName>
+			<Stages.6.DisplayName>Thất cảnh</Stages.6.DisplayName>
+			<Stages.6.Necks.0.DisplayName>Thất cảnh</Stages.6.Necks.0.DisplayName>
+			<Stages.7.DisplayName>Bát cảnh</Stages.7.DisplayName>
+			<Stages.7.Necks.0.DisplayName>Bát cảnh</Stages.7.Necks.0.DisplayName>
+			<Stages.8.DisplayName>Cửu cảnh</Stages.8.DisplayName>
+			<Stages.8.Necks.0.DisplayName>Cửu cảnh</Stages.8.Necks.0.DisplayName>
+			<Stages.9.DisplayName>Thập cảnh</Stages.9.DisplayName>
+			<Stages.9.Necks.0.DisplayName>Thập cảnh</Stages.9.Necks.0.DisplayName>
+			<Stages.10.DisplayName>Thập nhất cảnh</Stages.10.DisplayName>
+			<Stages.10.Necks.0.DisplayName>Thập nhất cảnh</Stages.10.Necks.0.DisplayName>
+			<Stages.11.DisplayName>Thập nhị cảnh</Stages.11.DisplayName>
+			<Stages.11.Necks.0.DisplayName>Thập nhị cảnh</Stages.11.Necks.0.DisplayName>
+		</Text>
+	</List>
+</Texts>
